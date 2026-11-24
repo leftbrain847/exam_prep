@@ -25,8 +25,9 @@ python3 tests/check_topic.py courses/tx_lah/topics/topic-<id>.json   # one topic
 ## Exam scan (`scan/`)
 Ranks every certification and license in CareerOneStop's data (6,484 certs, 580 state license families) on
 market size, stakes, prep spending, exam fee, how beatable the competition is, written-exam fit and liability,
-then verifies the top 100 against sources. Weights live in `scan/rubric.yaml`. The published result is
-`web/exam_scan.html`; `scan/out/final_ranked.csv` is the data behind it. The raw CareerOneStop files aren't
+then verifies the top 100 against sources. Weights live in `scan/rubric.yaml`. The published page
+`web/exam_scan.html` is a November 2026 snapshot rebuilt from `scan/out/final_ranked.csv` with
+`python3 scan/build_page.py` (`tests/test_scan.py` fails if it drifts). The raw CareerOneStop files aren't
 committed: download them from careeronestop.org (Developers, Data downloads) into `scan/data/`.
 
 ## Deployed
