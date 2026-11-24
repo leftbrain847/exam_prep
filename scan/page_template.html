@@ -4,18 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Exam prep market scan</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* VOICE: audit report, plain and exact
    IDEA: an auditor's opportunity map, where each exam is a plotted finding
    PICTURE: pain (x) vs beatable competition (y), dot size = market; top-right is the target corner
-   COLOUR and TYPE: white, ink #101418, one yellow slab behind the key figure, slate; Manrope
+   COLOUR and TYPE: white, ink #101418, one yellow slab behind the key figure, slate; system UI font (no external fonts)
    LAYOUT: chart first, finding beneath, then the sortable top 100 table and method */
 :root{color-scheme:light dark;--bg:light-dark(#ffffff,#101418);--ink:light-dark(#101418,#e8ecef);--mute:light-dark(#5b6670,#9aa6b0);--line:light-dark(#e3e7ea,#26303a);--slab:#ffd84a;--dot:light-dark(#3d4a56,#a9b6c2);--hit:light-dark(#101418,#ffd84a);--panel:light-dark(#f6f8f9,#161d24)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,system-ui,sans-serif;overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:clip}
 .band{padding:clamp(28px,4vw,64px) max(5vw,16px);max-width:1240px;margin:0 auto}
 h1{font-size:clamp(30px,4.2vw,48px);line-height:1.05;margin:0 0 12px;font-weight:800;text-wrap:balance;max-width:24ch}
 h2{font-size:24px;line-height:1.2;margin:0 0 12px;font-weight:800;text-wrap:balance}
