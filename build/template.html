@@ -1,17 +1,14 @@
 <title>__TITLE__</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,750&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one reading column; a bar with wrapping category and topic tiles + Read/Study/Listen switch; Read = nested disclosures per concept; Study = one flashcard at a time. */
 :root{
   --bg:#f4f6f9; --surface:#ffffff; --ink:#141820; --muted:#596274; --line:#dde2ea;
   --accent:#2a52c4; --accent-ink:#ffffff; --accent-soft:#e6ecfb; --code-bg:#eef1f6; --warn:#a2560b; --warn-soft:#fbefe1;
   --again:#b42318; --hard:#a2560b; --good:#1f7a4d; --easy:#2a52c4;
-  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --f-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
-  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --f-display:system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-body:system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono:ui-monospace, Menlo, Consolas, monospace;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --bg:#0e1117; --surface:#161a22; --ink:#e6e9ef; --muted:#9aa3b5; --line:#2a303c;
