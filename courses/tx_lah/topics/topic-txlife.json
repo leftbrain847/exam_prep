@@ -1,0 +1,779 @@
+{
+ "id": "txlife",
+ "title": "Texas law: life insurance",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "Texas life-only law for the Texas LAH exam: life and annuity advertising and illustrations, the policy summary and annuity buyer's guide, free look periods, required and prohibited individual life policy provisions, group life, credit life, replacement and the Standard Nonforfeiture Law. Rules were rechecked in an independent review against the Texas Insurance Code, 28 TAC and TDI publications on Nov 23, 2026. Refresh every 180 days and after each Texas legislative session (Chapter 1114 changed in 2025).",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "sell",
+   "label": "Selling: ads, illustrations, disclosure"
+  },
+  {
+   "key": "policy",
+   "label": "Individual policy provisions"
+  },
+  {
+   "key": "group",
+   "label": "Group life"
+  },
+  {
+   "key": "credit",
+   "label": "Credit life"
+  },
+  {
+   "key": "replace",
+   "label": "Replacement"
+  },
+  {
+   "key": "values",
+   "label": "Nonforfeiture"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map of Texas life-only law",
+   "g": "map",
+   "o": [
+    "S-II"
+   ],
+   "s": "Texas life-only law sits in a few Insurance Code chapters plus TDI rules, and the exam mostly tests their numbers and who owes what to whom.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Selling</b>: advertising rules (28 TAC Sec. 21.114), illustration rules (28 TAC Ch. 21 Subchapter N), annuity disclosures (28 TAC Ch. 4 Subchapter W) and the annuity free look (Insurance Code Ch. 1116).</li><li><b>The individual policy</b>: required and prohibited provisions in Insurance Code Ch. 1101; beneficiaries and death claim interest in Ch. 1103; loan interest caps in Ch. 1110.</li><li><b>Group and credit</b>: group life in Ch. 1131; credit life in Ch. 1153; accelerated benefits in Ch. 1111 Subchapter B.</li><li><b>Changing or ending a policy</b>: replacement in Ch. 1114; Standard Nonforfeiture Law in Ch. 1105.</li></ul><p>Number anchors: 2 years (incontestability, lawsuit floor, terminal illness), 31 days (grace in days, group conversion), 3 years (loans, cash values, reinstatement), 5 business days (replacement notices), 6 months (backdating, cash value deferral), 20 days (annuity free look), 30 days (replacement right to return), 60 days (nonforfeiture election).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Many 2s and 31s look alike. Tie each number to its section: group conversion is 31 days, individual grace is one month (31 days if stated in days), and the individual claim deadline is two months.</div><div class=\"trap\"><b>Trap:</b> National prep books teach model rules. Where a Texas number differs, the Texas Insurance Code wins on the 30 Texas questions.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A question says: \"An agent in Texas replaces a whole life policy. Within how many business days must the replacing insurer notify the existing insurer?\" The map points to Ch. 1114 and the 5-business-day anchor.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Texas questions name the actor (agent, replacing insurer, existing insurer, creditor, policyholder) and ask for a deadline or a duty. Identify the chapter first, then the number.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A question asks how long a beneficiary has to wait, at most, for a Texas individual life death claim after the insurer receives proof of death and proof of the claimant's right. Which chapter answers it and what is the limit?",
+     "a": "Insurance Code Ch. 1101 (Sec. 1101.011): settlement within two months after that proof."
+    },
+    {
+     "q": "An exam item concerns the maximum fixed interest rate on a Texas policy loan. Which chapter governs?",
+     "a": "Insurance Code Ch. 1110, which caps a fixed policy loan rate at 10 percent a year."
+    },
+    {
+     "q": "A question concerns an employee whose group life ends when she quits. Which chapter and which number matter most?",
+     "a": "Insurance Code Ch. 1131; she has 31 days to apply and pay the first premium for an individual policy without evidence of insurability."
+    }
+   ]
+  },
+  {
+   "n": "Life and annuity advertising rules",
+   "g": "sell",
+   "o": [
+    "S-II.A.1"
+   ],
+   "s": "Texas advertising rules for life and annuities (28 TAC Sec. 21.114) bar any ad that hides that the product is insurance, hides its cost or limits, or presents non-guaranteed values as guaranteed.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Identity</b>: an invitation to contract names the policy form number. Words like \"investment\", \"profit\" or \"savings plan\" may not suggest the product is something other than insurance.</li><li><b>Limits</b>: an ad that quotes benefits or costs must disclose exclusions and limitations, age-based reductions, graded death benefits and surrender or early-withdrawal charges.</li><li><b>No-exam claims</b>: \"no medical examination\" needs an equally prominent statement that issue may depend on the application answers, unless issue is guaranteed.</li><li><b>Cost words</b>: payments are called premium, cost or purchase payment. A reduced first-year premium is not \"free insurance\". A premium share is a \"deposit\" only if returnable in full on demand.</li><li><b>Dividends</b>: never shown as guaranteed. Rates: a current rate may not be so prominent that it hides the guaranteed rate.</li><li><b>Special offers</b>: no false \"limited time\" or \"only so many policies\" claims.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> \"Savings\" and \"investment\" are not banned words. They are banned when they lead a buyer to think the product is not insurance or offers benefits others in the class do not get.</div><div class=\"trap\"><b>Trap:</b> A comparison ad that leaves out nonforfeiture and loan rights omits a material fact under Sec. 21.114(2)(K).</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A mailer says \"Guaranteed 6% on your savings, no exam\" for a universal life policy with a 3% guaranteed rate, a current 6% rate, and issue that depends on health answers. It breaks three rules: it calls a current rate guaranteed, frames insurance as savings, and lacks the issue-may-depend statement.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An ad shows a life policy's 5.5% current crediting rate in large type and its 2% guaranteed rate in a footnote. What is the violation?",
+     "a": "Displaying the current rate so prominently that the guaranteed rate is obscured, which Sec. 21.114 prohibits."
+    },
+    {
+     "q": "A final expense ad says \"No medical exam\" but the insurer can decline applicants based on health questions. What must the ad add?",
+     "a": "An equally prominent statement that issuance may depend on the answers to the application's health questions."
+    },
+    {
+     "q": "An insurer advertises a first-year premium of $1 as \"one year of free insurance.\" Why is this prohibited?",
+     "a": "A reduced first-year premium may not be described as free insurance for a period of time."
+    },
+    {
+     "q": "When may an ad call part of a life premium a \"deposit\"?",
+     "a": "Only when that amount is guaranteed to be returned in full on the insured's demand."
+    }
+   ]
+  },
+  {
+   "n": "Life insurance illustrations",
+   "g": "sell",
+   "o": [
+    "S-II.A.2"
+   ],
+   "s": "Under 28 TAC Ch. 21 Subchapter N, an insurer decides per policy form whether it is sold with an illustration, and any illustration must separate guaranteed from non-guaranteed values and be signed and delivered on set rules.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Form choice</b> (Sec. 21.2205): each form is marked as sold with or without an illustration. A form sold without one may not be illustrated before the first policy anniversary.</li><li><b>Content</b> (Secs. 21.2206-21.2207): labeled \"Life Insurance Illustration\", pages numbered like \"page 4 of 7\", guaranteed values shown before non-guaranteed ones, a numeric summary at years 5, 10 and 20 (and age 70) on guaranteed, illustrated and midpoint bases.</li><li><b>Prohibited</b>: calling non-guaranteed amounts guaranteed, \"vanishing premium\" language, lapse-supported or non-self-supporting illustrations, incomplete illustrations.</li><li><b>Delivery</b> (Sec. 21.2209): the applicant and agent sign the numeric summary; a copy goes to the insurer with the application. If none was used, or the policy was applied for differently, the agent certifies that and an illustration comes with the policy. If the policy issues differently, a \"Revised Illustration\" is signed by delivery. Records are kept until three years after the policy is no longer in force.</li><li><b>In force</b> (Ch. 1101 Subchapter E): 90 days' notice before a non-guaranteed charge increase, and an in-force illustration offered at least yearly.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The midpoint column is not a guarantee. It is the illustrated scale with non-guaranteed elements cut roughly halfway toward guarantees.</div><div class=\"trap\"><b>Trap:</b> \"Your premiums vanish in year 8\" is banned wording for plans that use non-guaranteed values to pay premiums.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent shows a whole life illustration; the insurer issues the policy at a higher rating class. The agent brings a Revised Illustration matching the issued policy, and the owner and agent sign and date it no later than delivery.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insurer filed a term form as \"marketed without an illustration.\" A client asks for an illustration three months after issue. What does the rule say?",
+     "a": "Using an illustration for that form is prohibited before the first policy anniversary."
+    },
+    {
+     "q": "The policy issued has a different death benefit than the one illustrated at sale. What must accompany the policy?",
+     "a": "A revised basic illustration labeled \"Revised Illustration\", signed and dated by the owner and agent no later than delivery."
+    },
+    {
+     "q": "An agent takes an application without using any illustration for a form marketed with one. What must happen?",
+     "a": "The agent certifies in writing that no illustration was used, and an illustration matching the issued policy is sent with the policy."
+    },
+    {
+     "q": "How long must a Texas insurer keep a basic illustration and the signed numeric summary page?",
+     "a": "Until three years after the policy is no longer in force."
+    }
+   ]
+  },
+  {
+   "n": "Policy summary, buyer's guide and free look",
+   "g": "sell",
+   "o": [
+    "S-II.B",
+    "S-II.C.1"
+   ],
+   "s": "Texas defines a policy summary in its replacement law, gives every annuity buyer at least 20 days after delivery to rescind, and gives a replacement buyer 30 days to return the policy.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Policy summary</b> (Sec. 1114.003): for non-universal life it shows the current death benefit, annual premium, cash surrender value, current dividend, how dividends are applied and loans outstanding; for universal life it shows the reporting period values, credits and debits, death benefit, net surrender value and loans.</li><li><b>Annuity free look</b> (Sec. 1116.002): a fixed annuity must let the buyer rescind for at least 20 days after delivery for an unconditional refund of premiums, fees and charges. Variable and modified guaranteed annuities refund cash surrender value plus fees deducted.</li><li><b>Annuity buyer's guide</b> (28 TAC Sec. 4.2308; older material cites Sec. 3.9708): given with the disclosure document at or before application when face to face; otherwise sent by the fifth business day after the application arrives. If not given then, a free look of at least 15 days from receipt of the contract applies (Sec. 4.2311), running concurrently.</li><li><b>Replacement</b>: 30 days after delivery to return for a full refund (Sec. 1114.053(e)).</li><li><b>Ordinary life, no replacement</b>: Ch. 1101 and TDI's life policy checklist set no free look; TDI's life guide says at least 10 to 20 days. No single Texas number was confirmed as of Nov 2026.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The Texas annuity free look is 20 days from delivery (Sec. 1116.002). The 15-day disclosure rule runs at the same time and does not shorten it; a replacement gets 30 days.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A retiree buys a fixed indexed annuity by phone, and the buyer's guide arrives within five business days. The contract is delivered May 1, so she may rescind for a full refund through at least May 21.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A face-to-face annuity sale. By when must the applicant get the buyer's guide and disclosure document?",
+     "a": "At or before the time of application."
+    },
+    {
+     "q": "A mail-order annuity application arrives at the insurer. By when must it send the buyer's guide and disclosure document?",
+     "a": "Not later than the fifth business day after receiving the completed application."
+    },
+    {
+     "q": "A Texas buyer of a new fixed annuity, not a replacement, changes her mind 18 days after the contract is delivered. What can she get?",
+     "a": "An unconditional refund of premiums, including fees and charges; Insurance Code Sec. 1116.002 gives at least 20 days after delivery to rescind."
+    },
+    {
+     "q": "An annuity buyer did not get the buyer's guide and disclosure document before applying. Which free look rules apply?",
+     "a": "A free look of at least 15 days from receipt of the contract under 28 TAC Sec. 4.2311, running at the same time as the 20-day rescission period of Sec. 1116.002."
+    },
+    {
+     "q": "Which document lists the current death benefit, annual premium, cash surrender value, dividends and loans of an existing policy for a replacement comparison?",
+     "a": "The policy summary defined in Insurance Code Sec. 1114.003."
+    }
+   ]
+  },
+  {
+   "n": "Entire contract, statements, incontestability and premiums",
+   "g": "policy",
+   "o": [
+    "S-II.C.5",
+    "S-II.C.6",
+    "S-II.C.7",
+    "S-II.C.8"
+   ],
+   "s": "A Texas individual life policy must say the policy (with the application, if attached) is the entire contract, treat the insured's statements as representations, become incontestable after two years, and make premiums payable in advance.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Entire contract</b> (Sec. 1101.003): the policy, or the policy plus the application, is the whole agreement. Nothing outside it binds the parties.</li><li><b>Statements of the insured</b> (Sec. 1101.007): absent fraud, they are representations, not warranties. A representation must be material to void coverage; a warranty would only need to be untrue.</li><li><b>Incontestability</b> (Sec. 1101.006): once in force two years from issue during the insured's lifetime, the policy is incontestable except for nonpayment of premium. TDI's life guide notes a reinstated policy starts a new contestable period.</li><li><b>Premium timing</b> (Sec. 1101.004): premiums are payable in advance, at the home office or to an agent against a signed receipt.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> \"Except for fraud\" is not in the Texas two-year language. After two years only nonpayment of premium remains a ground to contest validity.</div><div class=\"trap\"><b>Trap:</b> Incontestability does not stretch coverage. Misstatement of age is handled by adjusting the benefit, not by contesting the policy.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An insured hid a heart condition on the application and dies of a car crash 26 months after issue. The policy is past its two-year contestable period, so the insurer must pay. Had he died at month 20, the insurer could contest for material misrepresentation, even though the death is unrelated (TDI's guide says so explicitly), and would return premiums.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insured dies 18 months after issue; the insurer finds an untrue but immaterial answer about a hobby. Can it rescind?",
+     "a": "No. Texas treats the insured's statements as representations, so only a material misstatement (or fraud) can void coverage."
+    },
+    {
+     "q": "A Texas individual life policy has been in force 30 months during the insured's life. On what single ground can the insurer still contest it?",
+     "a": "Nonpayment of premium."
+    },
+    {
+     "q": "The agent made an oral promise about a feature not written in the policy or the attached application. Is it part of the contract?",
+     "a": "No. The entire contract provision makes the policy and attached application the whole agreement."
+    }
+   ]
+  },
+  {
+   "n": "Grace, reinstatement and policy loans",
+   "g": "policy",
+   "o": [
+    "S-II.C.2",
+    "S-II.C.12",
+    "S-II.C.3"
+   ],
+   "s": "Texas gives at least a one-month grace period, a reinstatement right for three years after default, and a policy loan right after three full years of premiums with capped loan interest.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Grace</b> (Sec. 1101.005; 28 TAC Sec. 4.602): at least one month for each premium after the first; if stated in days, at least 31. The policy may charge stated interest and may deduct the overdue premium from a death settlement.</li><li><b>Reinstatement</b> (28 TAC Sec. 4.611): if the policy was not surrendered and canceled, the owner may reinstate within three years of default, or longer at the insurer's option, with evidence of insurability and overdue premiums with interest.</li><li><b>Loans</b> (Sec. 1101.009): available when the policy is in force, premiums have been paid for at least three full years, and the policy is assigned to the insurer as security. Amount: up to the cash value plus dividend additions. The insurer may defer a loan up to six months. An unpaid loan does not void the policy until the debt equals or exceeds the cash value.</li><li><b>Loan interest</b> (Ch. 1110): fixed rate up to 10 percent a year, or an adjustable rate capped at the lesser of 15 percent or the greater of the Moody's corporate average or the cash value rate plus 1 percent; reset at least every 12 months; 30 days' notice before an increase.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The grace period does not apply to the first premium. Coverage needs the initial premium.</div><div class=\"trap\"><b>Trap:</b> Reinstatement is not automatic. It takes evidence of insurability plus back premiums with interest, and it cannot revive a policy that was surrendered for cash.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Premium due March 1 on a monthly-grace policy. The insured dies March 20 without paying. If the policy allows the deduction, the insurer pays the face amount minus the March premium.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Texas policy states its grace period in days. What is the minimum?",
+     "a": "31 days."
+    },
+    {
+     "q": "A policy lapsed 30 months ago and the owner never cashed it in. What does she need to reinstate under the Texas rule?",
+     "a": "Apply within three years of default, give evidence of insurability, and pay overdue premiums with interest."
+    },
+    {
+     "q": "An insurer wants a fixed policy loan rate of 11 percent. Is that allowed in Texas?",
+     "a": "No. Insurance Code Ch. 1110 caps a fixed policy loan rate at 10 percent a year."
+    },
+    {
+     "q": "A loan balance keeps growing on a whole life policy. When can the insurer end the policy for the unpaid loan?",
+     "a": "Only when the total debt equals or exceeds the cash value."
+    }
+   ]
+  },
+  {
+   "n": "Misstatement of age, beneficiaries and assignment",
+   "g": "policy",
+   "o": [
+    "S-II.C.9",
+    "S-II.C.11"
+   ],
+   "s": "Texas adjusts the benefit to what the premium would have bought at the correct age, pays the written beneficiary on file, and lets an adult owner assign the policy unless it says otherwise.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Misstatement of age</b> (Sec. 1101.008): if age was understated, the benefit is what the premium paid would have bought at the true age.</li><li><b>Designation</b> (Secs. 1103.054-1103.056): an adult may name the beneficiary and owner in the application or in writing as the policy allows, and may consent in one writing to a third party buying a policy on them.</li><li><b>Insurable interest</b>: a named beneficiary has an insurable interest for the full face (Sec. 1103.002). Funeral businesses and paid caregivers at listed facilities have none unless related within the third degree (Sec. 1103.053).</li><li><b>Payment</b>: the insurer pays the beneficiary on file and is discharged unless it got notice of an adverse claim first (Secs. 1103.102-1103.103).</li><li><b>Slayer rule</b> (Secs. 1103.151-1103.152): a beneficiary who willfully causes the death forfeits. The contingent takes; if none, the insured's nearest relative.</li><li><b>Assignment</b> (Sec. 1103.055; 28 TAC Sec. 4.623): an adult may assign the policy in writing unless the policy prohibits it.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The killer's share goes to the contingent beneficiary or nearest relative, not to the killer's estate or heirs.</div><div class=\"trap\"><b>Trap:</b> A misstated age is not a ground to deny the claim. The face is recalculated.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant said he was 40 but was 43. His $100,000 policy cost $900 a year. If $900 buys $88,000 at 43, the insurer pays $88,000.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "After an insured's death, the insurer pays the beneficiary on file. Days later an ex-spouse claims the money. Is the insurer liable to her?",
+     "a": "No. Without notice of an adverse claim before payment, paying the designated beneficiary discharges the insurer."
+    },
+    {
+     "q": "The primary beneficiary is convicted of willfully killing the insured. Who receives the proceeds?",
+     "a": "The contingent beneficiary; if there is none, the insured's nearest relative."
+    },
+    {
+     "q": "A caregiver at an assisted living facility, unrelated to a resident, wants to buy a policy on the resident's life. What does Texas law say?",
+     "a": "The caregiver has no insurable interest in that resident."
+    }
+   ]
+  },
+  {
+   "n": "Claims, maturity and prohibited provisions",
+   "g": "policy",
+   "o": [
+    "S-II.C.10",
+    "S-II.C.14",
+    "S-II.C.4",
+    "S-II.C.13"
+   ],
+   "s": "Texas requires death claims paid within two months of proof with interest from proof, bars suit limits under two years and backdating over six months, and sets a floor for settlement at maturity.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Claim timing</b> (Sec. 1101.011): pay within two months after proof of death and of the claimant's right.</li><li><b>Interest</b> (Sec. 1103.104): from receipt of due proof until the insurer accepts and offers payment, at the policy rate or, if none, the rate on proceeds left on deposit.</li><li><b>Installments</b> (Sec. 1101.012): a policy paying in installments must include a table of amounts.</li><li><b>Settlement at maturity</b> (Sec. 1101.055): not less than the face plus dividend additions, minus debt and premiums deductible. The policy may limit payment for suicide, a named hazardous occupation, or listed aviation activities.</li><li><b>Prohibited</b>: limiting suits to less than two years after the cause accrues (Sec. 1101.053); dating a policy more than six months before the application to give a younger age (Sec. 1101.054); more than one year of preliminary term on a level premium policy (Sec. 1101.056).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Backdating is legal up to six months. The ban is more than six months before the application date.</div><div class=\"trap\"><b>Trap:</b> Suicide: Sec. 1101.055 allows a suicide limitation; TDI's guide says companies usually exclude it in the first two years and refund premiums. Neither Sec. 1101.055 nor TDI's life policy checklist sets a time limit, so no Texas number is on the cards.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Applying May 10 at age 45, a client wants a policy dated to January 15 to keep his age-44 rate. That is four months back, so it is allowed. A date of October 1 of the prior year would be more than six months and prohibited.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy says any lawsuit must be filed within one year after the claim is denied. Is that valid in Texas?",
+     "a": "No. A life policy may not limit suit to less than two years after the cause of action accrues."
+    },
+    {
+     "q": "An application is dated July 1. What is the earliest policy date allowed to save age?",
+     "a": "January 1, six months before the application."
+    },
+    {
+     "q": "An insurer gets complete proof of death on April 1 and pays May 20. What else does it owe?",
+     "a": "Interest from April 1 until it accepted the claim and offered payment, at the policy rate or the deposit rate."
+    }
+   ]
+  },
+  {
+   "n": "Group life eligibility and underwriting",
+   "g": "group",
+   "o": [
+    "S-II.D.1",
+    "S-II.D.2"
+   ],
+   "s": "Texas group life is issued only to listed group types, each with a minimum size, and coverage amounts must follow a plan that prevents individual selection.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Minimums</b> (Ch. 1131): employer, 2 employees at issue (Sec. 1131.204); labor union, treated as an employer; employer or union trust fund, 100 people; governmental unit or public employee association, 10; a principal's agents, 10; creditor's debtors, 50 at all times; nonprofit, 25, and the group must have bylaws, have existed at least two years and be formed for a purpose other than insurance; wholesale or franchise, 5.</li><li><b>Who pays</b>: employer plans may be employer-paid, shared or employee-paid (Sec. 1131.203).</li><li><b>Participation</b>: noncontributory employer plans must cover all eligible employees, except those with unsatisfactory evidence of insurability. Contributory plans need 75 percent participation for trust funds, governmental groups and principals' agents. Trust fund and wholesale employee contributions are capped at 40 cents a month per $1,000.</li><li><b>Amounts</b> (Sec. 1131.205): set by a plan that stops the employee, employer or trustees from picking amounts person by person, such as a flat amount or a salary multiple.</li><li><b>Underwriting</b> (Sec. 1131.106): the policy must state when evidence of insurability can be required.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The 75 percent rule in Ch. 1131 is written for trust funds, governmental groups and agents; Sec. 1131.204 for an ordinary employer only requires 2 employees and 100 percent for noncontributory plans.</div><div class=\"trap\"><b>Trap:</b> Letting each executive choose his own amount breaks the anti-selection rule even if the employer pays everything.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 12-person employer pays all premiums for 2x salary group life. All 12 eligible employees must be covered unless one fails underwriting. The 2x salary formula satisfies the anti-selection rule.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "What is the smallest employer group that can buy Texas group life?",
+     "a": "Two employees on the date the policy is issued."
+    },
+    {
+     "q": "A noncontributory employer plan wants to cover only the employees who sign up. Is that allowed?",
+     "a": "No. A noncontributory plan must cover all eligible employees, except those whose evidence of insurability the insurer finds unsatisfactory."
+    },
+    {
+     "q": "A creditor group life policy is proposed for a lender. What group size must it keep?",
+     "a": "At least 50 debtors insured at all times."
+    },
+    {
+     "q": "A nonprofit formed 18 months ago wants group life for its 40 members. What blocks it?",
+     "a": "A nonprofit group must have existed for at least two years."
+    }
+   ]
+  },
+  {
+   "n": "Group life required provisions",
+   "g": "group",
+   "o": [
+    "S-II.D.6"
+   ],
+   "s": "A Texas group life policy must carry a 31-day grace period, two-year incontestability, an attached application, equitable age adjustment, a beneficiary clause and certificates for each insured.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Grace</b> (Sec. 1131.103): 31 days for each premium after the first. Coverage continues unless the policyholder gives written notice of discontinuance before the date; the insurer may charge pro rata premium for the time in force.</li><li><b>Incontestability</b> (Sec. 1131.104): after two years from issue, only nonpayment of premium. A statement about an insured's insurability can be used after two years of that person's coverage only if in a signed written instrument.</li><li><b>Application</b> (Sec. 1131.105): the policyholder's application is attached; statements are representations; an insured's statement can be used only if a copy went to the insured or beneficiary.</li><li><b>Misstatement of age</b> (Sec. 1131.107): an equitable adjustment of premium, benefit or both, by a stated method.</li><li><b>Beneficiary</b> (Sec. 1131.109): paid to the insured's beneficiary or assignee; the insurer may pay up to $250 to someone equitably entitled to it for funeral or last illness expenses.</li><li><b>Certificates</b> (Sec. 1131.108): each insured gets one describing coverage, payee and conversion rights.</li><li><b>Nonforfeiture</b> (Sec. 1131.102): required for non-term group plans.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The individual misstatement rule (pay what the premium would buy) is not the group rule. Group law asks for an equitable adjustment of premium, benefit or both.</div><div class=\"trap\"><b>Trap:</b> Group grace is 31 days by statute, not \"one month\".</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employer stops paying group premiums due June 1 without notice and an employee dies June 20. The death is inside the 31-day grace period, so the claim is paid; the employer owes the premium for the time coverage ran.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employer misses a group life premium and gives no written notice of discontinuance. An employee dies on day 25. Is there coverage?",
+     "a": "Yes. Coverage runs through the 31-day grace period unless written notice of discontinuance was given before then."
+    },
+    {
+     "q": "Who receives a group life certificate, and what must it say?",
+     "a": "Each insured employee; it states the coverage, to whom benefits are paid and the conversion rights."
+    },
+    {
+     "q": "A group insured dies with no one immediately claiming. How much may the insurer pay directly to a person who paid the funeral costs?",
+     "a": "Up to $250, at the insurer's option."
+    },
+    {
+     "q": "Three years after enrollment, the insurer wants to contest an employee's coverage based on an oral health answer. Can it?",
+     "a": "No. After two years only statements in a signed written instrument can be used."
+    }
+   ]
+  },
+  {
+   "n": "Group life conversion",
+   "g": "group",
+   "o": [
+    "S-II.D.3"
+   ],
+   "s": "A Texas group life insured who loses coverage may buy an individual non-term policy without evidence of insurability by applying and paying within 31 days, and is covered by the group if death occurs in that window.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>On leaving the group</b> (Sec. 1131.110): apply and pay the first premium not later than the 31st day after coverage ends. No evidence of insurability. Any individual form the insurer customarily issues except term (TDI's group life checklist says term may not be offered). Amount up to the coverage that ended. Premium at attained age and class on the new policy's date.</li><li><b>When the whole group policy ends</b> (Sec. 1131.111): only people insured at least five years get the conversion right, and the policy may cap the new policy at the lesser of the lost amount minus any new group coverage available within 31 days, or $2,000.</li><li><b>Death in the window</b> (Sec. 1131.112): if the insured dies during the conversion period, the amount he could have converted is paid as a group claim, whether or not he applied or paid.</li><li><b>Spouses</b> (Sec. 1131.805): have the same conversion rights.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The new policy is priced at attained age, not the age at hire.</div><div class=\"trap\"><b>Trap:</b> On group termination, a 3-year employee has no conversion right; the five-year rule controls.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employee with $150,000 of group life quits on May 1 and dies May 25 without applying. Her beneficiary gets $150,000 as a group claim. If she had lived and converted on May 20, she could buy up to $150,000 of whole life at her current age with no medical questions.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee with $80,000 of group term leaves her job. What is the most she can convert to, and in what form?",
+     "a": "Up to $80,000 of an individual non-term policy the insurer customarily issues, with no evidence of insurability."
+    },
+    {
+     "q": "A former employee dies on day 20 after termination and never applied to convert. What is paid?",
+     "a": "The amount he could have converted, paid as a claim under the group policy."
+    },
+    {
+     "q": "The employer cancels its group life plan. An employee insured six years has $50,000 and gets no new group coverage. What can the policy limit her conversion to?",
+     "a": "The lesser of $50,000 or $2,000, so $2,000."
+    },
+    {
+     "q": "How long does a terminated Texas group life insured have to apply for conversion and pay the first premium?",
+     "a": "31 days after termination."
+    }
+   ]
+  },
+  {
+   "n": "Group dependents, assignment and accelerated benefits",
+   "g": "group",
+   "o": [
+    "S-II.D.4",
+    "S-II.D.5",
+    "S-II.D.7"
+   ],
+   "s": "Texas group life may cover spouses, children and grandchildren under 25 up to the insured's own amount, lets the insured assign to anyone except the employer, and allows accelerated benefits on listed illnesses.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Dependents</b> (Sec. 1131.802): spouse; natural or adopted child under 25 (or an older age the policy sets), or any age if physically or mentally disabled and under parental supervision; natural or adopted grandchild under 25.</li><li><b>Amount</b> (Sec. 1131.804): set by an anti-selection plan and never more than the insured's own amount. Federal employee spouse plans are separately capped (Sec. 1131.353).</li><li><b>Assignment</b> (Sec. 1131.006): an insured may make an absolute or collateral assignment to anyone except the employer, subject to the policy.</li><li><b>Accelerated benefits</b> (Secs. 1111.051-1111.052): an individual or group term policy may pay part of the death benefit to the living insured after a written medical opinion of a terminal illness (death expected within two years), a long-term care illness (cannot do activities of daily living or the duties of any occupation), or a listed condition such as AIDS, a malignant tumor, a condition needing an organ transplant, or serious coronary artery disease. The payment reduces both the death benefit and the convertible amount.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The terminal illness window here is two years, not the 12 or 24 months a buyer might hear for tax rules.</div><div class=\"trap\"><b>Trap:</b> A disabled adult child can stay covered past 25; a disabled grandchild has no such extension in Sec. 1131.802.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employee has $100,000 group term and is diagnosed with a cancer expected to be fatal within 18 months. The insurer pays a $40,000 accelerated benefit. Her death benefit and the amount she could convert each drop to $60,000.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee has $50,000 of group life and wants $75,000 on his spouse. What is the limit?",
+     "a": "Spouse coverage may not exceed the insured's own amount, so $50,000."
+    },
+    {
+     "q": "An insured wants to assign his group life to his employer as security. What does Texas law say?",
+     "a": "He may assign to anyone except the employer."
+    },
+    {
+     "q": "A group insured gets a $30,000 accelerated benefit. What else changes?",
+     "a": "The death benefit and the amount available for conversion are both reduced by the $30,000."
+    },
+    {
+     "q": "For Texas accelerated benefits, what life expectancy makes an illness terminal?",
+     "a": "Death reasonably expected within not more than two years."
+    }
+   ]
+  },
+  {
+   "n": "Credit life insurance",
+   "g": "credit",
+   "o": [
+    "S-II.E"
+   ],
+   "s": "Texas credit life (Insurance Code Ch. 1153) is term coverage on a debtor that may never exceed the debt, must be delivered to the debtor on a deadline, ends near loan maturity and refunds unearned premium when the debt ends early.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Scope</b> (Sec. 1153.004): debtor-paid insurance on credit of 10 years or less.</li><li><b>Form</b> (Sec. 1153.151): an individual term policy to the debtor or a group term policy to the creditor. The creditor is paid first; any excess goes to the debtor's beneficiary or estate.</li><li><b>Amount</b> (Sec. 1153.155): not more than the total debt; on installment debt, not more than the greater of the scheduled or actual unpaid balance.</li><li><b>Start and end</b>: begins when the debtor becomes obligated (Sec. 1153.157); ends no later than 15 days after scheduled maturity unless provided at no extra cost; on refinancing, old coverage ends before new coverage starts (Sec. 1153.160).</li><li><b>Delivery</b> (Sec. 1153.158): at the time of the debt, the debtor gets the policy or certificate, or a copy of the application or notice of proposed insurance followed by the policy within 45 days.</li><li><b>Choice</b> (Sec. 1153.161): a debtor may use an existing or new policy from any authorized insurer.</li><li><b>Money</b>: the creditor may not charge more than the insurer charges it (Sec. 1153.201). Unearned premium is refunded when the debt ends early; refunds under $3 are not required (Sec. 1153.202). A creditor may not act as the insurer's claim representative (Sec. 1153.204).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Credit life is term only. A whole life credit policy is not an authorized form.</div><div class=\"trap\"><b>Trap:</b> The creditor is the first payee, but premiums charged to the debtor still cannot exceed what the insurer charges.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A borrower with credit life on a $24,000 car loan dies owing $12,600. The insurer pays the creditor $12,600.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A lender sells credit life on a 15-year loan. Does Chapter 1153 govern it?",
+     "a": "No. Chapter 1153 excludes credit transactions longer than 10 years."
+    },
+    {
+     "q": "A debtor received only a notice of proposed insurance at closing. By when must the certificate arrive?",
+     "a": "Not later than the 45th day after the debt was incurred."
+    },
+    {
+     "q": "A borrower pays off a credit life loan early. What happens to the premium?",
+     "a": "The unearned premium is refunded, unless the refund would be less than $3."
+    },
+    {
+     "q": "A lender requires credit life. The borrower already owns enough term life with another insurer. What may the borrower do?",
+     "a": "Use the existing policy to satisfy the requirement, because a debtor may provide insurance through any authorized insurer."
+    }
+   ]
+  },
+  {
+   "n": "Replacement: purpose and definitions",
+   "g": "replace",
+   "o": [
+    "S-II.F.1",
+    "S-II.F.2"
+   ],
+   "s": "Texas replacement law (Ch. 1114) protects buyers from being talked out of existing life or annuity coverage by defining replacement broadly and setting duties and penalties around it.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Purpose</b> (Sec. 1114.001): regulate agents and insurers in replacements, set minimum conduct standards, make sure buyers get information to decide, reduce misrepresentation, and set penalties.</li><li><b>Replacement</b> (Sec. 1114.002): a new purchase where an existing policy is, or should be known to be, lapsed, surrendered, reduced in value or benefits, reissued with lower cash value, or used in a financed purchase.</li><li><b>Financed purchase</b>: surrender, withdrawal or loan values from one policy pay premiums on a new one. Values taken from 4 months before to 13 months after the new policy's date are presumed to finance it (Sec. 1114.005).</li><li><b>Existing insurer</b> issues the old policy; <b>replacing insurer</b> issues the new one.</li><li><b>Exempt</b> (Sec. 1114.004): credit life; group coverage with no direct agent solicitation; conversions and contractual changes with the same insurer; nonrenewable, nonconvertible term expiring within five years; structured settlements; and some employer and government plans.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Taking a loan from an old policy to fund a new one is a replacement (financed purchase) even if the old policy stays in force.</div><div class=\"trap\"><b>Trap:</b> A conversion of group term under its own contract is exempt; buying a new individual policy from another insurer to replace it is not.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A client borrows $8,000 from her whole life cash value in March to pay the first premium on a new universal life policy dated June. The loan falls inside the 4-months-before to 13-months-after window, so it is presumed a financed purchase and replacement rules apply.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Verbs like lapse, surrender, borrow, reduce or reissue applied to an existing policy signal a replacement.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent sells a new annuity funded by a partial withdrawal from the client's existing life policy. The old policy stays in force. Is it a replacement?",
+     "a": "Yes. Using existing policy values to buy the new contract is a financed purchase, which counts as replacement."
+    },
+    {
+     "q": "A client's 3-year nonrenewable, nonconvertible term policy is about to expire and she buys a new policy. Do the replacement rules apply?",
+     "a": "No. Term that expires within five years and cannot be renewed or converted is exempt."
+    },
+    {
+     "q": "A policy loan is taken 10 months after a new policy is issued by the same insurer to the same owner. What does Texas law presume?",
+     "a": "That the new policy was financed by the existing one, a prima facie financed purchase."
+    }
+   ]
+  },
+  {
+   "n": "Replacement: agent and insurer duties",
+   "g": "replace",
+   "o": [
+    "S-II.F.3"
+   ],
+   "s": "In a Texas replacement the agent discloses and documents, the replacing insurer notifies the existing insurer within five business days and gives a 30-day right to return, and the existing insurer sends the owner value information within five business days.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Agent</b> (Sec. 1114.051): get a statement signed by applicant and agent on whether existing coverage exists; if it does, present and read the approved replacement notice no later than taking the application, both sign it, and list each affected policy and whether it will be replaced or used for financing; leave copies of sales material.</li><li><b>Replacing insurer</b> (Sec. 1114.053): notify each existing insurer within 5 business days of the completed application; send its illustration or policy summary within 5 business days of a request; give a 30-day right to return with a full refund of premiums and fees; if the insurers are the same or affiliated, credit elapsed incontestability and suicide time.</li><li><b>Existing insurer</b> (Sec. 1114.054): send the owner a letter on the right to value information and an in-force illustration or policy summary within 5 business days.</li><li><b>Annuities</b> (2025 Secs. 1114.0541-1114.0542): exchanges and surrenders paid within 30 business days.</li><li><b>Penalties</b> (Secs. 1114.101-1114.102): violations are Ch. 541 unfair practices; sanctions include license action, fines, forfeited commission and restitution. TDI's guide says replacing a policy just to earn a new commission is illegal.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The replacement notice is read and signed at or before application, not at delivery.</div><div class=\"trap\"><b>Trap:</b> The 30-day right to return belongs to the owner of the new policy and gives a full refund, not a pro rata one.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent reads and signs the replacement notice with a client at application. The replacing insurer notifies the old carrier by the fifth business day. She returns the new contract on day 25 for a full refund.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "By when must a Texas agent present and read the replacement notice to the applicant?",
+     "a": "No later than when the application is taken, with both signing it."
+    },
+    {
+     "q": "The replacing insurer receives a completed replacement application on Monday. By when must it notify the existing insurer?",
+     "a": "By the fifth business day after receiving it."
+    },
+    {
+     "q": "A replacement buyer changes her mind 22 days after delivery. What can she get?",
+     "a": "She may return the policy within 30 days for an unconditional full refund of premiums and fees."
+    },
+    {
+     "q": "An agent tells a client to answer \"no\" to the replacement question so the paperwork is simpler. What is this under Texas law?",
+     "a": "A violation of Ch. 1114 treated as an unfair practice under Ch. 541, exposing the agent to license action and penalties."
+    }
+   ]
+  },
+  {
+   "n": "Standard Nonforfeiture Law",
+   "g": "values",
+   "o": [
+    "S-II.G"
+   ],
+   "s": "Under Texas's Standard Nonforfeiture Law (Ch. 1105), a lapsing policy must offer a paid-up benefit, and after three full years of premiums a cash surrender value, elected within 60 days of default.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Applies</b> (Secs. 1105.002-1105.003): individual policies issued from 1974 on. Exempt: group insurance, reinsurance, annuities, pure endowments, most level term of 20 years or less expiring before age 71, and policies whose values are tiny.</li><li><b>Paid-up benefit</b> (Sec. 1105.004(b)): on request within 60 days after the due date of the missed premium, effective as of that due date.</li><li><b>Cash surrender value</b> (Sec. 1105.004(c)): after premiums for at least three full years (five for industrial insurance), on surrender within the same 60 days.</li><li><b>No election</b>: the paid-up option the policy names takes effect automatically.</li><li><b>Deferral</b> (Sec. 1105.004(g)): the insurer may defer paying cash value for six months after demand.</li><li><b>Disclosure</b>: a table of values for the first 20 years (or the term if shorter), a statement that values meet Texas minimums, and the method used.</li><li><b>Basis</b>: set mortality tables and interest limits; policies from 1989 on use newer tables (Subchapter B).</li><li><b>Group</b>: a non-term group plan must still have equitable nonforfeiture terms (Sec. 1131.102).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The 60-day window runs from the premium due date, not from the end of the grace period.</div><div class=\"trap\"><b>Trap:</b> Cash value is guaranteed only after three full years of premiums. A two-year-old whole life policy may have none.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A whole life owner misses the premium due August 1 after paying for five years. She has until about September 30 to choose cash or a paid-up option. If she does nothing, the policy's automatic paid-up option applies as of August 1. If she asks for cash, the insurer may take up to six months to pay.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A whole life owner stopped paying 45 days after a missed due date and wants to choose reduced paid-up instead of the default. Is she in time?",
+     "a": "Yes. She may elect within 60 days after the due date of the defaulted premium."
+    },
+    {
+     "q": "An owner surrenders a whole life policy for cash. How long may the insurer delay payment?",
+     "a": "Up to six months after the demand and surrender."
+    },
+    {
+     "q": "A lapsing owner never makes a nonforfeiture election. What happens?",
+     "a": "The paid-up nonforfeiture benefit the policy names takes effect automatically."
+    },
+    {
+     "q": "A 10-year level term policy issued at 40 has no cash value at lapse. Why is that lawful under Ch. 1105?",
+     "a": "Level term of 20 years or less that expires before age 71 is exempt from the Standard Nonforfeiture Law."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Texas Insurance Code Ch. 1101, Life Insurance Policies (Texas Legislature)",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1101.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1103, Life Insurance: Beneficiaries and Insurable Interest",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1103.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1105, Standard Nonforfeiture Law for Life Insurance",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1105.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1110, Interest Rates on Certain Policy Loans",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1110.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1111, Accelerated Benefits",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1111.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1111A, Life Settlements",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1111A.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1114, Replacement of Life Insurance and Annuities",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1114.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1131, Group Life Insurance",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1131.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1153, Credit Life and Credit Accident and Health",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1153.htm"
+  },
+  {
+   "title": "28 TAC Sec. 21.114, Life Insurance and Annuity Advertising",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-21-114"
+  },
+  {
+   "title": "28 TAC Sec. 21.2205, Policies To Be Illustrated",
+   "url": "https://law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-21-2205"
+  },
+  {
+   "title": "28 TAC Sec. 21.2206, Illustrations: General Rules and Prohibitions",
+   "url": "https://regulations.justia.com/states/texas/title-28/part-1/chapter-21/subchapter-n/section-21-2206"
+  },
+  {
+   "title": "28 TAC Sec. 21.2207, Standards for Basic Illustrations",
+   "url": "https://regulations.justia.com/states/texas/title-28/part-1/chapter-21/subchapter-n/section-21-2207"
+  },
+  {
+   "title": "28 TAC Sec. 21.2209, Delivery of Illustration and Record Retention",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-21-2209"
+  },
+  {
+   "title": "TDI Individual Term and Whole Life Checklist (LAC006)",
+   "url": "https://agate.tdi.texas.gov/forms/lhlifehealth/lac006.pdf"
+  },
+  {
+   "title": "TDI Group Life Insurance Checklist (LAC005)",
+   "url": "https://agate.tdi.texas.gov/forms/lhlifehealth/lac005.pdf"
+  },
+  {
+   "title": "TDI Life insurance guide (consumer)",
+   "url": "https://tdi.texas.gov/pubs/consumer/cb018.html"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1116, Required Provisions for Annuity Contract (20-day free look)",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1116.htm"
+  },
+  {
+   "title": "28 TAC Sec. 4.602, Grace Period",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-4-602"
+  },
+  {
+   "title": "28 TAC Sec. 4.611, Reinstatement",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-4-611"
+  },
+  {
+   "title": "28 TAC Sec. 4.2308, Required Consumer Notices (annuity buyer's guide)",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-4-2308"
+  },
+  {
+   "title": "28 TAC Sec. 4.2311, Annuity Free Look Period",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-4-2311"
+  },
+  {
+   "title": "TDI: Annuities consumer guide (cb078)",
+   "url": "https://tdi.texas.gov/pubs/consumer/cb078.html"
+  }
+ ]
+}

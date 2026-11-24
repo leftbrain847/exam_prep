@@ -1,0 +1,680 @@
+{
+  "id": "lifepolicies",
+  "title": "Life policies & annuities",
+  "updated": "2026-11-23",
+  "refreshDays": 365,
+  "note": "Covers the types of life insurance (ordinary, limited-pay and single-premium whole life; universal, variable, variable universal, interest-sensitive and indexed life; term and its renewal and conversion features), annuities (funding, start date, fixed, variable and indexed, accumulation and payout periods, payout options) and joint and survivorship plans. These are general national rules; Texas free-look, replacement and nonforfeiture rules are in the Texas law tab. Last checked for accuracy on Nov 23, 2026. Review yearly or when the exam outline changes.",
+  "groups": [
+    {
+      "key": "map",
+      "label": "Map"
+    },
+    {
+      "key": "traditional",
+      "label": "Traditional whole life"
+    },
+    {
+      "key": "flexible",
+      "label": "Interest and market sensitive life"
+    },
+    {
+      "key": "term",
+      "label": "Term life"
+    },
+    {
+      "key": "annuities",
+      "label": "Annuities"
+    },
+    {
+      "key": "combination",
+      "label": "Combination plans"
+    }
+  ],
+  "concepts": [
+    {
+      "n": "Map of life policies and annuities",
+      "g": "map",
+      "s": "Every product in this section is sorted by three questions: is it temporary or permanent, who bears the investment risk, and is it built to pay at death or to pay while the owner is alive.",
+      "o": [
+        "G-I.A",
+        "G-I.B",
+        "G-I.C",
+        "G-I.D",
+        "G-I.E"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Term</b>: pure protection for a set period, no cash value.</li><li><b>Traditional whole life</b>: fixed premium, guaranteed cash value, lifetime coverage (ordinary, limited-pay, single-premium).</li><li><b>Interest or market sensitive</b>: universal, interest-sensitive whole, indexed (insurer guarantees a floor) and variable whole or variable universal (policyowner bears the risk, sold as securities).</li><li><b>Annuities</b>: the mirror image of life insurance. Life insurance protects against dying too soon; an annuity protects against living too long.</li><li><b>Combination plans</b>: one policy on two lives, paying at the first death (joint life) or the second (survivorship).</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Indexed products are not variable products. Indexed policies keep a guaranteed floor and are insurance; variable policies use a separate account and are securities.</div><div class=\"trap\"><b>Trap:</b> Flexible premium and investment risk are separate axes. Universal life has flexible premiums but no market risk to the owner; variable whole life has fixed premiums and full market risk.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A 35-year-old wants the cheapest coverage until a mortgage ends: term. A 60-year-old with a lump sum wants income she cannot outlive: an immediate annuity with a life payout. A couple wants cash for estate taxes when the second spouse dies: survivorship life.</p>"
+        },
+        {
+          "t": "Exam angle",
+          "b": "<p>Most questions are short scenarios: a client need is described and you pick the product, or a product feature is described and you pick the name. Watch for words like <b>separate account</b>, <b>flexible</b>, <b>floor</b>, <b>cap</b> and <b>first to die</b>.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A product lets the policyowner change premium payments and the death benefit, but the cash value earns a declared interest rate with a guaranteed minimum. Which category is it in?",
+          "a": "Interest-sensitive permanent life (universal life); the insurer bears the investment risk and the owner gets flexibility."
+        },
+        {
+          "q": "Which single feature tells you a life or annuity product requires a securities registration to sell?",
+          "a": "Cash value held in a separate account that the owner directs, so the owner bears the investment risk (variable products)."
+        },
+        {
+          "q": "An applicant's main fear is outliving her savings rather than dying early. Which product family addresses that risk?",
+          "a": "An annuity, which liquidates a sum over the annuitant's lifetime."
+        }
+      ]
+    },
+    {
+      "n": "Ordinary whole life",
+      "g": "traditional",
+      "s": "Ordinary (straight or continuous-premium) whole life charges a level premium for the insured's whole life and builds a guaranteed cash value that equals the face amount when the policy matures.",
+      "o": [
+        "G-I.A.1"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Premium is set by issue age and never rises. Early premiums exceed the cost of pure protection; the excess builds the reserve and cash value.</li><li>Cash value growth is guaranteed by contract and grows tax-deferred.</li><li>Policy <b>endows</b> (cash value equals face) at maturity: age 100 in older contracts and many textbooks, age 121 in policies priced on the newer CSO mortality tables.</li><li>Cash value supports nonforfeiture options and policy loans. Participating policies may pay dividends, which are not guaranteed.</li><li>Lowest annual premium of any whole life design because premiums are spread over the longest period.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The death benefit is the face amount, not face plus cash value. The cash value is part of the face amount, not an addition to it.</div><div class=\"trap\"><b>Trap:</b> Dividends are a return of excess premium from a participating policy. They are never guaranteed.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A 30-year-old buys a $250,000 ordinary whole life policy. He pays the same premium at 31 and at 71. If he lives to the maturity age, the insurer pays him the $250,000 face as an endowment.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A client wants permanent coverage with the lowest possible level annual premium and full contractual guarantees. Which whole life design fits?",
+          "a": "Ordinary (straight) whole life, because premiums are spread over the insured's entire life."
+        },
+        {
+          "q": "A whole life insured dies at 70 with $90,000 of cash value on a $200,000 face amount and no loans. What does the beneficiary receive?",
+          "a": "$200,000, the face amount; the cash value is not paid in addition."
+        },
+        {
+          "q": "What happens when an ordinary whole life insured lives to the policy's maturity age?",
+          "a": "The policy endows: the cash value equals the face amount and is paid to the policyowner."
+        }
+      ]
+    },
+    {
+      "n": "Limited-pay and single-premium whole life",
+      "g": "traditional",
+      "s": "Limited-pay and single-premium whole life give the same lifetime coverage as ordinary whole life but compress the premiums into fewer years, so each premium is larger and cash value builds faster.",
+      "o": [
+        "G-I.A.2"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Limited-pay</b>: premiums stop after a set number of years (10-pay, 20-pay) or at a stated age (life paid-up at 65). Coverage continues to maturity with no further premiums.</li><li><b>Single-premium</b>: one lump-sum payment buys a fully paid-up policy with immediate, large cash value.</li><li>Shorter pay period means higher premium and faster cash value. Face amount and coverage length are unchanged.</li><li>A single-premium policy, and a heavily funded short-pay policy, usually fails the federal seven-pay test and becomes a modified endowment contract (MEC). MEC tax treatment: see the retirement and tax topic.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Paid-up is not the same as endowed. A 20-pay policy is paid up after year 20, but coverage runs until death or maturity and the cash value is still below face.</div><div class=\"trap\"><b>Trap:</b> Limited-pay does not mean limited coverage. Only the premium period is limited.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A 45-year-old buys $100,000 of life paid-up at 65. She pays 20 years of premiums, larger than an ordinary whole life premium for the same face. At 66 she pays nothing and stays covered for life.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A client wants lifetime coverage but wants no premiums due after he retires at 65. Which design fits?",
+          "a": "Limited-pay whole life, specifically life paid-up at 65."
+        },
+        {
+          "q": "Which whole life design produces the greatest cash value in the first policy year?",
+          "a": "Single-premium whole life, because the entire premium is paid at issue."
+        },
+        {
+          "q": "Compare a 10-pay and a 20-pay whole life policy with the same face amount on the same insured. Which has the higher annual premium?",
+          "a": "The 10-pay policy, because the same cost is paid over fewer years."
+        },
+        {
+          "q": "A single-premium whole life policy is most likely to be classified under federal tax law as what?",
+          "a": "A modified endowment contract, because it fails the seven-pay test."
+        }
+      ]
+    },
+    {
+      "n": "Universal life",
+      "g": "flexible",
+      "s": "Universal life is flexible-premium, adjustable death benefit permanent insurance that unbundles the policy into a cash value account credited with interest and monthly deductions for cost of insurance and expenses.",
+      "o": [
+        "G-I.B.1"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Premiums go into the cash value account. Each month the insurer deducts the cost of insurance (based on the net amount at risk) and expenses, then credits interest: a current rate with a guaranteed minimum.</li><li>The owner can skip, lower or raise premiums within limits, and can take partial withdrawals. Coverage continues only while cash value covers the deductions; when it reaches zero the policy lapses.</li><li><b>Option A</b> (Option 1): level death benefit; the net amount at risk falls as cash value grows.</li><li><b>Option B</b> (Option 2): death benefit equals face plus cash value, so it rises over time and costs more.</li><li>Increasing the face amount usually requires evidence of insurability. Some policies add a no-lapse guarantee if a minimum premium is paid on time.</li><li>The insurer keeps the investment risk (general account), so universal life is not a security.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Flexible premium does not mean optional premium. Skipping premiums drains cash value and can lapse the policy.</div><div class=\"trap\"><b>Trap:</b> Under Option A the beneficiary gets the face amount only; under Option B the beneficiary gets face plus cash value.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A $300,000 Option B policy has $40,000 of cash value at the insured's death. The beneficiary receives $340,000. Under Option A the same policy pays $300,000.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policyowner wants a death benefit that grows as the cash value grows. Which universal life option does she choose?",
+          "a": "Option B (Option 2), which pays the face amount plus the cash value."
+        },
+        {
+          "q": "A universal life owner stops paying premiums for two years. What keeps the policy in force during that time?",
+          "a": "Monthly deductions are taken from the cash value; the policy lapses if the cash value runs out."
+        },
+        {
+          "q": "Which feature of universal life protects the owner when current interest rates fall sharply?",
+          "a": "The guaranteed minimum interest rate credited to the cash value."
+        },
+        {
+          "q": "Why is universal life not treated as a security while variable universal life is?",
+          "a": "In universal life the insurer bears the investment risk through its general account; in variable universal life the owner bears it through a separate account."
+        }
+      ]
+    },
+    {
+      "n": "Variable whole life",
+      "g": "flexible",
+      "s": "Variable whole life keeps a fixed, level premium but invests the cash value in a separate account chosen by the policyowner, so cash value and the death benefit above a guaranteed minimum rise and fall with investment results.",
+      "o": [
+        "G-I.B.2"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Premiums are fixed like ordinary whole life.</li><li>Cash value sits in the insurer's <b>separate account</b>, divided into subaccounts (similar to mutual funds). The owner picks the subaccounts and bears the investment risk.</li><li>Cash value is <b>not guaranteed</b> and can fall to zero. The death benefit has a <b>guaranteed minimum</b> (the initial face amount) and can grow with good performance.</li><li>It is both insurance and a security. The SEC's Investor.gov says buyers should get a prospectus for the policy and for each underlying fund. TDI's life insurance guide says agents who sell variable life in Texas need a federal securities license and a state insurance license.</li><li>Charges include cost of insurance, mortality and expense risk fees and fund fees.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Variable whole life guarantees a minimum death benefit, not a minimum cash value.</div><div class=\"trap\"><b>Trap:</b> A life license alone is not enough to sell variable products. FINRA registration is also required.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A client buys $200,000 of variable whole life. Strong equity returns raise the death benefit to $230,000. A market crash later cuts the cash value in half, but the death benefit cannot drop below the $200,000 minimum while premiums are paid.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policy has a fixed premium, a separate account and a guaranteed minimum death benefit. Which policy is it?",
+          "a": "Variable whole life."
+        },
+        {
+          "q": "In a variable whole life policy, what is guaranteed and what is not?",
+          "a": "The minimum death benefit is guaranteed; the cash value is not."
+        },
+        {
+          "q": "An agent holds a Texas life license and wants to sell variable whole life. What else must she have?",
+          "a": "Securities registration through FINRA, as required for selling a security."
+        },
+        {
+          "q": "Before buying variable life, what document must a prospect receive that describes the investment options and charges?",
+          "a": "A prospectus."
+        }
+      ]
+    },
+    {
+      "n": "Variable universal life",
+      "g": "flexible",
+      "s": "Variable universal life combines the flexible premiums and adjustable death benefit of universal life with the owner-directed separate account investing of variable life, so the owner carries both funding and investment risk.",
+      "o": [
+        "G-I.B.3"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Flexible premiums and death benefit options work as in universal life.</li><li>Cash value is invested in subaccounts the owner chooses; TDI's life insurance guide notes the policy depends on the performance of those subaccounts.</li><li>No guaranteed minimum interest rate and usually no guaranteed cash value. Poor returns plus low premiums can lapse the policy.</li><li>Sold as a security: prospectus required, and the agent needs FINRA registration plus a life license.</li><li>Investor.gov notes that policy loans reduce cash value, can reduce the death benefit and raise lapse risk.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Variable universal life is sometimes described as having no guarantees at all. The exam answer is that the owner bears the investment risk and there is no minimum cash value or interest rate.</div><div class=\"trap\"><b>Trap:</b> Do not confuse it with indexed universal life, which credits based on an index but keeps a floor and is not a security.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An owner pays $500 a month into a VUL policy invested in an equity subaccount. During a downturn she lowers premiums to $100. The cash value falls and the monthly deductions now exceed premiums; unless she adds money, the policy can lapse.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A client wants to vary premium payments and direct the investments in his cash value. Which policy fits?",
+          "a": "Variable universal life."
+        },
+        {
+          "q": "Who bears the investment risk in variable universal life?",
+          "a": "The policyowner, because the cash value is held in subaccounts the owner selects."
+        },
+        {
+          "q": "A VUL owner pays the planned premium every month, but the subaccounts lose value for several years. Can the policy still lapse?",
+          "a": "Yes, because there is no guaranteed cash value and lapse occurs if cash value cannot cover the monthly deductions."
+        },
+        {
+          "q": "What separates variable universal life from variable whole life?",
+          "a": "VUL has flexible premiums and an adjustable death benefit; variable whole life has fixed premiums and a guaranteed minimum death benefit."
+        }
+      ]
+    },
+    {
+      "n": "Interest-sensitive whole life",
+      "g": "flexible",
+      "s": "Interest-sensitive (current assumption) whole life keeps whole life's fixed face amount and guaranteed cash value floor but credits cash value at current interest rates and lets the insurer adjust the premium based on its current interest and mortality experience.",
+      "o": [
+        "G-I.B.4"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Face amount is fixed and coverage is lifetime.</li><li>Cash value is credited with a current rate, never below a guaranteed minimum.</li><li>The insurer periodically recalculates the premium. When results are good, the owner may pay a lower premium or keep the same premium and build more cash value. When results are poor, the premium can rise, subject to a contractual maximum.</li><li>The insurer keeps the investment risk; it is not a security.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Interest-sensitive whole life is not universal life. The owner does not choose flexible premiums; the insurer adjusts the premium on a schedule based on current assumptions.</div><div class=\"trap\"><b>Trap:</b> It is not variable life. There is no separate account and no owner-directed investing.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An owner's policy was illustrated at a 5% current rate. Rates fall and the insurer's redetermination raises the premium. The owner can pay the higher premium or keep the old premium and accept a lower face amount, depending on the contract.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "Which permanent policy has a fixed face amount, a guaranteed minimum interest rate, and a premium the insurer can adjust based on current interest results?",
+          "a": "Interest-sensitive (current assumption) whole life."
+        },
+        {
+          "q": "Interest rates rise and an interest-sensitive whole life insurer credits excess interest. What two ways might the owner benefit?",
+          "a": "A lower premium, or the same premium with faster cash value growth."
+        },
+        {
+          "q": "Why does selling interest-sensitive whole life require only an insurance license?",
+          "a": "The insurer bears the investment risk and credits a guaranteed minimum rate, so it is not a security."
+        }
+      ]
+    },
+    {
+      "n": "Indexed life",
+      "g": "flexible",
+      "s": "Indexed life (usually indexed universal life) credits cash value interest based on a market index such as the S&P 500, subject to a cap and participation rate, while a guaranteed floor protects the cash value from index losses.",
+      "o": [
+        "G-I.B.5"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Premiums are not invested in the index. The insurer holds them in its general account and credits interest using an index formula. TDI's life insurance guide describes these as policies that tie cash value growth to an index such as the S&P 500.</li><li><b>Floor</b>: minimum credit (commonly 0%), so a down year credits nothing rather than a loss.</li><li><b>Cap</b>: maximum credit in a period.</li><li><b>Participation rate</b>: share of the index gain credited.</li><li>Index changes usually exclude dividends. Monthly deductions still apply, so cash value can fall even in a 0% year.</li><li>Fixed indexed policies are insurance, not securities.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The floor stops index losses from being credited. It does not stop cost of insurance and expense charges from reducing the cash value.</div><div class=\"trap\"><b>Trap:</b> Upside is limited. The owner gives up part of the gain in exchange for downside protection.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>The index rises 12%. With a 10% cap the policy credits 10%. With an 80% participation rate and no cap it credits 9.6%. If the index falls 15% and the floor is 0%, it credits 0%.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policy credits interest based on the S&P 500, with a cap and a 0% floor. Which policy type is it?",
+          "a": "Indexed (indexed universal) life."
+        },
+        {
+          "q": "The index gains 10%, the participation rate is 70% and there is no cap. What is credited?",
+          "a": "7%."
+        },
+        {
+          "q": "The index drops 20% in a crediting period on an indexed life policy with a 0% floor. What interest is credited?",
+          "a": "Zero; the floor prevents index losses from being credited."
+        },
+        {
+          "q": "Why can an agent sell fixed indexed life with only an insurance license?",
+          "a": "The insurer guarantees the floor and bears the investment risk, so it is not a security."
+        }
+      ]
+    },
+    {
+      "n": "Term life types",
+      "g": "term",
+      "s": "Term life pays the face amount only if the insured dies during the stated period and builds no cash value, and its main forms differ in how the face amount and premium behave over time.",
+      "o": [
+        "G-I.C.1"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Level term</b>: level face and, typically, level premium for the term (10, 20, 30 years).</li><li><b>Decreasing term</b>: level premium, face amount declines over the term. Used for mortgages and other debts; credit life is a form of it.</li><li><b>Annually renewable term (ART)</b>: one-year term renewable each year without evidence of insurability; face stays level and the premium rises every year with age.</li><li><b>Return of premium term</b>: level term that refunds the premiums paid if the insured outlives the term. Premiums are much higher than plain level term.</li><li>Increasing term (rising face) appears mostly as a rider.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Decreasing term keeps the premium level and lowers the face amount. It is not a declining premium.</div><div class=\"trap\"><b>Trap:</b> Return of premium term returns premiums, not a cash value. It still has no cash value or loan value.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A couple with a 30-year, $400,000 mortgage wants coverage that shrinks with the loan: decreasing term. A new business owner wants the lowest first-year cost and expects needs to change yearly: annually renewable term.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A client wants coverage that tracks a declining mortgage balance for a level premium. Which term type fits?",
+          "a": "Decreasing term."
+        },
+        {
+          "q": "Which term type has a level face amount and a premium that increases each year?",
+          "a": "Annually renewable (yearly renewable) term."
+        },
+        {
+          "q": "A client wants term coverage but objects to paying premiums he will never get back if he survives. Which design answers that?",
+          "a": "Return of premium term, which refunds premiums paid if the insured outlives the term."
+        },
+        {
+          "q": "Credit life insurance on an installment loan is usually which kind of term?",
+          "a": "Decreasing term, because the face amount falls with the loan balance."
+        }
+      ]
+    },
+    {
+      "n": "Renewable and convertible term",
+      "g": "term",
+      "s": "A renewable term policy lets the owner continue coverage for another term without evidence of insurability at the attained-age premium, and a convertible policy lets the owner exchange it for permanent insurance without evidence of insurability.",
+      "o": [
+        "G-I.C.2"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Renewable</b>: renew for a new term with no medical questions, up to a stated maximum age. Each renewal premium is based on the insured's attained age, so it rises.</li><li><b>Convertible</b>: switch to whole life or another permanent plan without proof of insurability, within a conversion period stated in the policy.</li><li><b>Attained-age conversion</b>: new premium based on current age; no back payment.</li><li><b>Original-age conversion</b>: premium based on the age at issue, which is lower, but the owner pays the difference in back premiums plus interest.</li><li>Both features protect the insured whose health has worsened.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Renewal keeps the same type of coverage (term). Conversion changes the coverage to permanent.</div><div class=\"trap\"><b>Trap:</b> Renewal premiums are not locked at the original rate. They rise with attained age.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>At 50, near the end of a 20-year term, an insured is diagnosed with diabetes. He converts $250,000 to whole life without a medical exam. Using attained age, he pays a 50-year-old's whole life premium with no back premiums.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A term insured's health has declined and she wants lifetime coverage without medical underwriting. Which policy feature does she use?",
+          "a": "The conversion privilege."
+        },
+        {
+          "q": "An insured converts term to whole life and wants the lowest ongoing premium, accepting a lump-sum payment now. Which conversion method?",
+          "a": "Original-age conversion, which requires back premiums plus interest."
+        },
+        {
+          "q": "On renewing a term policy without evidence of insurability, what premium applies?",
+          "a": "The premium for the insured's attained age at renewal."
+        },
+        {
+          "q": "Which conversion method requires no back payment but charges a higher ongoing premium?",
+          "a": "Attained-age conversion."
+        }
+      ]
+    },
+    {
+      "n": "Annuity structure: funding, start date and phases",
+      "g": "annuities",
+      "s": "An annuity is classified by how it is funded (single or flexible premium), when income starts (immediate or deferred), and which period it is in (accumulation while money builds, annuity period while it pays out).",
+      "o": [
+        "G-I.D.1",
+        "G-I.D.2",
+        "G-I.D.5"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>Parties: owner (controls the contract), annuitant (the life on which payments are based), beneficiary (receives any death benefit during accumulation).</li><li><b>Single premium</b>: one lump sum. <b>Flexible premium</b>: varying payments over time.</li><li><b>Immediate</b>: income begins within one year of purchase, so it is funded by a single premium (SPIA).</li><li><b>Deferred</b>: income begins later; funded by single or flexible premium. TDI's annuity guide notes earnings are not taxed until withdrawn.</li><li><b>Accumulation period</b>: premiums paid and interest credited; surrender charges apply to early withdrawals.</li><li><b>Annuity (payout) period</b>: annuitization converts the value into periodic payments, usually irrevocable.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> There is no flexible-premium immediate annuity. Immediate means one premium, payments within a year.</div><div class=\"trap\"><b>Trap:</b> The annuitant, not the owner, is the measuring life for payments, even when they are different people.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A 62-year-old sells a business and wants income starting next month: single premium immediate annuity. A 40-year-old wants to add money whenever she can and retire at 65: flexible premium deferred annuity.</p>"
+        },
+        {
+          "t": "Exam angle",
+          "b": "<p>Texas free-look and suitability rules for annuities: see the Texas law tab.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A client deposits a lump sum and wants payments starting next month. Which annuity?",
+          "a": "A single premium immediate annuity."
+        },
+        {
+          "q": "A 35-year-old wants to make irregular deposits for retirement income at 67. Which annuity?",
+          "a": "A flexible premium deferred annuity."
+        },
+        {
+          "q": "During which annuity period do surrender charges apply?",
+          "a": "The accumulation period, when early withdrawals are taken before annuitization."
+        },
+        {
+          "q": "Whose life expectancy determines the size of life-contingent annuity payments?",
+          "a": "The annuitant's."
+        }
+      ]
+    },
+    {
+      "n": "Fixed and variable annuities",
+      "g": "annuities",
+      "s": "A fixed annuity guarantees principal, a minimum interest rate and level payments with the insurer bearing the investment risk, while a variable annuity invests in a separate account so the owner bears the risk and values and payments vary.",
+      "o": [
+        "G-I.D.3"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Fixed</b>: general account; TDI's annuity guide says the insurer guarantees a minimum rate and can change the current rate periodically. Payout amounts are level, so the risk is loss of purchasing power to inflation.</li><li><b>Variable</b>: subaccounts similar to mutual funds; TDI notes the SEC classifies them as securities and agents must also be FINRA registered.</li><li>During accumulation, variable deposits buy <b>accumulation units</b>. At annuitization these convert to <b>annuity units</b>, whose value changes with the separate account.</li><li>Variable payments rise if the account beats the <b>assumed interest rate</b> (AIR) and fall if it earns less.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> A fixed annuity is safe from market loss but not from inflation.</div><div class=\"trap\"><b>Trap:</b> A variable payment does not rise just because the account earned a positive return. It rises only if the return beats the AIR.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A variable annuity's AIR is 4%. The separate account earns 7% this year, so the next payment increases. If it earns 2%, the payment falls even though the return was positive.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A retiree wants payments that can keep pace with inflation and accepts that they may fall. Which annuity?",
+          "a": "A variable annuity."
+        },
+        {
+          "q": "What is the main risk an owner of a fixed annuity faces during payout?",
+          "a": "Inflation reducing the purchasing power of the level payments."
+        },
+        {
+          "q": "During accumulation, a variable annuity owner's deposits purchase what?",
+          "a": "Accumulation units, which convert to annuity units at annuitization."
+        },
+        {
+          "q": "A variable annuity has a 4% AIR and the subaccounts earn 3%. What happens to the next payment?",
+          "a": "It decreases, because actual return was below the assumed interest rate."
+        }
+      ]
+    },
+    {
+      "n": "Indexed annuities",
+      "g": "annuities",
+      "s": "A fixed indexed annuity credits interest linked to a market index through a participation rate, cap or spread while protecting principal with a floor, so the owner gives up part of the upside for protection from index losses.",
+      "o": [
+        "G-I.D.4"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<p>The SEC's indexed annuity bulletin on Investor.gov gives these mechanics:</p><ul><li><b>Participation rate</b>: at 75%, a 10% index gain credits 7.5%.</li><li><b>Cap</b>: at 7%, a 12% gain credits 7%.</li><li><b>Spread or margin</b>: at 3%, a 9% gain credits 6%.</li><li>Index gains usually exclude dividends. Crediting methods include point-to-point and averaging (annual reset and high-water mark are other common methods).</li><li>Surrender periods typically run 6 to 10 years or longer; early withdrawals may also lose credited interest.</li></ul><p>The NAIC annuity buyer's guide calls a fixed indexed annuity an insurance product, not an investment. Registered index-linked annuities (RILAs) can lose value and are securities.</p>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> A floor protects against index losses; it does not mean the contract has no surrender charges.</div><div class=\"trap\"><b>Trap:</b> Insurers can change caps and participation rates over time, so an illustrated rate is not a guarantee.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>The index rises 10%. The contract has a 75% participation rate and a 3% spread: 10% x 75% = 7.5%, minus 3% = 4.5% credited. A year with a 12% index loss credits 0% under a 0% floor.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An index gains 12% and the contract has a 6% cap. What is credited?",
+          "a": "6%."
+        },
+        {
+          "q": "An index gains 8% and the contract has a 2% spread. What is credited?",
+          "a": "6%."
+        },
+        {
+          "q": "A client wants some market-linked growth but cannot accept any loss of principal from a market drop. Which annuity?",
+          "a": "A fixed indexed annuity."
+        },
+        {
+          "q": "Which indexed product can lose value with the index and is regulated as a security?",
+          "a": "A registered index-linked annuity (RILA)."
+        }
+      ]
+    },
+    {
+      "n": "Annuity payout options",
+      "g": "annuities",
+      "s": "Payout options trade monthly income against guarantees: life only pays the most per month with nothing left over, and each added guarantee (period certain, refund, a second life) lowers the payment.",
+      "o": [
+        "G-I.D.6"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Life only (straight life)</b>: payments for the annuitant's life, nothing to heirs. Highest life-contingent payment.</li><li><b>Life with period certain</b>: lifetime payments; if death occurs early, the beneficiary receives payments to the end of the period (TDI cites 10, 15 or 20 years as common).</li><li><b>Cash refund</b>: at death, the beneficiary gets a lump sum of premium minus payments made. <b>Installment refund</b>: the same balance paid in installments.</li><li><b>Joint and survivor</b>: payments continue until the second of two annuitants dies, sometimes reduced for the survivor. Lowest payment of the common life options.</li><li><b>Joint life</b>: stops at the first death.</li><li><b>Period certain</b> or <b>fixed amount</b>: no lifetime guarantee.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Period certain alone is not a life option. Payments stop at the end of the period even if the annuitant is alive.</div><div class=\"trap\"><b>Trap:</b> Joint and survivor pays until the second death; joint life stops at the first death.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A retiree annuitizes $200,000 under life with 10-year certain and dies after 4 years. The beneficiary receives the remaining 6 years of payments. Under life only, payments stop at death.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A single retiree with no heirs wants the largest possible lifetime monthly payment. Which option?",
+          "a": "Life only (straight life)."
+        },
+        {
+          "q": "A married couple wants income to continue as long as either spouse is alive. Which option?",
+          "a": "Joint and survivor."
+        },
+        {
+          "q": "An annuitant dies before receiving payments equal to her premium, and her beneficiary receives the difference in one lump sum. Which option?",
+          "a": "Cash refund."
+        },
+        {
+          "q": "Which option pays for a fixed number of years regardless of whether the annuitant is alive, with no lifetime guarantee?",
+          "a": "Period certain."
+        }
+      ]
+    },
+    {
+      "n": "Joint life and survivorship life",
+      "g": "combination",
+      "s": "Joint life insures two people under one policy and pays at the first death, while survivorship (second-to-die) life pays only at the second death and is used mainly to fund estate taxes.",
+      "o": [
+        "G-I.E.1",
+        "G-I.E.2"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Joint life (first to die)</b>: one face amount, paid when the first insured dies; the policy then ends. Premium is less than two separate policies. Common uses: spouses who both earn income, business partners funding a buy-sell agreement.</li><li><b>Survivorship (second to die)</b>: pays when the last insured dies. Because two deaths must occur, the premium is lower than joint life or two single policies.</li><li>Survivorship is a standard estate planning tool for married couples: the unlimited marital deduction defers federal estate tax to the second death, when the cash is needed.</li><li>Both are usually permanent policies.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Joint life pays once, at the first death. The survivor is left without coverage unless the policy offers a continuation option.</div><div class=\"trap\"><b>Trap:</b> Survivorship is cheaper per dollar of coverage, but it pays nothing at the first death.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>Two business partners buy a $1 million joint life policy. When one dies, the proceeds fund the buyout of his share and the policy ends. A wealthy couple buys $2 million of survivorship life to pay estate taxes when the second spouse dies.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "Two business partners want one policy that pays when either of them dies first. Which policy?",
+          "a": "Joint life (first-to-die)."
+        },
+        {
+          "q": "A married couple expects a large estate tax bill at the second death. Which policy fits?",
+          "a": "Survivorship (second-to-die) life."
+        },
+        {
+          "q": "Rank joint life, survivorship life and two individual policies on the same two people by premium, lowest first.",
+          "a": "Survivorship life, then joint life, then two individual policies."
+        },
+        {
+          "q": "Under a joint life policy, what happens to coverage after the first insured dies and the claim is paid?",
+          "a": "The policy ends; the survivor has no coverage under it."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "TDI: Life insurance and annuities consumer guide (cb018)",
+      "url": "https://tdi.texas.gov/pubs/consumer/cb018.html"
+    },
+    {
+      "title": "TDI: Annuities consumer guide (cb078)",
+      "url": "https://tdi.texas.gov/pubs/consumer/cb078.html"
+    },
+    {
+      "title": "TDI tips: Life insurance",
+      "url": "https://tdi.texas.gov/tips/life-insurance.html"
+    },
+    {
+      "title": "Investor.gov: Updated Investor Bulletin: Indexed Annuities",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-investor-bulletin-indexed-annuities"
+    },
+    {
+      "title": "Investor.gov: Variable Life Insurance",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/variable-life"
+    },
+    {
+      "title": "Investor.gov: Investor Bulletin on variable annuities and buyout offers",
+      "url": "https://www.investor.gov/additional-resources/news-alerts/alerts-bulletins/investor-bulletin-variable-annuities-should-you"
+    },
+    {
+      "title": "Investor.gov: Annuities",
+      "url": "https://www.investor.gov/annuities"
+    },
+    {
+      "title": "NAIC Annuity Buyer's Guide",
+      "url": "https://content.naic.org/sites/default/files/call_materials/lvb-formatted-naic-annuity-buyers-guide.pdf"
+    },
+    {
+      "title": "Washington OIC: Types of cash value life insurance",
+      "url": "https://insurance.wa.gov/types-cash-value-life-insurance"
+    },
+    {
+      "title": "FINRA: Variable Annuities key topic",
+      "url": "https://www.finra.org/rules-guidance/key-topics/variable-annuities"
+    }
+  ]
+}

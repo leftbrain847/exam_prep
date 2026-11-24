@@ -1,0 +1,764 @@
+{
+ "id": "socialother",
+ "title": "Medicare, Medicaid & other concepts",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "What this tab covers: Medicare Parts A to D and enrollment periods, Medicaid, Social Security disability, definitions of disability, owner's rights and beneficiaries, premium modes, coordination of benefits, occupational coverage and workers' compensation, subrogation, managed care, and how disability income and medical expense coverage are taxed. The 2026 dollar figures were checked on 2026-11-23 against cms.gov, medicare.gov and ssa.gov. Recheck every six months and each fall, when CMS and SSA publish next year's figures.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "medicare",
+   "label": "Medicare"
+  },
+  {
+   "key": "social",
+   "label": "Medicaid and Social Security"
+  },
+  {
+   "key": "disability",
+   "label": "Defining disability"
+  },
+  {
+   "key": "contract",
+   "label": "Owners, premiums, payment order"
+  },
+  {
+   "key": "tax",
+   "label": "Taxation"
+  },
+  {
+   "key": "systems",
+   "label": "Managed care, workers' comp, subrogation"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map: social insurance and other A&H concepts",
+   "g": "map",
+   "s": "Sort every question in this section by asking who pays (government program, employer, private insurer or a liable third party) and which rule decides the money (eligibility, benefit trigger, payment order or tax).",
+   "o": [
+    "G-VII",
+    "G-VIII"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>Two halves. <b>Social insurance (G-VII)</b>: Medicare (federal, age 65 or disabled, Parts A, B, C, D), Medicaid (federal-state, need-based) and Social Security disability (federal, strict definition, waiting period).</p><p><b>Other concepts (G-VIII)</b> fall into four questions:</p><ul><li><b>When is a person disabled?</b> Total, partial, residual, recurrent.</li><li><b>Who controls and who collects?</b> Owner's rights, primary and contingent beneficiaries, dependent children.</li><li><b>Who pays first, and how often is premium paid?</b> Coordination of benefits, nonduplication, subrogation, occupational vs non-occupational, workers' compensation, premium modes.</li><li><b>What does the IRS do?</b> Tax on premiums and benefits for disability income and medical expense coverage.</li></ul><p>Managed care sits beside these as the cost-control layer on medical expense plans.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mixing Medicare and Medicaid. Medicare is mostly age or disability based; Medicaid is income and asset based.</div><div class=\"trap\"><b>Trap:</b> Assuming the A&H tax rules match life insurance. Disability benefit taxation flips on who paid the premium.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>One fact pattern can touch three concepts: a worker hurt on the job (workers' compensation, occupational), with a private disability policy (definition of disability, nonduplication) and a group medical plan that pays and then recovers from a negligent driver (subrogation).</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>How the exam tests this section: short scenarios that hinge on one keyword, such as \"hospital\" (Part A), \"doctor\" (Part B), \"low income\" (Medicaid), \"proportional to lost income\" (residual), \"who paid the premium\" (tax) or \"recover from the at-fault party\" (subrogation).</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A question describes a 40-year-old with low income and few assets who needs nursing home care. Which program is the likely payer?",
+     "a": "Medicaid, the need-based federal-state program; Medicare does not pay for long-term custodial care."
+    },
+    {
+     "q": "A question asks which party gets the right to sue a negligent driver after a health insurer pays the injured insured's bills. Which concept is being tested?",
+     "a": "Subrogation: the insurer steps into the insured's right of recovery against the at-fault party."
+    },
+    {
+     "q": "A question turns on whether a disability benefit is taxable. What single fact decides it?",
+     "a": "Who paid the premium and whether it was paid with after-tax dollars."
+    }
+   ]
+  },
+  {
+   "n": "Medicare eligibility and Part A (hospital insurance)",
+   "g": "medicare",
+   "s": "Part A covers inpatient hospital, skilled nursing facility after a qualifying hospital stay, hospice and some home health care, and it is premium-free for people with about 10 years of covered work.",
+   "o": [
+    "G-VII.A",
+    "G-VII.A.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Who gets Medicare:</b> age 65 and over; people under 65 after 24 months of Social Security disability benefits; people with end-stage renal disease (permanent kidney failure); people with ALS (no 24-month wait).</p><p><b>Part A covers</b> inpatient hospital care, skilled nursing facility (SNF) care after a 3-day inpatient stay, hospice and some home health care. It is funded by payroll tax. People with 40 quarters of coverage pay no premium.</p><p><b>Benefit period:</b> starts at admission, ends after 60 days in a row out of a hospital or SNF. The deductible applies per benefit period, not per year.</p><p><b>2026 figures (CMS):</b> deductible $1,736; days 1-60 $0 after deductible; days 61-90 $434 a day; 60 lifetime reserve days at $868 a day; SNF days 1-20 $0, days 21-100 $217 a day, nothing after day 100. Premium for those who must buy Part A: $565 a month (under 30 quarters) or $311 (30-39 quarters).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Custodial care. Part A pays only skilled nursing, and only up to 100 days per benefit period. Long-term custodial care is not covered.</div><div class=\"trap\"><b>Trap:</b> Calendar year. The Part A deductible can apply more than once a year if a new benefit period starts.</div><div class=\"trap\"><b>Trap:</b> Lifetime reserve days are used once in a lifetime; they do not renew with a new benefit period.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>2026: Rosa is admitted, stays 70 days. She pays the $1,736 deductible plus 10 days x $434 = $4,340, total $6,076. She is then discharged to a SNF for 25 days and pays 5 x $217 = $1,085.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"hospital\", \"inpatient\", \"skilled nursing\", \"hospice\" point to Part A.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A 66-year-old with 40 quarters of work is admitted to the hospital. Which Medicare part pays, and does she pay a monthly premium for it?",
+     "a": "Part A pays the inpatient stay, and it is premium-free because she has 40 quarters of coverage."
+    },
+    {
+     "q": "A Medicare patient needs custodial help with bathing and dressing in a nursing home indefinitely. What does Medicare Part A pay?",
+     "a": "Nothing for custodial care; Part A pays only skilled nursing after a qualifying hospital stay, up to 100 days per benefit period."
+    },
+    {
+     "q": "A Medicare beneficiary leaves the hospital, stays home 75 days, and is readmitted. What happens to the Part A deductible?",
+     "a": "A new benefit period has started because more than 60 days passed, so she owes the deductible again."
+    },
+    {
+     "q": "A 50-year-old has received Social Security disability benefits for 24 months. What is his Medicare status?",
+     "a": "He becomes entitled to Medicare even though he is under 65."
+    },
+    {
+     "q": "A 2026 hospital patient is on day 95 of one stay and has used no reserve days. What does she pay that day?",
+     "a": "She is drawing on her 60 lifetime reserve days, at $868 a day in 2026, and each reserve day used is gone for good."
+    }
+   ]
+  },
+  {
+   "n": "Medicare Part B (medical insurance)",
+   "g": "medicare",
+   "s": "Part B is optional, premium-based coverage for doctors, outpatient care, preventive services and durable medical equipment, paying 80% of the Medicare-approved amount after an annual deductible.",
+   "o": [
+    "G-VII.A.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Covers:</b> physician services (in or out of the hospital), outpatient care, lab tests, preventive services, ambulance, durable medical equipment (wheelchairs, walkers).</p><p><b>Cost sharing:</b> an annual deductible, then the beneficiary generally pays 20% coinsurance of the Medicare-approved amount with no annual out-of-pocket cap in Original Medicare. Medicare supplement (Medigap) policies exist to fill that gap.</p><p><b>Funding:</b> monthly premiums plus federal general revenue. Higher earners pay an income-related monthly adjustment amount (IRMAA).</p><p><b>2026 figures (CMS):</b> standard premium $202.90 a month; deductible $283 a year. IRMAA begins above $109,000 individual or $218,000 joint income.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Part B is voluntary. Part A is automatic for most people; Part B requires a premium and can be declined.</div><div class=\"trap\"><b>Trap:</b> Doctors in the hospital are Part B even though the room and board is Part A.</div><div class=\"trap\"><b>Trap:</b> Original Medicare generally excludes routine dental, eyeglasses, hearing aids, cosmetic surgery, care outside the U.S. and long-term custodial care.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>2026: Sam's first outpatient bills of the year have a Medicare-approved amount of $1,283. He pays the $283 deductible, then 20% of $1,000 = $200, total $483. Medicare pays $800.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"physician\", \"outpatient\", \"durable medical equipment\", \"80/20\", \"voluntary\" or \"monthly premium for most\" point to Part B.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Medicare patient in the hospital receives a surgeon's bill and a separate hospital room bill. Which Medicare part covers each?",
+     "a": "Part A covers the hospital room and inpatient services; Part B covers the surgeon's services."
+    },
+    {
+     "q": "A Medicare beneficiary needs a walker for home use. Which part pays, and what share does she usually owe after the deductible?",
+     "a": "Part B, as durable medical equipment; she usually owes 20% of the Medicare-approved amount."
+    },
+    {
+     "q": "Which Medicare part requires most people to pay a monthly premium and can be declined at enrollment?",
+     "a": "Part B."
+    },
+    {
+     "q": "A retiree on Original Medicare asks what limits her 20% Part B coinsurance each year. What is the correct answer?",
+     "a": "Original Medicare has no annual out-of-pocket cap, which is why people buy Medicare supplement policies or choose Medicare Advantage."
+    }
+   ]
+  },
+  {
+   "n": "Medicare enrollment periods and late penalties",
+   "g": "medicare",
+   "s": "Missing the 7-month Initial Enrollment Period without creditable coverage leads to delayed coverage and permanent premium penalties, 10% per full 12 months for Part B and 1% per month for Part D.",
+   "o": [
+    "G-VII.A.1",
+    "G-VII.A.2",
+    "G-VII.A.3",
+    "G-VII.A.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>Per medicare.gov:</p><ul><li><b>Initial Enrollment Period (IEP):</b> 7 months: 3 months before the 65th birthday month, that month, and 3 months after.</li><li><b>General Enrollment Period:</b> January 1 to March 31 each year for those who missed the IEP; coverage starts the month after sign-up.</li><li><b>Special Enrollment Period (employer coverage):</b> runs up to 8 months after group coverage or employment ends, whichever is first. COBRA does not count as group coverage.</li><li><b>Open Enrollment:</b> October 15 to December 7; change Medicare Advantage or Part D plans, effective January 1.</li><li><b>Medicare Advantage Open Enrollment:</b> January 1 to March 31, only for people already in an MA plan.</li></ul><p><b>Penalties:</b> Part B adds 10% for each full 12-month period late, usually for life. Part D adds 1% of the national base beneficiary premium ($38.99 in 2026) per month without creditable drug coverage (a gap of 63 days or more), for as long as the person has Part D. Purchased Part A: 10% higher premium for twice the number of years late.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> COBRA. Staying on COBRA does not extend the Part B special enrollment window.</div><div class=\"trap\"><b>Trap:</b> Part B penalty counts full 12-month periods; Part D counts months.</div><div class=\"trap\"><b>Trap:</b> Open Enrollment (fall) is for changing plans, not for first enrolling in Part B after missing the IEP.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>2026: Lee delays Part B by 2 full years with no employer coverage. Penalty 20%: $202.90 x 1.20 = about $243.50 a month for as long as he has Part B.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A person turning 65 in July asks when her Initial Enrollment Period runs. What is the answer?",
+     "a": "April through October: 3 months before July, July, and 3 months after."
+    },
+    {
+     "q": "A retiree on COBRA after leaving a large employer waits until COBRA ends to sign up for Part B. What risk does he face?",
+     "a": "COBRA does not count as group coverage, so his special enrollment window may close and he can owe the Part B late penalty."
+    },
+    {
+     "q": "A Medicare beneficiary went 14 months without creditable drug coverage before joining Part D. How is the penalty figured?",
+     "a": "14% of the national base beneficiary premium, added to the monthly Part D premium for as long as she has Part D."
+    },
+    {
+     "q": "A Medicare beneficiary wants to switch from one Medicare Advantage plan to another for next January. Which window does she use?",
+     "a": "Open Enrollment, October 15 to December 7, with the change effective January 1."
+    }
+   ]
+  },
+  {
+   "n": "Medicare Part C (Medicare Advantage)",
+   "g": "medicare",
+   "s": "Medicare Advantage lets a beneficiary with Parts A and B receive Medicare benefits through a Medicare-approved private plan, usually a managed care network, instead of Original Medicare.",
+   "o": [
+    "G-VII.A.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Eligibility (medicare.gov):</b> must have both Part A and Part B and live in the plan's service area. The member keeps paying the Part B premium, plus any plan premium.</p><p><b>Design:</b> private insurers approved by Medicare cover at least what Parts A and B cover. Most plans also include Part D drug coverage (MA-PD) and some extras like dental or vision. Plans have an annual out-of-pocket limit, which Original Medicare lacks.</p><p><b>Plan types:</b> HMO, PPO, private fee-for-service, special needs plans and medical savings account plans. HMO-style plans use networks and referrals.</p><p><b>Changes:</b> Open Enrollment (October 15 to December 7) and Medicare Advantage Open Enrollment (January 1 to March 31).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Medicare Advantage is not a Medicare supplement. A Medigap policy fills gaps in Original Medicare; it does not work with an MA plan.</div><div class=\"trap\"><b>Trap:</b> Joining MA does not end the Part B premium.</div><div class=\"trap\"><b>Trap:</b> Part C is sold by private insurers; Parts A and B are run by the federal government.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Ana, 67, has Parts A and B and wants one card, a network of doctors, drug coverage and a cap on yearly costs. An MA-PD plan in her county fits. If she instead wants any doctor who takes Medicare with gaps covered, she would choose Original Medicare plus a Medicare supplement and a Part D plan.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"private insurer\", \"combines Parts A and B\", \"network\", \"Medicare Advantage\" point to Part C.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A beneficiary has only Part A and wants to join a Medicare Advantage plan. What must she do first?",
+     "a": "Enroll in Part B, because Medicare Advantage requires both Part A and Part B."
+    },
+    {
+     "q": "A Medicare Advantage enrollee asks whether she can stop paying her Part B premium. What is the answer?",
+     "a": "No; she must keep paying the Part B premium in addition to any plan premium."
+    },
+    {
+     "q": "Which Medicare part is delivered entirely through Medicare-approved private insurers and often uses HMO or PPO networks?",
+     "a": "Part C, Medicare Advantage."
+    }
+   ]
+  },
+  {
+   "n": "Medicare Part D (prescription drugs)",
+   "g": "medicare",
+   "s": "Part D is voluntary outpatient prescription drug coverage sold by Medicare-approved private plans, either stand-alone or inside a Medicare Advantage plan, with an annual out-of-pocket cap since 2025.",
+   "o": [
+    "G-VII.A.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>How to get it:</b> a stand-alone prescription drug plan (PDP) alongside Original Medicare, or a Medicare Advantage plan with drug coverage. Eligibility needs Part A or Part B.</p><p><b>2026 standard design (CMS):</b></p><ul><li>Deductible phase: enrollee pays full cost up to $615.</li><li>Initial coverage: enrollee pays 25% coinsurance until out-of-pocket spending reaches $2,100.</li><li>Catastrophic: enrollee pays nothing for the rest of the year.</li></ul><p>The old coverage gap (\"donut hole\") is gone under the redesign. Low-income enrollees can get Extra Help. Late enrollment adds a lifetime 1% per month penalty (see enrollment concept).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Prep books written before 2025 still describe the donut hole. Current rule: annual out-of-pocket cap, then $0.</div><div class=\"trap\"><b>Trap:</b> Part B covers some drugs given in a doctor's office or outpatient setting; Part D covers retail outpatient prescriptions.</div><div class=\"trap\"><b>Trap:</b> Employer drug coverage that is creditable avoids the penalty; non-creditable coverage does not.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>2026: Joe's drugs cost $12,000 for the year. He pays $615 deductible, then 25% until his out-of-pocket total reaches $2,100, then $0. His yearly cost stops at $2,100.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"prescription drug plan\", \"formulary\", \"creditable coverage\", \"late enrollment penalty of 1% per month\" point to Part D.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Medicare beneficiary in Original Medicare wants coverage for retail prescriptions. What does she buy?",
+     "a": "A stand-alone Medicare Part D prescription drug plan from a Medicare-approved private insurer."
+    },
+    {
+     "q": "A 2026 Part D enrollee has reached the annual out-of-pocket threshold in June. What does she pay for covered drugs the rest of the year?",
+     "a": "Nothing; the catastrophic phase has no enrollee cost sharing."
+    },
+    {
+     "q": "Which entity sells Part D coverage: the federal government, the state, or private insurers?",
+     "a": "Private insurers approved by Medicare."
+    }
+   ]
+  },
+  {
+   "n": "Medicaid",
+   "g": "social",
+   "s": "Medicaid is a joint federal-state program that pays medical and long-term care costs for people with limited income and assets, and it pays after every other source, including Medicare.",
+   "o": [
+    "G-VII.B"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Structure:</b> federal law sets minimums and shares funding; each state runs its own program and sets eligibility within federal rules. Eligibility is need-based (income and assets), not age-based.</p><p><b>What stands out on the exam:</b></p><ul><li>Medicaid pays long-term custodial nursing home care, which Medicare does not.</li><li>Payer of last resort: other insurance, including Medicare, pays first.</li><li>Dual eligibles have both: Medicare primary, Medicaid secondary, often covering Medicare premiums and cost sharing.</li><li>People may \"spend down\" assets to qualify for nursing home coverage.</li></ul><p>Texas specifics: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Medicare is the federal age and disability program; Medicaid is the need-based, state-administered one. Questions swap the names.</div><div class=\"trap\"><b>Trap:</b> A Medicare supplement policy is not sold to fill Medicaid gaps; Medicaid enrollees generally do not need one.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Walt, 82, is on Medicare and has spent his savings on care. He now qualifies for Medicaid. For a hospital stay Medicare Part A pays first and Medicaid picks up his deductible. When he moves into long-term custodial nursing home care, Medicaid becomes the main payer.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A 30-year-old with very low income and no assets needs health coverage. Which government program fits?",
+     "a": "Medicaid, because eligibility is based on income and assets, not age."
+    },
+    {
+     "q": "A person has both Medicare and Medicaid and is hospitalized. Which pays first?",
+     "a": "Medicare pays first; Medicaid is the payer of last resort."
+    },
+    {
+     "q": "Which government program is jointly funded by federal and state governments and administered by each state?",
+     "a": "Medicaid."
+    }
+   ]
+  },
+  {
+   "n": "Social Security disability (SSDI)",
+   "g": "social",
+   "s": "Social Security pays disability benefits only for total disability, meaning inability to do any substantial gainful activity because of an impairment expected to last at least 12 months or end in death, after a 5-month waiting period.",
+   "o": [
+    "G-VII.C",
+    "G-VIII.C"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Rules (SSA):</b></p><ul><li>Definition: unable to engage in any substantial gainful activity (SGA); impairment expected to last 12 months or result in death. No partial benefits.</li><li>Insured status: generally 40 work credits, 20 of them earned in the 10 years ending with the year disability begins; younger workers need fewer.</li><li>Waiting period: 5 full months before benefits begin.</li><li>Medicare starts after 24 months of benefit entitlement.</li><li>Dependents: unmarried children under 18 (19 if full-time in elementary or secondary school), disabled adult children, and a spouse 62+ or caring for a child under 16; total capped by a family maximum.</li><li>At full retirement age the benefit converts to a retirement benefit.</li></ul><p><b>2026 figures (SSA):</b> SGA $1,690 a month ($2,830 blind); trial work month $1,210.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> SSDI is stricter than most private policies: any gainful work, not the person's own occupation.</div><div class=\"trap\"><b>Trap:</b> The 5-month waiting period is not the 24-month Medicare wait; they run in sequence from the disability onset.</div><div class=\"trap\"><b>Trap:</b> Private disability policies often reduce benefits by Social Security amounts (social insurance offset).</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Maria becomes disabled in January. Benefits can start after 5 full months. Her 10-year-old son also draws a dependent benefit on her record until 18, or 19 if still in high school.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A surgeon loses fine motor control but can still work full time teaching at a medical school. Does she qualify for Social Security disability?",
+     "a": "No; SSDI requires inability to do any substantial gainful activity, not just her own occupation."
+    },
+    {
+     "q": "A worker's injury is expected to keep him from working for 8 months. Does Social Security disability apply?",
+     "a": "No; the impairment must be expected to last at least 12 months or result in death."
+    },
+    {
+     "q": "A disabled worker's 17-year-old daughter is a full-time high school senior. Until when can she receive dependent benefits on his record?",
+     "a": "Until age 19 if she remains a full-time elementary or secondary student."
+    },
+    {
+     "q": "A worker becomes disabled and qualifies for SSDI. How long before monthly benefits begin, and how long until Medicare?",
+     "a": "Benefits begin after a 5-month waiting period; Medicare begins after 24 months of benefit entitlement."
+    }
+   ]
+  },
+  {
+   "n": "Total disability: own occupation, any occupation, presumptive",
+   "g": "disability",
+   "s": "Whether an insured is totally disabled depends on the policy's definition: own occupation (cannot do the duties of his regular job), any occupation (cannot do any job suited to his education, training and experience), or presumptive (specified losses count as total automatically).",
+   "o": [
+    "G-VIII.A",
+    "G-VIII.A.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Own occupation (\"own occ\"):</b> most generous; benefits paid even if the insured works in another field.</li><li><b>Any occupation:</b> stricter; the insured is disabled only if unable to work in any occupation reasonably suited to education, training and experience. Social Security uses an even stricter any-work test.</li><li><b>Split definition:</b> own occupation for an initial period (often 2 to 5 years), then any occupation.</li><li><b>Presumptive disability:</b> loss of sight, hearing, speech or use of two limbs is treated as total disability, even if the insured returns to work.</li></ul><p>Benefits begin after the elimination period and run for the benefit period.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> \"Any occupation\" in a private policy is limited by education, training and experience; it does not mean any job at all.</div><div class=\"trap\"><b>Trap:</b> Own occupation pays even when the insured earns income elsewhere; that is not fraud.</div><div class=\"trap\"><b>Trap:</b> Presumptive disability does not require inability to work.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A dentist with a hand tremor becomes a dental school lecturer. Under own occ she collects full benefits. Under any occ she likely collects nothing, since teaching fits her training. Under a 2-year split definition she collects for 2 years, then benefits stop.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"regular occupation\" means own occ; \"education, training and experience\" means any occ; \"loss of sight\" or \"two limbs\" means presumptive.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A surgeon with an own-occupation policy can no longer operate and takes a full-time hospital administration job. Is he paid total disability benefits?",
+     "a": "Yes; under own occupation he is totally disabled because he cannot perform his own occupation, even though he works elsewhere."
+    },
+    {
+     "q": "An insured loses sight in both eyes but keeps working as a radio host. Under a presumptive disability clause, what does he receive?",
+     "a": "Full total disability benefits, because the specified loss is treated as total disability regardless of work."
+    },
+    {
+     "q": "A policy defines disability as own occupation for 24 months and then any occupation suited to education, training and experience. What is this called?",
+     "a": "A split definition of total disability."
+    }
+   ]
+  },
+  {
+   "n": "Partial, residual and recurrent disability",
+   "g": "disability",
+   "s": "Partial disability pays a reduced benefit for inability to do some job duties, residual disability pays in proportion to lost income, and a recurrent disability clause treats a relapse from the same cause soon after recovery as the same claim.",
+   "o": [
+    "G-VIII.A.2",
+    "G-VIII.A.3",
+    "G-VIII.A.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Partial:</b> the insured can do some but not all major duties, or works part-time. Policies usually pay a flat share of the total benefit (often half) for a limited time, frequently after total disability.</li><li><b>Residual:</b> benefit = (prior earnings minus current earnings) / prior earnings x total disability benefit. It is tied to income loss, not to duties.</li><li><b>Recurrent:</b> if the same or a related condition returns within a period named in the policy (commonly 6 months) after the insured goes back to work, it is a continuation of the prior claim: no new elimination period, and the benefit period picks up where it left off.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Partial uses a fixed percentage; residual uses a formula based on lost earnings. Confusing them is the classic distractor.</div><div class=\"trap\"><b>Trap:</b> A recurrence after the stated period, or from an unrelated cause, is a new claim with a new elimination period.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Residual: Kim earned $10,000 a month before her illness and now earns $6,000. Loss = 40%. Her total benefit is $5,000, so the residual benefit is 40% x $5,000 = $2,000 a month.</p><p>Recurrent: Dev returns to work after a back injury, then relapses 4 months later. His policy's recurrent window is 6 months, so benefits resume with no new elimination period.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy pays a benefit equal to the percentage of income lost times the full monthly benefit. Which provision is this?",
+     "a": "Residual disability."
+    },
+    {
+     "q": "An insured earned $8,000 a month, now earns $4,000, and has a $3,000 total disability benefit. What residual benefit is paid?",
+     "a": "50% income loss times $3,000, which is $1,500 a month."
+    },
+    {
+     "q": "An insured goes back to work, and the same condition disables him again within the policy's recurrent period. What happens to the elimination period?",
+     "a": "It is waived; the claim is treated as a continuation of the original disability."
+    },
+    {
+     "q": "An insured can perform some but not all of her main job duties and the policy pays a set 50% of the total benefit. Which provision applies?",
+     "a": "Partial disability."
+    }
+   ]
+  },
+  {
+   "n": "Owner's rights, beneficiaries and dependent children",
+   "g": "contract",
+   "s": "In an A&H policy the policyowner holds the contract rights, benefits generally go to the insured, a named beneficiary receives only death-type benefits such as AD&D, and a contingent beneficiary takes only if the primary has died.",
+   "o": [
+    "G-VIII.B",
+    "G-VIII.C",
+    "G-VIII.D"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Owner's rights:</b> pay premiums, choose and change the beneficiary (unless irrevocable), assign the policy, renew or cancel, and choose premium mode. The owner may be someone other than the insured, such as an employer on key employee coverage.</p><p><b>Beneficiaries:</b> the primary beneficiary collects first; the contingent (secondary) collects only if every primary has died before the insured. With no living beneficiary, proceeds go to the insured's estate. Under the uniform change of beneficiary provision, a revocable designation can be changed without the beneficiary's consent.</p><p><b>Dependent children:</b> medical plans cover children to age 26 under federal law; a disabled child who cannot support himself can stay on past the limiting age if proof is given; newborns are covered from birth for a set period. Texas specifics: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Disability and medical benefits are paid to the insured (or the provider by assignment), not the beneficiary.</div><div class=\"trap\"><b>Trap:</b> A contingent beneficiary gets nothing while any primary is alive.</div><div class=\"trap\"><b>Trap:</b> An irrevocable beneficiary must consent to changes.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Tom's AD&D policy names his wife as primary and his brother as contingent. Tom and his wife die in a crash and she dies first. The brother receives the death benefit.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An AD&D policy names a primary and a contingent beneficiary. The primary is alive when the insured dies accidentally. Who receives the benefit?",
+     "a": "The primary beneficiary; the contingent receives nothing."
+    },
+    {
+     "q": "A health policy owner wants to change a revocable beneficiary. Whose consent is needed?",
+     "a": "Only the owner's; a revocable beneficiary has no veto."
+    },
+    {
+     "q": "A covered child with a severe intellectual disability reaches the plan's limiting age and cannot support himself. What happens to his coverage?",
+     "a": "It can continue past the limiting age as long as he remains incapable of self-support and dependent, with proof given to the insurer."
+    },
+    {
+     "q": "A disability income policy pays monthly benefits. Who receives them while the insured is alive?",
+     "a": "The insured; beneficiaries matter only for death benefits."
+    }
+   ]
+  },
+  {
+   "n": "Premium modes",
+   "g": "contract",
+   "s": "The premium mode is how often premium is paid, and the more often the owner pays, the more he pays in total over a year because of added billing cost and lost interest to the insurer.",
+   "o": [
+    "G-VIII.E"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Modes:</b> annual, semiannual, quarterly, monthly (often by bank draft); some policies allow weekly. The owner chooses the mode and can usually change it, often on a policy anniversary.</p><p><b>Why annual is cheapest:</b> the insurer gets the money up front to invest and processes one bill. Modal factors load the other modes (for example, monthly at a percentage of the annual premium times 12, which totals more).</p><p><b>Grace period link:</b> the uniform A&H grace period provision ties grace length to the mode: at least 7 days for weekly premium, 10 days for monthly, 31 days for all others. Texas specifics: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Paying monthly does not change the coverage, only the total yearly cost.</div><div class=\"trap\"><b>Trap:</b> The insured is not necessarily the one who chooses the mode; the owner does.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Annual premium $1,200. The insurer's monthly factor is 0.09, so monthly premium is $108 and the year costs $1,296, which is $96 more than paying annually.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An owner wants the lowest total cost for a year of disability coverage. Which premium mode should he choose?",
+     "a": "Annual."
+    },
+    {
+     "q": "An A&H policy is paid monthly. Under the uniform provisions, what is the minimum grace period?",
+     "a": "10 days."
+    },
+    {
+     "q": "Two identical policies are billed annually and quarterly. Why does the quarterly one cost more over the year?",
+     "a": "More frequent billing adds administrative cost and the insurer loses interest on premium paid later."
+    }
+   ]
+  },
+  {
+   "n": "Coordination of benefits and nonduplication",
+   "g": "contract",
+   "s": "When a person has more than one medical plan, coordination of benefits names a primary plan that pays first as if alone and a secondary plan that pays remaining allowable expenses, so total payments never exceed 100% of the loss.",
+   "o": [
+    "G-VIII.F"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Order rules (Texas follows them in 28 TAC Sec. 3.3507):</b></p><ul><li>A plan with no COB provision is always primary.</li><li>The plan covering the person as employee is primary over the plan covering him as a dependent.</li><li>Children of married parents: the birthday rule. The plan of the parent whose birthday comes first in the calendar year is primary (year of birth does not matter; same birthday, the plan in force longer).</li><li>Children of divorced or separated parents: a court order controls; otherwise custodial parent, then custodial parent's spouse, then noncustodial parent, then that parent's spouse.</li><li>Active employee coverage is primary over retiree or COBRA coverage.</li><li>If still tied, the plan covering the person longer is primary; failing that, they split allowable expenses equally.</li></ul><p><b>Medicare as secondary payer:</b> a worker 65+ on an employer plan with 20 or more employees has the group plan primary; at smaller employers Medicare is primary.</p><p><b>Nonduplication:</b> an individual policy reduces or excludes benefits already paid by other coverage, such as Medicare, workers' compensation or another plan. Disability policies may offset Social Security.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The birthday rule uses month and day only; the older parent is not automatically primary.</div><div class=\"trap\"><b>Trap:</b> COB is mainly a group plan concept; individual policies more often use nonduplication or other-insurance provisions.</div><div class=\"trap\"><b>Trap:</b> The secondary plan pays only what remains of allowable expenses.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Pat is an employee with Plan A and a dependent on spouse's Plan B. A $5,000 bill: Plan A pays $4,000 under its terms. Plan B pays up to the remaining $1,000, never more than $5,000 total.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A child is covered by both parents' group plans. Mom's birthday is June 3, Dad's is March 15, and Mom is older. Which plan is primary?",
+     "a": "Dad's plan, because his birthday comes earlier in the calendar year."
+    },
+    {
+     "q": "A woman is covered as an employee under her plan and as a dependent under her husband's. Which plan pays first for her claim?",
+     "a": "Her own employee plan."
+    },
+    {
+     "q": "A 67-year-old still works for a 200-employee company and has its group plan plus Medicare. Which pays first?",
+     "a": "The employer group plan, because the employer has 20 or more employees."
+    },
+    {
+     "q": "What prevents an insured with two group medical plans from collecting more than 100% of a covered loss?",
+     "a": "Coordination of benefits."
+    },
+    {
+     "q": "A child's parents are divorced, no court order assigns health coverage, and the child lives with his mother, who has remarried. Which plan is primary for the child?",
+     "a": "The mother's plan as custodial parent, then her new spouse's plan, then the father's plan (28 TAC Sec. 3.3507)."
+    }
+   ]
+  },
+  {
+   "n": "Tax treatment of disability income and medical expense coverage",
+   "g": "tax",
+   "s": "For disability income, premiums paid with after-tax dollars make benefits tax-free and employer-paid premiums make benefits taxable, while medical expense benefits are tax-free reimbursement and premiums are deductible only through employer, self-employed or itemized routes.",
+   "o": [
+    "G-VIII.H",
+    "G-VIII.H.1",
+    "G-VIII.H.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Disability income (IRS):</b></p><ul><li>Individual pays the entire premium after tax: premiums not deductible, benefits not taxable.</li><li>Employer pays: premiums deductible by employer and not income to the employee; benefits taxable to the employee.</li><li>Shared cost: only the part of the benefit from employer payments is taxable.</li><li>Employee pays through a cafeteria plan pre-tax: treated as employer-paid, so benefits are taxable.</li><li>Key employee and disability buyout: premiums not deductible, benefits tax-free. Business overhead expense: premiums deductible, benefits taxable.</li></ul><p><b>Medical expense (IRS Topic 502):</b> employer-paid premiums are deductible to the employer and tax-free to the employee. Benefits received are not income. Individuals may deduct unreimbursed medical costs, including premiums, only above 7.5% of AGI if they itemize. Self-employed people deduct health premiums as an adjustment to income. Pre-tax premiums cannot also be deducted.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Medical benefits are never \"taxable because the employer paid\"; that rule is for disability income only.</div><div class=\"trap\"><b>Trap:</b> Paying through a cafeteria plan makes disability benefits taxable even though the employee funded them.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Erin's employer pays 60% of her group DI premium; she pays 40% after tax. She receives $3,000 a month while disabled. About $1,800 (60%) is taxable.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee pays the whole premium for an individual disability policy with after-tax money. How are benefits taxed?",
+     "a": "They are received tax-free."
+    },
+    {
+     "q": "An employer pays the full premium for group disability income coverage. How are the premiums and benefits treated?",
+     "a": "Premiums are deductible by the employer and not income to the employee; benefits are taxable to the employee."
+    },
+    {
+     "q": "An employee pays her disability premium through a cafeteria plan on a pre-tax basis. How are her benefits taxed?",
+     "a": "They are taxable, because pre-tax premiums are treated as employer-paid."
+    },
+    {
+     "q": "An individual who itemizes pays her own health insurance premiums. When can she deduct them?",
+     "a": "Only to the extent her total unreimbursed medical expenses exceed 7.5% of adjusted gross income."
+    }
+   ]
+  },
+  {
+   "n": "Managed care and cost control",
+   "g": "systems",
+   "s": "Managed care controls medical costs by combining a provider network, prepaid or negotiated payment and review of whether care is needed before, during and after it is delivered.",
+   "o": [
+    "G-VIII.I"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Network and gatekeeper:</b> HMO members choose a primary care physician who coordinates care and gives referrals to specialists; out-of-network care is generally not covered except emergencies. PPOs allow out-of-network care at higher cost; POS plans mix both.</li><li><b>Payment:</b> HMOs often pay providers by capitation, a fixed amount per member per month regardless of services used. PPOs pay negotiated discounted fees.</li><li><b>Utilization review:</b> prospective (preauthorization, precertification before admission), concurrent (during a hospital stay, with discharge planning) and retrospective (after care, reviewing claims).</li><li><b>Other tools:</b> second surgical opinions, case management for costly conditions, preventive care emphasis.</li></ul><p>Texas HMO rules: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Capitation pays per member, not per service; the provider bears the risk of overuse.</div><div class=\"trap\"><b>Trap:</b> Preauthorization is prospective review; a review after discharge is retrospective.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Lena's HMO pays her primary care physician a set monthly amount for her. She needs knee surgery: the PCP refers her to an in-network orthopedist, the plan preauthorizes the surgery, a nurse reviews her stay daily, and the plan arranges discharge to home care.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"fixed amount per member\" means capitation; \"gatekeeper\" means PCP in an HMO; \"before admission\" means prospective review.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A provider receives a fixed monthly payment for each enrolled member whether or not the member seeks care. What is this payment method called?",
+     "a": "Capitation."
+    },
+    {
+     "q": "A plan reviews a hospital stay while the patient is still admitted to plan discharge. Which type of utilization review is this?",
+     "a": "Concurrent review."
+    },
+    {
+     "q": "In an HMO, who controls access to specialists?",
+     "a": "The primary care physician, acting as gatekeeper through referrals."
+    }
+   ]
+  },
+  {
+   "n": "Workers' compensation, occupational coverage and subrogation",
+   "g": "systems",
+   "s": "Workers' compensation pays medical and income benefits for job-related injury and illness without regard to fault, which is why many health and disability policies exclude occupational losses, and subrogation lets an insurer that paid a claim recover from the party who caused it.",
+   "o": [
+    "G-VIII.G",
+    "G-VIII.J",
+    "G-VIII.K"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Workers' compensation:</b> state-law, no-fault coverage for injuries and illnesses arising out of employment. It pays medical care, income replacement and death benefits. In exchange, covered employers are largely shielded from employee lawsuits.</p><p><b>Texas (TDI):</b> private employers may choose whether to carry workers' compensation. Those that do not are nonsubscribers and must give employees notice and file reports with TDI's Division of Workers' Compensation. TDI says coverage limits an employer's liability if an employee sues. The exact defenses a nonsubscriber loses are in the Texas Labor Code, which was not confirmed here.</p><p><b>Occupational vs non-occupational:</b> an occupational policy covers on- and off-the-job losses; a non-occupational policy covers only off-the-job losses because workers' compensation covers the rest. Group A&H is usually non-occupational.</p><p><b>Subrogation:</b> after paying, the insurer takes the insured's right to recover from a negligent third party, which prevents the insured from being paid twice.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Workers' compensation does not depend on who was at fault.</div><div class=\"trap\"><b>Trap:</b> Subrogation rights belong to the insurer only up to what it paid.</div><div class=\"trap\"><b>Trap:</b> Non-occupational coverage excludes on-the-job injuries even when the employer has no workers' comp.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Raj is hit by a delivery truck while driving to the store on a Saturday. His group medical plan pays $20,000. The plan then uses subrogation to recover $20,000 from the truck company's liability insurer.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A group disability policy pays only for injuries and illnesses that happen off the job. What type of coverage is this?",
+     "a": "Non-occupational coverage."
+    },
+    {
+     "q": "A health insurer pays an insured's bills after a car crash, then recovers the amount from the at-fault driver's insurer. What right did it use?",
+     "a": "Subrogation."
+    },
+    {
+     "q": "An employee is hurt at work through her own carelessness. Does workers' compensation still pay?",
+     "a": "Yes; workers' compensation is no-fault."
+    },
+    {
+     "q": "A Texas private employer decides not to carry workers' compensation. What is it called under TDI terminology?",
+     "a": "A nonsubscriber."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "CMS: 2026 Medicare Parts A & B Premiums and Deductibles",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-parts-b-premiums-deductibles"
+  },
+  {
+   "title": "CMS: Final CY 2026 Part D Redesign Program Instructions",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions"
+  },
+  {
+   "title": "Medicare.gov: When does Medicare coverage start?",
+   "url": "https://medicare.gov/basics/get-started-with-medicare/sign-up/when-does-medicare-coverage-start"
+  },
+  {
+   "title": "Medicare.gov: Avoid late enrollment penalties",
+   "url": "https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties"
+  },
+  {
+   "title": "Medicare.gov: Joining a plan",
+   "url": "https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan"
+  },
+  {
+   "title": "Medicare.gov: 3 ways to avoid the Part D late enrollment penalty",
+   "url": "https://www.medicare.gov/drug-coverage-part-d/costs-for-medicare-drug-coverage/part-d-late-enrollment-penalty/3-ways-to-avoid-the-part-d-late-enrollment-penalty"
+  },
+  {
+   "title": "SSA: 2026 Social Security Changes fact sheet",
+   "url": "https://www.ssa.gov/cola/factsheets/2026.html"
+  },
+  {
+   "title": "SSA: Annual Statistical Report on the SSDI Program, 2024 (program background)",
+   "url": "https://www.ssa.gov/policy/docs/statcomps/di_asr/2024/background.html"
+  },
+  {
+   "title": "SSA: How does someone become eligible for disability?",
+   "url": "https://www.ssa.gov/benefits/disability/qualify.html"
+  },
+  {
+   "title": "IRS: Life insurance and disability insurance proceeds FAQ",
+   "url": "https://irs.gov/faqs/interest-dividends-other-types-of-income/life-insurance-disability-insurance-proceeds"
+  },
+  {
+   "title": "IRS: Topic no. 502, Medical and dental expenses",
+   "url": "https://irs.gov/taxtopics/tc502"
+  },
+  {
+   "title": "TDI: Workers' compensation non-subscribers",
+   "url": "https://www.tdi.texas.gov/WC/nonsubscriber.html"
+  },
+  {
+   "title": "TDI: Employer FAQ (workers' compensation)",
+   "url": "https://tdi.texas.gov/WC/employer/employerfaq.html"
+  },
+  {
+   "title": "28 TAC Sec. 3.3507: Rules for coordination of benefits and order of benefits (Justia)",
+   "url": "https://regulations.justia.com/states/texas/title-28/part-1/chapter-3/subchapter-v/section-3-3507"
+  },
+  {
+   "title": "CMS: 2026 Medicare Part D bid information (base beneficiary premium $38.99)",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-part-d-bid-information-and-part-d-premium-stabilization-demonstration-parameters"
+  }
+ ]
+}

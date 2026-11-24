@@ -1,0 +1,740 @@
+{
+ "id": "healthprovisions",
+ "title": "Health provisions & renewability",
+ "updated": "2026-11-23",
+ "refreshDays": 365,
+ "note": "What this tab covers: the uniform provisions in an individual accident and health policy (mandatory and optional), other policy terms (insuring clause, free look, waiting periods, exclusions, cost sharing), riders, and renewability types. Where Texas Insurance Code Chapter 1201 sets the same or a different clock, the Texas section is named in the text. Last checked 2026-11-23 against the Texas Insurance Code, the NAIC model law and federal ACA pages. Recheck once a year.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "mandatory",
+   "label": "Mandatory uniform provisions"
+  },
+  {
+   "key": "optional",
+   "label": "Optional uniform provisions"
+  },
+  {
+   "key": "policy_terms",
+   "label": "Other policy terms"
+  },
+  {
+   "key": "cost_sharing",
+   "label": "Cost sharing"
+  },
+  {
+   "key": "riders",
+   "label": "Riders"
+  },
+  {
+   "key": "renewability",
+   "label": "Renewability"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map of the A&H contract",
+   "g": "map",
+   "s": "An individual health policy is built from four layers: the uniform provisions every policy must or may contain, the policy's own benefit terms, riders that modify it, and a renewability clause that decides who controls the policy's future.",
+   "o": [
+    "G-VI.A",
+    "G-VI.B",
+    "G-VI.C",
+    "G-VI.D"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ol style=\"padding-left:18px;margin:0 0 8px\"><li><b>Uniform provisions</b> (NAIC Uniform Individual Accident and Sickness Policy Provision Law, adopted in Texas in Insurance Code Chapter 1201). Mandatory ones protect the insured: grace, reinstatement, claim deadlines, legal actions. Optional ones mostly protect the insurer: change of occupation, misstatement of age, illegal occupation, relation of earnings.</li><li><b>Benefit terms</b>: insuring clause, consideration, waiting periods, exclusions, and the cost-sharing math (deductible, coinsurance, copay, maximums, UCR).</li><li><b>Riders</b>: impairment (exclusion), guaranteed insurability, future increase option.</li><li><b>Renewability</b>: a ladder from cancelable (insurer controls) to noncancelable (insured controls).</li></ol>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mixing up which side a provision favors. Grace period and reinstatement favor the insured; the optional provisions let the insurer cut or adjust benefits.</div><div class=\"trap\"><b>Trap:</b> The life insurance grace rule (31 days on every mode) bleeds into health answers. Health grace depends on premium mode: 7, 10 or 31 days.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A sole proprietor buys a disability income policy. The uniform provisions set how long he has to report a claim. The elimination period sets when benefits start. A future increase option rider lets him raise the benefit later. The noncancelable clause locks his premium to age 65.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Most questions give a scenario and a timeframe, then ask which provision applies. Learn each provision as a pair: its number and whose side it is on.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which category of provisions, mandatory or optional, contains the change of occupation and misstatement of age clauses?",
+     "a": "Optional uniform provisions. They let the insurer adjust benefits and are included at the insurer's choice."
+    },
+    {
+     "q": "Which renewability type gives the insured the most control over the policy's future?",
+     "a": "Noncancelable. The insurer cannot cancel, refuse renewal, or raise the premium up to the stated age."
+    },
+    {
+     "q": "A provision requires the insured to report a loss within 20 days. Is that a mandatory uniform provision, a benefit term, or a rider?",
+     "a": "A mandatory uniform provision (notice of claim)."
+    }
+   ]
+  },
+  {
+   "n": "Entire contract, time limit on certain defenses, change of beneficiary",
+   "g": "mandatory",
+   "s": "The policy plus the attached application is the whole contract, only an executive officer can change it, misstatements other than fraud become uncontestable after the stated period, and the insured can change a revocable beneficiary without consent.",
+   "o": [
+    "G-VI.A.1",
+    "G-VI.A.2",
+    "G-VI.A.12"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Entire contract; changes:</b> the policy, endorsements and attached papers are the entire contract. A change is valid only if an executive officer approves it and it is endorsed on or attached to the policy. No agent can change the policy or waive a provision.</li><li><b>Time limit on certain defenses:</b> after the stated period, the insurer cannot void the policy or deny a claim for a non-fraudulent misstatement in the application, or deny for a preexisting condition not excluded by name. The current NAIC model text says three years; Texas Insurance Code Sec. 1201.208 says after the second anniversary of issue, so use two years on the Texas exam. A guaranteed renewable form may use an \"Incontestable\" version that bars even fraud defenses after the period.</li><li><b>Change of beneficiary:</b> the insured may change the beneficiary unless the designation is irrevocable. The beneficiary's consent is not needed.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> An agent's promise that something is covered does not change the contract. Only an executive officer, in writing, can.</div><div class=\"trap\"><b>Trap:</b> Fraud is not cured by the time limit in the standard version. Innocent misstatements are.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant forgets to list a past knee sprain. Three years later she claims for knee surgery. The insurer cannot deny based on the omission because it was not fraudulent and the time limit has run.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent tells an applicant orally that the insurer will waive a policy exclusion. Which provision makes that promise unenforceable?",
+     "a": "The entire contract provision, which says only an executive officer can change the policy and no agent can waive a provision."
+    },
+    {
+     "q": "An insured innocently misstated a medical fact on the application. After the time limit runs, what can the insurer still contest?",
+     "a": "Only fraudulent misstatements in the standard version; non-fraudulent misstatements can no longer void the policy or deny a claim."
+    },
+    {
+     "q": "Under Texas Insurance Code Sec. 1201.208, how long after issue does the time limit on certain defenses run for an individual A&H policy?",
+     "a": "Two years."
+    },
+    {
+     "q": "An insured wants to change a revocable beneficiary. Whose consent is required?",
+     "a": "No one's; the insured may change a revocable beneficiary without the beneficiary's consent."
+    }
+   ]
+  },
+  {
+   "n": "Grace period and reinstatement",
+   "g": "mandatory",
+   "s": "The grace period keeps coverage in force for 7, 10 or 31 days after a missed premium depending on payment mode, and reinstatement after a lapse covers accidents at once but sickness only after 10 days.",
+   "o": [
+    "G-VI.A.3",
+    "G-VI.A.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Grace period</b> (NAIC model minimums): 7 days for weekly premiums, 10 days for monthly, 31 days for all other modes. Coverage stays in force during grace; an unpaid premium can be deducted from a claim paid in that window.</li><li><b>Reinstatement:</b> if the insurer or agent accepts a late premium without requiring an application, the policy is reinstated. If an application is required and a conditional receipt issued, the policy is reinstated when approved, or automatically on the 45th day after the receipt unless the insurer disapproves first.</li><li>After reinstatement, accidental injury is covered immediately. Sickness is covered only if it begins more than 10 days after reinstatement. Premium paid on reinstatement cannot be applied to a period more than 60 days before the reinstatement date.</li><li>Texas Insurance Code Secs. 1201.209 and 1201.210 use these same figures (7/10/31 days, 45th day, 10 days, 60 days).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Using the life insurance rule (31 days on every mode) for a monthly health premium. Monthly is 10 days.</div><div class=\"trap\"><b>Trap:</b> Thinking reinstatement covers sickness the next day. The 10-day wait stops people from reinstating only once they feel sick.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A monthly-pay policy has a premium due June 1. The insured is hospitalized June 8 and pays June 9. Coverage was in force throughout because the 10-day grace period had not ended. If she had let it lapse and reinstated July 15, a flu starting July 20 would not be covered; a fall on July 16 would be.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy is paid monthly. How long is the minimum grace period under the uniform provisions?",
+     "a": "10 days."
+    },
+    {
+     "q": "An insurer requires a reinstatement application and issues a conditional receipt, then neither approves nor declines. When is the policy reinstated?",
+     "a": "Automatically on the 45th day after the conditional receipt."
+    },
+    {
+     "q": "A reinstated insured breaks an arm 2 days after reinstatement and gets pneumonia 5 days after. Which loss is covered?",
+     "a": "The broken arm. Accidents are covered at once; sickness only if it begins more than 10 days after reinstatement."
+    },
+    {
+     "q": "A quarterly-pay health policy premium is missed. How long is the grace period?",
+     "a": "31 days, the period for all modes other than weekly and monthly."
+    }
+   ]
+  },
+  {
+   "n": "The claim clock: notice, claim forms, proof of loss",
+   "g": "mandatory",
+   "s": "The insured gives notice within 20 days, the insurer sends forms within 15 days of notice, and the insured files proof of loss within 90 days, with late proof allowed up to one year after that if timely filing was not reasonably possible.",
+   "o": [
+    "G-VI.A.5",
+    "G-VI.A.6",
+    "G-VI.A.7"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Notice of claim:</b> written notice within 20 days after the loss occurs, or as soon as reasonably possible. Notice to an authorized agent counts as notice to the insurer. Texas Insurance Code Sec. 1201.211 phrases it as before the 21st day; Secs. 1201.212 and 1201.213 likewise say forms before the 16th day and proof before the 91st day.</li><li><b>Claim forms:</b> the insurer must furnish forms within 15 days after notice. If it does not, the claimant complies by sending written proof covering the occurrence, character and extent of the loss.</li><li><b>Proof of loss:</b> within 90 days after the loss (for periodic disability payments, 90 days after each period). Late proof is not reduced or denied if it was not reasonably possible to file on time and is filed as soon as reasonably possible, and, absent legal incapacity, no later than one year after it was otherwise due.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Swapping 15 and 20. The insured has 20 days for notice; the insurer has 15 days for forms. The insured's deadline is longer.</div><div class=\"trap\"><b>Trap:</b> Missing a form deadline does not kill a claim. If the insurer is late with forms, any written proof suffices.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Loss on March 1. Notice due by March 21. Insurer must send forms within 15 days of notice. Proof due by about May 30 (90 days). If the insured was in a coma, proof can still be accepted up to one year past that date.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "After a loss, which party has 15 days to act and what must it do?",
+     "a": "The insurer must send claim forms within 15 days after receiving notice."
+    },
+    {
+     "q": "An insurer never sends claim forms. How does the claimant satisfy proof of loss?",
+     "a": "By sending written proof of the occurrence, character and extent of the loss within the proof deadline."
+    },
+    {
+     "q": "Within how many days after a loss must proof of loss normally be filed?",
+     "a": "90 days."
+    },
+    {
+     "q": "An insured cannot file proof within 90 days because she is incapacitated. What is the outer limit for late proof if she is not legally incapacitated?",
+     "a": "One year after the proof was otherwise required."
+    }
+   ]
+  },
+  {
+   "n": "Paying claims: time of payment, payee, exam and autopsy",
+   "g": "mandatory",
+   "s": "Benefits are paid promptly on proof of loss to the insured or, for death benefits, to the beneficiary or estate, and while a claim is pending the insurer may examine the insured and, where law allows, perform an autopsy at its own expense.",
+   "o": [
+    "G-VI.A.8",
+    "G-VI.A.9",
+    "G-VI.A.10"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Time of payment of claims:</b> the NAIC model says non-periodic benefits are paid immediately on receipt of due proof; periodic benefits (disability income) are paid at least monthly, with any balance paid on proof. Texas Insurance Code Sec. 1201.214 uses the same wording.</li><li><b>Payment of claims:</b> to the insured while living. Loss of life benefits go to the beneficiary, or to the estate if no beneficiary is effective. An optional facility-of-payment clause lets the insurer pay a small sum (up to $1,000 in the NAIC model and in Texas Sec. 1201.215) to a relative when the payee is a minor, incompetent or the estate. The insurer may also pay hospital or medical benefits directly to the provider.</li><li><b>Physical examination and autopsy:</b> at the insurer's expense, as often as reasonably required while a claim is pending, and an autopsy in case of death unless state law forbids it.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking the insured pays for the claim exam. The insurer pays.</div><div class=\"trap\"><b>Trap:</b> Thinking the insurer can demand exams after the claim is closed or before it is filed. The right exists only while the claim is pending.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A disability claimant receives monthly checks. The insurer suspects recovery and schedules an independent medical exam. It may do so at its own cost while the claim is open.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A disability insurer wants an independent exam of a claimant receiving benefits. Who pays for it?",
+     "a": "The insurer; the physical exam provision makes exams at the insurer's expense while a claim is pending."
+    },
+    {
+     "q": "An insured dies with no living beneficiary named. Where does the accidental death benefit go?",
+     "a": "To the insured's estate."
+    },
+    {
+     "q": "Under the time of payment provision, how often must disability income benefits be paid at minimum?",
+     "a": "At least monthly."
+    },
+    {
+     "q": "Which mandatory provision lets the insurer request an autopsy, and what can block it?",
+     "a": "The physical examination and autopsy provision; state law that forbids autopsy blocks it."
+    }
+   ]
+  },
+  {
+   "n": "Legal actions",
+   "g": "mandatory",
+   "s": "The insured cannot sue the insurer until 60 days after filing proof of loss and cannot sue more than three years after proof was required.",
+   "o": [
+    "G-VI.A.11"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>The 60-day wait gives the insurer time to investigate and pay before litigation. The three-year outer limit is measured from the date proof of loss was due, not from the date of the loss. The NAIC model text sets both figures. Texas Insurance Code Sec. 1201.217 matches: no suit before the 61st day after proof is provided, and none after three years from when proof was required.</p><p>Read it together with the claim clock: loss, then 20-day notice, 15-day forms, 90-day proof, then a 60-day no-suit window, then a three-year window to sue.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Counting the three years from the date of loss. It runs from when proof of loss was required.</div><div class=\"trap\"><b>Trap:</b> Answering 30 days or 90 days for the wait. It is 60 days after proof is furnished.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Loss on January 1. Proof required by April 1; the insured files it March 1. Earliest suit: April 30 (60 days after March 1). Latest suit: about April 1, three years later.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A claimant files proof of loss and the insurer has not paid. How long must she wait before she can sue?",
+     "a": "60 days after proof of loss was furnished."
+    },
+    {
+     "q": "From what date is the three-year limit on lawsuits measured?",
+     "a": "From the date proof of loss was required."
+    },
+    {
+     "q": "Which provision gives the insurer a window to investigate before it can be sued?",
+     "a": "The legal actions provision, which bars suit until 60 days after proof of loss."
+    }
+   ]
+  },
+  {
+   "n": "Misstatement of age or gender and change of occupation",
+   "g": "optional",
+   "s": "When age is misstated or the insured moves to a riskier job, the insurer does not void the policy but adjusts benefits to what the premium paid would have bought under the true facts.",
+   "o": [
+    "G-VI.A.13",
+    "G-VI.A.14"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Misstatement of age:</b> if age is misstated, benefits become the amount the premium paid would have purchased at the correct age. The NAIC model names age; exam material and many policies apply the same adjustment to a misstated sex or gender because it also drives the rate.</li><li><b>Change of occupation:</b> if the insured switches to a more hazardous occupation and a loss occurs, the insurer pays the benefit the premium would have bought at the riskier class rate. If the insured switches to a less hazardous job, the insurer reduces the rate and refunds the excess premium from the date of the change.</li><li>Both are optional, so they apply only if the policy includes them. They matter most in disability income and accident policies, where job class drives the rate.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Picking \"the policy is void\" or \"the claim is denied\". The remedy is a benefit adjustment, never cancellation.</div><div class=\"trap\"><b>Trap:</b> Thinking misstatement of age is cured by the time limit on certain defenses. The age adjustment applies at any time.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A carpenter buys disability income at the premium for his class. He becomes a high-rise window washer and is hurt. The premium buys only 60 percent as much benefit at the window-washer rate, so the insurer pays 60 percent of the stated benefit.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insured understated her age by four years and files a claim. What does the insurer do?",
+     "a": "Pays the benefit the premium paid would have bought at her correct age."
+    },
+    {
+     "q": "An office worker becomes a commercial fisherman and is injured. Which provision lets the insurer reduce the benefit?",
+     "a": "Change of occupation; it pays what the premium would buy at the more hazardous rate."
+    },
+    {
+     "q": "An insured moves from a hazardous job to a desk job. What does the change of occupation provision require of the insurer?",
+     "a": "It reduces the premium rate and refunds the excess premium from the date of the change."
+    },
+    {
+     "q": "Are misstatement of age and change of occupation mandatory or optional uniform provisions?",
+     "a": "Optional."
+    }
+   ]
+  },
+  {
+   "n": "Illegal occupation and the other optional provisions",
+   "g": "optional",
+   "s": "The illegal occupation provision denies a loss caused in part by the insured committing a felony or working in an illegal occupation, and the other optional provisions handle overinsurance, unpaid premium, intoxicants and conflicts with state law.",
+   "o": [
+    "G-VI.A.15"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Illegal occupation:</b> no liability for a loss to which a contributing cause was the insured's commission of or attempt to commit a felony, or engagement in an illegal occupation. The illegal act must contribute to the loss.</li><li><b>Intoxicants and narcotics:</b> no liability for loss sustained while intoxicated or under a narcotic not taken on a physician's advice. The NAIC model bars this one from medical expense policies.</li><li><b>Other insurance in this insurer</b> and <b>insurance with other insurers:</b> limit total benefits when the insured is overinsured; excess premium is returned.</li><li><b>Unpaid premium:</b> a premium due and unpaid can be deducted from a claim payment.</li><li><b>Conformity with state statutes:</b> any provision that conflicts with the insured's state law is automatically amended to meet that law's minimum.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Denying a claim just because the insured has an illegal job. The illegal activity has to be a contributing cause of the loss.</div><div class=\"trap\"><b>Trap:</b> Calling conformity with state statutes mandatory. It is optional in the model list, though commonly included.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An insured who runs an unlicensed gambling operation slips on ice at the grocery store. The job did not contribute to the fall, so illegal occupation does not apply. If he is shot during a robbery he is committing, it does.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insured is injured while fleeing police after a burglary he committed. Which optional provision lets the insurer deny the claim?",
+     "a": "Illegal occupation, because committing a felony contributed to the loss."
+    },
+    {
+     "q": "A policy clause conflicts with the insured's state law. Which provision fixes it, and how?",
+     "a": "Conformity with state statutes; the clause is automatically amended to meet the state's minimum requirement."
+    },
+    {
+     "q": "A claim is paid during the grace period before the overdue premium arrives. Which provision lets the insurer subtract that premium?",
+     "a": "The unpaid premium provision."
+    }
+   ]
+  },
+  {
+   "n": "Relation of earnings to insurance",
+   "g": "optional",
+   "s": "In disability income policies, relation of earnings to insurance lets the insurer cut benefits when total disability benefits from all valid coverage exceed the insured's earnings, refunding premium for the excess.",
+   "o": [
+    "G-VI.A.16"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>Overinsurance creates an incentive to stay disabled. This optional provision compares total monthly disability benefits from all valid coverage with the insured's earnings: the greater of monthly earnings when disability began or average monthly earnings over the two years before. If benefits exceed earnings, this insurer pays only its proportionate share, and it refunds premium paid for the excess during those two years.</p><p>A floor protects small policies: Texas Insurance Code Sec. 1201.222 bars cutting the combined benefit below $200 a month or the sum of the stated monthly benefits, whichever is less (the current NAIC model, which calls the clause overinsurance, uses $300). The floor amount is rarely tested.</p><p>It applies only to disability income (loss of time) coverage, never to medical expense.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Applying it to medical expense or hospital policies. It is a disability income clause.</div><div class=\"trap\"><b>Trap:</b> Calling it a coordination of benefits rule. COB is a group medical concept; relation of earnings is an individual DI optional provision.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Earnings: $4,000 a month. Policy A pays $3,000; policy B (this insurer) pays $3,000, total $6,000. Benefits are capped at earnings, so B's share is 3,000/6,000 of $4,000 = $2,000. B pays $2,000 and refunds premium for the excess $1,000 of coverage.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insured has two disability policies whose benefits together exceed his income. Which optional provision lets an insurer reduce its benefit?",
+     "a": "Relation of earnings to insurance."
+    },
+    {
+     "q": "Under relation of earnings to insurance, what earnings figure is used?",
+     "a": "The greater of monthly earnings when disability began or average monthly earnings over the prior two years."
+    },
+    {
+     "q": "When an insurer reduces benefits under relation of earnings, what else must it do?",
+     "a": "Refund the premium paid for the excess coverage."
+    },
+    {
+     "q": "Which type of health coverage does relation of earnings to insurance apply to?",
+     "a": "Disability income (loss of time) coverage only."
+    }
+   ]
+  },
+  {
+   "n": "Insuring clause, consideration, free look",
+   "g": "policy_terms",
+   "s": "The insuring clause states the insurer's promise and scope, consideration is the exchange of application statements and premium for that promise, and the free look lets the owner return the policy for a full refund.",
+   "o": [
+    "G-VI.B.1",
+    "G-VI.B.2",
+    "G-VI.B.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Insuring clause:</b> names the parties and states what the insurer promises to pay for (accident only, or accident and sickness) and on what terms. It is the heart of the policy and is usually on the first page.</li><li><b>Consideration clause:</b> the insured's consideration is the statements in the application plus payment of the first premium. The insurer's consideration is its promise to pay. It also states the premium amount and due dates.</li><li><b>Free look:</b> the owner may return the policy within a set period after delivery for a full premium refund, and the policy is void from the start. The common national figure for individual health is 10 days; Medicare supplement and long-term care use 30 days. Texas specifics: see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Treating the application alone as consideration. It is the application statements plus the first premium.</div><div class=\"trap\"><b>Trap:</b> Counting the free look from the application date. It runs from delivery.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A buyer receives a policy on May 5, rereads it, and finds it excludes the procedure he wanted. He returns it within the free-look period and gets every dollar of premium back; the policy is treated as never in force.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which clause states who is covered and for what kinds of losses the insurer will pay?",
+     "a": "The insuring clause."
+    },
+    {
+     "q": "What is the insured's consideration in a health insurance contract?",
+     "a": "The statements in the application and payment of the first premium."
+    },
+    {
+     "q": "A new policyowner returns a policy during the free look. What does she receive?",
+     "a": "A full refund of premium, with the policy void from the start."
+    },
+    {
+     "q": "When does the free-look period begin?",
+     "a": "On delivery of the policy."
+    }
+   ]
+  },
+  {
+   "n": "Probationary period, elimination period, waiver of premium",
+   "g": "policy_terms",
+   "s": "A probationary period delays coverage for sickness after the policy starts, an elimination period delays disability benefits after a disability starts, and waiver of premium stops premiums once the insured has been disabled past a waiting period.",
+   "o": [
+    "G-VI.B.4",
+    "G-VI.B.5",
+    "G-VI.B.6"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Probationary period:</b> runs from the policy's effective date; no benefits for sickness during it, accidents covered at once. It screens out conditions already developing. In group plans the term also means the wait before a new employee is eligible to enroll.</li><li><b>Elimination period:</b> runs from the start of each disability; it works as a deductible measured in time. A longer elimination period means a lower premium.</li><li><b>Waiver of premium:</b> in disability income it is often built in; after the insured is totally disabled for a stated period (commonly 90 days or 6 months), premiums are waived while disability continues, and premiums paid during the waiting period are usually refunded. Premiums resume on recovery.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mixing up the two periods. Probationary: once, from the policy date, sickness only. Elimination: each disability, from the disability date.</div><div class=\"trap\"><b>Trap:</b> Thinking waiver of premium pays the benefit. It only stops the premium.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A DI policy has a 90-day elimination period. The insured becomes disabled on day 400 of coverage. Benefits begin after 90 days of continuous disability. With waiver of premium after 90 days, his premiums also stop, and the ones paid during those 90 days are refunded.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A disability income buyer wants a lower premium and has savings to cover several months without pay. Which policy feature should she lengthen?",
+     "a": "The elimination period."
+    },
+    {
+     "q": "A policy has a 30-day probationary period. The insured is injured in a car crash on day 10. Is the injury covered?",
+     "a": "Yes; probationary periods apply to sickness, and accidents are covered from the start."
+    },
+    {
+     "q": "Which period is a deductible expressed in time and repeats with each new disability?",
+     "a": "The elimination period."
+    },
+    {
+     "q": "An insured has been totally disabled past the waiting period stated in the policy. Which provision stops his premiums?",
+     "a": "Waiver of premium."
+    }
+   ]
+  },
+  {
+   "n": "Exclusions, limitations and preexisting conditions",
+   "g": "policy_terms",
+   "s": "Exclusions remove risks from coverage entirely, limitations cap or condition coverage, and preexisting condition exclusions still appear in non-ACA products but are barred from ACA-compliant major medical.",
+   "o": [
+    "G-VI.B.7",
+    "G-VI.B.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Typical exclusions:</b> war or military service, intentional self-inflicted injury, cosmetic surgery, injury covered by workers' compensation, care in a government facility, and for DI, normal pregnancy in older forms.</li><li><b>Limitations:</b> coverage applies but is reduced or capped, such as a visit limit or a lower benefit for mental health in older non-ACA forms.</li><li><b>Preexisting condition:</b> HealthCare.gov defines it as a health problem you had before new coverage starts. Under the ACA, insurers cannot refuse to cover treatment for it or charge more. Grandfathered individual plans bought on or before March 23, 2010 are not bound by this rule. Disability income, long-term care, Medicare supplement and other non-major-medical products may still exclude preexisting conditions for a period, and after the time limit on certain defenses runs the insurer cannot deny for a preexisting condition not excluded by name.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Answering that a major medical plan sold today can exclude a preexisting condition. ACA plans cannot.</div><div class=\"trap\"><b>Trap:</b> Confusing exclusion with limitation. An excluded item gets nothing; a limited item gets something, capped.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant with diabetes buys an ACA marketplace plan: insulin and treatment are covered from day one at standard rates. She also buys a DI policy that excludes disability from diabetes for 12 months. Both are lawful.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An injury occurred on the job and is covered by workers' compensation. How does a typical individual health policy treat it?",
+     "a": "As an exclusion; the health policy does not pay for losses covered by workers' compensation."
+    },
+    {
+     "q": "A plan pays for 20 physical therapy visits a year and no more. Is that an exclusion or a limitation?",
+     "a": "A limitation, because coverage exists but is capped."
+    },
+    {
+     "q": "A consumer with cancer applies for an ACA-compliant individual major medical plan. What can the insurer do about the cancer?",
+     "a": "Nothing different; it cannot refuse coverage, exclude treatment, or charge more for the preexisting condition."
+    },
+    {
+     "q": "Which kind of individual medical plan is not required to cover preexisting conditions under the ACA?",
+     "a": "A grandfathered individual plan bought on or before March 23, 2010."
+    }
+   ]
+  },
+  {
+   "n": "Cost sharing: deductible, coinsurance, copay, maximums",
+   "g": "cost_sharing",
+   "s": "The insured pays the deductible first, then shares remaining eligible costs by the coinsurance split until the out-of-pocket maximum, with flat copays for routine services and lifetime, annual or per-cause caps limiting what the insurer pays.",
+   "o": [
+    "G-VI.B.9",
+    "G-VI.B.10",
+    "G-VI.B.12",
+    "G-VI.B.15"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Deductible:</b> a dollar amount the insured pays before the plan pays. Calendar-year deductibles reset each January. Higher deductible, lower premium.</li><li><b>Coinsurance:</b> the percentage split after the deductible, such as 80/20 (insurer/insured). A stop-loss or out-of-pocket maximum caps the insured's share; after it the plan pays 100 percent.</li><li><b>Copayment:</b> a flat fee per service (office visit, prescription), typically not applied toward the deductible.</li><li><b>Maximums:</b> lifetime, annual, or per-cause (per illness or injury) caps on what the insurer pays. HealthCare.gov states insurers cannot set lifetime or yearly dollar limits on essential health benefits; lifetime limits are barred even in grandfathered plans, yearly limits in all but grandfathered individual plans. Caps remain lawful on non-essential benefits and in non-ACA products.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Applying coinsurance before the deductible. Deductible first, then the split.</div><div class=\"trap\"><b>Trap:</b> Reading 80/20 as the insured paying 80. The insurer pays the larger share.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Bill: $12,000 eligible. Deductible $1,000; 80/20; out-of-pocket max $3,000. Insured pays $1,000, then 20 percent of $11,000 = $2,200, total $3,200. That exceeds the $3,000 cap, so the insured pays $3,000 and the insurer $9,000.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A $6,000 eligible claim, $500 deductible, 80/20 coinsurance, no cap reached. What does the insured pay?",
+     "a": "$1,600: the $500 deductible plus 20 percent of $5,500 ($1,100)."
+    },
+    {
+     "q": "Which cost-sharing feature limits the insured's total coinsurance exposure in a year?",
+     "a": "The stop-loss or out-of-pocket maximum."
+    },
+    {
+     "q": "A plan charges $25 for each office visit regardless of the bill. What is this called?",
+     "a": "A copayment."
+    },
+    {
+     "q": "A plan pays at most $50,000 for any one illness. Which type of maximum is this?",
+     "a": "A per-cause maximum."
+    }
+   ]
+  },
+  {
+   "n": "Eligible expenses, UCR and pre-authorization",
+   "g": "cost_sharing",
+   "s": "Plans pay only eligible expenses, measured against the usual, reasonable and customary charge for the area, and many require pre-authorization for nonemergency hospital stays or procedures.",
+   "o": [
+    "G-VI.B.11",
+    "G-VI.B.13",
+    "G-VI.B.14"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Eligible (covered) expenses:</b> medically necessary services the policy covers, net of exclusions. Only eligible expenses count toward deductible and coinsurance.</li><li><b>Usual, reasonable and customary (UCR):</b> the insurer pays based on what providers in the same geographic area typically charge for the service. A provider charging more than UCR, usually out of network, may bill the patient the difference (balance billing), and that excess does not count as an eligible expense.</li><li><b>Pre-authorization (precertification):</b> the insurer must approve a nonemergency admission, surgery or costly service in advance. Skipping it can mean a reduced benefit or denial. Emergencies are typically reviewed after the fact. Second surgical opinions and utilization review serve the same cost-control goal.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Assuming the whole bill is eligible. Only the UCR amount for covered services is.</div><div class=\"trap\"><b>Trap:</b> Thinking pre-authorization guarantees payment of every dollar. It approves the service; deductible, coinsurance and UCR still apply.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A surgeon charges $8,000; UCR in that city is $6,000. The plan applies its deductible and coinsurance to $6,000. If the surgeon is out of network, the patient may owe the other $2,000 on top of her coinsurance.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A specialist charges $5,000 for a procedure whose prevailing local charge is $4,000. On what amount does the plan base its payment?",
+     "a": "$4,000, the usual, reasonable and customary charge."
+    },
+    {
+     "q": "An insured has elective surgery without getting the insurer's approval first. Which requirement did he skip, and what is the usual result?",
+     "a": "Pre-authorization; the benefit can be reduced or denied."
+    },
+    {
+     "q": "Which expenses count toward a plan's deductible and coinsurance?",
+     "a": "Eligible expenses, meaning covered, medically necessary charges up to the UCR amount."
+    }
+   ]
+  },
+  {
+   "n": "Riders: impairment, guaranteed insurability, future increase option",
+   "g": "riders",
+   "s": "An impairment rider excludes a named condition so a policy can be issued, while guaranteed insurability and future increase option riders let the insured buy more coverage later without proving health.",
+   "o": [
+    "G-VI.C.1",
+    "G-VI.C.2",
+    "G-VI.C.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Impairment (exclusion) rider:</b> attached at issue to exclude a specific condition or body part (a bad back, a prior knee injury). The alternative would be declining the applicant or rating the whole policy. Coverage for everything else is standard. Barred from ACA major medical, still used in DI and other non-ACA products.</li><li><b>Guaranteed insurability rider (GIO):</b> lets the insured buy additional coverage at set option dates or life events (marriage, birth of a child) without evidence of insurability, at attained-age rates. Usually ends at a stated age.</li><li><b>Future increase option (FIO):</b> the DI version; lets the insured raise the monthly benefit as income rises without medical underwriting. The insurer still requires proof of income, since benefit must track earnings.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking an impairment rider raises the premium for the whole policy. It excludes one condition; the alternative to it is a rated (substandard) premium.</div><div class=\"trap\"><b>Trap:</b> Thinking a GIO or FIO waives financial underwriting. It waives health evidence only; the increase is priced at attained age, and FIO still needs income proof.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A nurse with a history of back surgery applies for DI. The insurer issues standard coverage with an impairment rider excluding back disabilities. Five years later, now a nurse practitioner earning more, she uses her future increase option to raise the benefit without a medical exam.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An applicant has a chronic knee condition. Instead of declining him, the insurer excludes that knee. What attached this exclusion?",
+     "a": "An impairment (exclusion) rider."
+    },
+    {
+     "q": "A DI insured got a large raise and wants a bigger monthly benefit without a medical exam. Which rider allows it?",
+     "a": "The future increase option rider."
+    },
+    {
+     "q": "What evidence does a guaranteed insurability rider waive at an option date?",
+     "a": "Evidence of insurability (health); the added coverage is priced at the insured's attained age."
+    },
+    {
+     "q": "Under a future increase option, what must the insured still prove?",
+     "a": "Income, to show the higher benefit is justified by earnings."
+    }
+   ]
+  },
+  {
+   "n": "Renewability ladder",
+   "g": "renewability",
+   "s": "Renewability runs from cancelable (insurer can end the policy at any time) through optionally renewable and conditionally renewable to guaranteed renewable (premium can rise by class) and noncancelable (premium locked), and the stronger the guarantee the higher the premium.",
+   "o": [
+    "G-VI.D.1",
+    "G-VI.D.2",
+    "G-VI.D.3",
+    "G-VI.D.4",
+    "G-VI.D.5"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Cancelable:</b> insurer may cancel at any time with written notice and refund of unearned premium; claims already incurred are still paid.</li><li><b>Optionally renewable:</b> insurer may refuse renewal on any premium due date or anniversary, but cannot cancel mid-term.</li><li><b>Conditionally renewable:</b> insurer may refuse renewal only for reasons stated in the policy (such as no longer employed), never for the insured's health alone.</li><li><b>Guaranteed renewable:</b> insurer must renew to a stated age (often 65) and cannot change terms, but may raise premiums for an entire class. Federal law (42 U.S. Code 300gg-2) requires individual and group health coverage to be renewed at the insured's option, except for nonpayment, fraud, market exit and a few other listed reasons.</li><li><b>Noncancelable:</b> insurer cannot cancel, change terms or raise the premium to the stated age; used mostly in disability income.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mixing guaranteed renewable and noncancelable. Both must be renewed; only noncancelable also locks the premium.</div><div class=\"trap\"><b>Trap:</b> Thinking a guaranteed renewable insurer can raise one sick person's rate. Increases apply only to a whole class.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Two DI policies, both to age 65. Policy A is noncancelable: the $150 monthly premium never changes. Policy B is guaranteed renewable: the insurer raises premiums 10 percent for every policyholder in that rating class after poor experience. Policy A cost more at issue.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy must be renewed to age 65, but the insurer may raise premiums for everyone in the insured's class. Which renewability type is it?",
+     "a": "Guaranteed renewable."
+    },
+    {
+     "q": "A policy lets the insurer decline renewal only if the insured leaves the employer group named in the policy. Which renewability type is it?",
+     "a": "Conditionally renewable."
+    },
+    {
+     "q": "Which renewability type lets the insurer end coverage mid-term with notice and a refund of unearned premium?",
+     "a": "Cancelable."
+    },
+    {
+     "q": "An insured wants a DI policy whose premium can never rise and that the insurer must renew to 65. Which type?",
+     "a": "Noncancelable."
+    },
+    {
+     "q": "Under federal guaranteed renewability rules, name one reason an issuer may still refuse to renew individual health coverage.",
+     "a": "Nonpayment of premium or fraud (also market exit, leaving the service area, or loss of association membership)."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "NAIC Model Law 180: Uniform Individual Accident and Sickness Policy Provision Law",
+   "url": "https://content.naic.org:443/sites/default/files/model-law-180.pdf"
+  },
+  {
+   "title": "NAIC Model Law 180 state adoption page",
+   "url": "https://content.naic.org:443/sites/default/files/model-law-state-page-180.pdf"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1201, Accident and Health Insurance (Texas Legislature)",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1201.htm"
+  },
+  {
+   "title": "HealthCare.gov: Coverage for pre-existing conditions",
+   "url": "https://www.healthcare.gov/coverage/pre-existing-conditions/"
+  },
+  {
+   "title": "HealthCare.gov Glossary: Pre-existing condition",
+   "url": "https://www.healthcare.gov/glossary/pre-existing-condition/"
+  },
+  {
+   "title": "HealthCare.gov: Lifetime and yearly limits",
+   "url": "https://www.healthcare.gov/health-care-law-protections/lifetime-and-yearly-limits/"
+  },
+  {
+   "title": "HHS: Lifetime and annual limits",
+   "url": "https://www.hhs.gov/healthcare/about-the-aca/benefit-limits/index.html"
+  },
+  {
+   "title": "HHS: Pre-existing conditions",
+   "url": "https://www.hhs.gov/healthcare/about-the-aca/pre-existing-conditions/index.html"
+  },
+  {
+   "title": "42 U.S. Code 300gg-2: Guaranteed renewability of coverage (Cornell LII)",
+   "url": "https://www.law.cornell.edu/uscode/text/42/300gg-2"
+  },
+  {
+   "title": "45 CFR 147.106: Guaranteed renewability of coverage (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-B/part-147/section-147.106"
+  }
+ ]
+}

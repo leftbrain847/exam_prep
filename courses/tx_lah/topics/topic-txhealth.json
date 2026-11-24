@@ -1,0 +1,776 @@
+{
+ "id": "txhealth",
+ "title": "Texas law: health & HMOs",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "What this tab covers: the Texas health insurance and HMO laws tested on the Texas portion of the exam. That means newborn, adopted and dependent child rules, chemical dependency coverage, Medicare supplement and long-term care rules, HIV testing in underwriting, small employer plans, the federal ACA rules that apply in Texas, and HMO rules. Last checked 2026-11-23 against the Texas Insurance Code, 28 Texas Administrative Code, IRS pages and KFF. Recheck every 6 months: Texas amends these chapters each legislative session and federal subsidy rules change.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "children",
+   "label": "Required provisions"
+  },
+  {
+   "key": "medicare",
+   "label": "Medicare supplement"
+  },
+  {
+   "key": "testing",
+   "label": "HIV testing and long-term care"
+  },
+  {
+   "key": "smallgroup",
+   "label": "Small employer and ACA"
+  },
+  {
+   "key": "hmo",
+   "label": "HMOs"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map of Texas health and HMO law",
+   "g": "map",
+   "s": "Texas health law questions ask which rule, which clock and which plan type: a mandated provision (children, chemical dependency), a protected market (Medicare supplement, long-term care, small employer, ACA), or an HMO rule.",
+   "o": [
+    "S-III",
+    "S-IV"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Required provisions</b> (S-III.A): newborns and adopted children, who counts as a dependent, chemical dependency in group plans.</li><li><b>Protected markets</b>: Medicare supplement (S-III.B), HIV testing in underwriting (S-III.C), long-term care (S-III.D), small employer plans (S-III.E), the federal ACA overlay (S-III.F).</li><li><b>HMOs</b> (S-IV): definitions, evidence of coverage, cancellation, enrollment, out-of-network claims.</li></ul><p>Sources are the Texas Insurance Code (Chapters 843, 1201, 1271, 1367, 1368, 1501, 1651, 1652) and 28 Texas Administrative Code Chapters 3, 11 and 21.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mixing up clocks. Medicare supplement and long-term care free looks are 30 days, the general individual health return period in Sec. 1201.058 is 10 days, HMO grace is at least 30 days, and small group notice periods run 30, 90 or 180 days depending on the event.</div><div class=\"trap\"><b>Trap:</b> Applying a group-only rule (chemical dependency) to an individual policy.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A question about an HMO dropping a member who moved away is an S-IV.C cancellation question: 30 days' written notice, applied uniformly. The same facts in a small employer insured plan become a renewability question under Chapter 1501.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>The 30 Texas questions reward exact numbers and plan type. Read the stem for the plan type first, then the event, then pick the clock.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A question asks how long a Texas Medicare supplement buyer has to return the policy for a full refund. Which topic family and which number apply?",
+     "a": "Medicare supplement minimum standards; Texas Insurance Code Sec. 1652.155 gives 30 days after delivery."
+    },
+    {
+     "q": "An exam item describes a 40-employee company buying its first insured group plan. Which Texas chapter governs eligibility and participation?",
+     "a": "Chapter 1501, the small employer health benefit plan law, because the employer has 2 to 50 employees."
+    },
+    {
+     "q": "A stem says a member must pick a primary care physician and the plan pays nothing out of network except emergencies. Which body of Texas law does the item belong to?",
+     "a": "HMO law: Insurance Code Chapters 843 and 1271 and 28 TAC Chapter 11."
+    }
+   ]
+  },
+  {
+   "n": "Newborn and adopted child coverage",
+   "g": "children",
+   "s": "Texas health plans must cover a newborn or adopted child from the start without excluding congenital defects, and only the deadline for notice and premium varies by plan type.",
+   "o": [
+    "S-III.A.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Indemnity plans</b>: Texas Insurance Code Sec. 1367.003 bars an individual or group plan with maternity or added-newborn coverage from excluding or limiting a newborn's initial coverage before the 61st day after birth, congenital defects, or state-required newborn screening tests.</li><li><b>Small employer plans</b>: Sec. 1501.157 says newborn coverage ends on the 61st day unless the issuer gets notice of the birth and any added premium by the 60th day.</li><li><b>HMOs</b>: 28 TAC Sec. 11.506 gives the newborn coverage for the first 31 days; the enrollee has 31 days to notify the HMO, orally or in writing, and the HMO may require notice and premium to continue coverage. Congenital defects are treated like any other illness.</li><li><b>Adoption</b>: Sec. 1201.061 bars excluding a child because the child is adopted, and the child counts as the insured's once the insured is a party to an adoption suit. Sec. 1501.158 lets a small group enrollee add the child within 31 days after the suit is filed or the adoption becomes final.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Coverage starts at birth, not when the insurer is told.</div><div class=\"trap\"><b>Trap:</b> Adoption coverage does not wait for the final decree; filing the suit is enough.</div><div class=\"trap\"><b>Trap:</b> National prep says 31 days for everything. Texas indemnity and small group rules use the 61st day; the 31-day rule is the HMO rule.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employee in a small employer plan has a baby on June 1. Care in the hospital is covered from birth. If the issuer has notice and any added premium by day 60, coverage continues; if not, it ends on day 61.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A group policy with maternity benefits excludes surgery to repair a newborn's cleft palate as a congenital defect. Which Texas rule does this break?",
+     "a": "Texas Insurance Code Sec. 1367.003, which bars excluding or limiting coverage of congenital defects for newborns."
+    },
+    {
+     "q": "A small employer plan member never reports her baby's birth or pays the added premium. On which day does the newborn's coverage end?",
+     "a": "On the 61st day after birth, under Sec. 1501.157."
+    },
+    {
+     "q": "An HMO member's baby is born on May 1. How long does the member have to tell the HMO, and in what form?",
+     "a": "31 days after birth, orally or in writing, under 28 TAC Sec. 11.506."
+    },
+    {
+     "q": "A couple has filed a suit to adopt a child but the adoption is not final. When can their health policy treat the child as theirs?",
+     "a": "Now; Sec. 1201.061 treats the child as the insured's child once the insured is a party to the adoption suit."
+    }
+   ]
+  },
+  {
+   "n": "Who counts as a dependent child",
+   "g": "children",
+   "s": "Texas lets a policy end a child's coverage at a stated age (25 in the Texas statutes) but bars ending it for a disabled child who is chiefly dependent on the insured, and bars treating grandchildren, stepchildren and nonresident children worse.",
+   "o": [
+    "S-III.A.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li>Sec. 1201.053: an individual policy may cover a spouse and unmarried children under 25, plus children covered by a court order.</li><li>Sec. 1201.062: a grandchild who is unmarried, under 25 and the insured's federal tax dependent when coverage is applied for must be covered; coverage does not end just because the grandchild stops being a tax dependent.</li><li>Sec. 1201.063 bars charging more for, excluding or dropping a child because the child lives elsewhere or is not claimed as a tax exemption. Sec. 1201.064 bars treating a spouse's child differently.</li><li>Sec. 1201.059: reaching the limiting age does not end coverage for a child who cannot hold self-sustaining employment because of an intellectual or physical disability and is chiefly dependent on the insured. Proof is due within 31 days after the child reaches the limiting age; after the second anniversary of that age the insurer may ask for proof no more than once a year.</li><li>Small group (Sec. 1501.002) and HMO (Sec. 1271.006) rules also use 25.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Both conditions are needed for the disabled-child rule: the disability and chief dependency.</div><div class=\"trap\"><b>Trap:</b> The federal ACA separately requires plans that offer dependent coverage to allow children to age 26. On a Texas law item that cites the Insurance Code, the statutory number is 25.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A son with an intellectual disability lives with and is supported by his mother. He turns 25 on March 3. If she sends proof by April 3 (31 days), his coverage continues. From age 27 on, the insurer may ask for proof once a year.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A child turns the policy's limiting age but has cerebral palsy, cannot work, and is fully supported by the insured. What must the insured do to keep coverage?",
+     "a": "Give the insurer proof of the incapacity and dependency within 31 days after the child reaches the limiting age, under Sec. 1201.059."
+    },
+    {
+     "q": "An insurer refuses to cover a child because the child lives with the other parent in another state. Why is that improper?",
+     "a": "Sec. 1201.063 bars excluding a child because the child does not live with the insured."
+    },
+    {
+     "q": "A grandmother adds her 10-year-old grandchild, a tax dependent, to her policy. Two years later the child's parent claims the child on taxes. Can the insurer drop the grandchild on that ground?",
+     "a": "No; Sec. 1201.062 says coverage may not end solely because the grandchild is no longer the insured's tax dependent."
+    },
+    {
+     "q": "After the first two years past the limiting age, how often may an insurer demand proof that a disabled adult child is still incapacitated and dependent?",
+     "a": "No more than once a year, under Sec. 1201.059."
+    }
+   ]
+  },
+  {
+   "n": "Chemical dependency coverage in group plans",
+   "g": "children",
+   "s": "Texas Insurance Code Chapter 1368 makes group health plans cover chemical dependency treatment on terms no less favorable than physical illness, with a lifetime cap of three treatment series.",
+   "o": [
+    "S-III.A.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Definition</b> (Sec. 1368.001): abuse of, dependence on, or addiction to alcohol or a controlled substance. A chemical dependency treatment center is a physician-approved program affiliated with a hospital, accredited by the Joint Commission, or licensed by a state agency.</li><li><b>Who must cover</b> (Sec. 1368.002): group plans of insurers, group hospital service corporations, HMOs and self-funded employer plans.</li><li><b>Exempt</b> (Sec. 1368.003): self-funded plans with 250 or fewer employees, individual policies and individual HMO coverage, blanket, short-term travel, accident-only, specified disease, disability income and Medicare-type policies.</li><li><b>Parity</b> (Sec. 1368.005): limits, deductibles and coinsurance must match physical illness.</li><li><b>Cap</b> (Sec. 1368.006): three separate treatment series per person for life. A series ends at medical discharge or after 30 days of not following the program.</li><li>Care in a treatment center is covered as if given in a hospital (Sec. 1368.007).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> It is a group mandate. An individual policy is outside Chapter 1368.</div><div class=\"trap\"><b>Trap:</b> The cap counts treatment series, not days or dollars.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employee in an insured group plan completes inpatient detox and intensive outpatient care in one continuous program (series one), relapses and completes a second program (series two). The plan must cover one more series in her lifetime.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insurer sells an individual major medical policy with no chemical dependency benefit. Why does Chapter 1368 not apply?",
+     "a": "Sec. 1368.003 exempts individual policies; the mandate covers group plans only."
+    },
+    {
+     "q": "A group plan pays 80% for physical illness but 50% for alcohol treatment. Which Texas rule is violated?",
+     "a": "The parity rule in Sec. 1368.005, which requires the same coinsurance and deductibles as for physical illness."
+    },
+    {
+     "q": "What is the most a group plan may limit chemical dependency treatment to over a covered person's lifetime?",
+     "a": "Three separate treatment series, under Sec. 1368.006."
+    },
+    {
+     "q": "A patient stops attending his outpatient program for 30 days. What happens to his treatment series?",
+     "a": "It ends; Sec. 1368.006 ends a series when the person fails to materially comply with the program for 30 days."
+    }
+   ]
+  },
+  {
+   "n": "Medicare supplement minimum standards",
+   "g": "medicare",
+   "s": "Texas Medicare supplement plans must meet federal standards, may exclude a preexisting condition for no more than six months, and must give a 30-day free look and an outline of coverage.",
+   "o": [
+    "S-III.B.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li>Sec. 1652.051 has the commissioner set standards that meet or exceed federal law. Plans may not duplicate Medicare (Sec. 1652.053) and every insurer must offer a basic plan of core benefits (Sec. 1652.054).</li><li><b>Preexisting conditions</b> (Sec. 1652.058): no exclusion for losses more than six months after the effective date, and the look-back may not be longer than six months before it.</li><li><b>Replacement credit</b> (Sec. 1652.057): a replacing plan credits waiting or probationary time already served.</li><li><b>Outline of coverage</b> (Sec. 1652.152) is delivered when the person applies.</li><li><b>Free look</b> (Sec. 1652.155): 30 days after delivery for a full refund, with the notice on the first page.</li><li><b>Advertising</b> (Sec. 1652.156) is filed with TDI at least 60 days before use.</li><li><b>Replacement</b> (28 TAC Sec. 3.3309): the application asks about other coverage and tells the applicant one Medicare supplement is enough. The agent lists health policies sold to the applicant that are in force and those sold in the past five years that are no longer in force. A replacement notice is signed before issue or delivery; the applicant keeps a copy and the issuer keeps a signed copy.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Six months is both the exclusion limit and the look-back limit.</div><div class=\"trap\"><b>Trap:</b> The free look is 30 days for Medicare supplement, not the 10-day general health return period.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Ed buys a Plan G effective January 1. He was treated for a heart condition in October. The insurer may exclude that condition only for losses through June 30; from July 1 it pays.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Medicare supplement application asks about doctor visits in the past 12 months and proposes to exclude any condition found. What is the longest look-back Texas allows for a preexisting condition?",
+     "a": "Six months before the effective date, under Sec. 1652.058."
+    },
+    {
+     "q": "A senior receives her Medicare supplement policy and changes her mind 25 days later. What is she entitled to?",
+     "a": "A full premium refund, because Sec. 1652.155 gives 30 days after delivery to return it."
+    },
+    {
+     "q": "An agent is replacing a client's Medicare supplement. When must the replacement notice be given and who keeps copies?",
+     "a": "Before the policy is issued or delivered; the applicant keeps a copy and the issuer keeps a signed copy, under 28 TAC Sec. 3.3309."
+    },
+    {
+     "q": "An insurer wants to run a new Medicare supplement TV ad. How far ahead must it file the ad with TDI?",
+     "a": "At least 60 days before use, under Sec. 1652.156."
+    }
+   ]
+  },
+  {
+   "n": "Medicare supplement renewal, cancellation and guaranteed issue",
+   "g": "medicare",
+   "s": "A Texas Medicare supplement policy is guaranteed renewable and may be cancelled only for nonpayment or material misrepresentation, and open enrollment and guaranteed issue windows bar health underwriting.",
+   "o": [
+    "S-III.B.2",
+    "S-III.B.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Renewal</b> (28 TAC Sec. 3.3306): every policy is guaranteed renewable. No cancellation or nonrenewal for health status; the only grounds are nonpayment of premium or material misrepresentation. A spouse's coverage cannot end because the insured's ended, except for nonpayment.</li><li><b>Medicaid suspension</b>: at the insured's request, benefits and premiums may be suspended for up to 24 months while the person is on Medicaid, if the issuer is told within 90 days. Coverage is reinstated automatically if the person gives notice within 90 days after losing Medicaid.</li><li><b>Open enrollment</b> (28 TAC Sec. 3.3324): the six months starting the first day of the first month the person is enrolled in Part B. No denial, conditions or health-based pricing. Six months of prior creditable coverage removes any preexisting exclusion; less shortens it.</li><li><b>Guaranteed issue</b> (28 TAC Sec. 3.3312): people who lose employer coverage, leave a Medicare Advantage plan, or lose a supplement through insurer insolvency have 63 days to apply; no preexisting exclusion is allowed.</li><li><b>Under 65</b> (Secs. 1652.059, 1652.060): people under 65 on Medicare because of end-stage renal disease or ALS must be offered the same coverage, with a six-month enrollment window starting the first month of Part B enrollment.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A worsening health condition is never a ground to cancel.</div><div class=\"trap\"><b>Trap:</b> Open enrollment runs from Part B enrollment, not from the 65th birthday.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Rosa enrolls in Part B on April 1 at 66 after retiring. Her open enrollment runs through September 30, and an insurer cannot charge more for her diabetes.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Medicare supplement insured develops cancer and premiums keep arriving on time. On what grounds may the insurer cancel?",
+     "a": "None tied to health; under 28 TAC Sec. 3.3306 only nonpayment of premium or material misrepresentation allow cancellation."
+    },
+    {
+     "q": "A Medicare supplement insured becomes eligible for Medicaid and notifies the insurer within 90 days. For how long may benefits and premiums be suspended?",
+     "a": "Up to 24 months, under 28 TAC Sec. 3.3306."
+    },
+    {
+     "q": "A man enrolls in Part B on July 1 at 65. When does his Medicare supplement open enrollment period end?",
+     "a": "December 31, six months after the first day of the first month he is enrolled in Part B."
+    },
+    {
+     "q": "A retiree's employer plan that supplemented Medicare ends. How long does she have to use her guaranteed issue right?",
+     "a": "63 days, under 28 TAC Sec. 3.3312."
+    }
+   ]
+  },
+  {
+   "n": "HIV and AIDS testing in underwriting",
+   "g": "testing",
+   "s": "A Texas insurer or HMO may require HIV testing only on a nondiscriminatory basis with written consent on a separate form, may rate or deny only after two positive ELISAs and a confirming Western Blot, and may never underwrite on sexual orientation.",
+   "o": [
+    "S-III.C"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Who may test</b> (28 TAC Sec. 21.705): life, health and accident insurers, group hospital service corporations and HMOs.</li><li><b>Conditions</b>: the same testing for everyone in the same class, FDA-approved tests, and no denial or substandard rating unless an initial ELISA, a second ELISA and a Western Blot confirming both are all positive.</li><li><b>Consent</b> (Sec. 21.704): disclose the test and get written authorization on a separate form, the Notice and Consent for HIV-Related Testing, before testing.</li><li><b>Allowed questions</b>: factual questions on an AIDS diagnosis, a positive AIDS-related test, or sexually transmitted diseases.</li><li><b>Barred</b>: questions designed to find sexual orientation, use of sexual orientation in underwriting, and using marital status, living arrangements, occupation, gender, beneficiary or zip code as a proxy. No adverse decision because the applicant sought counseling about AIDS concerns.</li><li><b>Confidentiality</b>: results go only to those the law allows or the applicant authorizes in writing. A positive result is reported in writing to the physician the applicant names or, if none, to the state health department.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A single positive ELISA is never enough to rate or deny.</div><div class=\"trap\"><b>Trap:</b> Counseling about AIDS concerns is protected; treatment is not.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant's first ELISA is positive. The insurer runs a second ELISA (positive) and a Western Blot (positive). Only now may it rate or decline, and it mails written notice of the result to the doctor the applicant named.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An applicant's first HIV ELISA comes back positive. What must happen before the insurer can decline coverage based on HIV?",
+     "a": "A second positive ELISA and a Western Blot confirming both, under 28 TAC Sec. 21.705."
+    },
+    {
+     "q": "An insurer tests only single men over 30 in certain zip codes for HIV. Which Texas rule does it break?",
+     "a": "Testing must be nondiscriminatory for everyone in the same class, and zip code and marital status may not be used as proxies for sexual orientation (28 TAC Secs. 21.704, 21.705)."
+    },
+    {
+     "q": "An applicant who named no physician tests positive for HIV. Who gets written notice of the result?",
+     "a": "The state health department, under 28 TAC Sec. 21.704."
+    },
+    {
+     "q": "Medical records show an applicant saw a counselor about AIDS worries but has no diagnosis. Can the insurer use that visit to decline?",
+     "a": "No; Sec. 21.704 bars adverse decisions based on seeking counseling about AIDS concerns."
+    }
+   ]
+  },
+  {
+   "n": "Long-term care rules",
+   "g": "testing",
+   "s": "Texas long-term care plans cover at least 12 months outside acute hospital care, require an outline of coverage at first solicitation, give a 30-day free look, cap preexisting exclusions at six months, may not require a prior hospital stay, and protect against unintended lapse.",
+   "o": [
+    "S-III.D"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Definition</b> (Texas Insurance Code Sec. 1651.003): at least 12 consecutive months of coverage outside an acute care unit of a hospital.</li><li><b>Outline of coverage</b> (28 TAC Sec. 3.3832): given at initial solicitation; an agent delivers it before presenting the application; direct response insurers send it with the application.</li><li><b>Free look</b> (Sec. 1651.054): 30 days after delivery. <b>Preexisting</b> (Sec. 1651.052): six-month exclusion, six-month look-back.</li><li><b>Rate increases</b> (Sec. 1651.056): notice at least 45 days before the higher premium is due.</li><li><b>Benefit triggers</b> (28 TAC Sec. 3.3818): unable to perform two activities of daily living without help, or cognitive impairment needing substantial supervision. A three-ADL policy needs the two-ADL version offered and rejected in writing.</li><li><b>No prior hospitalization</b> (28 TAC Sec. 3.3825). Home health benefits cannot require a prior institutional stay; other noninstitutional benefits may require at most 30 days.</li><li><b>Lapse</b> (28 TAC Sec. 3.3841): before issue the applicant names at least one other person to receive lapse notices or signs a waiver. Notice cannot go out until 30 days after the premium is unpaid and must come at least 30 days before lapse. A policy lost to cognitive impairment can be reinstated if requested within five months.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The third-party designee gets notice but owes nothing.</div><div class=\"trap\"><b>Trap:</b> Free look is 30 days, not 10.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Ann, who has Alzheimer's, misses a premium due March 1. Notice to Ann and her daughter cannot go out before March 31, and lapse comes at least 30 days after notice. After a lapse, five months remain to request reinstatement with proof of impairment.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A long-term care policy pays home health benefits only after a three-day hospital stay. Which Texas rule does it break?",
+     "a": "28 TAC Sec. 3.3825 bars conditioning benefits on prior hospitalization and bars a prior-institutionalization requirement for home health care."
+    },
+    {
+     "q": "A long-term care insured with dementia lets the policy lapse. How long does she have to request reinstatement?",
+     "a": "Five months after termination, with proof of cognitive impairment, under 28 TAC Sec. 3.3841."
+    },
+    {
+     "q": "An insurer plans a long-term care rate increase. What is the minimum notice before the higher premium is due?",
+     "a": "45 days, under Sec. 1651.056."
+    },
+    {
+     "q": "Under Texas rules, how many activities of daily living may a standard long-term care policy require a person to be unable to perform?",
+     "a": "Two; a three-ADL trigger is allowed only if the two-ADL policy is offered and rejected in writing (28 TAC Sec. 3.3818)."
+    },
+    {
+     "q": "An agent meets a prospect to sell an individual long-term care policy. When must the prospect receive the outline of coverage?",
+     "a": "At initial solicitation, before the agent presents the application, under 28 TAC Sec. 3.3832."
+    }
+   ]
+  },
+  {
+   "n": "Small employer eligibility, participation and enrollment",
+   "g": "smallgroup",
+   "s": "A Texas small employer has 2 to 50 employees, an eligible employee usually works at least 30 hours a week, and an issuer may require 75% participation and set a waiting period of up to 90 days.",
+   "o": [
+    "S-III.E.1",
+    "S-III.E.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Small employer</b> (Texas Insurance Code Sec. 1501.002): averaged at least 2 and no more than 50 employees on business days in the prior calendar year and has at least 2 on the first day of the plan year. Large employer: an average of 51 or more.</li><li><b>Eligible employee</b>: full-time, usually working at least 30 hours a week. Part-time, temporary, seasonal and substitute workers are excluded, and so is an employee covered under another health benefit plan, such as a spouse's plan.</li><li><b>Participation</b> (Sec. 1501.154): coverage is available if at least 75% of eligible employees take part. Sec. 1501.155 allows lower participation if the issuer uses that level for all its small employer plans, or if each decliner states in writing that no one pressured the decline.</li><li><b>Contribution</b> (Sec. 1501.153): not required by law; an issuer may require one uniformly.</li><li><b>Enrollment</b> (Sec. 1501.156): initial enrollment of at least 31 days, a 31-day annual open enrollment, a waiting period of up to 90 days from hire; a new employee applying by the 31st day after hire or after the waiting period cannot be denied.</li><li><b>Late enrollee</b> (Sec. 1501.008): applies after those windows and may have to wait for the next open enrollment; someone who lost other coverage and applies within 31 days is not late.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Count averages over the prior calendar year, not today's headcount.</div><div class=\"trap\"><b>Trap:</b> A 25-hour-a-week worker is not an eligible employee.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A shop has 20 full-time workers. Two covered by a spouse's plan are not eligible employees (Sec. 1501.002). Of the 18 left, 75% is 13.5, so 14 must enroll.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A business averaged 48 employees last year and has 53 today. Is it a small employer under Chapter 1501, and why?",
+     "a": "Yes; Sec. 1501.002 uses the prior calendar year average (2 to 50) and at least 2 employees on the first day of the plan year."
+    },
+    {
+     "q": "A small employer has 20 eligible employees. What is the minimum participation an issuer may require?",
+     "a": "75%, or 15 employees, under Sec. 1501.154."
+    },
+    {
+     "q": "An employer wants new hires to wait 120 days before coverage. What is the Texas maximum?",
+     "a": "90 days from the first day of employment, under Sec. 1501.156."
+    },
+    {
+     "q": "An employee skips enrollment, then applies 6 months later with no qualifying event. How may the issuer treat him?",
+     "a": "As a late enrollee, who may be denied until the next annual open enrollment under Sec. 1501.156."
+    }
+   ]
+  },
+  {
+   "n": "Small employer guaranteed issue, renewal and benefits",
+   "g": "smallgroup",
+   "s": "Texas small employer plans are guaranteed issue and renewable at the employer's option, may not single out a sick employee, and agents may not steer groups or earn different pay based on a group's health.",
+   "o": [
+    "S-III.E.2",
+    "S-III.E.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Guaranteed issue</b> (Secs. 1501.151, 1501.152): the issuer must issue any plan the small employer picks, regardless of health, and cannot exclude an eligible employee or dependent. Sec. 1501.106 bars riders that exclude a specific person's condition.</li><li><b>Renewal</b> (Sec. 1501.108): only for nonpayment, fraud, noncompliance with plan terms, no enrollee in the service area, or end of association membership. Sec. 1501.110 requires 30 days' notice to the employer before termination, and the employer notifies enrollees.</li><li><b>Exits</b> (Sec. 1501.109): leaving the market takes 180 days' notice and bars reentry for five years; dropping one type of coverage takes 90 days' notice and an offer of other coverage.</li><li><b>Benefits</b>: Sec. 1501.252 requires the issuer to offer at least one plan with state-mandated benefits. Under Sec. 1501.254 a plan may omit alcohol and substance abuse benefits only if at least half the employees waive them in writing and say they finished treatment or counseling within the past three years.</li><li><b>Rates</b> (Sec. 1501.216): 60 days' written notice of an increase.</li><li><b>Agents</b> (Secs. 1501.352, 1501.353): no steering based on health or claims; pay may not vary with the group's health; renewal pay equals original pay.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A sick employee does not let the issuer drop or rate out that person.</div><div class=\"trap\"><b>Trap:</b> Federal ACA rules now bar preexisting condition exclusions; the older Chapter 1501 limits are not the exam's main point.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 12-person firm's owner has cancer. The issuer must accept the group and renew at the employer's option. It cannot pay the agent less for placing this group.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A small employer's issuer decides to leave the Texas small group market. How much notice must it give and what follows?",
+     "a": "180 days to the commissioner and each employer, and it may not write new small group plans for five years (Sec. 1501.109)."
+    },
+    {
+     "q": "An agent tells a small employer with high claims to apply elsewhere. Which Texas rule does this break?",
+     "a": "Sec. 1501.352, which bars steering employers based on health status or claims experience."
+    },
+    {
+     "q": "A small employer pays premiums on time and follows plan terms, but one employee becomes very ill. On what ground may the issuer refuse to renew?",
+     "a": "None; Sec. 1501.108 allows nonrenewal only for listed grounds such as nonpayment or fraud, never health."
+    }
+   ]
+  },
+  {
+   "n": "ACA marketplaces, subsidies and taxes",
+   "g": "smallgroup",
+   "s": "Texans buy subsidized individual coverage on the federal marketplace, HealthCare.gov, where a premium tax credit is available to eligible households and is reconciled on the federal tax return.",
+   "o": [
+    "S-III.F.1",
+    "S-III.F.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Marketplace</b>: Texas uses HealthCare.gov, where plans cover preexisting conditions. People shop during open enrollment or a special enrollment period after a qualifying event.</li><li><b>Premium tax credit</b>: per the IRS eligibility page (reviewed Nov. 6, 2026), a household must enroll through the Marketplace, generally have income from 100% to 400% of the federal poverty line, and not file married filing separately. The 400% cap is back for 2026: KFF (Nov. 6, 2026) reports the enhanced 2021 to 2025 credits expired and were not extended. The credit can be paid in advance to the insurer.</li><li><b>Reconciliation</b>: advance payments are reconciled on Form 8962 with the tax return. Starting with tax year 2026 the IRS says excess advance credit must be repaid in full at every income level; the old income-based repayment caps are gone.</li><li><b>Cost-sharing reductions</b> lower deductibles and copays for lower-income enrollees in silver plans.</li><li><b>Taxes</b>: the federal individual mandate penalty was reduced to $0 starting in 2019; large employers can still owe the employer shared responsibility payment.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The subsidy is a tax credit tied to Marketplace enrollment; buying outside the Marketplace gets none.</div><div class=\"trap\"><b>Trap:</b> Short-term and limited plans are not ACA plans and lack ACA protections.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A family estimates income at 250% of poverty and takes advance credit. Their actual income ends up higher; at tax time Form 8962 shows they received too much, and they repay all of the excess, since tax year 2026 has no repayment cap.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A Texan wants a subsidized individual plan for next year. Where does she enroll?",
+     "a": "HealthCare.gov, the federal marketplace that Texas uses; the premium tax credit requires Marketplace enrollment."
+    },
+    {
+     "q": "A household took advance premium tax credits but its income rose above 400% of poverty. What happens at tax time?",
+     "a": "It must repay all excess advance payments when it files and reconciles on Form 8962."
+    },
+    {
+     "q": "An enrollee with modest income wants a lower deductible as well as a lower premium. Which plan tier unlocks cost-sharing reductions?",
+     "a": "A silver Marketplace plan."
+    },
+    {
+     "q": "For 2026 coverage, a household at 250% of poverty received $1,200 more in advance premium tax credit than it qualified for. How much must it repay?",
+     "a": "All $1,200; beginning with tax year 2026 the IRS requires full repayment of excess advance credit regardless of income."
+    }
+   ]
+  },
+  {
+   "n": "Essential health benefits and employer notices",
+   "g": "smallgroup",
+   "s": "ACA individual and small group plans must cover ten essential health benefit categories, every FLSA-covered employer must tell every employee about the Marketplace, and large employers face a payment if a full-time employee gets a premium tax credit.",
+   "o": [
+    "S-III.F.3",
+    "S-III.F.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Ten EHB categories</b> (ACA Sec. 1302): ambulatory patient services; emergency services; hospitalization; pregnancy, maternity and newborn care; mental health and substance use disorder services; prescription drugs; rehabilitative and habilitative services and devices; laboratory services; preventive and wellness services and chronic disease management; pediatric services including oral and vision care.</li><li><b>Notice of coverage options</b> (DOL Technical Release 2013-02, FLSA Sec. 18B): FLSA-covered employers give every employee, full- or part-time, enrolled or not, a written notice at hire. Notice within 14 days of the start date counts. It explains the Marketplace, possible premium tax credit eligibility, and that buying there may forfeit the employer's contribution.</li><li><b>Employer shared responsibility</b> (IRS): an applicable large employer averaged at least 50 full-time employees, including equivalents, in the prior year. Full-time means 30 hours a week or 130 a month. A payment is owed only if at least one full-time employee gets a premium tax credit. Large employers also report coverage offers to employees and the IRS.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The Marketplace notice goes to all employees, not just plan enrollees.</div><div class=\"trap\"><b>Trap:</b> The large employer threshold (50) counts full-time equivalents; the Texas small employer definition (2 to 50) counts employees.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 70-employee firm offers no plan. One full-time worker buys on HealthCare.gov with a premium tax credit. That triggers the employer shared responsibility payment.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A plan omits coverage for physical therapy after surgery. Which essential health benefit category is missing?",
+     "a": "Rehabilitative and habilitative services and devices."
+    },
+    {
+     "q": "A part-time employee who is not eligible for the employer's plan is hired. Must he get the Marketplace notice, and when?",
+     "a": "Yes; every employee gets it at hire, and within 14 days of the start date counts, per DOL Technical Release 2013-02."
+    },
+    {
+     "q": "A large employer offers no coverage, but none of its full-time employees receives a premium tax credit. Does it owe the shared responsibility payment?",
+     "a": "No; the IRS says a payment is owed only if at least one full-time employee receives the premium tax credit."
+    }
+   ]
+  },
+  {
+   "n": "HMO definitions and evidence of coverage",
+   "g": "hmo",
+   "s": "A Texas HMO arranges or provides health care on a prepaid basis under a certificate of authority, and it must give each enrollee an approved evidence of coverage that describes benefits, limits and the complaint process.",
+   "o": [
+    "S-IV.A",
+    "S-IV.B"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Definitions</b> (Texas Insurance Code Sec. 843.002): an HMO provides or arranges a health care plan, limited health care service plan or single health care service plan on a prepaid basis. An enrollee includes covered dependents. A limited plan covers mental health, chemical dependency, intellectual disability services or long-term care; a single service plan covers one type of care, such as dental. Emergency care uses a prudent layperson test.</li><li><b>Certificate of authority</b> (Sec. 843.071): needed to operate an HMO or sell its coverage in Texas.</li><li><b>Evidence of coverage</b> (Secs. 1271.002, 1271.003): the HMO issues one to each enrollee residing in Texas; it is not an insurance policy. It describes covered services, limits, deductibles and copays, where to get information, and complaint and appeal rights including independent review (Secs. 1271.052 to 1271.054). No discretionary clauses (Sec. 1271.057).</li><li><b>Approval</b> (Sec. 1271.102): filed before use and deemed approved if not disapproved by the 31st day, extendable 30 more days.</li><li><b>Complaints</b> (Sec. 843.252): acknowledge within 5 business days, resolve within 30 calendar days, emergencies within 1 business day.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The evidence of coverage is not a health insurance policy, though it plays that role.</div><div class=\"trap\"><b>Trap:</b> A dental-only HMO is a single health care service plan, not a limited one.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A member mails a complaint about a denied referral on Monday. The HMO must acknowledge it by the 5th business day and resolve it within 30 calendar days.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A company sells prepaid dental care in Texas through its own network. What kind of HMO plan is this?",
+     "a": "A single health care service plan under Sec. 843.002."
+    },
+    {
+     "q": "An HMO files a new evidence of coverage and hears nothing from TDI. When is it deemed approved?",
+     "a": "On the 31st day after filing unless the commissioner disapproves or extends review by up to 30 days (Sec. 1271.102)."
+    },
+    {
+     "q": "An HMO receives a written complaint that does not involve an emergency. What are its two deadlines?",
+     "a": "Acknowledge it by the 5th business day and resolve it within 30 calendar days (Sec. 843.252)."
+    },
+    {
+     "q": "Who must receive an evidence of coverage from a Texas HMO?",
+     "a": "Each enrollee residing in Texas, under Sec. 1271.002."
+    }
+   ]
+  },
+  {
+   "n": "HMO cancellation, nonrenewal and continuation",
+   "g": "hmo",
+   "s": "A Texas HMO gives at least a 30-day grace period and may end a member's coverage only for listed reasons with set notice, never for health status.",
+   "o": [
+    "S-IV.C"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Grace period</b> (28 TAC Sec. 11.506): at least 30 days for each premium after the first. Coverage may be cancelled after the 30th day; the member can owe for services used during the grace period if the contract says so.</li><li><b>Ending a subscriber's coverage</b> (Sec. 11.506): fraud or intentional misrepresentation of a material fact, 15 days' written notice; fraud in using services or facilities, 15 days; moving out of the service area, 30 days, applied uniformly (not for a child under a medical support order); failure to meet eligibility, immediately, subject to continuation and conversion. Health status is never a reason.</li><li><b>Group contracts</b>: cancellable for nonpayment at the end of the grace period, group fraud (15 days), or no enrollee in the service area (30 days). The group may cancel on 30 days' notice after a material HMO change.</li><li><b>Individual renewal</b> (Texas Insurance Code Sec. 1271.307): at the enrollee's option, except nonpayment, fraud, leaving the individual market, or no longer living or working in the service area.</li><li><b>Group continuation</b> (Secs. 1271.301 to 1271.304): after three months of coverage, elect within 60 days, pay the employer's contribution plus 2%, for nine months (or six after COBRA).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Fraud gets the shorter notice (15 days); moving away gets 30.</div><div class=\"trap\"><b>Trap:</b> Rate changes need 60 days' notice, a different clock.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A member moves from Houston to Denver, outside the service area. The HMO may end coverage with 30 days' written notice if it applies the rule to everyone.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An HMO discovers a member lied about a material fact on enrollment. How much written notice must it give before ending coverage?",
+     "a": "15 days, under 28 TAC Sec. 11.506."
+    },
+    {
+     "q": "A Texas HMO premium due June 1 is unpaid. What is the minimum grace period?",
+     "a": "30 days; coverage may be cancelled only after the 30th day (28 TAC Sec. 11.506)."
+    },
+    {
+     "q": "An HMO wants to end a member's coverage because he moved out of its service area. What notice applies and what condition must it meet?",
+     "a": "30 days' written notice, applied uniformly to all members without regard to health status."
+    },
+    {
+     "q": "An employee loses group HMO coverage after six months on the plan and COBRA does not apply. How long can Texas continuation last and at what cost?",
+     "a": "Up to nine months, paying the employer's required contribution plus 2% of the group rate (Secs. 1271.303, 1271.304)."
+    }
+   ]
+  },
+  {
+   "n": "HMO enrollment and disclosures",
+   "g": "hmo",
+   "s": "To enroll in a Texas HMO a subscriber must live, reside or work in its service area, and the HMO must give prospective members a written plan description before they choose a plan.",
+   "o": [
+    "S-IV.D"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Eligibility</b> (28 TAC Sec. 11.506): the contract states who is eligible, how dependents are added, effective dates, dependent age limits and grandchild rules. The subscriber must reside, live or work in the service area.</li><li><b>Newborns</b>: covered for the first 31 days, with 31 days to notify the HMO. A disabled child past the limiting age stays covered with proof within 31 days.</li><li><b>Disclosures before enrollment</b> (28 TAC Sec. 11.1600): a plain-language description that states the plan is an HMO and lists covered services, emergency and out-of-area coverage, member costs, limits and exclusions, preauthorization, continuity of care if a doctor leaves, complaint and appeal rights, the provider list and the service area. It may be electronic, with paper on request.</li><li><b>Notices</b>: a Choosing Your Physician notice for limited networks, and a notice that members may see an OB-GYN without a primary care referral where applicable.</li><li><b>Specialist as primary care physician</b> (Texas Insurance Code Sec. 1271.201): a member with a chronic, disabling or life-threatening illness may apply to use a specialist as primary care physician; denials can be appealed.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Eligibility rests on the service area, not health.</div><div class=\"trap\"><b>Trap:</b> The plan description comes before the choice, not after enrollment.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employer offers an HMO. A worker living outside the service area but working inside it can enroll, because working in the area is enough.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee lives outside an HMO's service area but works inside it. Can she enroll as a subscriber?",
+     "a": "Yes; 28 TAC Sec. 11.506 lets a subscriber who resides, lives or works in the service area enroll."
+    },
+    {
+     "q": "A member with multiple sclerosis wants her neurologist to serve as her primary care physician. What Texas option does she have?",
+     "a": "Apply to the HMO's medical director under Sec. 1271.201 to designate the specialist as primary care physician, with appeal rights if denied."
+    },
+    {
+     "q": "When must an HMO give a prospective group member its written plan description, including the provider list and service area?",
+     "a": "Before the person selects a plan, so plans can be compared (28 TAC Sec. 11.1600)."
+    }
+   ]
+  },
+  {
+   "n": "HMO out-of-network and emergency claims",
+   "g": "hmo",
+   "s": "A Texas HMO must pay out-of-network emergency care and approved out-of-network referrals at the usual and customary or an agreed rate, and the member owes only in-network cost-sharing.",
+   "o": [
+    "S-IV.E"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Emergency care</b> (Texas Insurance Code Sec. 1271.155): the HMO pays a non-network provider at the usual and customary or an agreed rate, whether or not the provider has a contract. Coverage includes screening, treatment to stabilize, and approved follow-up. Post-stabilization requests are answered within one hour.</li><li><b>Payment timing</b>: by day 30 after an electronic clean claim or day 45 after a paper one. Sec. 843.338 sets the same 30 and 45 day clocks for network clean claims.</li><li><b>No balance billing</b>: the provider may bill the member only the copay, coinsurance and deductible.</li><li><b>Referral out of network</b> (Sec. 1271.055): if a medically necessary covered service is not available in network, the HMO must allow a referral on a network provider's request and fully reimburse the non-network provider. A same or similar specialist reviews before any denial; 28 TAC Sec. 11.506 says the decision comes within five business days after documentation arrives.</li><li><b>In-network facilities</b> (Secs. 1271.157, 1271.158): non-network facility-based doctors, imaging and labs are paid the same way, with balance-billing protection.</li><li>An HMO may add out-of-network coverage through a point-of-service rider (Sec. 843.108).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Non-emergency care from a non-network provider without an approved referral is generally not covered.</div><div class=\"trap\"><b>Trap:</b> The member is not responsible for the gap between billed charges and the HMO payment.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Tom has chest pain on a trip and goes to the nearest ER, which is out of network. The HMO pays the ER at the usual and customary rate; Tom pays only his in-network copay.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An HMO member goes to a non-network ER for a heart attack. How must the HMO pay the hospital?",
+     "a": "At the usual and customary rate or an agreed rate, and the member owes only in-network cost-sharing (Sec. 1271.155)."
+    },
+    {
+     "q": "A non-network ER doctor bills an HMO member for the balance above the HMO payment. Is that allowed?",
+     "a": "No; Sec. 1271.155 limits the provider to the member's copayment, coinsurance and deductible."
+    },
+    {
+     "q": "No in-network pediatric surgeon can perform a needed procedure. What must the HMO do when the member's network doctor asks?",
+     "a": "Allow a referral to a non-network surgeon and fully reimburse at the usual and customary or agreed rate (Sec. 1271.055)."
+    },
+    {
+     "q": "An ER physician files an electronic clean claim for emergency care given to an HMO member. By what day must the HMO pay?",
+     "a": "By the 30th day after receipt, under Sec. 1271.155."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Texas Insurance Code Chapter 1201, Accident and Health Insurance",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1201.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1367, Benefits for Children",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1367.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1368, Chemical Dependency Coverage",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1368.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1501, Small and Large Employer Plans",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1501.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1651, Long-Term Care",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1651.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1652, Medicare Supplement",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1652.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 843, Health Maintenance Organizations",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.843.htm"
+  },
+  {
+   "title": "Texas Insurance Code Chapter 1271, HMO Benefits",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1271.htm"
+  },
+  {
+   "title": "28 TAC 3.3306, Medicare supplement minimum benefit standards",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3306"
+  },
+  {
+   "title": "28 TAC 3.3309, Medicare supplement application and replacement",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3309"
+  },
+  {
+   "title": "28 TAC 3.3312, Medicare supplement guaranteed issue",
+   "url": "https://regulations.justia.com/states/texas/title-28/part-1/chapter-3/subchapter-t/section-3-3312"
+  },
+  {
+   "title": "28 TAC 3.3324, Medicare supplement open enrollment",
+   "url": "https://regulations.justia.com/states/texas/title-28/part-1/chapter-3/subchapter-t/section-3-3324"
+  },
+  {
+   "title": "28 TAC 3.3818, Long-term care eligibility for benefits",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3818"
+  },
+  {
+   "title": "28 TAC 3.3825, Long-term care prior hospitalization",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3825"
+  },
+  {
+   "title": "28 TAC 3.3841, Long-term care unintentional lapse and reinstatement",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3841"
+  },
+  {
+   "title": "28 TAC 21.704, Unfair discrimination (HIV and sexual orientation)",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-21-704"
+  },
+  {
+   "title": "28 TAC 21.705, Nondiscriminatory HIV testing",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-21-705"
+  },
+  {
+   "title": "28 TAC 11.506, HMO mandatory contractual provisions",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-11-506"
+  },
+  {
+   "title": "28 TAC 11.1600, HMO information to prospective and current enrollees",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-11-1600"
+  },
+  {
+   "title": "IRS, Eligibility for the premium tax credit",
+   "url": "https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit"
+  },
+  {
+   "title": "IRS, Employer shared responsibility provisions",
+   "url": "https://www.irs.gov/affordable-care-act/employers/employer-shared-responsibility-provisions"
+  },
+  {
+   "title": "DOL EBSA Technical Release 2013-02, Notice of coverage options",
+   "url": "https://www.dol.gov/agencies/ebsa/employers-and-advisers/guidance/technical-releases/13-02"
+  },
+  {
+   "title": "IRS, Repayment caps eliminated for excess advance payments of the premium tax credit",
+   "url": "https://www.irs.gov/tax-professionals/eitc-central/repayment-caps-eliminated-for-excess-advance-payments-of-the-premium-tax-credit"
+  },
+  {
+   "title": "KFF, 9 things to watch for the 2027 ACA open enrollment period (Nov. 6, 2026)",
+   "url": "https://kff.org/affordable-care-act/9-things-to-watch-for-the-2027-aca-open-enrollment-period/"
+  },
+  {
+   "title": "28 TAC 3.3832, Long-term care outline of coverage",
+   "url": "https://law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-3-3832"
+  }
+ ]
+}

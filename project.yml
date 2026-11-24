@@ -1,0 +1,7 @@
+# Read nightly by leftbrain847/index. Edit any time.
+theme: "learning"
+tags: [study, flashcards, exam prep]
+what: "Exam-prep courses built on the Mastery Field Guide engine, plus the market scan that picks which exams to build"
+next: "Finish and verify the Texas Life, Accident & Health course; add practice exams; test demand with videos"
+active: true
+public: true          # early POC: course and scan both go on the homepage

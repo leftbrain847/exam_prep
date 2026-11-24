@@ -1,0 +1,79 @@
+{
+  "id": "tx_lah",
+  "title": "Texas Life & Health Exam",
+  "intro": "Everything on the Texas General Lines - Life, Accident and Health exam (Pearson VUE outline effective Sept 1, 2026): 100 general questions and 30 Texas law questions, 70 to pass. Read each concept, then switch to Study to drill its flashcards on a spaced-repetition schedule. Study material, not legal or tax advice.",
+  "prefix": "txlah",
+  "page": "web/tx_lah.html",
+  "categories": [
+    {
+      "key": "life",
+      "label": "Life (general)",
+      "topics": [
+        "lifepolicies",
+        "lifeprovisions",
+        "underwriting",
+        "retirement"
+      ]
+    },
+    {
+      "key": "health",
+      "label": "Health (general)",
+      "topics": [
+        "healthpolicies",
+        "healthprovisions",
+        "socialother"
+      ]
+    },
+    {
+      "key": "texas",
+      "label": "Texas law",
+      "topics": [
+        "txcommon",
+        "txlife",
+        "txhealth"
+      ]
+    }
+  ],
+  "placeholders": {
+    "lifepolicies": {
+      "title": "Life policies & annuities",
+      "scope": "Whole, universal, variable, indexed and term life; annuities; joint and survivorship plans."
+    },
+    "lifeprovisions": {
+      "title": "Life riders & provisions",
+      "scope": "Riders, beneficiaries, premiums, loans, nonforfeiture, dividends, settlement options, exclusions."
+    },
+    "underwriting": {
+      "title": "Application, underwriting & delivery",
+      "scope": "Applications, receipts, insurable interest, MIB and FCRA, risk classes, delivery, contract law."
+    },
+    "retirement": {
+      "title": "Retirement, business uses & taxes",
+      "scope": "Group life, qualified plans, needs analysis, key person and buy-sell, taxation, MECs."
+    },
+    "healthpolicies": {
+      "title": "Health & disability policies",
+      "scope": "Disability income, AD&D, medical expense plans, HSAs, Medicare supplement, group and COBRA, LTC."
+    },
+    "healthprovisions": {
+      "title": "Health provisions & renewability",
+      "scope": "Uniform provisions, cost-sharing clauses, riders, renewability."
+    },
+    "socialother": {
+      "title": "Medicare, Medicaid & other concepts",
+      "scope": "Medicare Parts A-D, Medicaid, Social Security disability, coordination of benefits, managed care."
+    },
+    "txcommon": {
+      "title": "Texas law: rules for both lines",
+      "scope": "Commissioner, licensing, CE, unfair practices, agent duties, guaranty association."
+    },
+    "txlife": {
+      "title": "Texas law: life insurance",
+      "scope": "Advertising, policy provisions, group and credit life, replacement, nonforfeiture."
+    },
+    "txhealth": {
+      "title": "Texas law: health & HMOs",
+      "scope": "Required provisions, Medicare supplement, LTC, small group, ACA, HMOs."
+    }
+  }
+}
