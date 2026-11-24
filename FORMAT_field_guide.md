@@ -62,7 +62,7 @@ Write ONE valid JSON file (UTF-8, no comments, no trailing commas). Validate it 
 `<p> <ul> <ol style="padding-left:18px;margin:0 0 8px"> <li> <b> <i> <code> <pre><code> <div class="trap"><b>Trap:</b> ...</div>`. Escape `<` and `>` inside code as `&lt;` `&gt;`. No links, no images, no inline citation markers like [1].
 
 ## Depth and voice (medicine and older tabs; the compact standard above overrides depth for the rest)
-- Audience: a senior BI engineer (10 yrs data, 3 in healthcare / telepsychiatry) who wants to become a senior/staff-level master user. The org is moving off Azure Data Factory toward Workato, Microsoft Fabric, and possibly Databricks. Healthcare/HIPAA angles are welcome where real and verifiable.
+- Audience: an adult practitioner who wants real mastery of the topic.
 - Each concept: "How it works" (mechanics), then senior-level nuance / trade-offs, failure modes or traps, and where useful "Design review questions" or a code/config example.
 - Plain, direct sentences. Active voice. No em-dash asides, no "not X but Y", no "worth noting", no marketing language.
 - Cards test recall of things a practitioner must know (limits, defaults, which feature solves which problem, gotchas). Avoid trivia like launch dates unless they matter.
@@ -78,7 +78,7 @@ Write ONE valid JSON file (UTF-8, no comments, no trailing commas). Validate it 
 - Write a PARTIAL topic file: {"groups":[...],"concepts":[...],"sources":[...]} only (no id/title/updated/note). Sources: 15-30 {"title","url"} with full URLs exactly as fetched or seen in search results; never construct URLs.
 
 ## Extra for non-technical topics (NFL, first aid, EQ, affirmations, fallacies)
-- The audience note above about a BI engineer does NOT apply; the reader is a curious, analytical adult (economics background, flags motivated reasoning in himself, prefers direct, evidence-based material over hype). Write for a practitioner who wants real mastery.
+- The reader is a curious, analytical adult who prefers direct, evidence-based material over hype. Write for a practitioner who wants real mastery.
 - Write the FULL topic file (id, title, updated "2026-11-04", refreshDays, note, groups, concepts, sources). sources: 12-25 {"title","url"} full URLs exactly as fetched or seen in search results; never construct URLs.
 - The "trap" block is fine for common mistakes and misconceptions. The `<div class="synth"><b>Synthesis:</b> ...</div>` block is allowed for your own cross-source conclusions.
 - Section titles can fit the subject (e.g. "The rule", "How it's officiated", "Edge cases", "Evidence", "Try it"); keep 3-5 per concept.
