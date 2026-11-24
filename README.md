@@ -16,6 +16,18 @@ outline with item codes), `WRITING.md` (the brief topic writers follow) and `top
 python3 build/build.py courses/tx_lah     # writes web/tx_lah.html
 ```
 
+## Listen voice
+Summaries are recorded at build time with Kokoro's `af_heart` voice (the Field Guide's approved voice): one MP3 per
+topic in `audio/<course>/summary/`, played concept by concept, so repeat (x2, x3) replays the recording and audio
+keeps playing on the lock screen. Full notes use the device voice. Settings: `audio` in `course.json`.
+```
+pip install -r build/requirements-audio.txt
+mkdir -p models && for f in kokoro-v1.0.onnx voices-v1.0.bin; do curl -L -o models/$f https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f; done
+python3 build/audio.py courses/tx_lah --models models && python3 build/build.py courses/tx_lah
+```
+Only topics whose spoken text changed are re-recorded. The homepage copies `audio/tx_lah` next to the page
+(showcase `assets: audio/tx_lah`).
+
 ## Test
 ```
 pip install pytest && pytest -q

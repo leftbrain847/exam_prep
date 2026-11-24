@@ -75,5 +75,22 @@
       "title": "Texas law: health & HMOs",
       "scope": "Required provisions, Medicare supplement, LTC, small group, ACA, HMOs."
     }
+  },
+  "audio": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "lang": "en-us",
+    "model_files": [
+      "kokoro-v1.0.onnx",
+      "voices-v1.0.bin"
+    ],
+    "lead_in_s": 0.3,
+    "gap_s": 1.0,
+    "level_rms_dbfs": -20,
+    "fade_in_s": 0.03,
+    "fade_out_s": 0.05,
+    "bitrate_kbps": 48,
+    "sample_rate": 24000,
+    "dir": "audio/tx_lah/summary"
   }
 }
