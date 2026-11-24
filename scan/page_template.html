@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exam prep market scan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: audit report, plain and exact
+   IDEA: an auditor's opportunity map, where each exam is a plotted finding
+   PICTURE: pain (x) vs beatable competition (y), dot size = market; top-right is the target corner
+   COLOUR and TYPE: white, ink #101418, one yellow slab behind the key figure, slate; Manrope
+   LAYOUT: chart first, finding beneath, then the sortable top 100 table and method */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#101418);--ink:light-dark(#101418,#e8ecef);--mute:light-dark(#5b6670,#9aa6b0);--line:light-dark(#e3e7ea,#26303a);--slab:#ffd84a;--dot:light-dark(#3d4a56,#a9b6c2);--hit:light-dark(#101418,#ffd84a);--panel:light-dark(#f6f8f9,#161d24)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(28px,4vw,64px) max(5vw,16px);max-width:1240px;margin:0 auto}
+h1{font-size:clamp(30px,4.2vw,48px);line-height:1.05;margin:0 0 12px;font-weight:800;text-wrap:balance;max-width:24ch}
+h2{font-size:24px;line-height:1.2;margin:0 0 12px;font-weight:800;text-wrap:balance}
+p{max-width:68ch;margin:0 0 12px}.mute{color:var(--mute)}.small{font-size:13px}
+.top{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:start}
+.fig{position:relative;min-height:420px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.key{background:var(--slab);color:#101418;padding:18px 20px;border-radius:4px;margin-bottom:18px}
+.key b{display:block;font-size:clamp(34px,5vw,52px);line-height:1;font-weight:800}
+.picks{list-style:none;padding:0;margin:0}.picks li{padding:10px 0;border-top:1px solid var(--line)}
+.picks li b{display:block}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+input[type=search]{font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);min-height:44px;flex:1 1 220px}
+button.chip{font:inherit;font-size:14px;min-height:44px;padding:0 14px;border:1px solid var(--line);border-radius:22px;background:var(--bg);color:var(--ink);cursor:pointer}
+button.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+:focus-visible{outline:3px solid var(--slab);outline-offset:2px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-weight:700;border-bottom:2px solid var(--ink);padding:8px 6px;cursor:pointer;white-space:nowrap}
+td{border-bottom:1px solid var(--line);padding:9px 6px;vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.row{cursor:pointer}tr.row:hover td{background:var(--panel)}
+tr.detail td{background:var(--panel);font-size:14px}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:1px 7px;border-radius:10px;white-space:nowrap}
+.tag.fit{background:var(--slab);color:#101418}.tag.rr{border:1px solid var(--mute);color:var(--mute)}
+.detail a{color:inherit;overflow-wrap:anywhere}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px}
+.notes div{border-top:2px solid var(--ink);padding-top:12px}
+pre,.scroll{overflow-x:auto}code{overflow-wrap:anywhere}
+@media(max-width:860px){.top{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7.5em;margin-inline-start:-8em;white-space:normal}.stack td:empty{display:none}.fig{min-height:340px}}
+@media(prefers-reduced-motion:no-preference){circle.d{transition:r .25s}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+<section class="band">
+  <h1>Insurance, real estate, electrician and contractor exams are the most beatable big markets</h1>
+  <p class="mute">__N_ALL__ certifications and licenses scored; the top 100 checked against sources; __N_VER__ verified.</p>
+  <div class="top">
+    <div>
+      <div class="fig" id="fig" role="img" aria-label="Scatter of exams: pain on the horizontal axis, beatable competition on the vertical axis, dot size is market size"><svg id="chart"></svg></div>
+      <p class="small mute" style="margin-top:8px">Right = harder to pass. Up = weaker competition. Bigger dot = more takers. Only verified exams are plotted. Tap a dot for its row.</p>
+    </div>
+    <div>
+      <div class="key"><b id="fitcount">0</b>verified exams are both hard to pass and beatable</div>
+      <ul class="picks" id="picks"></ul>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <h2>The top 100, ranked</h2>
+  <div class="tools">
+    <input type="search" id="q" placeholder="Search exams" aria-label="Search exams">
+    <button class="chip" id="fFit" aria-pressed="false">Hard and beatable only</button>
+    <button class="chip" id="fVer" aria-pressed="false">Verified only</button>
+  </div>
+  <div class="scroll"><table class="stack" id="tbl">
+    <thead><tr><th data-k="final_rank" class="n">#</th><th data-k="name">Exam</th><th data-k="final" class="n">Score</th><th data-k="pain_low_pass_rate" class="n">Pain</th><th data-k="weak_incumbents" class="n">Beatable</th><th data-k="takers_per_year_fit" class="n">Market</th><th data-k="status">Status</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table></div>
+  <p class="small mute">Factor scores run 0 to 5; blank means no source was found. Tap a row for takers, pass rate, fee, competitors, newcomer evidence and sources.</p>
+</section>
+
+<section class="band">
+  <h2>What changes the plan</h2>
+  <div class="notes">
+    <div><b>A free rival already runs your model.</b><p>open-exam-prep.com, a solo founder's AI-built catalog of 483+ exams with free notes, flashcards, practice questions and an AI tutor, covers nearly every exam here. Notes plus flashcards alone won't sell; the edge has to be video, freshness and a niche done better.</p></div>
+    <div><b>Cheap players lock the giants.</b><p>CPA, CFA, PMP, Security+, A+ and AWS have huge markets, but free or $15 courses (Professor Messer, Udemy, Tutorials Dojo, Coaching Actuaries) already own them.</p></div>
+    <div><b>Spanish-language takers are underserved.</b><p>New York's Spanish insurance pass rates are 18 to 33% versus about 46% overall, and California's Spanish contractor Law and Business exam passes only 26 to 28%. Both are large markets with thin Spanish prep.</p></div>
+    <div><b>Exam changes open doors.</b><p>AWS Solutions Architect Pro is being replaced, ITIL 4 is giving way to ITIL 5, CPIM got a new version in June 2026, the bar is moving to NextGen, CCNP Security got its first major blueprint revision since 2020, and ITIL 5 launched with ITIL 4 retiring at the end of 2027. Each forces incumbents to rebuild.</p></div>
+  </div>
+</section>
+
+<section class="band">
+  <h2>Method</h2>
+  <p>1. Every row in CareerOneStop's certification file (6,484) and its state license file (580 license families) was judged on market size, stakes, existing prep spending, exam fee, how beatable the competition is, written-exam fit and liability. Nothing was excluded.</p>
+  <p>2. Duplicates were merged (CPA appeared as 7 separate certs and state licenses), and the top 100 by that score were researched with sources: takers, pass rate, fee, named competitors and prices, and evidence of newcomers winning.</p>
+  <p>3. Final score = 25% first-pass judgment + 75% sourced factors, averaged over the factors actually sourced. Rows with fewer than 2 sourced core factors are marked "partly verified" and ranked after verified ones; most are vendor certs (AWS, Cisco, CompTIA, Microsoft) whose owners don't publish taker counts or pass rates.</p>
+  <p class="small mute">Not used: refresh cadence (research agents scored it in opposite directions) and community size (Reddit blocked every agent). Some figures come from competitors' own pages; those are noted in each row's sources.</p>
+</section>
+
+<script>
+{
+const D=__DATA__;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const num=v=>v==null?'':String(v);
+const st={q:'',fit:false,ver:false,k:'final_rank',dir:1,open:null};
+const fits=D.filter(r=>r.status==='verified'&&r.thesis_fit==='yes');
+document.getElementById('fitcount').textContent=fits.length;
+document.getElementById('picks').innerHTML=fits.slice(0,4).map(r=>`<li><b>${esc(r.name)}</b><span class="small mute">${esc(r.verdict||'')}</span></li>`).join('');
+const tb=document.getElementById('tb');
+function render(){
+  let rows=D.filter(r=>(!st.fit||r.thesis_fit==='yes')&&(!st.ver||r.status==='verified')&&(!st.q||r.name.toLowerCase().includes(st.q)));
+  rows.sort((a,b)=>{const x=a[st.k],y=b[st.k];if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*st.dir});
+  tb.innerHTML=rows.map(r=>{
+    const tags=(r.thesis_fit==='yes'?'<span class="tag fit">hard + beatable</span> ':'')+(r.status!=='verified'?'<span class="tag rr">partly verified</span>':'verified');
+    const main=`<tr class="row" data-r="${r.final_rank}" tabindex="0"><td class="n">${r.final_rank}</td><td>${esc(r.name)}</td><td class="n">${num(r.final)}</td><td class="n">${num(r.pain_low_pass_rate)}</td><td class="n">${num(r.weak_incumbents)}</td><td class="n">${num(r.takers_per_year_fit)}</td><td>${tags}</td></tr>`;
+    if(st.open!==r.final_rank)return main;
+    const src=String(r.sources||'').split(';').map(s=>s.trim()).filter(s=>/^https?:\/\//.test(s)).map(s=>`<a href="${esc(s)}">${esc(s.replace(/^https?:\/\//,'').slice(0,60))}</a>`).join('<br>');
+    return main+`<tr class="detail"><td colspan="7"><p><b>Takers:</b> ${esc(r.takers||'not found')} · <b>Pass rate:</b> ${esc(r.pass_rate||'not found')} · <b>Fee:</b> ${esc(r.fee||'not found')}</p><p><b>Competitors:</b> ${esc(r.top_competitors||'not found')}</p><p><b>Newcomers:</b> ${esc(r.newcomer_evidence||'not found')}</p><p><b>Verdict:</b> ${esc(r.verdict||'')}</p><p class="small">${src||'No sources recorded.'}</p></td></tr>`;
+  }).join('');
+}
+tb.addEventListener('click',e=>{const tr=e.target.closest('tr.row');if(!tr)return;const n=+tr.dataset.r;st.open=st.open===n?null:n;render()});
+tb.addEventListener('keydown',e=>{if(e.key==='Enter'){const tr=e.target.closest('tr.row');if(tr){const n=+tr.dataset.r;st.open=st.open===n?null:n;render()}}});
+document.getElementById('q').addEventListener('input',e=>{st.q=e.target.value.toLowerCase().trim();render()});
+for(const [id,key] of [['fFit','fit'],['fVer','ver']]){const b=document.getElementById(id);b.addEventListener('click',()=>{st[key]=!st[key];b.setAttribute('aria-pressed',st[key]);render()})}
+document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;st.dir=st.k===k?-st.dir:(k==='name'||k==='final_rank'?1:-1);st.k=k;render()}));
+const s=document.getElementById('chart');
+const pts=D.filter(r=>r.status==='verified'&&r.pain_low_pass_rate!=null&&r.weak_incumbents!=null);
+function draw(){
+  const W=s.clientWidth,H=s.clientHeight,m={l:44,r:16,t:16,b:40},small=W<520;
+  const x=v=>m.l+(v/5)*(W-m.l-m.r),y=v=>H-m.b-(v/5)*(H-m.t-m.b);
+  const jit=i=>((i*37)%11-5)*Math.min(W/320,3);
+  let g=`<rect x="${x(3.5)}" y="${y(5)}" width="${x(5)-x(3.5)}" height="${y(3)-y(5)}" fill="#ffd84a" opacity=".35"/>`;
+  for(let i=0;i<=5;i++){g+=`<line x1="${x(i)}" x2="${x(i)}" y1="${y(0)}" y2="${y(5)}" stroke="currentColor" opacity=".08"/><line x1="${x(0)}" x2="${x(5)}" y1="${y(i)}" y2="${y(i)}" stroke="currentColor" opacity=".08"/>`;if(!small)g+=`<text x="${x(i)}" y="${H-m.b+16}" font-size="12" text-anchor="middle" fill="currentColor" opacity=".6">${i}</text><text x="${m.l-8}" y="${y(i)+4}" font-size="12" text-anchor="end" fill="currentColor" opacity=".6">${i}</text>`}
+  g+=`<text x="${(m.l+W-m.r)/2}" y="${H-8}" font-size="13" text-anchor="middle" fill="currentColor">Harder to pass →</text><text transform="translate(14,${(m.t+H-m.b)/2}) rotate(-90)" font-size="13" text-anchor="middle" fill="currentColor">Weaker competition →</text>`;
+  const pos=new Map();
+  g+=pts.map((r,i)=>{const rad=4+2.2*(r.takers_per_year_fit??1.5);const hit=r.thesis_fit==='yes';const cx=x(r.pain_low_pass_rate)+jit(i),cy=y(r.weak_incumbents)+jit(i+3);pos.set(r,[cx,cy,rad]);return `<circle class="d" data-r="${r.final_rank}" cx="${cx}" cy="${cy}" r="${rad}" fill="${hit?'var(--hit)':'var(--dot)'}" fill-opacity="${hit?.9:.45}" stroke="var(--bg)" stroke-width="1.5" style="cursor:pointer"><title>${esc(r.name)}</title></circle>`}).join('');
+  if(!small){
+    // label the top verified fits in a column at the chart's left edge of the target zone, with leader lines
+    const lab=fits.filter(r=>pos.has(r)).slice(0,5);
+    g+=lab.map((r,i)=>{const [cx,cy]=pos.get(r);const ly=m.t+14+i*18,lx=x(2.6);return `<line x1="${cx}" y1="${cy}" x2="${lx+4}" y2="${ly-4}" stroke="currentColor" opacity=".35"/><text x="${lx}" y="${ly}" font-size="12" font-weight="700" text-anchor="end" fill="currentColor">${esc(r.name.slice(0,28))}</text>`}).join('');
+  }
+  s.innerHTML=g;
+}
+const ro=new ResizeObserver(draw);ro.observe(s);
+s.addEventListener('click',e=>{const c=e.target.closest('circle.d');if(!c)return;st.open=+c.dataset.r;st.fit=false;st.ver=false;st.q='';render();document.querySelector(`tr.row[data-r="${c.dataset.r}"]`)?.scrollIntoView({block:'center'})});
+render();
+}
+</script>
+</body>
+</html>

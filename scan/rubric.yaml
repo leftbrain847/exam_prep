@@ -1,0 +1,113 @@
+# cert_ranker rubric v2 — fitted to the real CareerOneStop columns.
+# Every knob is a variable; reweight freely and rerun rank_all.py.
+
+meta:
+  version: 2
+  shortlist_certs: 60
+  shortlist_license_families: 40
+  deep_research_n: 30
+
+# ---------------- national certifications (XLS_Certification_Finder_Data_ACC) ----------------
+certs:
+  text_fields: [CERT_NAME, ACRONYM, ORG_NAME, CERT_DESCRIPTION, EXAM_DETAILS, KEYWORD]
+  gates:
+    require_exam_column: EXAM            # 1 = exam required
+    exclude_types: [Product/Equipment, Unclassified]   # vendor product certs
+    exclude_entrenched_orgs: [microsoft, amazon web services, google, comptia, cisco,
+      project management institute, salesforce, oracle, (isc)2, isaca, ibm, sap america,
+      adobe, autodesk, avid, opentext, red hat, vmware, linux professional institute]
+    exclude_clinical: [physician, nurse practitioner, pharmacist, anesthesi, registered nurse,
+      nursing, surgical, dental, psychiatric, mental health, counselor, therapist, midwife,
+      paramedic, emergency medical, critical care, oncology, cardiac, respiratory]
+  weights:
+    type_level: 1.5        # Advanced > Specialty > Core (seniority = more at stake)
+    recurring: 1.5         # CEU / re-exam / short renewal cycle
+    high_stakes: 3
+    format_fit: 2.5
+    own_edge: 1
+    ladder: 1.5            # org has many certs -> expansion path
+    practical_penalty: -2
+  type_scores: {Advanced: 1.0, Specialty: 0.8, Core: 0.6, Skill: 0.2}
+
+# ---------------- state + federal licenses (COSFlatExport FlatExport table) ----------------
+licenses:
+  # one family = one normalized license title across states (state wording stripped)
+  title_stopwords: [licensed, license, licence, certified, certificate, certification,
+    registered, registration, permit, state, temporary, provisional, of, the, and, in]
+  gates:
+    exclude_no_exam: true
+    # clinical: 29-1 practitioners, 19-303 psychologists, 21-10 counselors/social workers,
+    # 29-20/29-205 respiratory and similar therapists
+    exclude_soc_prefixes: ["291", "19303", "2110", "29209", "29203"]
+    min_states: 3            # skip one-off local titles
+  exam_scores:
+    Both state and third-party exams required: 1.0
+    Third-party exam required: 0.9    # one national exam -> one course sells in every state
+    Choice of state or third-party exam: 0.8
+    State exam required: 0.7          # per-state SKUs
+    Undetermined: 0.3
+  weights:
+    exam_strength: 2.5
+    state_breadth: 2.5     # share of states licensing it = market + SKU multiplier
+    federal: 2             # federal license = one national exam
+    high_stakes: 1.5
+    format_fit: 2
+    own_edge: 1
+    practical_penalty: -2
+
+# ---------------- shared keyword lists (regex word-start match, case-insensitive) ----------------
+keywords:
+  high_stakes: [license, licensure, board certified, registered, chartered, federal, examiner,
+    broker, inspector, professional engineer, auditor, appraiser, actuar, adjuster, underwriter,
+    agent, master, journeyman, captain, pilot, mechanic, dispatcher, surveyor]
+  format_fit: [code, regulation, regulatory, compliance, standards, law, legal, tax, safety,
+    inspection, coding, billing, federal, procedures, rules, ethics, accounting, audit, finance,
+    insurance, navigation, hazardous]
+  own_edge: [interpreter, translator, spanish, health information, medical coding, billing,
+    actuar, financial, economic, data, analytics, insurance, investment]
+  practical_penalty: [practical exam, portfolio, performance-based, performance exam, oral exam,
+    hands-on, skills demonstration, audition, practical skills, demonstrate]
+
+# ---------------- full pass: every item judged, no exclusions ----------------
+# old gates (vendor, clinical) are now just low "crushable"/"safe" scores, never filters
+full_pass:
+  weights:
+    takers: 3        # market size
+    stakes: 2        # career/legal gate
+    spend: 3         # people already pay for prep
+    fee: 1.5         # exam cost signals commitment
+    crushable: 3     # a sharper product can win share
+    written_fit: 2   # suits notes + flashcards
+    safe: 1.5        # low liability
+  verify_top_n: 100
+  deep_research_n: 30
+
+# ---------------- stage 2: researched factors, 0-5 each, blank = unverified (2.5) ----------------
+stage2:
+  weights:
+    pain_low_pass_rate: 3
+    exam_fee_and_retake_cost: 2
+    takers_per_year_fit: 2       # sweet spot: thousands to tens of thousands a year
+    weak_incumbents: 3
+    employer_pays: 2
+    refresh_cadence: 1.5
+    public_source_material: 2
+    reachable_community: 2
+    expansion_ladder: 1
+  blend: {stage1: 0.25, stage2: 0.75}
+
+# ---------------- verified pass (top 100, sourced) ----------------
+verified:
+  weights:
+    pain_low_pass_rate: 3
+    exam_fee_and_retake_cost: 2
+    takers_per_year_fit: 2
+    weak_incumbents: 3
+    employer_pays: 2
+    refresh_cadence: 0        # agents scored it in opposite directions; excluded until re-scored
+    public_source_material: 2
+    reachable_community: 2    # reddit blocked for every agent: mostly blank
+    expansion_ladder: 1
+    liability: 1.5
+  blend: {prior: 0.25, verified: 0.75}
+  min_sourced_core: 2         # need >=2 of pain/takers/weak_incumbents sourced to rank as verified

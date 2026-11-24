@@ -1,0 +1,739 @@
+{
+  "id": "lifeprovisions",
+  "title": "Life riders & provisions",
+  "updated": "2026-11-23",
+  "refreshDays": 365,
+  "note": "Covers life insurance riders (waiver of premium, payor, guaranteed insurability, accidental death and AD&D, term and other-insured riders, return of premium, accelerated benefits and long-term care, cost of living), the standard policy provisions (entire contract, free look, owner's rights, beneficiaries, assignments, premiums and grace period, loans, nonforfeiture, reinstatement, dividends, incontestability, suicide, misstatement of age), settlement options and exclusions. These are general national rules; Texas-specific numbers are in the Texas law tab. Last checked for accuracy on Nov 23, 2026. Review yearly or when the exam outline changes.",
+  "groups": [
+    {
+      "key": "map",
+      "label": "Map"
+    },
+    {
+      "key": "riders",
+      "label": "Riders"
+    },
+    {
+      "key": "contract",
+      "label": "Contract and ownership"
+    },
+    {
+      "key": "values",
+      "label": "Premiums and cash values"
+    },
+    {
+      "key": "payout",
+      "label": "Defenses, exclusions and payout"
+    }
+  ],
+  "concepts": [
+    {
+      "n": "Map of life riders, provisions and exclusions",
+      "g": "map",
+      "s": "A life policy is a base promise (insuring clause) shaped by required provisions that protect both sides, optional riders that add or change benefits for extra premium, and exclusions that remove specific causes of death.",
+      "o": [
+        "G-II",
+        "G-II.A",
+        "G-II.B",
+        "G-II.D"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<p>Sort every item into one of four bins:</p><ul><li><b>Riders</b> (added by endorsement, usually extra premium): waiver of premium, payor, disability income, guaranteed insurability, cost of living, accidental death, term and other-insured riders, return of premium, long-term care, accelerated benefits.</li><li><b>Contract and ownership provisions</b>: entire contract, insuring clause, consideration, free look, owner's rights, beneficiaries, assignments.</li><li><b>Premium and value provisions</b>: modes, grace period, automatic premium loan, reinstatement, loans and withdrawals, nonforfeiture options, dividends.</li><li><b>Defenses, limits and payout</b>: incontestability, suicide, misstatement of age or gender, exclusions, settlement options.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Riders cost extra and can usually be dropped; provisions are part of the base contract. A question that says 'added for an additional premium' points to a rider.</div><div class=\"trap\"><b>Trap:</b> Nationally tested numbers (two-year contestable period, one-month grace period) are general rules. Texas specifics: see Texas law tab.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A buyer adds waiver of premium and a children's term rider to a whole life policy. The policy's grace period, nonforfeiture options and incontestable clause come with the base policy at no added premium.</p><p>How the exam tests this section: short scenarios that name a situation (insured disabled, premium missed, beneficiary died first, age misstated) and ask which rider, provision or option applies or what the insurer pays. Watch for the one fact that changes the answer, such as whether cash value exists or whether a designation is irrevocable.</p>"
+        },
+        {
+          "t": "Exam angle",
+          "b": "<p>Read the last sentence of the question first. 'Which rider' and 'which provision' questions both hinge on one trigger word: disabled, missed, borrowed, died first, misstated.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policyowner wants a benefit that keeps the policy in force without premiums if she becomes totally disabled, and she is willing to pay extra for it. Is that a rider or a standard provision, and which one?",
+          "a": "It is a rider: the waiver of premium rider, added for an additional premium."
+        },
+        {
+          "q": "An insured died 10 days after missing a premium due date, before paying it. Which provision decides whether the beneficiary is paid?",
+          "a": "The grace period provision; coverage continues during the grace period and the insurer pays the face amount minus the overdue premium."
+        },
+        {
+          "q": "Which bin does the suicide clause belong to: rider, premium provision, or defense and limit?",
+          "a": "Defense and limit; it restricts the insurer's payment for a specific cause of death during the early policy years."
+        }
+      ]
+    },
+    {
+      "n": "Waiver of premium, payor benefit and disability income riders",
+      "g": "riders",
+      "s": "Disability riders keep a life policy going or pay income when the insured (or, for the payor rider, the premium payer) becomes totally disabled, after a waiting period.",
+      "o": [
+        "G-II.A.1",
+        "G-II.A.3",
+        "G-II.A.9"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Waiver of premium</b>: if the insured becomes totally disabled, the insurer waives premiums after a waiting period (commonly 6 months). Premiums paid during the waiting period are typically refunded once the waiver starts. The policy keeps building cash value and dividends as if premiums were paid. Coverage for new disabilities usually ends at a stated age, often 60 or 65.</li><li><b>Waiver of monthly deduction</b>: the universal life version. It waives the monthly cost of insurance and expense charges only, not the planned premium, so the cash value does not grow from new premiums.</li><li><b>Payor benefit</b>: used on juvenile policies. If the adult payor dies or becomes disabled, premiums are waived until the child reaches a stated age (often 21 or 25). The payor usually must give evidence of insurability.</li><li><b>Disability income rider</b>: pays a monthly income during the insured's total disability, set as a stated amount per $1,000 of face, on top of waiving premiums when combined with waiver.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Waiver of premium pays no cash to the insured. It only stops premium billing. Cash to live on comes from a disability income rider.</div><div class=\"trap\"><b>Trap:</b> The payor benefit protects the child's policy when the parent dies or is disabled. It is not triggered by the child's disability.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An insured with a $200,000 whole life policy and waiver of premium is disabled in March. She pays premiums through the 6-month waiting period, then the waiver starts and those 6 months of premiums are refunded. The cash value keeps growing on schedule.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A father owns a policy on his 5-year-old son and pays its premiums. The father dies. Which rider keeps the son's policy in force without premiums?",
+          "a": "The payor benefit rider, which waives premiums until the child reaches a stated age."
+        },
+        {
+          "q": "A universal life insured with a disability waiver is disabled for two years. Why did her account value barely grow?",
+          "a": "A waiver of monthly deduction rider pays only the cost of insurance and expense charges, not the planned premium that would build cash value."
+        },
+        {
+          "q": "A disabled insured needs monthly cash to cover living costs. Waiver of premium or disability income rider?",
+          "a": "Disability income rider; waiver of premium only stops premiums and pays no cash."
+        },
+        {
+          "q": "A waiver of premium claim is approved after the waiting period. What happens to the premiums the insured paid during that period?",
+          "a": "They are typically refunded, because the waiver is applied back to the start of the disability."
+        }
+      ]
+    },
+    {
+      "n": "Guaranteed insurability and cost of living riders",
+      "g": "riders",
+      "s": "Guaranteed insurability lets the insured buy more coverage at set dates or life events with no evidence of insurability, and the cost of living rider raises the face amount with inflation.",
+      "o": [
+        "G-II.A.2",
+        "G-II.A.10"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Guaranteed insurability (guaranteed purchase or future increase option)</b>: at specified option dates (usually policy anniversaries at set ages) and often at marriage or the birth or adoption of a child, the insured may buy a stated added amount with no medical exam or health questions.</li><li>Each purchase is priced at the insured's attained age at that time, at the original rate class.</li><li>An option not used by its date is usually lost. The rider ends at a stated age, commonly around 40 to 45.</li><li><b>Cost of living rider</b>: increases the face amount each year by the change in the Consumer Price Index, usually as added term coverage. The owner pays the extra premium for each increase, typically without evidence of insurability. Refusing an increase may end future increases.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Guaranteed insurability waives proof of health, not premium. The new coverage costs more because it is priced at the older age.</div><div class=\"trap\"><b>Trap:</b> The cost of living rider protects purchasing power. It does not change premiums on the base policy, and it is not the same as a dividend paid-up addition.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>At 28, a policyowner with a $100,000 policy and a guaranteed insurability rider is diagnosed with diabetes. At the age-31 option date she buys another $25,000 at her age-31 rate with no underwriting. Without the rider she might be rated or declined.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A 30-year-old wants the right to add coverage later even if his health declines. Which rider fits?",
+          "a": "The guaranteed insurability rider, which allows purchases at set dates without evidence of insurability."
+        },
+        {
+          "q": "Under a guaranteed insurability rider, at what age is the premium for each new purchase calculated?",
+          "a": "At the insured's attained age on the purchase date."
+        },
+        {
+          "q": "A client worries that inflation will shrink the real value of his death benefit. Which rider addresses this?",
+          "a": "The cost of living rider, which raises the face amount each year with the Consumer Price Index."
+        }
+      ]
+    },
+    {
+      "n": "Accidental death and AD&D riders",
+      "g": "riders",
+      "s": "An accidental death rider pays an extra benefit (often equal to the face, hence double indemnity) when death results from an accident within a stated period, and AD&D adds payments for loss of limbs or sight.",
+      "o": [
+        "G-II.A.4"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Accidental death (double indemnity)</b>: pays a multiple of the face, commonly double, if death is accidental. Death usually must occur within a stated time after the accident, often 90 days. Coverage often ends at a stated age, such as 65 or 70.</li><li><b>AD&amp;D</b>: adds dismemberment benefits. The <b>principal sum</b> (full benefit) is paid for accidental death or loss of two limbs or the sight of both eyes. The <b>capital sum</b>, a fraction of the principal sum (often half), is paid for loss of one limb or one eye.</li><li><b>Accidental means</b> requires that both the cause and the result were unintended. <b>Accidental bodily injury</b> (results) requires only that the result was unintended. The results wording is broader and more common.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The rider pays only for accidental death. If the insured dies of illness, the beneficiary gets the base face amount only.</div><div class=\"trap\"><b>Trap:</b> Death beyond the stated window after the accident (for example, day 120 under a 90-day rule) does not trigger the accidental benefit.</div><div class=\"trap\"><b>Trap:</b> Riders commonly exclude deaths from self-inflicted injury, war and illness, even when an accident was involved.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A $250,000 whole life policy has a double indemnity rider. The insured dies in a car crash 20 days later. The beneficiary receives $250,000 from the base policy plus $250,000 from the rider, or $500,000.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An insured with a $100,000 policy and double indemnity rider dies of a heart attack at home. What does the beneficiary receive?",
+          "a": "$100,000; the accidental benefit does not apply to death from illness."
+        },
+        {
+          "q": "Under an AD&D rider, the insured loses one hand in an accident and survives. Principal sum or capital sum?",
+          "a": "The capital sum, a fraction of the principal sum, paid for loss of one limb or one eye."
+        },
+        {
+          "q": "A rider covers accidental bodily injury. The insured intentionally jumps from a ledge expecting to land safely and breaks his neck. Which rider wording covers this death, results or means?",
+          "a": "Accidental results (bodily injury) wording covers it, because the result was unintended even though the act was intentional; accidental means wording would deny it."
+        },
+        {
+          "q": "An insured injured in an accident dies 4 months later. The rider has a 90-day requirement. What is paid?",
+          "a": "Only the base face amount, because death occurred outside the 90-day window."
+        }
+      ]
+    },
+    {
+      "n": "Term riders, other insured riders and return of premium",
+      "g": "riders",
+      "s": "Term riders add temporary death coverage to a permanent policy on the insured or on family members, and a return of premium rider adds term coverage equal to the premiums paid.",
+      "o": [
+        "G-II.A.5",
+        "G-II.A.6",
+        "G-II.A.8"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Term rider on the insured</b>: adds level or decreasing term coverage to a base policy, a cheap way to raise total coverage during high-need years. Usually convertible.</li><li><b>Other insureds rider</b>: covers a spouse or other family member under the base policy, usually as level term. A <b>children's term rider</b> covers all children, including those born later, for one premium, and is usually convertible to permanent coverage at a stated age without evidence of insurability. A <b>family rider</b> covers spouse and children together.</li><li><b>Return of premium rider</b>: an increasing term rider whose amount equals the premiums paid to date. If the insured dies within the rider period, the beneficiary receives the face amount plus the premiums paid.</li><li>Coverage under these riders ends when the rider term ends or when the base policy ends.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The return of premium rider does not refund premiums to a living insured. It pays them only as an added death benefit within the rider period. A return of premium term policy (survival refund) is a different product covered under policy types.</div><div class=\"trap\"><b>Trap:</b> Other-insured coverage is not a separate policy. If the base policy lapses, the rider coverage lapses with it.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A father buys $300,000 of whole life with a $20,000 children's term rider. A child born two years later is covered automatically. At 25, that child converts the $20,000 to permanent coverage without a medical exam.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A couple wants one policy that covers the husband permanently and the wife for 20 years. Which rider achieves this?",
+          "a": "An other insureds (spouse) term rider attached to the husband's permanent policy."
+        },
+        {
+          "q": "An insured paid $12,000 in premiums under a policy with a return of premium rider and dies within the rider period. The face is $100,000. What does the beneficiary receive?",
+          "a": "$112,000: the face amount plus the premiums paid, from the increasing term rider."
+        },
+        {
+          "q": "A family wants coverage for current and future children under one premium with a later right to permanent coverage. Which rider?",
+          "a": "A children's term rider, which covers all children for one premium and is convertible at a stated age."
+        }
+      ]
+    },
+    {
+      "n": "Accelerated death benefits and long-term care riders",
+      "g": "riders",
+      "s": "Accelerated benefit and long-term care riders let the insured draw part of the death benefit while alive for terminal illness, specified serious conditions or chronic illness, and every dollar paid reduces the death benefit.",
+      "o": [
+        "G-II.A.7",
+        "G-II.B.17"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li>The NAIC Accelerated Benefits Model Regulation defines accelerated benefits as payments to the owner during the insured's life that reduce the death benefit. Qualifying events include a condition that drastically limits life span (the model gives 24 months or less as an example), a condition needing extraordinary intervention such as an organ transplant, permanent confinement in an institution, and listed conditions such as stroke or end-stage renal failure.</li><li>The model lets insurers fund the benefit with a premium or charge, or by paying a discounted amount. Products under it may not be marketed as long-term care insurance.</li><li>A <b>long-term care rider</b> pays monthly benefits, as a percentage of the death benefit, when the insured is chronically ill. The federal tax-qualified definition is inability to do two of six activities of daily living for at least 90 days, or severe cognitive impairment.</li><li>IRS guidance says payments on the life of a terminally or chronically ill insured can be excluded from income, within the tax rules.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Accelerated benefits are not a loan. No interest is charged to repay, and the death benefit is permanently reduced by the amount paid plus any discount or charge.</div><div class=\"trap\"><b>Trap:</b> The NAIC model requires a warning that accelerated benefits may affect Medicaid eligibility. A 'free' benefit can still cost the client public benefits.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An insured with a $500,000 policy is diagnosed with a terminal illness and given 9 months. He accelerates 50%, or $250,000. On his death the beneficiary receives the remaining $250,000, less any discount or charge.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A terminally ill insured needs cash now and wants no repayment obligation. Policy loan or accelerated death benefit?",
+          "a": "Accelerated death benefit; it is an advance of the death benefit with no repayment, while a loan accrues interest."
+        },
+        {
+          "q": "A life policy has a long-term care rider. The insured cannot bathe or dress without help for four months. What triggers payment?",
+          "a": "Chronic illness: inability to perform two of six activities of daily living for at least 90 days, or severe cognitive impairment."
+        },
+        {
+          "q": "An insured accelerates $100,000 of a $300,000 policy and then dies. Before any charges, what does the beneficiary receive?",
+          "a": "$200,000, because accelerated payments reduce the death benefit dollar for dollar."
+        },
+        {
+          "q": "An agent is asked whether an accelerated benefit is risk-free for a client on means-tested aid. Which disclosure must the insurer make?",
+          "a": "That the benefit may adversely affect eligibility for Medicaid or other government benefits."
+        }
+      ]
+    },
+    {
+      "n": "Entire contract, insuring clause, consideration and free look",
+      "g": "contract",
+      "s": "The policy plus the attached application is the whole contract, the insuring clause states the insurer's promise, the consideration clause states what the owner gives in exchange, and the free look lets the owner return the policy for a full refund.",
+      "o": [
+        "G-II.B.1",
+        "G-II.B.2",
+        "G-II.B.3",
+        "G-II.B.4"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Entire contract</b>: the policy and the attached application make up the whole agreement. The insurer cannot use statements or documents not attached. Only an executive officer of the insurer can change the contract, never the agent.</li><li><b>Insuring clause</b>: the insurer's basic promise to pay the face amount to the beneficiary on the insured's death, subject to the policy terms. Usually on the first page.</li><li><b>Consideration clause</b>: the owner's consideration is the completed application plus payment of the first premium. The insurer's consideration is its promise to pay. The clause also states the premium amount and due dates.</li><li><b>Free look</b>: after delivery, the owner may return the policy within a set period (commonly 10 days nationally) for a full premium refund, with no reason given. The clock starts at delivery, not application. Texas specifics: see Texas law tab.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Consideration from the owner is the application and first premium. Later premiums are conditions for keeping the policy in force, not the consideration.</div><div class=\"trap\"><b>Trap:</b> An agent's verbal promise or brochure is not part of the contract. Under the entire contract provision only the policy and attached application count.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An agent tells a buyer that loans are interest-free, but the policy says 6%. The buyer is bound by the policy. If the buyer reads the policy within the free look period, he can return it for every dollar of premium paid.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An insurer denies a claim based on a medical statement the insured made in a phone interview that was never attached to the policy. Which provision blocks this?",
+          "a": "The entire contract provision; only the policy and attached application make up the contract."
+        },
+        {
+          "q": "What is the policyowner's consideration in a life insurance contract?",
+          "a": "The statements in the application and payment of the initial premium."
+        },
+        {
+          "q": "A new owner receives her policy, reads it a week after delivery and decides she does not want it. Which provision lets her get a full refund?",
+          "a": "The free look provision, measured from the delivery date."
+        },
+        {
+          "q": "Which clause states the insurer's promise to pay the face amount on the insured's death?",
+          "a": "The insuring clause."
+        }
+      ]
+    },
+    {
+      "n": "Owner's rights and assignments",
+      "g": "contract",
+      "s": "The policyowner controls all contract rights while the insured lives, and may transfer them permanently by absolute assignment or temporarily as loan security by collateral assignment.",
+      "o": [
+        "G-II.B.5",
+        "G-II.B.13"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Owner's rights</b>: name and change the beneficiary (unless irrevocable), choose dividend, nonforfeiture and settlement options, borrow against or surrender the cash value, assign or transfer ownership, and receive living benefits. The owner can be the insured or a third party with insurable interest at issue.</li><li><b>Absolute assignment</b>: a permanent transfer of all ownership rights. The new owner controls the policy.</li><li><b>Collateral assignment</b>: a temporary, partial transfer to secure a loan. At death the lender receives the unpaid debt and the beneficiary receives the rest. When the debt is repaid the rights return to the owner.</li><li>The insurer must get written notice of an assignment. It is not responsible for the assignment's validity and is protected for payments made before notice.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Ownership controls; the insured has no rights in a policy owned by someone else unless also the owner.</div><div class=\"trap\"><b>Trap:</b> Life policies are freely assignable, unlike most property and casualty policies, which need insurer consent. An irrevocable beneficiary's consent is still needed.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A business owner borrows $150,000 and collaterally assigns his $500,000 policy to the bank. He dies owing $90,000. The bank receives $90,000 and his wife, the beneficiary, receives $410,000.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policyowner gives all rights in her policy to her nephew permanently. What type of assignment is this?",
+          "a": "An absolute assignment."
+        },
+        {
+          "q": "An insured who collaterally assigned his policy dies owing the lender $40,000 on a $250,000 policy. How are proceeds split?",
+          "a": "The lender receives $40,000 and the beneficiary receives the remaining $210,000."
+        },
+        {
+          "q": "A mother owns a policy on her adult son. The son wants to change the beneficiary. Who has the right to do it?",
+          "a": "Only the policyowner, the mother, can change the beneficiary."
+        },
+        {
+          "q": "An insurer pays a death claim to the beneficiary without knowing of an assignment that was never filed with it. What is the insurer's liability to the assignee?",
+          "a": "None; the insurer must receive written notice and is protected for payments made before notice."
+        }
+      ]
+    },
+    {
+      "n": "Beneficiary designations",
+      "g": "contract",
+      "s": "Proceeds go to the primary beneficiary, then to the contingent if no primary survives, then to the owner's or insured's estate, and an irrevocable beneficiary must consent to changes that affect his or her rights.",
+      "o": [
+        "G-II.B.6"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Primary, contingent, tertiary</b>: each level takes only if no one at the level above survives the insured. With no surviving beneficiary, proceeds go to the insured's estate.</li><li><b>Revocable</b>: the owner can change it at any time without consent. <b>Irrevocable</b>: the beneficiary has a vested interest; the owner needs that person's written consent to change the beneficiary, assign, borrow or surrender.</li><li><b>By class</b>: 'my children' covers a group. <b>Per capita</b> splits equally among those living. <b>Per stirpes</b> passes a deceased member's share to that person's descendants.</li><li><b>Minors</b>: insurers will not pay a minor directly. Use a court-appointed guardian, a trust, or a custodian under the Uniform Transfers to Minors Act.</li><li><b>Common disaster</b>: the Uniform Simultaneous Death Act treats the insured as surviving when insured and beneficiary die together with no proof of order. Revised versions require surviving by 120 hours. Many policies add a clause requiring survival for a stated period, such as 14 or 30 days.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Naming the estate exposes proceeds to probate and creditors.</div><div class=\"trap\"><b>Trap:</b> Irrevocable status does not end when the owner wants out; it ends only with consent or the beneficiary's death.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>Primary: wife. Contingent: children per stirpes. Wife and insured die in one crash, order unknown. Proceeds go to the children, and a deceased child's share goes to that child's kids.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An irrevocable beneficiary is named. The owner wants a policy loan. What must he get first?",
+          "a": "The irrevocable beneficiary's written consent."
+        },
+        {
+          "q": "Insured and primary beneficiary die in the same accident with no evidence of who died first. Who receives the proceeds?",
+          "a": "The contingent beneficiary, because the law presumes the insured survived the primary."
+        },
+        {
+          "q": "Proceeds are left to 'my children per capita'; of three children, one has died leaving two kids. How is it split?",
+          "a": "Equally between the two living children; the grandchildren receive nothing."
+        },
+        {
+          "q": "A 10-year-old is named primary beneficiary. Why won't the insurer pay the child directly?",
+          "a": "A minor cannot legally receive the funds, so payment goes to a guardian, trust or custodian."
+        }
+      ]
+    },
+    {
+      "n": "Premium payment: modes, grace period and automatic premium loan",
+      "g": "values",
+      "s": "Premiums may be paid in several modes and as level or flexible amounts, a grace period keeps coverage in force after a missed due date, and the automatic premium loan uses cash value to pay a premium the owner misses.",
+      "o": [
+        "G-II.B.7"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Modes</b>: annual, semiannual, quarterly or monthly. The more often you pay, the higher the total yearly cost, because of billing costs and lost interest to the insurer.</li><li><b>Level vs flexible</b>: whole life uses a level premium, set for life; early overpayments build the reserve. Universal life uses a flexible premium: the owner can vary amount and timing as long as the account value covers monthly charges.</li><li><b>Grace period</b>: a set period after the due date (nationally commonly 30 or 31 days, one month) when coverage stays in force without payment. If the insured dies in the grace period, the insurer pays the face minus the overdue premium. If unpaid at the end, the policy lapses or a nonforfeiture option applies. Texas specifics: see Texas law tab.</li><li><b>Automatic premium loan</b>: if elected (often on the application, at no cost), the insurer borrows from the cash value to pay a premium still unpaid at the end of the grace period. It works only while there is enough cash value; loan interest accrues.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The grace period is not free coverage. A death claim during it is reduced by the unpaid premium.</div><div class=\"trap\"><b>Trap:</b> Automatic premium loan requires cash value. It cannot keep a term policy in force.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A $100,000 whole life policy has a $1,200 annual premium. The insured dies 20 days after the due date without paying. The beneficiary receives $98,800.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policyowner wants his whole life policy to stay in force automatically if he forgets a premium, with the premium paid from cash value. Which provision?",
+          "a": "The automatic premium loan provision."
+        },
+        {
+          "q": "An insured dies during the grace period without paying the premium. What does the beneficiary receive?",
+          "a": "The face amount minus the unpaid premium."
+        },
+        {
+          "q": "Which premium mode costs the least in total per year, annual or monthly?",
+          "a": "Annual; more frequent modes add billing costs and lost interest."
+        },
+        {
+          "q": "A client wants to skip or reduce premiums in lean years without lapsing, as long as the cash value covers charges. Which premium design?",
+          "a": "A flexible premium, as in universal life."
+        }
+      ]
+    },
+    {
+      "n": "Nonforfeiture options and reinstatement",
+      "g": "values",
+      "s": "When a cash value policy lapses, the owner keeps its value through cash surrender, reduced paid-up or extended term insurance, and may later reinstate the original policy by proving insurability and paying back premiums with interest.",
+      "o": [
+        "G-II.B.10",
+        "G-II.B.8"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Cash surrender</b>: take the cash value minus loans; coverage ends. Gain above premiums paid is taxable.</li><li><b>Reduced paid-up</b>: the net cash value buys a smaller, fully paid policy of the same type, for life, with no more premiums. It keeps building cash value.</li><li><b>Extended term</b>: the net cash value buys term insurance for the full face (less loans) for as long as the value will buy. Most policies make it the automatic option if the owner does not choose.</li><li>The NAIC Standard Nonforfeiture Law gives the owner 60 days after the missed due date to elect. Cash values must be available once ordinary policies have three full years of premiums, and the insurer may defer paying a cash surrender for up to six months.</li><li><b>Reinstatement</b>: within a set period after lapse (commonly 3 years, some policies 5), the owner can restore the original policy by giving evidence of insurability, paying all back premiums with interest, and repaying or reinstating loans. It is not available if the policy was surrendered for cash. Reinstatement usually starts a new contestable period for statements in the reinstatement application.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Extended term keeps the full face but ends on a date; reduced paid-up keeps coverage for life but at a lower face.</div><div class=\"trap\"><b>Trap:</b> Term insurance has no cash value, so it has no nonforfeiture options.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A 55-year-old stops paying on a $100,000 whole life with $30,000 cash value. Extended term might cover $100,000 for about 15 years; reduced paid-up might give about $50,000 for life.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An owner stops paying and wants the full face amount for as long as possible without more payments. Which option?",
+          "a": "Extended term insurance."
+        },
+        {
+          "q": "An owner wants permanent coverage for life with no more premiums and accepts a smaller face. Which option?",
+          "a": "Reduced paid-up insurance."
+        },
+        {
+          "q": "A policy lapsed 14 months ago and was not surrendered for cash. What must the owner usually provide to reinstate it?",
+          "a": "Evidence of insurability, all back premiums with interest, and repayment or reinstatement of any loans."
+        },
+        {
+          "q": "The owner never chooses a nonforfeiture option after a lapse. Which option applies in most policies?",
+          "a": "Extended term insurance, as the automatic option stated in the policy."
+        }
+      ]
+    },
+    {
+      "n": "Policy loans, withdrawals and partial surrenders",
+      "g": "values",
+      "s": "Owners can borrow against cash value with interest and no fixed repayment, or take withdrawals and partial surrenders that are not repaid, and any outstanding loan plus interest is subtracted from the death benefit.",
+      "o": [
+        "G-II.B.9"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Policy loan</b>: the owner may borrow up to the loan value (about the cash value, less interest in advance). Interest is charged at a fixed or variable rate. There is no credit check and no required repayment schedule.</li><li>The NAIC Buyer's Guide says unpaid loans and interest are subtracted from the death benefit, or from the cash value if surrendered.</li><li>If the loan plus interest grows to exceed the cash value, the policy terminates after notice. A loan is not taxable income unless the policy lapses with a gain or is a modified endowment contract.</li><li><b>Withdrawals (partial surrenders)</b>: common in universal life. Cash comes out permanently with no interest and no repayment. They reduce the account value and usually the death benefit, and may carry surrender charges. Amounts above the owner's cost basis can be taxable.</li><li>In whole life, a partial surrender gives up part of the face amount and its cash value.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> A loan does not reduce the face amount on paper, but the beneficiary still gets less: face minus loan and interest.</div><div class=\"trap\"><b>Trap:</b> Unpaid loan interest is added to the loan balance, so an ignored loan can eventually lapse the policy.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A $200,000 whole life has $40,000 cash value. The owner borrows $25,000 at 6%, and dies a year later having paid nothing. The beneficiary receives $200,000 minus $26,500, or $173,500.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "An insured dies with a $10,000 loan plus $600 unpaid interest on a $100,000 policy. What does the beneficiary receive?",
+          "a": "$89,400: the face minus the loan and accrued interest."
+        },
+        {
+          "q": "A universal life owner needs $15,000 and wants no interest and no repayment. Loan or withdrawal?",
+          "a": "A withdrawal (partial surrender), which reduces account value and usually the death benefit."
+        },
+        {
+          "q": "What happens if a policy loan and accrued interest grow larger than the cash value?",
+          "a": "The policy terminates after the insurer gives notice."
+        },
+        {
+          "q": "Why is a policy loan generally not taxable when received?",
+          "a": "It is a loan against the policy's value, not a distribution, unless the policy lapses with a gain or is a modified endowment contract."
+        }
+      ]
+    },
+    {
+      "n": "Dividends and dividend options",
+      "g": "values",
+      "s": "Participating policies may pay dividends, which are a non-guaranteed return of excess premium the owner can take as cash, apply to premiums, leave at interest, or use to buy paid-up additions or one-year term insurance.",
+      "o": [
+        "G-II.B.11"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Participating (par)</b>: the owner shares in surplus through dividends, typically from mutual insurers. Premiums are set higher with the expectation of a refund. <b>Nonparticipating</b>: no dividends, typically from stock insurers, with lower fixed premiums.</li><li>Dividends come from favorable mortality, interest and expense results. They cannot be guaranteed.</li><li>Options: <b>cash</b>; <b>reduce premium</b>; <b>accumulate at interest</b> (left with the insurer, earning interest); <b>paid-up additions</b> (each dividend buys a small single-premium paid-up policy of the same type, with no evidence of insurability); <b>one-year term</b> (buys term coverage, often limited to the cash value amount).</li><li>Because dividends are a return of premium, they are generally not taxable until they exceed premiums paid. Interest earned on accumulated dividends is taxable in the year it is credited.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> An illustration showing future dividends is not a guarantee. Any exam answer that says dividends are guaranteed is wrong.</div><div class=\"trap\"><b>Trap:</b> Dividends from a life insurer are not like stock dividends. They are a refund of overcharge and so are not taxed as income up to premiums paid.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An owner gets a $400 dividend and elects paid-up additions. The $400 buys about $1,200 of paid-up whole life with no underwriting. Over 20 years the additions raise the death benefit and cash value.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A par policyowner wants dividends to increase the death benefit permanently without evidence of insurability. Which option?",
+          "a": "Paid-up additions."
+        },
+        {
+          "q": "An owner leaves dividends with the insurer to accumulate at interest. Which part is taxable?",
+          "a": "The interest earned, which is taxable when credited; the dividends themselves are a return of premium."
+        },
+        {
+          "q": "A buyer wants the lowest guaranteed premium and does not care about dividends. Participating or nonparticipating?",
+          "a": "Nonparticipating, typically from a stock insurer."
+        },
+        {
+          "q": "A client says the agent's illustration guarantees $2,000 a year in dividends. What is wrong?",
+          "a": "Dividends are never guaranteed; they depend on the insurer's actual mortality, interest and expense results."
+        }
+      ]
+    },
+    {
+      "n": "Incontestability, suicide and misstatement of age or gender",
+      "g": "payout",
+      "s": "After the contestable period (two years in the standard clause) the insurer cannot void the policy for misstatements in the application, a death by suicide during the suicide period returns premiums instead of the face, and a misstated age or gender adjusts the benefit rather than voiding the policy.",
+      "o": [
+        "G-II.B.12",
+        "G-II.B.14",
+        "G-II.B.15"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Incontestable clause</b>: once the policy has been in force for the contestable period (commonly 2 years from issue) during the insured's life, the insurer cannot rescind it for misrepresentation or concealment, even material. Exceptions: nonpayment of premium, and in most states cases where no valid contract ever existed, such as impersonation of the insured at the exam or no insurable interest.</li><li><b>Suicide clause</b>: if the insured dies by suicide within the stated period (commonly 2 years, sane or insane), the insurer refunds the premiums paid instead of paying the face. After the period, suicide is covered like any death.</li><li><b>Misstatement of age or gender</b>: the insurer pays the amount the premium paid would have bought at the correct age and gender. This applies at any time, including after the contestable period.</li><li>Texas specifics: see Texas law tab.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> The incontestable clause does not protect a policy from a misstatement of age; the benefit is still adjusted.</div><div class=\"trap\"><b>Trap:</b> Within the contestable period the insurer can contest only material misrepresentations, not every error.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>An insured said he was 40 but was 45. His premium of $1,000 a year would have bought $80,000 at 45 instead of the stated $100,000. At death the beneficiary receives $80,000.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "Three years after issue, the insurer learns the insured hid a heart condition on the application. How should it handle the death claim?",
+          "a": "Pay it; after the contestable period the insurer cannot contest for misrepresentation or concealment."
+        },
+        {
+          "q": "An insured dies by suicide 14 months after issue under a policy with a 2-year suicide clause. What does the beneficiary receive?",
+          "a": "A refund of premiums paid, not the face amount."
+        },
+        {
+          "q": "After the insured's death the insurer finds she understated her age. What does it do?",
+          "a": "It adjusts the death benefit to what the premiums would have bought at her correct age."
+        },
+        {
+          "q": "Which ground for contesting survives after the contestable period, besides fraud making the contract void from the start?",
+          "a": "Nonpayment of premium."
+        }
+      ]
+    },
+    {
+      "n": "Exclusions: war, aviation and hazardous occupations",
+      "g": "payout",
+      "s": "Life policies may exclude death from war, certain aviation activities and hazardous occupations or hobbies, usually returning premiums, or the insurer may cover those risks with an extra premium instead.",
+      "o": [
+        "G-II.D.1",
+        "G-II.D.2",
+        "G-II.D.3"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>War exclusion</b>: two forms. The <b>status clause</b> excludes any death while the insured is in military service, whatever the cause. The <b>results clause</b> excludes only death caused by war. War exclusions are usually added in wartime and are rare in modern civilian policies.</li><li><b>Aviation exclusion</b>: excludes deaths of private pilots, crew or passengers on non-commercial or military flights. Fare-paying passengers on scheduled commercial airlines are generally covered.</li><li><b>Hazardous occupation or avocation</b>: for risky jobs or hobbies (such as skydiving, auto racing or underwater diving), the insurer may exclude deaths from that activity by rider or charge an extra premium (a rating) and cover it fully.</li><li>When death falls under an exclusion, the insurer typically refunds premiums or pays a limited amount.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> A status clause can deny a claim for a soldier killed in a car crash on leave; a results clause would pay, because the car crash was not caused by war.</div><div class=\"trap\"><b>Trap:</b> An exclusion is not the same as a rating. Rating means covered for more money; exclusion means not covered for that cause.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A soldier on active duty dies of a heart attack at his base. Under a status clause the claim is denied, because he was in service. Under a results clause it is paid, because war did not cause the death.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A policy excludes death 'while the insured is in the armed forces.' The insured dies of cancer while enlisted. What is the claim outcome?",
+          "a": "Denied; that is a status clause, which excludes any death during military service."
+        },
+        {
+          "q": "A fare-paying passenger on a scheduled airline dies in a crash. A typical aviation exclusion applies to private pilots. How is the claim handled?",
+          "a": "It is paid; fare-paying passengers on commercial airlines are generally covered."
+        },
+        {
+          "q": "An applicant races cars on weekends. Besides declining, what two ways can the insurer handle the risk?",
+          "a": "Exclude deaths from racing by rider, or charge an extra premium (rating) and cover them."
+        }
+      ]
+    },
+    {
+      "n": "Settlement options",
+      "g": "payout",
+      "s": "The owner, or the beneficiary if the owner did not choose, can take proceeds as a lump sum, leave them at interest, or receive installments for a fixed period, a fixed amount or life.",
+      "o": [
+        "G-II.B.16"
+      ],
+      "x": [
+        {
+          "t": "Model",
+          "b": "<ul><li><b>Lump sum (cash)</b>: the default; paid in full, income tax free.</li><li><b>Interest only</b>: the insurer holds the proceeds and pays interest; principal goes later to the beneficiary or a contingent payee. The interest is taxable.</li><li><b>Fixed period</b>: equal payments for a chosen number of years. The period is fixed; the amount depends on the proceeds and interest.</li><li><b>Fixed amount</b>: a chosen payment amount until money runs out. The amount is fixed; the length depends on the proceeds.</li><li><b>Life income</b>: payments guaranteed for the beneficiary's life. Variations: straight life (highest payment, nothing at death), life with period certain, life with refund, and joint and survivor for two payees.</li><li>IRS guidance says death proceeds are excluded from income, but interest received on them is taxable.</li><li>A <b>spendthrift clause</b> protects proceeds held by the insurer from the beneficiary's creditors and stops the beneficiary from assigning future payments.</li></ul>"
+        },
+        {
+          "t": "Traps",
+          "b": "<div class=\"trap\"><b>Trap:</b> Fixed period sets the time; fixed amount sets the payment. Mixing these up is the most common error.</div><div class=\"trap\"><b>Trap:</b> Straight life income pays the most per month but stops at death, even after one payment.</div>"
+        },
+        {
+          "t": "Example",
+          "b": "<p>A beneficiary receives $300,000 and wants $2,500 a month for as long as it lasts: fixed amount. A widow who wants income she cannot outlive chooses life income; adding a 10-year period certain lowers her payment but protects her heirs.</p>"
+        }
+      ],
+      "cards": [
+        {
+          "q": "A beneficiary wants payments for exactly 10 years to cover her child's schooling. Which settlement option?",
+          "a": "Fixed period."
+        },
+        {
+          "q": "A beneficiary wants $3,000 a month until the proceeds are used up. Which option?",
+          "a": "Fixed amount."
+        },
+        {
+          "q": "Under the interest-only option, which part of the payments is taxable?",
+          "a": "The interest; the death proceeds held by the insurer are not taxable income."
+        },
+        {
+          "q": "A beneficiary wants the highest possible monthly income that will last her lifetime and has no heirs. Which option?",
+          "a": "Straight life income."
+        },
+        {
+          "q": "Which clause keeps a beneficiary's creditors from reaching installment proceeds the insurer still holds?",
+          "a": "The spendthrift clause."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NAIC Accelerated Benefits Model Regulation (Model 620)",
+      "url": "https://content.naic.org:443/sites/default/files/model-law-620.pdf"
+    },
+    {
+      "title": "NAIC Standard Nonforfeiture Law for Life Insurance (Model 808)",
+      "url": "https://content.naic.org:443/sites/default/files/model-law-808.pdf"
+    },
+    {
+      "title": "NAIC Life Insurance Buyer's Guide (Ill. Admin. Code tit. 50, pt. 930, exh. B)",
+      "url": "https://www.law.cornell.edu/regulations/illinois/Ill-Admin-Code-tit-50-930-Exhibit-B"
+    },
+    {
+      "title": "NAIC model law chart: Life Insurance Disclosure",
+      "url": "https://content.naic.org/sites/default/files/model-law-chart-li-30-life-insurance-disclosure-provisions.pdf"
+    },
+    {
+      "title": "NAIC consumer guide to life insurance",
+      "url": "https://content.naic.org:443/sites/default/files/publication-lig-lp-consumer-life.pdf"
+    },
+    {
+      "title": "Cornell LII Wex: Uniform Simultaneous Death Act",
+      "url": "https://www.law.cornell.edu/wex/uniform_simultaneous_death_act"
+    },
+    {
+      "title": "IRS: Life insurance and disability insurance proceeds",
+      "url": "https://www.irs.gov/node/19541"
+    },
+    {
+      "title": "IRS FAQ: Life insurance and disability insurance proceeds",
+      "url": "https://irs.gov/faqs/interest-dividends-other-types-of-income/life-insurance-disability-insurance-proceeds"
+    },
+    {
+      "title": "IRS Publication 525 (2025), Taxable and Nontaxable Income",
+      "url": "https://www.irs.gov/pub/irs-prior/p525--2025.pdf"
+    },
+    {
+      "title": "26 U.S.C. 7702B (qualified long-term care, chronically ill definition)",
+      "url": "https://govinfo.gov/link/uscode/26/7702B"
+    },
+    {
+      "title": "Texas Insurance Code Chapter 1101, Life Insurance",
+      "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1101.htm"
+    },
+    {
+      "title": "Texas Insurance Code Chapter 1101 (statutes.capitol.texas.gov)",
+      "url": "https://statutes.capitol.texas.gov/Docs/IN/htm/IN.1101.htm"
+    },
+    {
+      "title": "Interstate Insurance Product Regulation Commission: Accelerated Death Benefits standards",
+      "url": "https://www.insurancecompact.org/standards/record-adopted-standards/additional-standards-accelerated-death-benefits-individual-life"
+    },
+    {
+      "title": "Interstate Insurance Product Regulation Commission: Individual Term Life Insurance Policy Standards",
+      "url": "https://www.insurancecompact.org/standards/record-adopted-standards/individual-term-life-insurance-policy-standards"
+    }
+  ]
+}

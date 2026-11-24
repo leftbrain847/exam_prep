@@ -1,0 +1,763 @@
+{
+ "id": "healthpolicies",
+ "title": "Health & disability policies",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "What this tab covers: the kinds of accident and health policies on the exam, including disability income (personal and business), AD&D, basic and major medical, HMO/PPO/POS plans, HSAs, FSAs and HRAs, group coverage and COBRA, Medicare supplement, long-term care, and limited-benefit policies. The 2026 dollar figures were checked on 2026-11-23 against irs.gov (Rev. Procs. 2025-19 and 2025-32, Notice 2026-5), medicare.gov and dol.gov. Recheck every six months and each January, when the IRS and CMS publish new amounts. Texas-only rules are in the Texas law tab.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "income",
+   "label": "Income and accident"
+  },
+  {
+   "key": "medical",
+   "label": "Medical expense"
+  },
+  {
+   "key": "group",
+   "label": "Group coverage"
+  },
+  {
+   "key": "seniors",
+   "label": "Medigap and long-term care"
+  },
+  {
+   "key": "other",
+   "label": "Other policies"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map: A&H policy types by the loss they pay",
+   "g": "map",
+   "o": [
+    "G-V"
+   ],
+   "s": "Every accident and health policy is easiest to classify by the loss it pays: lost income, medical bills, a fixed cash amount on a defined event, or the costs of aging.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Income replacement:</b> individual and group disability income, business overhead expense, disability buyout, key employee disability.</li><li><b>Medical expense:</b> basic hospital/surgical/medical, major medical, managed care (HMO, PPO, POS), and the accounts that pay alongside them (FSA, HSA with an HDHP, HRA).</li><li><b>Fixed or limited benefit:</b> AD&amp;D, cancer and specified disease, critical illness, hospital indemnity, accident-only, dental, vision.</li><li><b>Older adults:</b> Medicare supplement (Medigap) and long-term care.</li><li><b>Delivery:</b> individual or group contract; COBRA continues group medical after a job ends.</li></ul><p>Payment style is the second axis. Reimbursement pays actual expenses, indemnity pays a set amount regardless of the bill, and service plans (HMOs) provide care instead of paying claims.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Reading a policy's name as its function. A hospital indemnity policy does not pay hospital bills; it pays a fixed daily amount.</div><div class=\"trap\"><b>Trap:</b> Assuming disability income pays medical costs. It replaces income only.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A self-employed dentist wants three things: money to live on if she cannot work, money to keep paying her staff and rent, and a way for her partner to buy her share if she never returns. That is individual disability income, business overhead expense, and a disability buyout policy.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Most questions are scenarios: a person, a need, four policy types. Ask first which loss the person is worried about, then which payment style fits.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A client wants a policy that pays $200 for every day he is hospitalized, whatever the hospital charges. Which policy type fits?",
+     "a": "Hospital indemnity, which pays a fixed amount per day of confinement regardless of actual expenses."
+    },
+    {
+     "q": "Which payment style describes an HMO that employs its own physicians and provides care to members rather than paying claims?",
+     "a": "Service: the HMO provides the care itself instead of reimbursing or indemnifying the member."
+    },
+    {
+     "q": "A business owner fears that her own illness would stop revenue while rent and payroll keep coming due. Which category of coverage addresses this?",
+     "a": "Income replacement for the business, specifically business overhead expense insurance."
+    },
+    {
+     "q": "Which category of A&H coverage pays actual medical bills after a deductible and coinsurance?",
+     "a": "Medical expense coverage on a reimbursement basis, such as major medical."
+    }
+   ]
+  },
+  {
+   "n": "Disability income: individual and group",
+   "g": "income",
+   "o": [
+    "G-V.A.1",
+    "G-V.A.4"
+   ],
+   "s": "Disability income replaces part of earned income after an elimination period, and individual policies are underwritten on the person while group policies cover employees under one master contract with benefits often offset by other income.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Individual:</b> underwritten on health, occupation and income. Insurers cap the benefit at a share of earnings (commonly around 60-70%) so the insured keeps a reason to return to work. The insured picks the elimination period (the waiting period before benefits start) and benefit period (how long benefits last). A longer elimination period lowers the premium.</p><p><b>Group:</b> short-term disability (STD) typically pays for up to about 26 weeks after a short wait. Long-term disability (LTD) picks up after that and can run for years, often to retirement age. Group LTD commonly reduces its benefit by Social Security disability and workers' compensation payments (integration or offset). STD often covers only non-occupational disability because workers' compensation handles job injuries.</p><p>Tax treatment of premiums and benefits is covered in the other-concepts topic: whoever pays with after-tax dollars receives tax-free benefits.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Confusing elimination period with probationary period. Elimination runs from the start of each disability; probationary runs from the policy's start date and applies to sickness.</div><div class=\"trap\"><b>Trap:</b> Expecting the benefit to equal 100% of pay. Insurers limit it to avoid overinsurance.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Ana earns $6,000 a month. Her individual policy pays 60%, or $3,600 a month, after a 90-day elimination period, for up to five years. She is disabled on March 1, so benefits accrue from about May 30. A 30-day elimination period would cost more.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>\"Lower the premium without reducing the monthly benefit\" points to a longer elimination period.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A client wants to lower his disability income premium but keep the same monthly benefit amount. Which policy feature should he change?",
+     "a": "Lengthen the elimination period, since a longer waiting period before benefits start costs less."
+    },
+    {
+     "q": "A group LTD plan pays 60% of salary but reduces the check by the amount the worker receives from Social Security disability. What is this feature called?",
+     "a": "Integration with other benefits, also called a benefit offset."
+    },
+    {
+     "q": "Why do group short-term disability plans often exclude disabilities caused on the job?",
+     "a": "Workers' compensation already pays for occupational injuries and illness, so STD is usually limited to non-occupational disability."
+    },
+    {
+     "q": "Why do disability insurers cap benefits at a share of earnings rather than full pay?",
+     "a": "To avoid overinsurance, which would remove the insured's incentive to return to work."
+    }
+   ]
+  },
+  {
+   "n": "Business disability: overhead, buyout and key employee",
+   "g": "income",
+   "o": [
+    "G-V.A.2",
+    "G-V.A.3",
+    "G-V.A.5"
+   ],
+   "s": "Business disability policies protect the business rather than the person's own income: overhead expense pays operating costs, buyout funds the purchase of a disabled owner's share, and key employee coverage pays the business for losing a vital person.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Business overhead expense (BOE):</b> reimburses fixed operating costs such as rent, utilities, leases and employee salaries while the owner is disabled. It does not pay the owner's own salary or profits. Benefit periods are short (commonly one to two years). Premiums are deductible as a business expense and benefits are taxable.</li><li><b>Disability buyout:</b> funds a buy-sell agreement so remaining owners can buy out a disabled owner. Elimination periods are long (often 12 to 24 months) to confirm the disability is permanent. Pays a lump sum or installments. Premiums are not deductible and benefits are received tax free.</li><li><b>Key employee (key person) disability:</b> the business owns the policy, pays the premium and is the beneficiary. Benefits help cover lost revenue and the cost of recruiting a replacement. Premiums are not deductible; benefits are tax free.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Picking BOE to replace the owner's personal income. That need is individual disability income.</div><div class=\"trap\"><b>Trap:</b> Expecting buyout coverage to pay after a few weeks. Its long elimination period is the point: buyouts are for permanent disability.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Two partners own a CPA firm. Partner A becomes permanently disabled. Their buy-sell agreement and buyout policy fund Partner B's purchase of A's half after the 18-month elimination period. Meanwhile, A's BOE policy kept paying the firm's rent and staff wages from month two.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A physician wants a policy that pays her office rent and her nurse's wages while she is disabled. Which policy fits?",
+     "a": "Business overhead expense insurance, which reimburses fixed business costs but not the owner's own salary."
+    },
+    {
+     "q": "Why does a disability buyout policy typically use an elimination period of a year or more?",
+     "a": "Because it funds a permanent purchase of the owner's interest, so the insurer waits to confirm the disability is long-lasting."
+    },
+    {
+     "q": "A company buys a disability policy on its top engineer, pays the premium and names itself beneficiary. What is this coverage called and how are benefits taxed?",
+     "a": "Key employee (key person) disability insurance; premiums are not deductible and benefits are received tax free."
+    },
+    {
+     "q": "Under which business disability policy are premiums tax deductible and benefits taxable?",
+     "a": "Business overhead expense insurance."
+    }
+   ]
+  },
+  {
+   "n": "Accidental death and dismemberment (AD&D)",
+   "g": "income",
+   "o": [
+    "G-V.B"
+   ],
+   "s": "AD&D pays the principal sum for death from an accident and a capital sum, a set percentage of the principal, for loss of limbs or sight, and pays nothing for death from illness.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Principal sum:</b> the full face amount, paid for accidental death, and usually also for loss of two limbs, sight in both eyes, or one limb plus one eye.</li><li><b>Capital sum:</b> a fraction of the principal (commonly half) paid for loss of one hand, foot or eye.</li><li>Death or loss must occur within a set time after the accident (commonly 90 days) to count.</li><li>Sold alone, as a group benefit, or as a rider on life insurance (the life version is often called accidental death or double indemnity).</li><li><b>Accidental means</b> (the cause must be unintended) is narrower than <b>accidental bodily injury / results</b> (only the result must be unintended). Most modern policies use the results wording.</li><li>Common exclusions: suicide, illness, war, self-inflicted injury.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Calling AD&D cheap term life. It pays only for accidental death within the time limit, so a heart attack pays nothing.</div><div class=\"trap\"><b>Trap:</b> Mixing up principal and capital: principal is the death benefit; capital is the partial dismemberment payment.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Lee has a $100,000 AD&amp;D policy. He loses one hand in a workshop accident and receives a $50,000 capital sum. Eight months later he dies of an unrelated illness. The policy pays nothing more, because the death was not accidental.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An AD&D insured loses sight in one eye after an accident. Is the payment the principal sum or the capital sum?",
+     "a": "The capital sum, a percentage of the principal (commonly half), because only one eye was lost."
+    },
+    {
+     "q": "A man jumps from a ledge on purpose and is unexpectedly hurt. Which definition of accident is more likely to cover him: accidental means or accidental results?",
+     "a": "Accidental results (bodily injury), because only the outcome must be unintended; accidental means requires the cause itself to be unintended."
+    },
+    {
+     "q": "An AD&D insured is injured in a car crash and dies of complications 14 months later. Why might the policy deny the claim?",
+     "a": "Death must occur within the policy's time limit after the accident, commonly 90 days, and 14 months falls outside it."
+    }
+   ]
+  },
+  {
+   "n": "Basic medical and major medical",
+   "g": "medical",
+   "o": [
+    "G-V.C.1",
+    "G-V.C.2"
+   ],
+   "s": "Basic hospital, surgical and medical policies pay first-dollar but with low, itemized limits, while major medical pays broadly after a deductible and coinsurance up to an out-of-pocket maximum.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Basic coverages:</b></p><ul><li><b>Hospital expense:</b> room and board up to a daily limit for a set number of days, plus miscellaneous charges (lab, drugs, operating room) up to a cap.</li><li><b>Surgical expense:</b> pays surgeons per a schedule, often a relative value scale that assigns points to each procedure times a dollar conversion factor.</li><li><b>Medical (physician) expense:</b> nonsurgical doctor visits, usually a set amount per visit.</li></ul><p><b>Major medical:</b> broad coverage for hospital, physician, surgery and more. The insured pays a deductible, then shares costs by coinsurance (for example 80/20) until a stop-loss (out-of-pocket maximum), after which the plan pays 100%. <b>Supplemental</b> major medical sits on top of a basic plan, often with a corridor deductible between them. <b>Comprehensive</b> major medical combines basic and major medical in one plan. The ACA bars lifetime and annual dollar limits on essential health benefits in major medical plans.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking the insured pays coinsurance forever. The stop-loss caps the insured's share for the year.</div><div class=\"trap\"><b>Trap:</b> Calling basic coverage generous because it has no deductible. Its low limits leave large bills uncovered.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Major medical: $1,000 deductible, 80/20 coinsurance, $5,000 out-of-pocket maximum. A $21,000 claim: insured pays $1,000, then 20% of $20,000 = $4,000, total $5,000, which hits the cap. Insurer pays $16,000. Any further claims that year are paid at 100%.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A $11,000 covered claim under a plan with a $1,000 deductible and 80/20 coinsurance, no prior claims and a high out-of-pocket cap. How much does the insured pay?",
+     "a": "$3,000: the $1,000 deductible plus 20% of the remaining $10,000."
+    },
+    {
+     "q": "What feature of major medical makes the insurer pay 100% of covered costs once the insured's share reaches a set amount?",
+     "a": "The stop-loss, or out-of-pocket maximum."
+    },
+    {
+     "q": "A plan combines basic hospital/surgical benefits with major medical in a single policy with one deductible. Is it supplemental or comprehensive major medical?",
+     "a": "Comprehensive major medical; supplemental major medical sits on top of a separate basic plan."
+    },
+    {
+     "q": "A surgical expense policy pays procedures by multiplying assigned points by a dollar factor. What is this method called?",
+     "a": "A relative value scale."
+    }
+   ]
+  },
+  {
+   "n": "Managed care plans: HMO, PPO and POS",
+   "g": "medical",
+   "o": [
+    "G-V.C.3",
+    "G-V.C.4",
+    "G-V.C.5"
+   ],
+   "s": "HMOs provide prepaid care through a closed network with a primary care gatekeeper, PPOs pay contracted providers discounted fees and still cover out-of-network care at a lower level, and POS plans blend the two by letting members choose at each visit.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>HMO:</b> members pay a fixed prepaid premium. A primary care physician (PCP) acts as gatekeeper and refers to specialists. Out-of-network care is not covered except emergencies. Providers are often paid by capitation (a fixed amount per member per month regardless of services). Emphasis on preventive care. Models: staff (HMO employs doctors), group (contracts with a medical group), IPA (contracts with independent physicians in their own offices; an open panel).</li><li><b>PPO:</b> a network of providers that agree to discounted fees. Fee-for-service. No gatekeeper. In-network care costs the member less; out-of-network is covered at lower benefits.</li><li><b>POS:</b> an HMO-style plan with a PCP, plus an option to go out of network at higher cost. The member decides at the point of service.</li></ul><p>Texas HMO rules (evidence of coverage, cancellation, enrollment) are in the Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking capitation pays doctors per visit. It pays per enrolled member, whether or not the member is seen.</div><div class=\"trap\"><b>Trap:</b> Picking PPO when the question mentions a gatekeeper with an out-of-network option. That is POS.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Maria's plan requires her PCP's referral to see a dermatologist in network, but she may see any dermatologist without a referral if she accepts a higher deductible and coinsurance. That is a POS plan.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Keywords: \"gatekeeper\" or \"capitation\" signals HMO; \"discounted fee-for-service network\" signals PPO; \"choose at the time of care\" signals POS.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A physician receives $40 per month for each plan member assigned to her, whether or not they visit. What payment method is this and which plan type uses it?",
+     "a": "Capitation, the typical HMO provider payment method."
+    },
+    {
+     "q": "An employee wants to see specialists without referrals and still have some coverage out of network. Which plan type fits?",
+     "a": "A PPO, which has no gatekeeper and covers out-of-network care at a lower benefit level."
+    },
+    {
+     "q": "An HMO contracts with independent physicians who keep their own offices and see non-HMO patients too. Which HMO model is this?",
+     "a": "An IPA (individual practice association), an open-panel model."
+    },
+    {
+     "q": "A plan has a primary care gatekeeper but lets members go out of network for a higher cost share. Which plan type is it?",
+     "a": "A point-of-service (POS) plan."
+    }
+   ]
+  },
+  {
+   "n": "HDHP with a health savings account",
+   "g": "medical",
+   "o": [
+    "G-V.C.7"
+   ],
+   "s": "An HSA is an individually owned, portable, tax-advantaged account that only a person covered by a qualifying high deductible health plan, with no disqualifying coverage and no Medicare, may fund.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Eligibility:</b> covered by an HDHP, no other disqualifying health coverage, not enrolled in Medicare, not claimable as someone's dependent. Preventive care may be paid before the deductible.</p><p><b>Tax treatment:</b> contributions deductible (or pre-tax through an employer), growth tax free, withdrawals for qualified medical expenses tax free. Nonqualified withdrawals are taxed as income plus a 20% penalty; the penalty is waived after age 65, disability or death.</p><p><b>Ownership:</b> the individual owns it; the balance rolls over every year and moves with the person when they change jobs.</p><p><b>2026 figures (IRS Rev. Proc. 2025-19, read on irs.gov):</b> contribution limit $4,400 self-only, $8,750 family, plus $1,000 catch-up at 55 or older. HDHP minimum deductible $1,700 self-only / $3,400 family; out-of-pocket maximum $8,500 / $17,000.</p><p><b>2026 changes (One Big Beautiful Bill Act, IRS Notice 2026-5):</b> bronze and catastrophic plans available through an Exchange count as HSA-compatible from 2026; certain direct primary care arrangements no longer block eligibility; pre-deductible telehealth is permanently allowed.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking unused HSA money is forfeited. That is the FSA rule; HSA balances roll over.</div><div class=\"trap\"><b>Trap:</b> Thinking a 66-year-old enrolled in Medicare can keep contributing. Medicare enrollment ends contributions, though the account can still be spent.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Raj, 45, has self-only HDHP coverage and contributes $4,400 in 2026. He withdraws $500 for a new TV: he owes income tax on $500 plus a $100 penalty (20%). Had he been 66, he would owe only income tax.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A 50-year-old withdraws HSA funds for a non-medical expense. How is the withdrawal taxed?",
+     "a": "It is taxed as ordinary income plus a 20% penalty, because she is under 65 and not disabled."
+    },
+    {
+     "q": "An employee with an HSA changes employers. What happens to the account balance?",
+     "a": "He keeps it: the HSA belongs to the individual and is fully portable."
+    },
+    {
+     "q": "Which coverage condition makes a person ineligible to make new HSA contributions even if she still has an HDHP?",
+     "a": "Enrollment in Medicare (or other disqualifying non-HDHP coverage, or being claimed as a dependent)."
+    },
+    {
+     "q": "What extra HSA contribution may an account holder make starting at age 55?",
+     "a": "A $1,000 annual catch-up contribution, set by statute."
+    }
+   ]
+  },
+  {
+   "n": "Flexible spending accounts and HRAs",
+   "g": "medical",
+   "o": [
+    "G-V.C.6",
+    "G-V.C.8"
+   ],
+   "s": "A health FSA is an employer-sponsored account funded mainly by employee salary reduction under a Section 125 plan and largely use-it-or-lose-it, while an HRA is funded only by the employer, reimburses tax free, and stays with the employer.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Health FSA:</b> employee elects an annual amount, deducted pre-tax from pay; the employer may add to it. Under the uniform coverage rule, the full annual election is available from the first day of the plan year. Unused money is forfeited at year end unless the plan offers a carryover (limited) or a grace period of 2.5 months; a plan may offer one of these, not both. The account usually ends when employment ends. 2026: salary reduction limit $3,400; maximum carryover from 2026 into 2027 $680 (IRS Rev. Proc. 2025-32). Dependent care FSAs are separate (2026: $7,500, or $3,750 married filing separately, under Internal Revenue Code Sec. 129 as amended by the One Big Beautiful Bill Act).</p><p><b>HRA:</b> funded solely by the employer; employees cannot contribute. Reimbursements for qualified medical costs are tax free. The employer decides whether unused amounts roll over. Not portable. Variants include the individual coverage HRA (ICHRA) and excepted-benefit HRA (2026 limit $2,200, Rev. Proc. 2025-19). No HDHP is required.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Saying an HRA accepts employee contributions. Only the employer funds it.</div><div class=\"trap\"><b>Trap:</b> Treating FSA and HSA as interchangeable. The FSA is employer-owned and forfeitable; the HSA is employee-owned and rolls over.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Kim elects $2,400 for her health FSA, or $100 per pay period over 24 checks. In January she has a $2,000 surgery bill. The plan must reimburse the full $2,000 even though she has contributed only $100 so far.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee elects $2,000 in a health FSA and incurs $1,800 of expenses in the plan's first month. How much must the plan reimburse?",
+     "a": "The full $1,800, because the uniform coverage rule makes the whole annual election available from day one."
+    },
+    {
+     "q": "Which account is funded only by the employer, needs no high deductible plan, and stays with the employer when the employee leaves?",
+     "a": "A health reimbursement arrangement (HRA)."
+    },
+    {
+     "q": "A health FSA plan lets participants spend leftover funds through March 15 of the next year. What is this feature, and may the plan also offer a carryover?",
+     "a": "A grace period of up to 2.5 months; a plan may offer a grace period or a carryover, not both."
+    },
+    {
+     "q": "Under what tax code section are health FSAs offered through salary reduction?",
+     "a": "Section 125 (cafeteria plans)."
+    }
+   ]
+  },
+  {
+   "n": "Group insurance versus individual",
+   "g": "group",
+   "o": [
+    "G-V.E.1",
+    "G-V.E.2"
+   ],
+   "s": "Group health insurance is one master contract owned by the employer or sponsor that covers members through certificates and is underwritten on the group as a whole rather than on each person.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Parties:</b> the employer (or union, association, trust) is the policyowner and holds the master contract. Members get a certificate of insurance and an outline of benefits, not their own policy.</li><li><b>Underwriting:</b> the insurer evaluates the group: its size, age and gender mix, industry, and claims history. Large groups may be experience rated (premiums based on their own claims); small groups are more often community or manually rated.</li><li><b>Controls on adverse selection:</b> the group must exist for a purpose other than buying insurance; benefits are set by formula (by class or salary), not chosen by each member; eligibility waiting periods; minimum participation (commonly 100% of eligible employees if the employer pays all the premium, noncontributory, and 75% if employees share it, contributory).</li><li><b>Conversion:</b> a departing member may often convert group coverage to an individual policy without evidence of insurability within a set window.</li><li><b>Individual:</b> owner is usually the insured; each person is underwritten (subject to ACA guaranteed issue for major medical) and chooses benefits; premiums are generally higher per dollar of coverage.</li></ul><p>Texas group eligibility, small-group and conversion rules: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Calling the employee the policyowner. The employer owns the master contract; the employee holds a certificate.</div><div class=\"trap\"><b>Trap:</b> Mixing contributory and noncontributory participation: noncontributory (employer pays all) requires all eligible employees.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 60-person firm pays the full premium for group medical. All 52 eligible employees must be enrolled. If it moves to employee cost-sharing, it typically needs at least 39 (75%) to enroll.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "In a group health plan, who is the policyowner and what document does each employee receive?",
+     "a": "The employer (sponsor) owns the master contract; each employee receives a certificate of insurance."
+    },
+    {
+     "q": "An employer pays the entire group premium. What participation is typically required?",
+     "a": "100% of eligible employees, because the plan is noncontributory."
+    },
+    {
+     "q": "Why must a group exist for a reason other than obtaining insurance?",
+     "a": "To prevent adverse selection by people who would band together only because they expect large claims."
+    },
+    {
+     "q": "A large employer's premiums are set from its own past claims. What rating method is this?",
+     "a": "Experience rating."
+    }
+   ]
+  },
+  {
+   "n": "COBRA continuation",
+   "g": "group",
+   "o": [
+    "G-V.E.3"
+   ],
+   "s": "COBRA lets employees and their families keep the same group health coverage after a qualifying event, at their own cost of up to 102% of the full premium, for 18, 29 or 36 months depending on the event.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Who:</b> private employers with 20 or more employees, and state and local governments. Not federal or church plans. Coverage matches active employees'.</li><li><b>18 months:</b> employee's termination (for any reason except gross misconduct) or reduction in hours.</li><li><b>29 months:</b> the 18 months plus 11 if Social Security finds a beneficiary disabled within COBRA's first 60 days; premium may rise to 150% for the disabled person during the extension.</li><li><b>36 months:</b> for spouse and dependents after the employee's death, divorce or legal separation, the employee's Medicare entitlement, or a child losing dependent status. A second qualifying event during the 18 months can extend to 36.</li><li><b>Cost:</b> up to 102% of the total premium (employer plus employee share plus 2%).</li><li><b>Timing:</b> the plan sends an election notice (generally within 44 days of the event); beneficiaries have 60 days to elect; first premium due 45 days after electing; 30-day grace period on later premiums.</li><li>Ends early if premiums stop, the employer drops all group health plans, or the person becomes covered by another group plan or Medicare after electing.</li></ul><p>Texas HMO continuation (Sec. 1271.303): see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Answering 36 months for a fired employee. Termination gives the employee 18; 36 months is for dependents after death, divorce, Medicare or loss of dependent status.</div><div class=\"trap\"><b>Trap:</b> Assuming COBRA covers an employee fired for gross misconduct. It does not.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Dana's husband dies in 2026. She and their son can continue his employer's plan for 36 months, paying up to 102% of the full premium. If he had simply quit, the family's limit would be 18 months.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee is laid off from a 200-person company. How long can he keep group medical under COBRA?",
+     "a": "Up to 18 months."
+    },
+    {
+     "q": "A covered employee divorces. How long may the former spouse continue coverage under COBRA?",
+     "a": "Up to 36 months."
+    },
+    {
+     "q": "A former employee on COBRA is found by Social Security to have been disabled within the first 60 days of COBRA coverage. What changes?",
+     "a": "Coverage can extend from 18 to 29 months, and the plan may charge up to 150% of the premium during the extra 11 months."
+    },
+    {
+     "q": "What is the most a plan may charge for regular COBRA coverage?",
+     "a": "102% of the full premium, meaning the employer and employee shares plus a 2% administrative fee."
+    },
+    {
+     "q": "Which employer is not subject to federal COBRA: a 15-employee private business or a 25-employee private business?",
+     "a": "The 15-employee business; federal COBRA applies to private employers with 20 or more employees."
+    }
+   ]
+  },
+  {
+   "n": "Medicare supplement: the standardized plans",
+   "g": "seniors",
+   "o": [
+    "G-V.D"
+   ],
+   "s": "Medigap policies are standardized lettered plans (A, B, C, D, F, G, K, L, M, N) that pay cost-sharing gaps in Original Medicare, with every plan carrying the same basic benefits and the letters differing only in the extras.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Basic benefits</b> in every plan: Part A hospital coinsurance plus 365 extra hospital days after Medicare ends, Part B coinsurance or copays, first 3 pints of blood, and Part A hospice coinsurance. (K and L pay part of some of these.)</p><ul><li><b>Plan A:</b> basic benefits only.</li><li><b>Plan F:</b> the most complete: adds the Part A and Part B deductibles, skilled nursing facility coinsurance, Part B excess charges and foreign travel emergency (80%).</li><li><b>Plan G:</b> F without the Part B deductible.</li><li><b>Plan N:</b> G without Part B excess charges, with copays up to $20 for some office visits and $50 for an ER visit without admission.</li><li><b>K and L:</b> cost-sharing plans paying 50% and 75% of most gaps, with annual out-of-pocket limits (2026: $8,000 and $4,000 per Medicare.gov).</li><li>Only F and G pay Part B excess charges.</li></ul><p>MACRA bars selling C, F and high-deductible F to anyone newly eligible for Medicare on or after January 1, 2020, because those plans pay the Part B deductible. People eligible earlier may still buy them. (2026 Part B deductible: $283; high-deductible F/G deductible: $2,950, per Medicare.gov.)</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking a lettered plan's benefits vary by insurer. Benefits are standardized; only price and service differ.</div><div class=\"trap\"><b>Trap:</b> Assuming a person who turned 65 in 2025 can buy Plan F. MACRA closed C and F to the newly eligible.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Joan turns 65 in 2026 and wants the fullest Medigap she can buy. Plan F is closed to her, so she picks Plan G and pays the $283 Part B deductible herself each year.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which benefits are included in every standardized Medigap plan, including Plan A?",
+     "a": "Part A coinsurance with 365 extra hospital days, Part B coinsurance or copays, the first 3 pints of blood, and Part A hospice coinsurance."
+    },
+    {
+     "q": "A beneficiary first eligible for Medicare in 2026 wants the Medigap plan with the broadest coverage available to her. Which plan?",
+     "a": "Plan G, since Plans C and F cannot be sold to people newly eligible on or after January 1, 2020."
+    },
+    {
+     "q": "Which Medigap plans pay Part B excess charges?",
+     "a": "Only Plans F and G."
+    },
+    {
+     "q": "Which plans cap the insured's yearly out-of-pocket spending and pay 50% or 75% of most gaps?",
+     "a": "Plans K (50%) and L (75%)."
+    }
+   ]
+  },
+  {
+   "n": "Medicare supplement: who can buy and when",
+   "g": "seniors",
+   "o": [
+    "G-V.D"
+   ],
+   "s": "Medigap is sold only to people with Original Medicare Parts A and B, covers one person per policy, does not cover drugs, and must be sold without medical underwriting during the one-time six-month open enrollment period.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Open enrollment period:</b> six months, starting the first month a person has Part B and is 65 or older. It happens once and does not recur. During it the insurer cannot deny coverage or price it based on health, though a preexisting condition waiting period can apply (generally offset by prior creditable coverage).</li><li><b>Guaranteed issue rights</b> let people buy outside open enrollment in specific situations, such as losing other coverage.</li><li>Works only with Original Medicare. It does not work with Medicare Advantage, and selling Medigap to someone in Medicare Advantage is illegal unless they are returning to Original Medicare.</li><li>One person per policy; a spouse needs a separate policy.</li><li>No prescription drug coverage in plans sold today; drugs come from Part D.</li><li>Guaranteed renewable: the insurer cannot cancel for health reasons as long as premiums are paid.</li><li>Federal law does not require sale to people under 65 on disability, though some states do; Texas does (see Texas law tab).</li></ul><p>Texas minimum standards, free look and replacement rules: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Assuming Medigap open enrollment recurs each fall. The fall period is for Medicare Advantage and Part D.</div><div class=\"trap\"><b>Trap:</b> Selling one Medigap policy to cover a married couple.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Tom enrolls in Part B in March 2026 at age 66 after retiring. His Medigap open enrollment runs March through August 2026. An insurer must accept him for any plan it sells, at its standard rate, even with heart disease.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A 65-year-old started Part B four months ago and has diabetes. Can a Medigap insurer refuse to sell her a policy it offers?",
+     "a": "No; she is within her six-month Medigap open enrollment period, when insurers cannot underwrite or deny based on health."
+    },
+    {
+     "q": "A client enrolled in a Medicare Advantage plan asks to add a Medigap policy. What should the agent do?",
+     "a": "Decline the sale unless the client is leaving Medicare Advantage for Original Medicare; Medigap does not work with Medicare Advantage."
+    },
+    {
+     "q": "A married couple both on Original Medicare want Medigap. How many policies do they need?",
+     "a": "Two; each Medigap policy covers only one person."
+    },
+    {
+     "q": "A Medigap buyer needs prescription drug coverage. Where does it come from?",
+     "a": "A Medicare Part D plan, since Medigap plans sold today do not cover drugs."
+    }
+   ]
+  },
+  {
+   "n": "Long-term care: eligibility and benefit triggers",
+   "g": "seniors",
+   "o": [
+    "G-V.F.1"
+   ],
+   "s": "A tax-qualified long-term care policy pays once a licensed health care practitioner certifies that the insured cannot perform at least 2 of 6 activities of daily living for an expected 90 days or needs substantial supervision for severe cognitive impairment.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Triggers (Internal Revenue Code Sec. 7702B):</b></p><ul><li>Unable to perform, without substantial help, at least 2 of 6 activities of daily living (ADLs): <b>bathing, continence, dressing, eating, toileting, transferring</b>, expected to last at least 90 days; or</li><li>Severe cognitive impairment (such as Alzheimer's) requiring substantial supervision for safety.</li><li>Certified by a licensed health care practitioner within the prior 12 months, with care given under a plan of care.</li></ul><p><b>Tax-qualified contracts</b> must be guaranteed renewable and have no cash surrender value. Non-qualified policies may also use a medical-necessity trigger. Benefits under a qualified contract are treated as medical expense reimbursements; per diem payments above an inflation-indexed daily limit can be taxable.</p><p><b>Policy design:</b> daily or monthly benefit, elimination period, benefit period or pool, and inflation protection (simple or compound). Insurers underwrite at purchase; buyers are usually middle-aged or older.</p><p>Medicare covers only short skilled nursing stays after a hospital stay, not ongoing custodial care. Texas LTC rules: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Counting walking or cooking as one of the six ADLs. Cooking and shopping are instrumental ADLs; walking is not on the list.</div><div class=\"trap\"><b>Trap:</b> Requiring both ADL loss and cognitive impairment. Either trigger alone qualifies.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Ruth, 78, can still feed herself and use the toilet, but needs help bathing and dressing, and her doctor expects this to last six months. Two ADLs for 90+ days: her policy's benefits begin after the elimination period.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insured needs hands-on help with eating and transferring, expected for a year. Does she meet the tax-qualified LTC trigger?",
+     "a": "Yes; she cannot perform 2 of the 6 ADLs and the need is expected to last at least 90 days."
+    },
+    {
+     "q": "A man with moderate Alzheimer's can still perform all six ADLs but must be watched to stay safe. Can a tax-qualified LTC policy pay?",
+     "a": "Yes; severe cognitive impairment requiring substantial supervision is a separate trigger that does not require ADL loss."
+    },
+    {
+     "q": "Which of these is an ADL under the tax-qualified definition: preparing meals, managing money, or continence?",
+     "a": "Continence; meal preparation and money management are instrumental activities."
+    },
+    {
+     "q": "A tax-qualified LTC policy must have which renewability provision?",
+     "a": "Guaranteed renewable, and it may not have a cash surrender value."
+    }
+   ]
+  },
+  {
+   "n": "Long-term care: levels and settings of care",
+   "g": "seniors",
+   "o": [
+    "G-V.F.2"
+   ],
+   "s": "Long-term care runs from skilled nursing through intermediate to custodial care, delivered in facilities, at home or in the community, and most long-term care needs are custodial.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Skilled care:</b> daily, 24-hour medical care ordered by a physician and given by licensed nurses or therapists.</li><li><b>Intermediate care:</b> skilled care needed occasionally rather than daily, under a doctor's supervision.</li><li><b>Custodial care:</b> help with ADLs (bathing, dressing, eating) by people without medical training. The most common and longest need, and the kind Medicare does not pay for over time.</li><li><b>Home health care:</b> skilled or custodial care at home, sometimes including homemaker services.</li><li><b>Adult day care:</b> daytime care at a center for people who live with family caregivers who work.</li><li><b>Respite care:</b> short-term care that gives a family caregiver a break.</li><li><b>Assisted living:</b> residential setting with help with ADLs, short of nursing-home care.</li><li><b>Hospice:</b> comfort care for the terminally ill.</li></ul><p>Under NAIC model rules, a policy may not cover only skilled nursing care or give far more coverage for skilled care than lower levels, and may not require a prior hospital stay before paying. Texas applies its own version: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Assuming skilled care is the biggest LTC cost. Custodial care is the most common need.</div><div class=\"trap\"><b>Trap:</b> Confusing respite care (a break for the caregiver) with adult day care (a daily program for the patient).</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Frank's daughter cares for him at home but must travel for a week. His LTC policy pays for a short nursing-home stay so she can go. That is respite care.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A nursing home resident needs help dressing and bathing but no daily medical treatment. Which level of care is this?",
+     "a": "Custodial care, help with ADLs that does not require medical training."
+    },
+    {
+     "q": "A patient needs a licensed nurse to change a wound dressing a few times a week, not daily. Which level of care?",
+     "a": "Intermediate care, skilled care needed on an occasional rather than daily basis."
+    },
+    {
+     "q": "An LTC policy pays for a week of care so a family caregiver can rest. What benefit is this?",
+     "a": "Respite care."
+    },
+    {
+     "q": "A working daughter takes her father to a center each weekday where he receives supervision and meals. Which LTC benefit applies?",
+     "a": "Adult day care."
+    }
+   ]
+  },
+  {
+   "n": "Dental, vision and worksite coverage",
+   "g": "other",
+   "o": [
+    "G-V.G.1",
+    "G-V.G.2",
+    "G-V.G.5"
+   ],
+   "s": "Dental and vision plans cover routine care that medical plans exclude, and worksite plans are voluntary, employee-paid policies sold at the workplace through payroll deduction.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Dental:</b> services fall in three tiers, often paid on a 100/80/50 pattern: <b>preventive</b> (exams, cleanings, X-rays), <b>basic</b> (fillings, extractions, often root canals) and <b>major</b> (crowns, bridges, dentures). Plans may be <b>scheduled</b> (a fixed dollar amount per procedure) or <b>nonscheduled</b> (usual, reasonable and customary charges with deductible and coinsurance). Major work and orthodontics often have waiting periods, and there is an annual maximum and usually a lifetime orthodontic maximum. Dental can be stand-alone or integrated with medical.</p><p><b>Vision:</b> routine eye exams and allowances for lenses, frames or contacts. Eye disease or injury is a medical claim, not a vision-plan claim.</p><p><b>Worksite (voluntary) insurance:</b> the employer allows the insurer to market at work and collects premiums by payroll deduction, but usually pays nothing. Products include supplemental disability, accident, cancer, critical illness and hospital indemnity. Often issued on simplified underwriting, and individual worksite policies typically stay with the employee after leaving the job.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Expecting dental to pay the same percentage for every service. Preventive is paid most fully, major least.</div><div class=\"trap\"><b>Trap:</b> Treating worksite coverage as employer-paid group insurance. The employee usually pays the full premium.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Plan pays 100/80/50 after a $50 deductible on basic and major. A $1,050 crown (major): $1,050 - $50 = $1,000; plan pays 50% = $500; patient pays $550.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A dental plan pays a fixed $600 for any crown regardless of the dentist's charge. Is it scheduled or nonscheduled?",
+     "a": "Scheduled, because it pays a set dollar amount per procedure."
+    },
+    {
+     "q": "A patient's eye exam reveals glaucoma requiring treatment. Which coverage pays the treatment?",
+     "a": "The medical plan; vision plans cover routine exams and eyewear, not eye disease."
+    },
+    {
+     "q": "Under a 100/80/50 dental plan, which tier is a filling and what percentage applies?",
+     "a": "Basic services, typically paid at 80%."
+    },
+    {
+     "q": "An employer lets an insurer sell cancer policies at work, collects premiums through payroll, and pays nothing itself. What is this arrangement called?",
+     "a": "Worksite (voluntary) insurance."
+    }
+   ]
+  },
+  {
+   "n": "Limited-benefit and temporary policies",
+   "g": "other",
+   "o": [
+    "G-V.G.3",
+    "G-V.G.4",
+    "G-V.G.6",
+    "G-V.G.7",
+    "G-V.G.8"
+   ],
+   "s": "Cancer, critical illness, hospital indemnity and accident-only policies pay defined cash benefits for narrow events regardless of other coverage, and short-term medical is temporary, underwritten coverage meant to bridge a gap, none of which replaces comprehensive major medical.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Cancer / specified disease:</b> pays only for the named disease, usually set amounts per treatment or day, regardless of other insurance.</li><li><b>Critical illness:</b> one lump sum on first diagnosis of a covered condition (commonly heart attack, stroke, cancer, organ failure). The insured may spend it on anything.</li><li><b>Hospital indemnity:</b> a fixed amount per day (or per admission) of hospital confinement, not tied to actual charges.</li><li><b>Accident-only:</b> pays for accidental injury or death only; sickness is excluded.</li><li><b>Short-term medical:</b> temporary coverage for a gap (between jobs, waiting for a group plan). Medically underwritten, excludes preexisting conditions, not subject to ACA major medical rules, and usually nonrenewable. A 2024 federal rule limited it to a 3-month initial term and 4 months total, but in August 2025 the federal agencies announced they would not prioritize enforcing that definition while they rewrite it, so state law now sets most limits.</li></ul><p>These products are supplements. They are not a substitute for major medical and generally are not ACA-compliant coverage.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Thinking a cancer policy coordinates with major medical. It pays its stated benefits in addition to other coverage.</div><div class=\"trap\"><b>Trap:</b> Calling short-term medical a cheap permanent alternative. It is temporary and excludes preexisting conditions.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Sam has major medical and a $20,000 critical illness policy. He suffers a heart attack. Major medical pays the hospital per its terms; the critical illness policy sends Sam $20,000, which he uses for his mortgage while recovering.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy pays a $25,000 lump sum on first diagnosis of a heart attack, stroke or cancer. Which type is it?",
+     "a": "Critical illness insurance."
+    },
+    {
+     "q": "A recent graduate has a 60-day gap before his employer's plan starts and wants inexpensive temporary coverage. Which policy fits, and what is its main limit?",
+     "a": "Short-term medical; it is underwritten and excludes preexisting conditions."
+    },
+    {
+     "q": "A policy pays benefits only for treatment of one named disease. What is it called?",
+     "a": "A specified disease policy, such as cancer insurance."
+    },
+    {
+     "q": "A policy covers a broken leg from a fall but nothing for pneumonia. Which type is it?",
+     "a": "Accident-only coverage."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "IRS Rev. Proc. 2025-19: 2026 HSA, HDHP and excepted-benefit HRA amounts",
+   "url": "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf"
+  },
+  {
+   "title": "IRS Rev. Proc. 2025-32: 2026 inflation adjustments, including health FSA limit and carryover",
+   "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+  },
+  {
+   "title": "26 U.S. Code Sec. 129: Dependent care assistance programs (Office of the Law Revision Counsel)",
+   "url": "https://uscode.house.gov/us/usc/119-136/t26/s129"
+  },
+  {
+   "title": "IRS Notice 2026-5: HSA changes under the One Big Beautiful Bill Act",
+   "url": "https://www.irs.gov/pub/irs-drop/n-26-05.pdf"
+  },
+  {
+   "title": "KPMG: Notice 2026-5 expanded HSA eligibility under OBBBA",
+   "url": "https://kpmg.com/us/en/taxnewsflash/news/2025/12/notice-2026-5-expanded-hsa-eligibility-under-obbba.html"
+  },
+  {
+   "title": "Medicare.gov: Compare Medigap plan benefits",
+   "url": "https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits"
+  },
+  {
+   "title": "Medicare.gov: Ready to buy a Medigap policy",
+   "url": "https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy"
+  },
+  {
+   "title": "Medicare.gov: Choosing a Medigap Policy (publication 02110)",
+   "url": "https://www.medicare.gov/publications/02110-choosing-a-medigap-policy.pdf"
+  },
+  {
+   "title": "Medicare Rights Center: Medigap changes in 2020",
+   "url": "https://medicarerights.org/medicare-answers/2019/04/11/blog-medigap-changes-in-2020"
+  },
+  {
+   "title": "U.S. Department of Labor: FAQs on COBRA continuation coverage for workers",
+   "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-workers"
+  },
+  {
+   "title": "U.S. Department of Labor: An employee's guide to health benefits under COBRA",
+   "url": "https://www.dol.gov/sites/default/files/ebsa/about-ebsa/our-activities/resource-center/publications/an-employees-guide-to-health-benefits-under-cobra.pdf"
+  },
+  {
+   "title": "26 U.S. Code Sec. 7702B: Qualified long-term care insurance (Cornell LII)",
+   "url": "https://www.law.cornell.edu/uscode/text/26/7702B"
+  },
+  {
+   "title": "U.S. Department of Labor: Statement on short-term limited duration insurance (Aug 7, 2025)",
+   "url": "https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/affordable-care-act/for-employers-and-advisers/short-term-limited-duration-insurance/stldi-statement-08-07-2025"
+  },
+  {
+   "title": "CMS: Statement regarding short-term limited duration insurance",
+   "url": "https://www.cms.gov/files/document/statement-regarding-short-term-limited-duration-insurance.pdf"
+  },
+  {
+   "title": "Groom Law Group: Non-enforcement relief for STLDI",
+   "url": "https://www.groom.com/resources/non-enforcement-relief-for-short-term-limited-duration-insurance-102l09c/"
+  }
+ ]
+}

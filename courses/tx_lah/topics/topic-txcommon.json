@@ -1,0 +1,817 @@
+{
+ "id": "txcommon",
+ "title": "Texas law: rules for both lines",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "Texas law that applies to both life and health agents: TDI and the commissioner, insurer types, agent licensing (who needs a license, temporary and nonresident licenses, appointments, CE, renewal, discipline and notices to TDI), unfair practices including rebating, commission sharing and premium handling, and the Texas Life and Health Insurance Guaranty Association. Rechecked against the Texas Insurance Code, 28 TAC and TDI pages on Nov 23, 2026; rebating reflects HB 2221 (Chapter 1702, effective Sept. 1, 2025). Refresh every six months and after each Texas legislative session (next regular session January 2027).",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "tdi",
+   "label": "TDI and the commissioner"
+  },
+  {
+   "key": "definitions",
+   "label": "Insurers"
+  },
+  {
+   "key": "licensing",
+   "label": "Licensing"
+  },
+  {
+   "key": "practices",
+   "label": "Unfair practices"
+  },
+  {
+   "key": "duties",
+   "label": "Agent money duties"
+  },
+  {
+   "key": "protection",
+   "label": "Guaranty association"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map of Texas law for both lines",
+   "g": "map",
+   "s": "Texas law common to life and health falls into six blocks: TDI and the commissioner, insurer definitions, agent licensing, unfair practices, agent money duties, and the guaranty association.",
+   "o": [
+    "S-I"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Schema</b> (codes are this course's lettering of the unlettered S-I outline):</p><ol style=\"padding-left:18px;margin:0 0 8px\"><li><b>S-I.A TDI:</b> commissioner powers, insurer examinations, investigations, hearings, penalties, cease-and-desist orders.</li><li><b>S-I.B Definitions:</b> certificate of authority, the business of insurance, domestic, foreign and alien insurers, stock, mutual and fraternal insurers.</li><li><b>S-I.C Licensing:</b> who needs a license, agent, agency, nonresident and temporary licenses, appointments, CE, records, renewal, expiration, discipline, notices to TDI.</li><li><b>S-I.D Unfair practices:</b> claims, advertising, misrepresentation, defamation, rebating, fraud, boycott, commingling, discrimination.</li><li><b>S-I.E Agent duties:</b> commission sharing.</li><li><b>S-I.F Guaranty association.</b></li></ol><p>Most rules live in Texas Insurance Code Title 13 (Chapters 4001 to 4056 for agents), Chapters 82 to 84 (sanctions), Chapter 541 (unfair practices), Chapter 1702 (rebates and discrimination in life and health) and Chapter 463 (guaranty association).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> National prep books use generic numbers. On the Texas section, answer with the Texas number: 180-day temporary license, 24 CE hours with 3 of ethics, a 90-day late renewal window, a five-year wait after revocation.</div><div class=\"trap\"><b>Trap:</b> Rebating and life and health discrimination rules moved from Chapter 541 to new Chapter 1702 on Sept. 1, 2025 (HB 2221). Older material cites the repealed Secs. 541.056 to 541.058.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>One career can touch every block: a candidate gets a temporary license (C), sells for a Texas-domiciled insurer (B), is tempted to rebate (D), splits a commission with a friend (E), is sanctioned after a SOAH hearing (A), and later the insurer fails and the guaranty association pays her clients (F).</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>The Texas portion is 30 of the 130 scored questions. Expect number recall (days, hours, dollar caps) and scenario questions that ask which act is prohibited or which sanction applies.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent's license was revoked, and he asks how long he must wait before applying again. Which block of Texas law answers this, and what is the usual wait?",
+     "a": "Licensing discipline under Texas Insurance Code Sec. 4005.105: five years from the revocation, or from the final court order if he sought judicial review."
+    },
+    {
+     "q": "A study guide says giving a client a premium rebate violates Texas Insurance Code Sec. 541.056. What changed?",
+     "a": "HB 2221 repealed Secs. 541.056 to 541.058 effective Sept. 1, 2025, and moved the life and health rebate and discrimination rules to Chapter 1702; rebating is still prohibited."
+    },
+    {
+     "q": "A question asks which state agency an applicant answers to for a Texas agent license. Which agency?",
+     "a": "The Texas Department of Insurance (TDI), led by the commissioner of insurance."
+    }
+   ]
+  },
+  {
+   "n": "The commissioner, TDI, examinations and hearings",
+   "g": "tdi",
+   "s": "The governor appoints the commissioner, who runs TDI, adopts rules, examines each insurer at least once every five years, investigates with subpoena power, and decides contested cases after a SOAH hearing.",
+   "o": [
+    "S-I.A.1",
+    "S-I.A.2",
+    "S-I.A.3",
+    "S-I.A.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Appointment:</b> Texas Insurance Code Sec. 31.022 has the governor appoint the commissioner with Senate consent for a two-year term ending Feb. 1 of each odd-numbered year. Sec. 31.023 requires at least five years of experience in business or government administration, law practice, or as a CPA.</li><li><b>Duties:</b> Sec. 31.002 tells TDI to regulate the business of insurance, protect consumers and keep competition fair. Sec. 36.001 lets the commissioner adopt rules.</li><li><b>Examinations:</b> Sec. 401.052 requires an exam of each carrier at least once every five years. Examiners get free access to books and records and may question officers and agents under oath (Sec. 401.054). The insurer pays the cost (Secs. 401.151 to 401.153). Exam reports are confidential (Sec. 401.058).</li><li><b>Investigations:</b> the commissioner may issue statewide subpoenas and administer oaths (Sec. 36.152). TDI's fraud unit investigates fraudulent insurance acts (Sec. 701.101).</li><li><b>Hearings:</b> the State Office of Administrative Hearings (SOAH) conducts contested hearings (Sec. 40.002). Its administrative law judge writes a proposal for decision, and the commissioner issues the final order (Secs. 40.058 to 40.060). Judicial review goes to a Travis County district court under the substantial evidence rule (Secs. 36.202, 36.203).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The commissioner is appointed, not elected.</div><div class=\"trap\"><b>Trap:</b> The commissioner does not personally run the hearing; a SOAH judge does, and the commissioner decides afterward.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>TDI schedules a financial exam of a Texas life insurer last examined five years ago. The insurer pays the examiners, and refusing access would expose it to Chapter 82 discipline (Sec. 401.061).</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A classmate says Texas voters elect the insurance commissioner every four years. What is the actual rule?",
+     "a": "The governor appoints the commissioner with the Senate's consent for a two-year term that ends Feb. 1 of each odd-numbered year."
+    },
+    {
+     "q": "What is the longest a Texas carrier may go between TDI examinations under the statute?",
+     "a": "Five years; Sec. 401.052 requires an exam at least once every five years, and TDI may examine more often."
+    },
+    {
+     "q": "An agent contests a proposed license revocation. Who presides over the hearing, and who signs the final order?",
+     "a": "A SOAH administrative law judge holds the hearing and writes a proposal for decision; the commissioner issues the final order."
+    },
+    {
+     "q": "A witness ignores a subpoena issued by the commissioner. What enforcement route does the Insurance Code give?",
+     "a": "The commissioner applies to a district court in Travis County or the county of service for an enforcement order, and disobeying that order is contempt."
+    }
+   ]
+  },
+  {
+   "n": "Sanctions, administrative penalties and cease-and-desist orders",
+   "g": "tdi",
+   "s": "After notice and a chance for a hearing the commissioner may revoke, suspend for up to one year, fine up to $25,000 per violation, order restitution, or order a cease and desist, and in an emergency may order a cease and desist with no prior hearing.",
+   "o": [
+    "S-I.A.5",
+    "S-I.A.6"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Chapter 82 menu:</b> Sec. 82.051 allows cancellation or revocation; Sec. 82.052 adds suspension for up to one year, a cease-and-desist order, an administrative penalty, restitution (Sec. 82.053), or any combination. Ignoring such an order requires cancellation of every authorization the holder has (Sec. 82.054). Cases may settle by consent order (Sec. 82.055).</li><li><b>Administrative penalties (Chapter 84):</b> up to $25,000 per violation unless another law sets a different amount (Sec. 84.022). Factors include seriousness, harm, prior violations, deterrence, efforts to correct and intent. The person has 20 days after notice to accept or request a hearing (Sec. 84.042), and 30 days after a final order to pay or seek judicial review (Sec. 84.045).</li><li><b>Emergency cease and desist (Chapter 83):</b> issued ex parte, meaning without a prior hearing (Sec. 83.051). The person has 60 days after service to request a hearing (Sec. 83.053); otherwise the order becomes final on the 61st day. It stays in effect pending the hearing (Sec. 83.055). Violating it can bring a penalty of $25,000 per act (Sec. 83.104).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Suspension under Sec. 82.052 is capped at one year; revocation has no time limit.</div><div class=\"trap\"><b>Trap:</b> Only the emergency order skips the prior hearing; ordinary sanctions require notice and an opportunity for a hearing.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An unlicensed website sells \"health plans\" to Texans. The commissioner mails an emergency cease-and-desist order by certified mail. The operator requests no hearing, so the order is final on day 61. Each later sale can draw a $25,000 penalty.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "The commissioner orders an unauthorized seller to stop immediately, before any hearing. How long after service does the seller have to request a hearing?",
+     "a": "60 days; if no hearing is requested, the emergency order becomes final on the 61st day after service."
+    },
+    {
+     "q": "What is the general maximum administrative penalty per violation under Texas Insurance Code Chapter 84?",
+     "a": "$25,000 per violation, unless another insurance law sets a different amount."
+    },
+    {
+     "q": "Under Sec. 82.052, what is the longest period the commissioner may suspend an authorization?",
+     "a": "One year."
+    },
+    {
+     "q": "An agent receives notice of a recommended administrative penalty. How long does she have to accept it or request a hearing?",
+     "a": "20 days after receiving the notice (Sec. 84.042)."
+    }
+   ]
+  },
+  {
+   "n": "Insurers: certificate of authority and insurer types",
+   "g": "definitions",
+   "s": "An insurer needs a TDI certificate of authority to do the business of insurance in Texas, and it is domestic, foreign or alien depending on where it was organized.",
+   "o": [
+    "S-I.B.1",
+    "S-I.B.2",
+    "S-I.B.3",
+    "S-I.B.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Certificate of authority:</b> lists the kinds of insurance the insurer may write (Sec. 801.052) and stays in effect until suspended or revoked, with no renewal (Sec. 801.053).</li><li><b>Business of insurance:</b> Sec. 101.051 includes making an insurance contract, taking applications, collecting premiums, delivering policies to Texas residents, and soliciting, forwarding applications or adjusting claims for an insurer. Doing this without authority can be a third-degree felony (Sec. 101.106), and anyone who helped place the coverage is liable for unpaid claims (Sec. 101.201).</li><li><b>Domicile:</b> domestic means organized under Texas law. Sec. 982.001 defines foreign as organized in another U.S. state and alien as organized in another country. Alien insurers must deposit U.S. or Texas securities (Sec. 982.108).</li><li><b>Ownership:</b> a stock insurer is owned by shareholders; a mutual insurer is owned by its policyowners and typically issues participating policies with nonguaranteed dividends. A fraternal benefit society (Sec. 885.051) has a lodge system and representative government, runs solely for members and beneficiaries, not for profit, and has no capital stock. Its agents need a general or life agent license unless they spend under 50 percent of their time selling (Secs. 885.351, 885.352).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Foreign means another U.S. state, not another country; another country is alien.</div><div class=\"trap\"><b>Trap:</b> An agent who helps place coverage with an unauthorized insurer can owe the insured the full unpaid claim.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Three insurers sell in Texas: one formed in Austin (domestic), one formed in Ohio (foreign), one formed in Bermuda (alien). All three need a Texas certificate of authority.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insurer incorporated in Nebraska sells life policies in Texas. How does Texas classify it?",
+     "a": "Foreign: it is organized under the laws of another U.S. state."
+    },
+    {
+     "q": "An insurer is owned by its policyowners and pays them policy dividends. Which ownership type is it?",
+     "a": "A mutual insurer."
+    },
+    {
+     "q": "A society with local lodges and elected representative government sells life benefits only to its members, not for profit. What is it?",
+     "a": "A fraternal benefit society."
+    },
+    {
+     "q": "An agent places a client's health coverage with an insurer that has no Texas certificate of authority, and the insurer refuses a claim. What exposure does the agent face?",
+     "a": "Under Sec. 101.201 the agent who assisted can be liable to the insured for the full unpaid claim, and the conduct can bring Chapter 101 penalties."
+    },
+    {
+     "q": "How long does a Texas certificate of authority last?",
+     "a": "Until TDI suspends or revokes it; it does not need renewal."
+    }
+   ]
+  },
+  {
+   "n": "Who must be licensed, and who is exempt",
+   "g": "licensing",
+   "s": "Anyone who solicits, negotiates, procures or collects premiums for an insurer in Texas acts as an agent and needs a license, except listed groups such as salaried clerical staff who do not sell and are not paid by premium volume.",
+   "o": [
+    "S-I.C.1",
+    "S-I.C.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Agent:</b> Sec. 4001.003(1) covers anyone who solicits, negotiates, procures or collects premiums on insurance or annuity contracts. Sec. 4001.051 adds acts such as transmitting applications or policies and collecting premiums. An agent may not alter or waive policy terms (Sec. 4001.051(c)).</li><li><b>License required:</b> no one may solicit or receive applications without a license, and an insurer may not appoint an unlicensed person (Sec. 4001.101). The general lines life, accident and health license (Sec. 4054.051) covers life and health for a life insurer, accident and health only, HMO representation, fixed and variable annuities, variable life, and fraternal business.</li><li><b>Not agents or exempt:</b> salaried officers and employees who do not solicit and earn no commission (Sec. 4001.003(1)(A)); employers and plan trustees administering a plan without pay from the insurer; banks collecting premiums from accounts on the depositor's order; and full-time salaried clerical employees whose pay does not vary with premium volume (Sec. 4001.002(b)(5)).</li><li><b>Referrals:</b> a referral by an unlicensed person is not agent activity unless that person discusses specific policy terms (Sec. 4001.051(d)).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A clerical employee loses the exemption once pay depends on premium volume or the employee starts soliciting.</div><div class=\"trap\"><b>Trap:</b> Selling variable products in Texas still requires the general lines or life agent license; the securities registration comes on top of it.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A receptionist at an agency on a flat salary schedules appointments and mails forms: exempt. If the agency pays her $20 for each policy sold from her calls, she needs a license.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agency's salaried assistant answers phones and processes paperwork but begins earning a bonus tied to premiums written. Does she still fit the clerical exemption?",
+     "a": "No; the exemption requires that pay not vary with premium volume, so she now needs a license."
+    },
+    {
+     "q": "A friend tells a coworker to call his agent but says nothing about any policy's terms. Is the friend acting as an agent?",
+     "a": "No; under Sec. 4001.051(d) a referral is not agent activity unless the person discusses specific policy terms or conditions."
+    },
+    {
+     "q": "Which Texas license lets an agent write life, accident and health insurance and represent an HMO?",
+     "a": "The general lines life, accident and health agent license (Sec. 4054.051)."
+    },
+    {
+     "q": "A licensed agent tells a client that the agent will waive the policy's suicide exclusion. Why can't the agent do this?",
+     "a": "Sec. 4001.051(c) bars an agent from changing or waiving any term of a policy; only the insurer can."
+    }
+   ]
+  },
+  {
+   "n": "Getting licensed: individual, agency and nonresident",
+   "g": "licensing",
+   "s": "An individual must be at least 18, pass the exam within the prior 12 months and intend to sell to the public, an agency needs a licensed officer or partner plus financial responsibility, and a nonresident in good standing at home gets a reciprocal license.",
+   "o": [
+    "S-I.C.1",
+    "S-I.C.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Individual (Sec. 4001.105):</b> at least 18, passed the required exam within the past 12 months, no ground for denial under Sec. 4005.101, application and fees. TDI (Nov. 2026) also requires fingerprints and a $50 fee.</li><li><b>Intent to sell (Sec. 4001.104):</b> the applicant must intend to sell to the public and not seek the license to evade rebating or discrimination laws. At least 25 percent of premium volume must come from people other than the applicant and those tied to him (Sec. 4001.104(b)).</li><li><b>Agency (Sec. 4001.106):</b> at least one officer or active partner individually licensed (TDI calls this the designated responsible licensed producer), everyone acting as an agent licensed, and either an errors and omissions policy of at least $250,000 with a deductible of no more than 10 percent or a $25,000 bond.</li><li><b>Nonresident (Chapter 4056):</b> issued if the applicant holds a license in good standing in a home state that reciprocates (Sec. 4056.052). The holder may write only lines the home state authorizes (Sec. 4056.056). The Texas license falls automatically if the home state suspends or revokes (Sec. 4056.052(c)).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The exam pass is good for 12 months; applying later means retesting.</div><div class=\"trap\"><b>Trap:</b> Licensing a corporation does not license its people; each one acting as an agent needs an individual license (Sec. 4001.101(d)).</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An Oklahoma resident with an active Oklahoma life and health license applies for a Texas nonresident license and skips the Texas exam. If Oklahoma later revokes her license, her Texas license falls with it.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A candidate passed the Texas exam 14 months ago and never applied. What must she do?",
+     "a": "Pass the exam again; Sec. 4001.105 requires a passing score within the past 12 months."
+    },
+    {
+     "q": "An applicant wants a license only to buy coverage on himself and his family at a commission discount. On what basis can TDI deny it?",
+     "a": "Sec. 4001.104 requires intent to sell to the public and bars licenses sought to evade rebating laws; Sec. 4005.101 also lists this as a ground."
+    },
+    {
+     "q": "A Louisiana agent's home-state license is revoked. What happens to her Texas nonresident license?",
+     "a": "It is automatically revoked as well under Sec. 4056.052(c)."
+    },
+    {
+     "q": "An agency corporation applies for a Texas license. Which two protections must it show beyond paperwork?",
+     "a": "At least one licensed officer or active partner, and financial responsibility through an errors and omissions policy of at least $250,000 or a $25,000 bond."
+    }
+   ]
+  },
+  {
+   "n": "Temporary license",
+   "g": "licensing",
+   "s": "A sponsoring insurer, agency or agent can get a candidate a 180-day temporary license without an exam, once per person, with at least 40 hours of supervised training and no commissions on business from family, employers or business associates.",
+   "o": [
+    "S-I.C.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Who and how (Secs. 4001.151 to 4001.154):</b> an applicant being considered for appointment as a full-time agent, with a sponsor's certificate (TDI form FIN700). No exam is required. If nothing arrives from TDI before the 8th day, the sponsor may assume issuance.</li><li><b>Length:</b> 180 days (Sec. 4001.155). TDI's general lines page says one temporary license per person, not renewable and not reissued. TDI lists a $150 fee that also covers the permanent application.</li><li><b>Training:</b> at least 40 hours, 10 of them in a classroom, beginning within 30 days (Sec. 4001.160).</li><li><b>Business limits:</b> no commissions on coverage sold to people with a family, employment or business relationship with the holder, or on the holder's own coverage (Sec. 4001.157), and no replacements that harm an existing life policy or annuity (Sec. 4001.158).</li><li><b>Sponsor duties:</b> over any two straight quarters at least 70 percent of its temporary holders must take the exam and half of those must pass (Sec. 4001.161), and no more than 500 temporary appointments a year (Sec. 4001.162).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A temporary holder can sell, but commissions on sales to relatives, employers or business partners are barred.</div><div class=\"trap\"><b>Trap:</b> The temporary license is not renewable; a candidate who fails to pass within 180 days must reapply and pay again.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Maria starts at an insurer on Feb. 1 with a temporary license. She completes 40 training hours, sells a policy to a stranger (commission allowed) and one to her brother (no commission). She must pass the exam by early August.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A temporary license holder sells a life policy to her uncle. What does Texas law say about her commission?",
+     "a": "She may not receive a commission on sales to people with a family relationship with her (Sec. 4001.157)."
+    },
+    {
+     "q": "How long is a Texas temporary agent license valid, and can it be renewed?",
+     "a": "180 days; it cannot be renewed or reissued."
+    },
+    {
+     "q": "How much training must a sponsor provide a temporary license holder?",
+     "a": "At least 40 hours, with at least 10 in a classroom, starting within 30 days."
+    },
+    {
+     "q": "A temporary licensee proposes replacing a client's existing whole life policy with a new one in a way that harms the old coverage. What rule applies?",
+     "a": "Temporary holders may not make replacements that harm existing life policies or annuities, or take commissions on them (Sec. 4001.158)."
+    }
+   ]
+  },
+  {
+   "n": "Appointments, notices to TDI and records",
+   "g": "licensing",
+   "s": "A licensed agent may act only for an insurer that has appointed her, the appointment lasts until someone ends it, and the agent must keep TDI informed of address changes, felony convictions and regulatory actions.",
+   "o": [
+    "S-I.C.5",
+    "S-I.C.7",
+    "S-I.C.13"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Appointment:</b> a license holder may not act as an agent unless appointed by an authorized insurer (Sec. 4001.201). Agents may hold several appointments; the insurer and agent notify TDI within 30 days after each appointment takes effect, with a fee (Sec. 4001.202). Appointments need no renewal (Sec. 4001.203).</li><li><b>Termination for cause:</b> the insurer or agent files a statement of the facts with TDI immediately (Sec. 4001.206; TDI form FIN501). The statement is privileged, and a person who reports without malice is not liable.</li><li><b>Notices from individual agents (Sec. 4001.252(a)):</b> on a monthly basis, any mailing address change, any felony conviction, and any administrative action by a financial or insurance regulator of any state or the United States. TDI's license management page tells agents to report contact and name changes immediately. Agencies report officer changes and felony convictions within 30 days (Sec. 4001.252(c)).</li><li><b>Records:</b> keep insurance records, including complaint records, separate from any other business (Sec. 4001.255). TDI's CE FAQ asks licensees to keep CE certificates at least four years. I did not confirm a general Texas retention period for agent sales records.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A license alone does not authorize selling a given insurer's products; the appointment does.</div><div class=\"trap\"><b>Trap:</b> The administrative action to report includes one by another state or a federal financial regulator, not only TDI.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent licensed for 10 years adds a new carrier on June 1. The carrier and agent file notice by July 1. In September another state fines her; she reports it to TDI.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A newly licensed agent wants to sell a carrier's policies but has no appointment from it. What does Texas law require first?",
+     "a": "An appointment by that authorized insurer; Sec. 4001.201 bars acting as its agent without one."
+    },
+    {
+     "q": "An insurer terminates an agent for cause after finding forged signatures. What filing does Texas require?",
+     "a": "The insurer files a statement with TDI giving the facts, date and cause of the termination, which is privileged."
+    },
+    {
+     "q": "Oklahoma fines a Texas agent for a licensing violation. Does she have to tell TDI?",
+     "a": "Yes; Sec. 4001.252 requires reporting administrative actions by any state's or federal financial or insurance regulator."
+    },
+    {
+     "q": "An agent also runs a tax preparation business. How must he keep his insurance records?",
+     "a": "Separate from the records of the other business, including customer complaint records (Sec. 4001.255)."
+    },
+    {
+     "q": "An individual agent moves and changes her mailing address. How often does Sec. 4001.252 require agents to report such changes to TDI?",
+     "a": "On a monthly basis, along with any felony conviction or regulatory action; TDI's license page also asks for contact changes immediately."
+    }
+   ]
+  },
+  {
+   "n": "Renewal, expiration and late renewal",
+   "g": "licensing",
+   "s": "An individual license runs two years and expires on the holder's birthday, a lapsed license can be renewed within 90 days for an extra half fee, and after one year a new license requires the exam again.",
+   "o": [
+    "S-I.C.9",
+    "S-I.C.10"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Term (Sec. 4003.001):</b> two years; an individual's license expires on the holder's birthday. Several licenses held by one person all expire on the earliest date.</li><li><b>Notice and filing:</b> TDI sends notice at least 30 days before expiration (Sec. 4003.003). Renewal requires an application, the fee and completed CE (Sec. 4003.004). A suspended or revoked license cannot be renewed. A timely renewal keeps the license in effect until TDI acts (Sec. 4003.006).</li><li><b>Late windows (Sec. 4003.007):</b><ol style=\"padding-left:18px;margin:0 0 8px\"><li>Expired 90 days or less: renew, paying the renewal fee plus half.</li><li>More than 90 days but under one year: no renewal; get a new license without the exam, paying the license fee plus half.</li><li>One year or more: new license with the exam and all original requirements.</li></ol></li><li><b>Fees:</b> TDI's agent license management page (checked Nov. 2026) shows a $50 renewal fee and a $25 late fee.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The 90-day window is the only true late renewal; after that it is a new license, with or without the exam.</div><div class=\"trap\"><b>Trap:</b> Renewal fees are nonrefundable (Sec. 4003.005).</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent's license expires on her birthday, March 10. Renewed April 20 (41 days late): $50 plus $25. Applied Aug. 1 (144 days): new license, no exam, fee plus half. Applied the next March 20 (over a year): she must pass the exam again.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent's license expired 60 days ago. What is his path back?",
+     "a": "Late renewal: file the application and pay the renewal fee plus an extra half of that fee (Sec. 4003.007)."
+    },
+    {
+     "q": "A license expired seven months ago. Can the holder renew, and is an exam needed?",
+     "a": "He cannot renew, but he can get a new license without the exam by applying and paying the license fee plus half."
+    },
+    {
+     "q": "A license expired 13 months ago. What does the former agent need?",
+     "a": "A new license with the examination and the other original licensing requirements."
+    },
+    {
+     "q": "When does a Texas individual agent license expire?",
+     "a": "On the holder's birthday at the end of its two-year term."
+    }
+   ]
+  },
+  {
+   "n": "Continuing education",
+   "g": "licensing",
+   "s": "A general lines life, accident and health agent needs 24 CE hours each two-year license period, including 3 hours of ethics and at least half in a classroom or classroom equivalent, completed before the license expires.",
+   "o": [
+    "S-I.C.6"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Hours:</b> 24 per license period, no more than 24 total for several qualifying licenses (Sec. 4004.053); 3 ethics hours (Sec. 4004.054); at least 50 percent classroom or classroom equivalent (Sec. 4004.051). Up to 4 hours may come from insurance association membership, but not for the classroom or ethics parts (Sec. 4004.0535).</li><li><b>Late completion:</b> TDI will not renew if CE is not done within 90 days after the period ends (Sec. 4004.055). TDI's CE page sets a $50 fine per missing hour; the license management page caps it at $500 per license type.</li><li><b>Exemptions:</b> 20 years of continuous licensure (Sec. 4004.052; TDI allows no break over 90 days), plus extensions for illness, disability or other causes beyond the agent's control. Workload is no excuse.</li><li><b>Product CE:</b> 8 annuity hours each period for resident agents selling annuities (Sec. 4004.202). Medicare-related products: 8 hours of training before selling, then 4 hours each period, with no 20-year exemption (Secs. 4004.252, 4004.253, 4004.255).</li><li><b>Nonresidents</b> follow home-state CE (Sec. 4056.057).</li></ul><p><b>No carryover:</b> 28 TAC Sec. 19.1003(a)(2)(B) bars carrying excess hours into the next period, and hours made up late under Sec. 4004.055 count only for the earlier period. A repeated course counts once per term.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Hours finished after expiration still leave the agent open to discipline; late completion is no defense (Sec. 4004.055).</div><div class=\"trap\"><b>Trap:</b> The 20-year exemption does not cover the Medicare-related product CE.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent with 18 hours, 3 of ethics, lets the license expire. Within 90 days she finishes 6 hours and pays 6 x $50 = $300 in fines, then renews.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "How many CE hours does a Texas general lines life, accident and health agent need per two-year period, and how many must be ethics?",
+     "a": "24 hours, including 3 hours of ethics."
+    },
+    {
+     "q": "An agent wants to do all 24 CE hours as self-study. What Texas rule blocks this?",
+     "a": "At least half the hours must be classroom or classroom equivalent (Sec. 4004.051)."
+    },
+    {
+     "q": "An agent licensed continuously for 22 years plans to start selling Medicare Advantage plans. Does her 20-year exemption excuse the Medicare training?",
+     "a": "No; the 20-year exemption does not apply to Medicare-related product training and CE (Sec. 4004.255)."
+    },
+    {
+     "q": "A resident agent sells annuities. How many annuity-specific CE hours are required each license period?",
+     "a": "8 hours, which can count toward the 24 (Sec. 4004.202)."
+    },
+    {
+     "q": "An agent completes 34 CE hours during her current two-year term. How many of the extra 10 hours count toward her next term?",
+     "a": "None; 28 TAC Sec. 19.1003 does not allow excess hours to be carried forward to a later reporting period."
+    }
+   ]
+  },
+  {
+   "n": "Denial, suspension and revocation",
+   "g": "licensing",
+   "s": "TDI may deny, suspend, revoke, refuse to renew, probate, reprimand or fine an agent for listed grounds such as fraud, misappropriation, misrepresentation, felony conviction or rebating, and a revoked or denied individual usually waits five years to reapply.",
+   "o": [
+    "S-I.C.8",
+    "S-I.C.11",
+    "S-I.C.12"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Grounds (Sec. 4005.101(b)):</b> willful violation of insurance law; material misstatement on the application; license obtained by fraud; misappropriating or withholding money of an insurer or insured; fraudulent or dishonest acts; misrepresenting policy terms; misrepresentation or incomplete comparison to induce a lapse or replacement; felony conviction; rebating; not selling to the public; license held mainly to cover oneself, family or business associates.</li><li><b>Sanctions (Sec. 4005.102):</b> deny, suspend, revoke, refuse to renew, probate a suspension (with reporting, practice limits or CE under Sec. 4005.103), administrative penalty, reprimand. The holder may request a SOAH hearing (Sec. 4005.104).</li><li><b>Waiting periods:</b> five years after a denial or revocation, counted from the order or final court order (Sec. 4005.105), but not for a failed exam, unfinished CE, unpaid fine or incomplete application. Five years also for someone who acted as an agent without a license or appointment, or for an unauthorized insurer (Sec. 4005.106).</li><li><b>Crimes:</b> acting as an agent after suspension or revocation is a third-degree felony (Sec. 4005.151). Helping such a person is a misdemeanor, with a fine up to $1,000, up to six months in jail, or both (Sec. 4005.152). Converting premiums is theft (Sec. 4005.153).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Surrendering a license does not escape discipline for earlier conduct (Sec. 4005.107).</div><div class=\"trap\"><b>Trap:</b> A denial for failing the exam carries no five-year bar.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent pockets three clients' premiums. TDI revokes after a SOAH hearing; he cannot reapply for five years, he may face theft charges, and selling during the revocation would be a felony.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent's license was revoked, and she keeps selling policies anyway. What is the criminal grade of this offense in Texas?",
+     "a": "A third-degree felony (Sec. 4005.151)."
+    },
+    {
+     "q": "An applicant was denied a license because he failed to disclose a felony conviction. How long must he wait to reapply?",
+     "a": "Five years from the denial, or from the final court order if he sought review (Sec. 4005.105)."
+    },
+    {
+     "q": "An applicant was denied because she failed the licensing exam. Does the five-year bar apply?",
+     "a": "No; denials for failing the exam, unfinished CE, an unpaid fine or an incomplete application are excluded."
+    },
+    {
+     "q": "A licensed agent knowingly lets a suspended friend sell under his name. What offense has he committed?",
+     "a": "A misdemeanor punishable by a fine up to $1,000, jail up to six months, or both (Sec. 4005.152)."
+    }
+   ]
+  },
+  {
+   "n": "Misrepresentation, twisting, false advertising, defamation and boycott",
+   "g": "practices",
+   "s": "Texas Insurance Code Chapter 541 makes it an unfair or deceptive practice to misrepresent a policy or insurer, induce a lapse or replacement with misrepresentation, advertise falsely, defame an insurer, or join a boycott, coercion or intimidation that restrains trade.",
+   "o": [
+    "S-I.D.2",
+    "S-I.D.3",
+    "S-I.D.4",
+    "S-I.D.7"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Misrepresentation (Sec. 541.051):</b> misstating a policy's terms, benefits or dividends, an insurer's finances, or using a misleading policy name. Misrepresenting to induce a policyholder to lapse, forfeit or surrender a policy is twisting. Sec. 541.061 adds misleading omissions and misstating the law.</li><li><b>False advertising (Sec. 541.052):</b> untrue, deceptive or misleading statements about insurance in any medium, including the internet.</li><li><b>Defamation (Sec. 541.053):</b> false or maliciously critical statements about an insurer's financial condition meant to injure it.</li><li><b>Boycott, coercion, intimidation (Sec. 541.054):</b> concerted action that unreasonably restrains trade or creates a monopoly.</li><li><b>Related:</b> filing false financial statements (Sec. 541.055) and using a name deceptively similar to an insurer's (Sec. 541.059).</li><li><b>Remedies:</b> TDI may order a cease and desist after a hearing (Sec. 541.108). A harmed person may sue for actual damages and up to three times actual damages if the act was knowing (Sec. 541.152), after 61 days' written notice (Sec. 541.154), within two years (Sec. 541.162).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Twisting is a misrepresentation that induces replacement; an honest, complete comparison that leads to replacement is not twisting.</div><div class=\"trap\"><b>Trap:</b> Defamation targets an insurer's financial condition; misrepresentation targets a policy's terms or benefits.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent tells a client his current insurer \"is about to go bankrupt\" with no basis, to win the client's business (defamation). He then says the new policy pays dividends \"guaranteed\" when they are not (misrepresentation), and the client drops the old policy (twisting).</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent persuades a client to drop an existing life policy by falsely claiming it will lapse next year. What practice is this?",
+     "a": "Twisting: misrepresentation that induces a policyholder to lapse or replace a policy (Sec. 541.051)."
+    },
+    {
+     "q": "An agent posts online that a rival insurer is insolvent, knowing it is false, to steal its customers. Which Chapter 541 practice is this?",
+     "a": "Defamation of an insurer (Sec. 541.053)."
+    },
+    {
+     "q": "Several agencies agree to refuse all business from an insurer unless it raises their commissions. Which prohibited practice is this?",
+     "a": "Boycott, coercion or intimidation that unreasonably restrains trade (Sec. 541.054)."
+    },
+    {
+     "q": "A client wins a Chapter 541 suit and the jury finds the agent acted knowingly. What is the most the client can recover in damages?",
+     "a": "Up to three times actual damages, plus court costs and attorney's fees (Sec. 541.152)."
+    }
+   ]
+  },
+  {
+   "n": "Rebating, inducements and unfair discrimination",
+   "g": "practices",
+   "s": "Texas bars giving any premium rebate or value not stated in the policy to induce a life, annuity or health sale, except listed items such as courtesy gifts worth $25 or less, and bars treating people of the same class and risk differently.",
+   "o": [
+    "S-I.D.5",
+    "S-I.D.9"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Where the rule lives:</b> HB 2221 moved life, annuity and health rebating and discrimination rules into new Chapter 1702 effective Sept. 1, 2025.</li><li><b>Rebating (Secs. 1702.102, 1702.152):</b> no premium rebate, special favor in dividends or benefits, or value or inducement not in the contract. Agents also may not rebate commission to anyone (Sec. 4005.053(c)), and rebating is a ground for discipline (Sec. 4005.101(b)(9)).</li><li><b>Allowed (Secs. 1702.104, 1702.154):</b> promotional, educational or courtesy items worth $25 or less; fair bonuses from surplus; group premium adjustments for the past year's experience. Wellness discounts are allowed (Sec. 1702.155), as are value-added services offered on documented objective criteria (Sec. 1702.051). Larger gifts are capped at an amount the commissioner sets (Sec. 1702.053); I found no adopted figure as of Nov. 2026.</li><li><b>Discrimination:</b> no unfair distinction among people of the same class and equal life expectancy (life, Sec. 1702.103) or same class and hazard (health, Sec. 1702.153; Sec. 544.052). Sec. 544.002 bars refusing, limiting or pricing coverage on race, color, religion, national origin, age, gender, marital status, geographic location or disability, unless sound actuarial principles support it (Sec. 544.003).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A $25 pen with the agency logo is fine; a $25 cash refund of premium is a rebate.</div><div class=\"trap\"><b>Trap:</b> Charging differently by age is lawful when sound actuarial principles support it.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent offers to pay a client's first month's premium out of her commission. That is a rebate under Chapter 1702 and Sec. 4005.053, and grounds for discipline under Sec. 4005.101.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "To close a sale, an agent offers to give back half of her first-year commission to the buyer. What practice is this?",
+     "a": "Rebating, which Chapter 1702 and Sec. 4005.053 prohibit and Sec. 4005.101 makes a ground for discipline."
+    },
+    {
+     "q": "An agent hands out branded calendars worth about $8 each at a seminar. Is this a prohibited inducement?",
+     "a": "No; promotional or courtesy items worth $25 or less are allowed."
+    },
+    {
+     "q": "Two healthy 40-year-old nonsmokers in the same risk class are quoted different life rates because one is from a different national origin. What does Texas call this?",
+     "a": "Unfair discrimination; it violates Sec. 1702.103 and Sec. 544.002."
+    },
+    {
+     "q": "A health insurer gives a premium discount to members who complete a wellness program. Is this a rebate?",
+     "a": "No; Sec. 1702.155 lets insurers offer premium or cost-sharing discounts for wellness and prevention programs."
+    }
+   ]
+  },
+  {
+   "n": "Unfair claim settlement and insurance fraud",
+   "g": "practices",
+   "s": "Texas makes it unfair to misstate coverage, stall a claim whose liability is reasonably clear, deny without a reasonable investigation or explanation, or demand a full release for a partial payment, and anyone who suspects insurance fraud must report it in writing to TDI within 30 days.",
+   "o": [
+    "S-I.D.1",
+    "S-I.D.6"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Unfair settlement practices (Sec. 541.060):</b></p><ul><li>misrepresenting material facts or policy provisions about coverage;</li><li>not attempting a prompt, fair settlement once liability is reasonably clear;</li><li>not giving a reasonable explanation for a denial or a compromise offer;</li><li>not affirming or denying coverage, or reserving rights, within a reasonable time;</li><li>delaying a first-party claim because other coverage or a third party might pay;</li><li>requiring a full release in exchange for a partial payment;</li><li>refusing to pay without a reasonable investigation.</li></ul><p><b>Fraud:</b> a fraudulent insurance act is a penal law violation committed in the business of insurance or to defraud an insurer (Sec. 701.001). Anyone who knows or reasonably suspects one must report in writing to TDI's insurance fraud unit within 30 days (Sec. 701.051). A report to the fraud unit counts as notice to other agencies. Reporters are immune from civil suits, including libel, unless they act with malice, fraudulent intent or bad faith (Sec. 701.052). Insurers answer fraud unit information requests within 15 days, with a 10-day extension available (Sec. 701.108).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The fraud report goes to TDI's fraud unit, not only to the insurer's own special investigations unit.</div><div class=\"trap\"><b>Trap:</b> Immunity covers good-faith reports; a malicious or knowingly false report loses it.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent notices that a client's claim forms show treatment dates before the policy began, and the doctor's signature looks copied. She reports in writing to TDI's fraud unit within 30 days and cannot be sued for libel over a good-faith report.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent reasonably suspects a client staged an accident to collect disability benefits. What must she do and by when?",
+     "a": "Report it in writing to TDI's insurance fraud unit within 30 days of forming the suspicion (Sec. 701.051)."
+    },
+    {
+     "q": "An insurer offers to pay half of a clear claim only if the insured signs a release of the whole claim. Which unfair practice is this?",
+     "a": "Requiring a full release in exchange for a partial payment (Sec. 541.060)."
+    },
+    {
+     "q": "An insurer denies a health claim without looking at the medical records. Which unfair settlement practice applies?",
+     "a": "Refusing to pay a claim without conducting a reasonable investigation (Sec. 541.060)."
+    },
+    {
+     "q": "The person an agent reported for suspected fraud sues her for libel. What protects her?",
+     "a": "Sec. 701.052 immunity for reports to the fraud unit, which holds unless she acted with malice, fraudulent intent or bad faith."
+    }
+   ]
+  },
+  {
+   "n": "Commission sharing and premium handling",
+   "g": "duties",
+   "s": "An agent may pay or share commissions only with a Texas-licensed agent, may not pay purchase-based referral fees to unlicensed people, and must treat premiums as other people's money, never as personal funds.",
+   "o": [
+    "S-I.D.8",
+    "S-I.E.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Commission sharing (Sec. 4005.053):</b> an insurer or agent may pay or accept a commission for agent services only if the other person holds a Texas agent license. Renewal and other deferred commissions may still be paid to someone no longer licensed. An agent may not give an unlicensed person a rebate, commission or other value for soliciting or negotiating, or a referral fee based on the referred customer's purchase. Courtesy items worth $25 or less are allowed.</li><li><b>Extra fees (Sec. 4005.054):</b> an agent already paid a commission may not charge the same client an added fee for the same service, unless a disclosed fee permitted by Secs. 550.001 or 4005.003 applies.</li><li><b>Premiums:</b> premiums an agent collects belong to the insurer or the client. Misappropriating or illegally withholding them is a ground for discipline (Sec. 4005.101(b)(4)), and converting them is theft (Sec. 4005.153). Commingling means mixing premium money with the agent's own funds; it is how most misappropriation starts. I did not find a Texas section for life and health agents that uses the word commingling; the duty follows from these sections.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Splitting a commission with another Texas-licensed agent is allowed; splitting it with an unlicensed friend is not.</div><div class=\"trap\"><b>Trap:</b> A retired, unlicensed former agent may keep receiving renewal commissions on business written while licensed.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An agent closes a sale referred by his unlicensed barber and pays him $100 for the referral: prohibited. He splits the commission with a licensed colleague who co-wrote the case: allowed. He deposits the client's premium check in his personal account and uses it for rent: misappropriation.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent wants to pay her unlicensed neighbor $50 for each referral that buys a policy. Is this allowed in Texas?",
+     "a": "No; Sec. 4005.053 bars paying an unlicensed person a referral fee based on the customer's purchase."
+    },
+    {
+     "q": "A retired agent let his license lapse. Can his former insurer still pay him renewal commissions?",
+     "a": "Yes; renewal and other deferred commissions may go to a person who is no longer licensed."
+    },
+    {
+     "q": "An agent deposits client premiums in her personal checking account and spends some before forwarding them. What ground for discipline applies?",
+     "a": "Misappropriating or illegally withholding money belonging to an insurer or insured (Sec. 4005.101(b)(4)); conversion can also be prosecuted as theft."
+    },
+    {
+     "q": "Two Texas-licensed agents jointly write a case. May they share the commission?",
+     "a": "Yes; Sec. 4005.053 allows commissions to be paid to or shared with persons licensed as agents in Texas."
+    }
+   ]
+  },
+  {
+   "n": "Texas Life and Health Insurance Guaranty Association",
+   "g": "protection",
+   "s": "The guaranty association, funded by assessments on member insurers, pays covered policyholders up to set limits when a life or health insurer is impaired or insolvent, and no one may use its existence to sell insurance.",
+   "o": [
+    "S-I.F.1"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Purpose and trigger (Secs. 463.002, 463.003):</b> protects covered persons when a member insurer is impaired (under court supervision, rehabilitation or conservation) or insolvent (liquidation order with a finding of insolvency).</li><li><b>Members (Sec. 463.052):</b> every insurer with a Texas certificate of authority for covered lines must belong. Fraternal benefit societies and reciprocal exchanges are excluded.</li><li><b>Funding:</b> assessments on members by account (life, annuity, health), capped each year at 2 percent of average premiums (Sec. 463.153).</li><li><b>Limits per life (Sec. 463.204):</b> $300,000 life death benefit; $100,000 net cash surrender or withdrawal value; $250,000 present value of annuity benefits; $500,000 health benefit plans; $300,000 disability income and long-term care; $200,000 other health; $300,000 total for one life in most cases.</li><li><b>Not covered (Sec. 463.203):</b> portions where the owner bears the risk (variable accounts), self-funded employer plans, dividends, and policies issued when the insurer was not authorized in Texas.</li><li><b>Sales rule (Sec. 463.451):</b> no ad or statement may use the association's existence to sell insurance; doing so is an unfair practice under Chapter 541. Insurers deliver the association's summary notice with covered policies (Sec. 463.114).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The association is not a state agency or a taxpayer fund; member insurers pay for it.</div><div class=\"trap\"><b>Trap:</b> Coverage has caps. A $500,000 death benefit is protected only to $300,000.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A client owns a $450,000 life policy with $140,000 cash value when her insurer is liquidated. Before she dies, the association protects up to $100,000 of cash value; at death it covers up to $300,000 of benefit.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent tells a prospect, \"Don't worry about this insurer's ratings; the state guaranty fund backs every dollar.\" What rule does this break?",
+     "a": "Sec. 463.451 bars using the guaranty association's existence to sell insurance, and doing so is an unfair practice under Chapter 541."
+    },
+    {
+     "q": "What is the guaranty association's limit on a life insurance death benefit for one insured life?",
+     "a": "$300,000."
+    },
+    {
+     "q": "A client's insolvent insurer issued her a deferred annuity. Up to what present value does the association protect it?",
+     "a": "$250,000."
+    },
+    {
+     "q": "Where does the guaranty association get money to pay claims of an insolvent insurer?",
+     "a": "From assessments on its member insurers, the other insurers licensed for those lines in Texas."
+    },
+    {
+     "q": "A disability income policyholder's insurer becomes insolvent. What is the association's limit for that coverage?",
+     "a": "$300,000 for disability income (and long-term care) benefits."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Texas Insurance Code Ch. 4001, Agents: general provisions",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4001.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 4003, License renewal",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4003.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 4004, Continuing education",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4004.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 4005, Discipline and penalties",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4005.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 4054, Life, accident and health agents",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4054.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 4056, Nonresident agents",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.4056.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 541, Unfair methods of competition and deceptive practices",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.541.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1702, Regulation of certain trade practices",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1702.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 544, Prohibited discrimination",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.544.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 463, Life and Health Insurance Guaranty Association",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.463.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 82, Sanctions",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.82.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 83, Emergency cease-and-desist orders",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.83.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 84, Administrative penalties",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.84.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 31, Department and commissioner",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.31.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 36, Department powers and duties",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.36.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 40, SOAH hearings",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.40.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 401, Audits and examinations",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.401.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 101, Unauthorized insurance",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.101.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 982, Foreign and alien insurers",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.982.htm"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 701, Insurance fraud",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.701.htm"
+  },
+  {
+   "title": "TDI: General lines life, accident, health and HMO license application",
+   "url": "https://tdi.texas.gov/agent/general-life-apply.html"
+  },
+  {
+   "title": "TDI: Agent continuing education",
+   "url": "https://tdi.texas.gov/agent/agcehome.html"
+  },
+  {
+   "title": "TDI: Life agent license management (renewal fees, CE fines)",
+   "url": "https://tdi.texas.gov/agent/life-agent-manage.html"
+  },
+  {
+   "title": "28 TAC Sec. 19.1003, Licensee Hour and Completion Requirements (CE, no carryover)",
+   "url": "https://www.law.cornell.edu/regulations/texas/28-Tex-Admin-Code-SS-19-1003"
+  },
+  {
+   "title": "TDI: Agent and adjuster FAQ, continuing education",
+   "url": "https://tdi.texas.gov/agent/agent-questions.html#continuingEducation"
+  }
+ ]
+}

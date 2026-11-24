@@ -1,0 +1,769 @@
+{
+ "id": "retirement",
+ "title": "Retirement, business uses & taxes",
+ "updated": "2026-11-23",
+ "refreshDays": 180,
+ "note": "Covers third-party ownership, life and viatical settlements, group life, qualified and nonqualified retirement plans, IRAs, needs analysis, key person and buy-sell uses, Social Security as the base layer of a life plan, and how individual life, group life (Section 79) and modified endowment contracts are taxed. The 2026 IRS plan limits (with 2027 figures from IRS Notice 2026-66) and 2026 Social Security figures were checked on irs.gov and ssa.gov on Nov 23, 2026. Recheck every 6 months and each fall when the IRS and SSA announce the next year's numbers.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "ownership",
+   "label": "Ownership and transfer"
+  },
+  {
+   "key": "group",
+   "label": "Group life"
+  },
+  {
+   "key": "retirement",
+   "label": "Retirement plans"
+  },
+  {
+   "key": "needs",
+   "label": "Personal and business needs"
+  },
+  {
+   "key": "socsec",
+   "label": "Social Security"
+  },
+  {
+   "key": "tax",
+   "label": "Tax treatment"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "Map: who owns, who pays, who is taxed",
+   "g": "map",
+   "o": [
+    "G-IV.A",
+    "G-IV.B",
+    "G-IV.C",
+    "G-IV.D",
+    "G-IV.E",
+    "G-IV.F",
+    "G-IV.G"
+   ],
+   "s": "This section asks one question in many forms: for a given policy or plan, who owns it, who pays for it, who receives the money, and how the tax code treats each of those flows.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>Three schemas organize the section.</p><ol style=\"padding-left:18px;margin:0 0 8px\"><li><b>Ownership and transfer:</b> third-party ownership, life settlements, group life (employer owns the master policy, employee holds a certificate and a conversion right).</li><li><b>Purpose:</b> personal needs (replace income, pay debts, fund education), business needs (key person, buy-sell, executive benefits) and retirement (qualified vs nonqualified plans, with Social Security as the base layer).</li><li><b>Tax flow:</b> premiums (deductible or not), cash value growth (deferred), distributions (basis first or income first), death proceeds (generally income-tax-free).</li></ol>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Personal and most business life premiums are not deductible. The deductible exceptions are employer-paid group term premiums and premiums paid as compensation (executive bonus).</div><div class=\"trap\"><b>Trap:</b> Tax-free death proceeds do not make every dollar tax-free: interest on settlement options, gains on surrender and MEC distributions are taxable.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A corporation buys a policy on its top engineer, pays the premium and names itself beneficiary. Schema 1: the business is owner. Schema 2: key person coverage. Schema 3: premiums not deductible, death proceeds generally received income-tax-free.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>The exam tests this section with role-identification scenarios (who is owner, who is beneficiary) and with tax-treatment discriminations. Look for the words \"deductible\", \"taxable\", \"qualified\" and \"owner\".</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A question describes a business that owns, pays for and is beneficiary of a policy on an employee. Which business use is it?",
+     "a": "Key person insurance."
+    },
+    {
+     "q": "Which life insurance premium is generally deductible by the payer: an individual's own whole life premium, a corporation's key person premium, or an employer's group term premium for employees?",
+     "a": "The employer's group term premium for employees, deductible as a business expense."
+    },
+    {
+     "q": "A beneficiary receives the face amount of a life policy in one lump sum. Which part is taxable income?",
+     "a": "None; lump-sum death proceeds are generally excluded from income."
+    }
+   ]
+  },
+  {
+   "n": "Third-party ownership",
+   "g": "ownership",
+   "o": [
+    "G-IV.A"
+   ],
+   "s": "When the policyowner is someone other than the insured, the owner holds every contractual right, must have had insurable interest at application, and the insured must usually consent.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>The <b>owner</b> (also called applicant-owner) can name and change beneficiaries, take loans, surrender, assign and choose options. The <b>insured</b> is only the life on which the policy is written. Common third-party cases: a parent owning a policy on a child, a spouse owning a policy on the other spouse, a business owning a policy on an employee or partner.</p><p>Insurable interest must exist when the policy is issued; it need not exist at death. The insured's signature on the application shows consent (parents can generally sign for a minor child).</p><p>Estate angle: if the insured holds no incidents of ownership, proceeds generally stay out of the insured's estate. A transfer of ownership within three years of death is pulled back into the estate.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Three different people as owner, insured and beneficiary: at the insured's death the owner is treated as making a gift of the proceeds to the beneficiary, which can carry gift tax consequences.</div><div class=\"trap\"><b>Trap:</b> A divorce does not end the owner's rights. Insurable interest at issue is enough, so an ex-spouse owner keeps the policy.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Maria owns a policy on her husband Luis and names their daughter as beneficiary. Luis dies. Because owner, insured and beneficiary are three different people, the death benefit is treated as a gift from Maria to the daughter.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A mother owns a policy on her adult son and names her daughter as beneficiary. At the son's death, what tax issue does this arrangement create?",
+     "a": "The proceeds are treated as a gift from the mother (owner) to the daughter (beneficiary)."
+    },
+    {
+     "q": "A wife owns a policy on her husband, then they divorce. He refuses to cooperate. Who may change the beneficiary?",
+     "a": "The wife, because she is the policyowner and insurable interest only had to exist at issue."
+    },
+    {
+     "q": "An insured wants proceeds excluded from his estate, so he gives his policy to his son and dies 18 months later. Are the proceeds in his estate?",
+     "a": "Yes; a transfer of ownership within three years of death brings the proceeds back into the insured's estate."
+    },
+    {
+     "q": "On a third-party application, whose signature shows the insured's consent to the coverage?",
+     "a": "The insured's signature (or a parent's for a minor child), in addition to the owner's."
+    }
+   ]
+  },
+  {
+   "n": "Life settlements and viatical settlements",
+   "g": "ownership",
+   "o": [
+    "G-IV.B"
+   ],
+   "s": "In a life settlement the policyowner sells an existing policy to a third-party provider for more than its cash surrender value and less than its death benefit, and the buyer becomes owner, premium payer and beneficiary.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>Parties: the <b>owner</b> (seller; called the viator in a viatical), the <b>provider</b> (buys the policy), the <b>broker</b> (shops the policy among providers and represents the owner) and often investors who fund the purchase.</p><p>A <b>viatical settlement</b> is a sale by an insured who is terminally or chronically ill. A <b>life settlement</b> usually involves an older insured who is not terminally ill but whose coverage is no longer needed or affordable. For a terminally ill insured, settlement proceeds are generally excluded from income like accelerated death benefits; other settlement gains are taxable.</p><p>States license providers and brokers and require disclosures and rescission rights. Texas specifics: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A settlement differs from an accelerated death benefit: the insurer pays an accelerated benefit under the policy, while a settlement is a sale to an outside buyer.</div><div class=\"trap\"><b>Trap:</b> STOLI (stranger-originated life insurance) is a policy bought from the start with the plan to sell it to investors. A legitimate settlement sells a policy that was bought for real coverage needs.</div><div class=\"trap\"><b>Trap:</b> The broker represents the seller, not the provider.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 78-year-old owns a $1,000,000 universal life policy with $40,000 cash value and can no longer afford the premium. A provider offers $180,000. She receives more than surrender would pay; the provider takes over premiums and collects $1,000,000 at her death.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An elderly owner no longer needs his policy. The insurer offers $30,000 surrender value; an outside company offers $150,000 and will take over premiums. What transaction is this?",
+     "a": "A life settlement."
+    },
+    {
+     "q": "In a settlement transaction, which party owes its duty to the policyowner who is selling?",
+     "a": "The life settlement broker."
+    },
+    {
+     "q": "A terminally ill insured receives part of the death benefit early from her own insurer under a policy rider. Is this a viatical settlement?",
+     "a": "No; it is an accelerated death benefit paid by the insurer, while a viatical settlement is a sale to a third-party provider."
+    },
+    {
+     "q": "Investors recruit a senior to buy a large policy with their money and then transfer it to them. What is this practice called?",
+     "a": "Stranger-originated life insurance (STOLI), which lacks insurable interest at the start."
+    }
+   ]
+  },
+  {
+   "n": "Group life: structure, contributory vs noncontributory, conversion",
+   "g": "group",
+   "o": [
+    "G-IV.C",
+    "G-IV.C.1",
+    "G-IV.C.2"
+   ],
+   "s": "Group life is usually annually renewable term issued on one master policy to the employer, and an employee who leaves the group can convert to an individual permanent policy without evidence of insurability within a short window, typically 31 days.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Structure:</b> the employer (or other group sponsor) is the policyowner; each member gets a certificate. Underwriting looks at the group as a whole, so members usually join without medical evidence. Benefit amounts are set by a schedule (flat amount or multiple of salary) to prevent individuals from choosing high amounts.</p><p><b>Noncontributory:</b> the employer pays the whole premium and must cover all eligible employees (100% participation). <b>Contributory:</b> employees pay part; insurers require a minimum participation level (commonly 75% of eligible employees) to limit adverse selection.</p><p><b>Conversion:</b> on termination of employment or loss of eligibility, the member may buy an individual policy, generally permanent, up to the group amount, at the attained-age rate, with no proof of insurability. A death during the conversion window is paid by the group policy. Texas specifics: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Conversion premium is based on attained age at conversion, not the age at hire.</div><div class=\"trap\"><b>Trap:</b> Noncontributory means 100% participation, not 75%.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Dee leaves her job on June 1 with $100,000 of group term. She has cancer, so individual underwriting would decline her. She converts to a $100,000 whole life policy within the window at her current age's rate. Had she died on June 20 before converting, the group policy would have paid.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employee with a serious illness quits his job and wants to keep life coverage without a medical exam. What group life feature lets him do this?",
+     "a": "The conversion privilege, which allows an individual policy without evidence of insurability within the conversion period."
+    },
+    {
+     "q": "An employer pays the full group life premium for its workers. What share of eligible employees must be covered?",
+     "a": "All of them (100%), because the plan is noncontributory."
+    },
+    {
+     "q": "A terminated employee dies 20 days after leaving, before applying to convert. Who pays the death claim?",
+     "a": "The group insurer, because coverage continues during the conversion period."
+    },
+    {
+     "q": "Why do insurers require a minimum participation percentage in contributory group plans?",
+     "a": "To limit adverse selection, so that the group is not made up mostly of people who expect to claim."
+    },
+    {
+     "q": "A converting employee is 52 and was hired at 30. At what age is the individual policy priced?",
+     "a": "At attained age 52."
+    }
+   ]
+  },
+  {
+   "n": "Qualified plans: features and DB vs DC",
+   "g": "retirement",
+   "o": [
+    "G-IV.D",
+    "G-IV.D.1"
+   ],
+   "s": "A qualified plan meets IRS and ERISA rules, including nondiscrimination, so the employer deducts contributions now while the employee defers tax until distribution.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Features:</b> IRS approval; cannot favor highly compensated employees; written plan; vesting schedule for employer money (employee deferrals are always 100% vested); funds held in trust, away from the employer's creditors; contributions deductible to the employer; growth tax-deferred; distributions taxed as ordinary income.</p><p><b>Defined benefit (DB):</b> the plan promises a benefit formula at retirement; the employer bears investment risk and an actuary sets contributions. Favors older employees close to retirement. <b>Defined contribution (DC):</b> the plan defines what goes in (401(k), profit-sharing, money purchase); the employee bears investment risk and gets the account balance.</p><p>2026 limits (IRS Notice 2026-66 table): DC annual additions $72,000; DB annual benefit $290,000; compensation counted $360,000. For 2027 these rise to $75,000, $300,000 and $375,000.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Qualified does not mean tax-free. It means tax-deferred, and distributions of pre-tax money are ordinary income.</div><div class=\"trap\"><b>Trap:</b> Investment risk sits with the employer in a DB plan and with the employee in a DC plan. The exam swaps these.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A firm with a 60-year-old owner wants to shelter the largest possible deductible contribution for her. A defined benefit plan fits: the actuary funds a promised benefit over a short horizon, which can require large annual contributions.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "In which type of plan does the employer promise a specific retirement income and bear the investment risk?",
+     "a": "A defined benefit plan."
+    },
+    {
+     "q": "An employer wants to give large retirement benefits only to its executives and keep a current deduction. Can a qualified plan do this?",
+     "a": "No; qualified plans cannot discriminate in favor of highly compensated employees, so it would need a nonqualified plan and give up the current deduction."
+    },
+    {
+     "q": "An employee leaves after two years. Which money in her 401(k) is always 100% hers regardless of the vesting schedule?",
+     "a": "Her own elective deferrals and their earnings."
+    },
+    {
+     "q": "How are distributions of pre-tax contributions from a qualified plan taxed?",
+     "a": "As ordinary income in the year received."
+    }
+   ]
+  },
+  {
+   "n": "Employer plan types: 401(k), 403(b), 457, SEP, SIMPLE, Keogh",
+   "g": "retirement",
+   "o": [
+    "G-IV.D.1"
+   ],
+   "s": "Match the plan to the employer: 401(k) for private employers, 403(b) for public schools and 501(c)(3) nonprofits, 457 for state and local governments, SEP and SIMPLE for small employers, Keogh for the self-employed.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>401(k):</b> employee elective deferrals, often with an employer match; Roth option allowed.</li><li><b>403(b) (tax-sheltered annuity):</b> public school systems and 501(c)(3) organizations.</li><li><b>457:</b> state and local government (and certain tax-exempt) employees.</li><li><b>SEP:</b> employer contributes to each employee's IRA; employer-funded only; up to 25% of pay within the DC limit.</li><li><b>SIMPLE:</b> employers with 100 or fewer employees and no other plan; employee deferrals plus required employer match or nonelective contribution.</li><li><b>Keogh (HR-10):</b> qualified plan for self-employed people and partnerships.</li></ul><p>IRS 2026 limits: 401(k)/403(b)/governmental 457 deferral $24,500; catch-up age 50+ $8,000; ages 60 to 63 $11,250; SIMPLE $17,000 (catch-up $4,000). For 2026, catch-ups for workers whose prior-year wages exceeded $150,000 must be Roth. 2027: deferral $25,500, catch-up $8,500, SIMPLE $17,500.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A SEP is funded by the employer only. Employees do not make elective deferrals to a SEP.</div><div class=\"trap\"><b>Trap:</b> 403(b) is for nonprofits and public schools, not for-profit corporations; 457 is for governments.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 52-year-old private-company employee in 2026 can defer $24,500 plus an $8,000 catch-up, $32,500 total, before any employer match.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A public school teacher asks which salary deferral plan her district most likely offers. Which plan type?",
+     "a": "A 403(b) tax-sheltered annuity."
+    },
+    {
+     "q": "A 12-employee business wants a plan in which the employer alone makes contributions to employees' IRAs. Which plan?",
+     "a": "A SEP (simplified employee pension)."
+    },
+    {
+     "q": "A self-employed architect with no employees wants a qualified plan of her own. Which classic plan name fits?",
+     "a": "A Keogh (HR-10) plan."
+    },
+    {
+     "q": "A city government employee asks about his deferred compensation plan. Which code section plan is it?",
+     "a": "A 457 plan."
+    },
+    {
+     "q": "A small business with 60 employees and no other plan wants employee deferrals plus a mandatory employer match, with low administration. Which plan?",
+     "a": "A SIMPLE plan."
+    }
+   ]
+  },
+  {
+   "n": "Traditional vs Roth IRA",
+   "g": "retirement",
+   "o": [
+    "G-IV.D.1"
+   ],
+   "s": "A traditional IRA trades a possible deduction now for taxable withdrawals later, while a Roth IRA takes after-tax money now and pays qualified withdrawals tax-free later.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Who:</b> anyone with earned income, plus a spousal IRA for a nonworking spouse. Contributions for a year can be made up to the tax filing deadline.</p><p><b>Traditional:</b> deductibility phases out at higher incomes only if the person (or spouse) is covered by a workplace plan. Withdrawals of deducted money and all earnings are ordinary income. RMDs apply.</p><p><b>Roth:</b> contributions never deductible; eligibility phases out at higher incomes. Qualified distributions (account open 5 years and owner 59&frac12;, disabled, deceased, or first-time home up to $10,000) are tax-free. Contributions come out first and are never taxed again. No RMDs during the owner's life.</p><p>IRS 2026: limit $7,500, catch-up age 50+ $1,100 (unchanged for 2027). Roth phase-out: single $153,000 to $168,000; married joint $242,000 to $252,000. Traditional deduction phase-out for a covered single filer: $81,000 to $91,000.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Income limits restrict who may contribute to a Roth. For a traditional IRA they restrict only the deduction, and only when a workplace plan covers the person or spouse.</div><div class=\"trap\"><b>Trap:</b> Earned income means wages or self-employment income. Dividends, interest and rental income do not count.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 35-year-old with no workplace plan earning $200,000 can deduct a full traditional IRA contribution, because the deduction phase-out applies only to covered workers. A Roth contribution would be phased out at her income.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A retiree lives only on dividends and interest. Can he contribute to an IRA?",
+     "a": "No; IRA contributions require earned income from work."
+    },
+    {
+     "q": "Which IRA lets the owner skip required minimum distributions for life?",
+     "a": "The Roth IRA."
+    },
+    {
+     "q": "A 40-year-old withdraws only her own past Roth contributions after 3 years. How is the withdrawal taxed?",
+     "a": "Tax-free and penalty-free, because Roth contributions come out first and were already taxed."
+    },
+    {
+     "q": "A high earner with no employer plan asks whether income limits stop him from deducting a traditional IRA contribution. What is the rule?",
+     "a": "They do not; the deduction phase-out applies only when he or his spouse is covered by a workplace plan."
+    }
+   ]
+  },
+  {
+   "n": "Distributions, rollovers and RMDs",
+   "g": "retirement",
+   "o": [
+    "G-IV.D.1"
+   ],
+   "s": "Taxable withdrawals from qualified plans and IRAs before age 59 1/2 carry a 10% additional tax unless an exception applies, and required minimum distributions start at age 73.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Early distributions:</b> 10% on the taxable portion before 59&frac12;. Exceptions include death, disability, substantially equal periodic payments for life, and (from an employer plan, not an IRA) separation from service in or after the year the worker turns 55.</p><p><b>RMDs:</b> IRS: generally begin at 73. First RMD due April 1 of the year after turning 73 (for a workplace DC plan, the later of 73 or retirement if the plan allows); later RMDs by December 31. A missed RMD triggers a 25% excise tax, cut to 10% if corrected within 2 years. Roth IRAs and designated Roth plan accounts need no RMDs while the owner lives.</p><p><b>Rollovers:</b> a direct (trustee-to-trustee) transfer has no withholding. An indirect rollover from an employer plan has 20% mandatory withholding and must be completed within 60 days; the person must replace the withheld 20% from other funds to roll the full amount. Only one indirect IRA-to-IRA rollover is allowed per 12 months.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The 20% withholding applies to indirect rollovers from employer plans. A direct transfer avoids it.</div><div class=\"trap\"><b>Trap:</b> A late rollover (after 60 days) becomes a taxable distribution, plus the 10% if under 59&frac12;.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Sam, 45, takes a $50,000 check from his 401(k). The plan withholds $10,000 and sends $40,000. To avoid tax he must deposit $50,000 in an IRA within 60 days, adding $10,000 of his own. If he deposits only $40,000, $10,000 is taxable and subject to the 10% additional tax.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A participant wants to move her 401(k) to an IRA with no tax withholding at all. Which method should she use?",
+     "a": "A direct trustee-to-trustee rollover."
+    },
+    {
+     "q": "A 50-year-old cashes out an IRA to buy a boat. What tax result applies?",
+     "a": "The taxable amount is ordinary income plus a 10% additional tax for early distribution."
+    },
+    {
+     "q": "How many days does a person have to complete an indirect rollover?",
+     "a": "60 days from receipt."
+    },
+    {
+     "q": "At what age do required minimum distributions generally begin under current IRS guidance?",
+     "a": "Age 73."
+    },
+    {
+     "q": "A retiree misses an RMD and corrects it within 2 years. What excise tax rate applies to the shortfall?",
+     "a": "10%, reduced from the standard 25%."
+    }
+   ]
+  },
+  {
+   "n": "Nonqualified plans: deferred comp, executive bonus, split-dollar",
+   "g": "retirement",
+   "o": [
+    "G-IV.D.2",
+    "G-IV.E.2"
+   ],
+   "s": "A nonqualified plan may favor selected executives and needs no IRS approval, but the employer generally gets no deduction until the employee is taxed on the benefit.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Deferred compensation:</b> the employee defers pay to a future date; the employer's promise is unfunded or informally funded (often with life insurance or annuities the employer owns). Assets stay subject to the employer's creditors. A SERP is an employer-paid version that adds to retirement income.</li><li><b>Executive bonus (Section 162):</b> the employer pays the premium on a policy the executive owns, as a bonus. The employer deducts it as compensation; the executive reports it as income.</li><li><b>Split-dollar:</b> employer and employee share premiums, cash value and death benefit under an agreement. In the endorsement method the employer owns the policy; in the collateral assignment method the employee owns it and assigns part to the employer.</li><li><b>Nonqualified annuity:</b> bought with after-tax money, no contribution limit, growth tax-deferred, withdrawals taxed earnings first.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Nonqualified plans can discriminate. That freedom is exactly why they lose the immediate deduction and ERISA trust protection.</div><div class=\"trap\"><b>Trap:</b> In an executive bonus plan the employee, not the employer, owns the policy.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A company wants to reward only its CFO. It pays $15,000 a year on a policy the CFO owns. The company deducts $15,000 as compensation; the CFO adds $15,000 to taxable income and controls the policy.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employer wants a retirement benefit for only three executives with no IRS approval. Which plan category fits?",
+     "a": "A nonqualified plan, such as deferred compensation or a SERP."
+    },
+    {
+     "q": "An employer pays premiums on a life policy owned by its vice president and treats the payment as income to him. What arrangement is this?",
+     "a": "A Section 162 executive bonus plan."
+    },
+    {
+     "q": "Under a nonqualified deferred compensation plan, when does the employer generally take its tax deduction?",
+     "a": "When the employee receives the benefit and includes it in income."
+    },
+    {
+     "q": "Employer and employee share the premium and the benefits of one policy under a written agreement. What plan is this?",
+     "a": "A split-dollar plan."
+    }
+   ]
+  },
+  {
+   "n": "Personal needs analysis and suitability",
+   "g": "needs",
+   "o": [
+    "G-IV.E",
+    "G-IV.E.1"
+   ],
+   "s": "The needs approach sizes life insurance by adding up the survivors' cash and income needs and subtracting existing resources, while the human life value approach sizes it by the present value of the insured's future earnings.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Needs categories:</b> final expenses and estate clearance; paying off debts and the mortgage; an emergency fund; income during the readjustment period, the dependency period (until the youngest child is self-supporting) and the blackout period; education; spouse's retirement.</p><p><b>Blackout period:</b> the gap from when the youngest child turns 16 (Social Security parent benefits stop) to when the surviving spouse can claim survivor benefits at 60.</p><p><b>Capital liquidation</b> spends principal and interest over the need period, so it needs less insurance. <b>Capital retention</b> spends only interest and keeps principal intact, so it needs more.</p><p><b>Suitability:</b> the producer gathers age, income, assets, debts, dependents, objectives, time horizon and risk tolerance before recommending a product, and documents why it fits. Texas annuity suitability rules: see Texas law tab.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The human life value approach looks at earning power; the needs approach looks at what survivors must pay for. Do not mix the two.</div><div class=\"trap\"><b>Trap:</b> Capital retention requires a larger face amount than capital liquidation for the same income goal.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Needs: $20,000 final expenses, $250,000 mortgage, $150,000 education, $400,000 income for dependency years = $820,000. Resources: $100,000 group life and $70,000 savings. Life insurance needed: $820,000 - $170,000 = $650,000.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A producer calculates a client's coverage by discounting his expected future earnings to today. Which method is this?",
+     "a": "The human life value approach."
+    },
+    {
+     "q": "A widow's Social Security parent benefits stop when her youngest child turns 16, and she is 45. What is the gap until her survivor benefits resume called?",
+     "a": "The blackout period."
+    },
+    {
+     "q": "A client wants survivors to live on the interest from the death benefit and leave principal for the grandchildren. Which approach applies?",
+     "a": "Capital retention, which requires a larger death benefit."
+    },
+    {
+     "q": "Total needs are $900,000 and existing resources are $250,000. How much new coverage does the needs approach call for?",
+     "a": "$650,000."
+    }
+   ]
+  },
+  {
+   "n": "Key person insurance",
+   "g": "needs",
+   "o": [
+    "G-IV.E.2"
+   ],
+   "s": "In key person insurance the business is the applicant, owner, premium payer and beneficiary of a policy on an employee whose death would cost the business money.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>The business has insurable interest in a key employee because his or her death would reduce profits, credit or operations. The face amount reflects lost earnings, recruiting and training costs, or loans that depend on the person.</p><p><b>Tax:</b> premiums are not deductible (the business is the beneficiary). Death proceeds are generally income-tax-free to the business if, before issue, the employee is told in writing about the coverage and amount and consents in writing (the employer-owned life insurance notice and consent rules). Cash value is a business asset.</p><p>Key person disability insurance pays the business when the key person is disabled (see A&amp;H business disability topic).</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The employee (insured) has no ownership rights and his family receives nothing from a key person policy.</div><div class=\"trap\"><b>Trap:</b> Premiums are not deductible even though the business pays them for a business purpose.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A software firm insures its lead developer for $2,000,000 after she signs a written consent. She dies. The firm receives $2,000,000 income-tax-free and uses it to hire and train a replacement.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A business owns a policy on its top salesperson and is the beneficiary. How are the premiums treated for tax?",
+     "a": "They are not deductible."
+    },
+    {
+     "q": "A key employee dies. What do his heirs receive from the company's key person policy?",
+     "a": "Nothing directly; the business is the beneficiary."
+    },
+    {
+     "q": "What must an employer do before a key person policy is issued so that death proceeds are generally excluded from income?",
+     "a": "Give the employee written notice of the coverage and get the employee's written consent."
+    },
+    {
+     "q": "What gives a business insurable interest in a non-owner employee's life?",
+     "a": "The financial loss the business would suffer from that employee's death."
+    }
+   ]
+  },
+  {
+   "n": "Buy-sell agreements: cross-purchase vs entity",
+   "g": "needs",
+   "o": [
+    "G-IV.E.2"
+   ],
+   "s": "A buy-sell agreement sets in advance who will buy a deceased or disabled owner's business interest and at what price, and life insurance supplies the cash.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Cross-purchase:</b> each owner buys, owns and is beneficiary of a policy on each other owner. Number of policies = n x (n - 1). Surviving owners buy the deceased's share with the proceeds and get a higher cost basis in what they buy.</p><p><b>Entity (stock redemption):</b> the business owns one policy per owner, is beneficiary, and buys back the deceased's interest. Number of policies = n.</p><p>A <b>trusteed</b> cross-purchase uses a trustee to hold one policy per owner, avoiding many policies. A disability buyout policy funds a buyout when an owner becomes disabled. A sole proprietor can use a one-way agreement with a key employee who buys the policy.</p><p>Premiums are not deductible. The agreement fixes the price or a valuation formula, which helps the estate, the surviving owners and the business avoid disputes.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The number of policies in a cross-purchase is n x (n - 1), not n. Four owners need 12 policies.</div><div class=\"trap\"><b>Trap:</b> In an entity plan the business owns the policies; in a cross-purchase the owners own them.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Three equal partners in a business worth $1,500,000 sign a cross-purchase. Each buys a $250,000 policy on each of the other two: 6 policies. When one dies, each survivor collects $250,000 and buys half of the deceased's $500,000 interest from the estate.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Five partners want each partner to own policies on the others. How many policies are needed?",
+     "a": "20 policies, since 5 x 4 = 20."
+    },
+    {
+     "q": "The corporation owns a policy on each shareholder and will redeem a deceased shareholder's stock. What type of buy-sell is this?",
+     "a": "An entity (stock redemption) plan."
+    },
+    {
+     "q": "Which buy-sell design gives surviving owners a higher cost basis in the interest they acquire?",
+     "a": "The cross-purchase plan."
+    },
+    {
+     "q": "A sole proprietor wants his store manager to buy the business at his death. Who should own the policy on the proprietor?",
+     "a": "The manager, as the buyer under a one-way buy-sell agreement."
+    }
+   ]
+  },
+  {
+   "n": "Social Security as the base layer",
+   "g": "socsec",
+   "o": [
+    "G-IV.F"
+   ],
+   "s": "Social Security survivor and retirement benefits form the floor of a needs analysis, and life insurance fills the gaps, especially the blackout period.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>Insured status:</b> workers earn up to 4 credits a year (2026: one credit per $1,890 of earnings). Fully insured status takes at most 40 credits (10 years). SSA's special rule pays children and a spouse caring for them if the worker had 1.5 years of work in the 3 years before death (currently insured).</p><p><b>Survivors (SSA):</b> spouse at full retirement age 100% of the worker's benefit; reduced benefits from 60 (50 if disabled); spouse of any age caring for a child under 16, 75%; unmarried children under 18 (19 if in school full time), 75%; family maximum 150% to 180%. A one-time $255 lump-sum death payment goes to a qualifying spouse or child.</p><p><b>Retirement (SSA):</b> full retirement age 67 for births 1960 or later; claiming at 62 pays 70%; delayed credits add 8% a year to age 70 (124%).</p><p>SSA 2026: COLA 2.8%; taxable maximum $184,500; maximum benefit at full retirement age $4,152 monthly.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Benefits for a surviving parent stop when the youngest child turns 16, while the child's own benefit continues to 18 (19 in school). The difference creates the blackout period.</div><div class=\"trap\"><b>Trap:</b> Only a qualifying spouse or child receives the $255 lump-sum death payment; it is not paid to the estate or a funeral home.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A father dies leaving a wife, 35, and children aged 6 and 9. The wife draws benefits until the 6-year-old turns 16; the children's continue to 18. She then gets nothing until 60: a 15-year blackout period for life insurance to cover.</p>"
+    },
+    {
+     "t": "Exam angle",
+     "b": "<p>Expect scenarios keyed on \"blackout period\" or when a widow's benefits stop. Ages (16, 18, 60, 62, 67, 70) matter more than dollar figures.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A surviving spouse is 42 with a 10-year-old child. On what condition do her own Social Security survivor benefits depend?",
+     "a": "She must be caring for the worker's child under 16 who receives benefits."
+    },
+    {
+     "q": "What is the earliest age a non-disabled widow without children in her care can draw reduced survivor benefits?",
+     "a": "Age 60."
+    },
+    {
+     "q": "A worker born in 1965 claims retirement at 62. What share of his full benefit does he receive?",
+     "a": "70%."
+    },
+    {
+     "q": "Who can receive Social Security's lump-sum death payment?",
+     "a": "A surviving spouse or child who meets SSA's requirements."
+    }
+   ]
+  },
+  {
+   "n": "Taxation of individual life: premiums, proceeds, dividends, cash value",
+   "g": "tax",
+   "o": [
+    "G-IV.G",
+    "G-IV.G.1"
+   ],
+   "s": "Individual life premiums are not deductible, death proceeds paid in a lump sum are income-tax-free, dividends are a tax-free return of premium until they exceed basis, and cash value grows tax-deferred.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Cost basis</b> = premiums paid minus dividends received and prior tax-free withdrawals.</li><li><b>Proceeds:</b> lump sum excluded from income. Under installment options the principal portion is tax-free and the interest portion is taxable; under the interest-only option all interest is taxable.</li><li><b>Dividends:</b> return of overcharged premium, not taxable; interest earned on dividends left at interest is taxable.</li><li><b>Surrender:</b> cash value above basis is ordinary income. Partial withdrawals from a non-MEC come out basis first (FIFO).</li><li><b>Loans</b> from a non-MEC are not income. If the policy lapses or is surrendered with a loan, loan forgiveness counts as an amount received, and any excess over basis is taxed.</li><li><b>Section 1035 exchange:</b> life to life, life to annuity and annuity to annuity are tax-free; annuity to life is not allowed tax-free.</li><li><b>Transfer for value:</b> a policy sold for value loses part of the exclusion; the buyer is taxed on proceeds above price plus premiums, with exceptions such as transfer to the insured, a partner or the insured's corporation.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Interest on proceeds or dividends is taxable even though the proceeds and dividends themselves are not.</div><div class=\"trap\"><b>Trap:</b> A 1035 exchange cannot go from an annuity into a life policy.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An owner paid $60,000 in premiums, received $8,000 in dividends and surrenders for $70,000. Basis = $60,000 - $8,000 = $52,000. Taxable gain = $70,000 - $52,000 = $18,000, ordinary income.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A beneficiary chooses a 10-year fixed-period settlement option instead of a lump sum. Which part of each payment is taxable?",
+     "a": "The interest portion; the principal portion is tax-free."
+    },
+    {
+     "q": "A policyowner leaves dividends with the insurer at interest. What is taxable each year?",
+     "a": "The interest credited on the dividends, not the dividends themselves."
+    },
+    {
+     "q": "Premiums paid $40,000, dividends received $5,000, cash surrender value $50,000. What is the taxable gain on surrender?",
+     "a": "$15,000, because basis is $35,000."
+    },
+    {
+     "q": "An owner wants to exchange a deferred annuity for a whole life policy without tax. Is this allowed under Section 1035?",
+     "a": "No; annuity to life is not a permitted tax-free exchange."
+    },
+    {
+     "q": "An investor buys an existing policy from the owner for $50,000 and later collects the $300,000 death benefit. What tax rule applies?",
+     "a": "The transfer-for-value rule, so proceeds above the price paid plus later premiums are taxable."
+    }
+   ]
+  },
+  {
+   "n": "Taxation of group life (Section 79)",
+   "g": "tax",
+   "o": [
+    "G-IV.G.2"
+   ],
+   "s": "Employer-paid group term life is deductible to the employer and tax-free to the employee on the first $50,000 of coverage, with the cost of coverage above $50,000 taxed to the employee as imputed income.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>IRC Section 79, per the IRS: the cost of employer-provided group term coverage above $50,000 is imputed income, calculated with the IRS premium table (cost per $1,000 per month by age band), and it is subject to Social Security and Medicare taxes. Employee after-tax contributions reduce the imputed amount.</p><p>Employer-paid coverage on a spouse or dependent is excluded as a de minimis fringe if it does not exceed $2,000.</p><p>Plans that discriminate in favor of key employees lose the $50,000 exclusion for those key employees. Death proceeds to the employee's beneficiary are income-tax-free like any life insurance proceeds.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The employee is taxed on the cost of coverage above $50,000, not on the excess face amount itself.</div><div class=\"trap\"><b>Trap:</b> Imputed income applies to employer-paid coverage; coverage paid entirely by the employee with after-tax money has no imputed income.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An employer gives a 47-year-old worker $150,000 of group term. Only the cost of the $100,000 above $50,000 is imputed: 100 units x the IRS table rate for her age band x 12 months is added to her W-2 wages.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An employer provides $200,000 of group term life to an employee. On what amount is imputed income figured?",
+     "a": "On the cost of the $150,000 of coverage above $50,000, using the IRS premium table."
+    },
+    {
+     "q": "How does an employer treat group term life premiums it pays for employees?",
+     "a": "As a deductible business expense."
+    },
+    {
+     "q": "An employer pays for $150,000 of group term life on an employee. How is the cost of the coverage above $50,000 treated for income tax and FICA?",
+     "a": "The cost of the extra $100,000 (figured from the IRS Table I rates, minus anything the employee paid) is imputed income: taxable for income tax and subject to Social Security and Medicare (FICA)."
+    },
+    {
+     "q": "An employer pays for $2,000 of life coverage on an employee's spouse. How is this taxed to the employee?",
+     "a": "It is excluded as a de minimis fringe benefit."
+    }
+   ]
+  },
+  {
+   "n": "Modified endowment contracts (MECs)",
+   "g": "tax",
+   "o": [
+    "G-IV.G.3"
+   ],
+   "s": "A life policy issued on or after June 21, 1988 becomes a MEC when premiums paid in the first seven years exceed the 7-pay limit, and from then on lifetime distributions, including loans, are taxed earnings first with a 10% additional tax before age 59 1/2.",
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p><b>7-pay test (IRC 7702A):</b> the policy fails if cumulative premiums paid at any point in the first 7 contract years exceed the total of the net level premiums that would pay the policy up in 7 annual payments. A <b>material change</b> (such as a death benefit increase) starts a new 7-pay test. A benefit reduction within the first 7 years retests the policy as if issued at the lower amount. The insurer can return an excess premium with interest within 60 days after the contract year ends to avoid MEC status.</p><p><b>Taxation (IRC 72(e)(10) and 72(v)):</b> withdrawals, loans, assignments and pledges are treated as distributions, taxed income first (LIFO). A 10% additional tax applies to the taxable part unless the owner is 59&frac12; or older, disabled, or taking substantially equal periodic payments. Cash value still grows tax-deferred and the death benefit stays income-tax-free.</p><p>Once a MEC, always a MEC; a policy received in exchange for a MEC is a MEC.</p>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A MEC is still life insurance. The death benefit remains income-tax-free; only lifetime distributions change.</div><div class=\"trap\"><b>Trap:</b> Policy loans are not taxable from an ordinary policy but are taxable distributions from a MEC.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 50-year-old puts $200,000 into a single-premium life policy, which fails the 7-pay test. At 55 the cash value is $260,000 and he borrows $70,000. The first $60,000 is gain and taxable, plus a $6,000 additional tax; the last $10,000 is basis and tax-free.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A 45-year-old borrows $30,000 from a MEC with $50,000 of gain. How is the loan taxed?",
+     "a": "The $30,000 is taxable income (gain comes out first) plus a 10% additional tax because he is under 59 1/2."
+    },
+    {
+     "q": "A policy funded with one large premium fails the 7-pay test. How is the death benefit taxed to the beneficiary?",
+     "a": "It remains income-tax-free; MEC status changes only lifetime distributions."
+    },
+    {
+     "q": "An owner exchanges a MEC for a new life policy under Section 1035. What is the status of the new policy?",
+     "a": "It is also a MEC."
+    },
+    {
+     "q": "An owner increases the death benefit of a policy in year 10. What happens for MEC testing?",
+     "a": "The material change starts a new 7-pay test period."
+    },
+    {
+     "q": "A 62-year-old takes a withdrawal of gain from a MEC. Does the 10% additional tax apply?",
+     "a": "No; the gain is taxable income, but the 10% additional tax does not apply at 59 1/2 or older."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "IRS: 401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500",
+   "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+  },
+  {
+   "title": "IRS Notice 2026-66: 2027 pension plan limitations (with 2026 comparison)",
+   "url": "https://www.irs.gov/pub/irs-drop/n-26-66.pdf"
+  },
+  {
+   "title": "IRS: Retirement topics, required minimum distributions",
+   "url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-required-minimum-distributions-rmds"
+  },
+  {
+   "title": "IRS: Retirement plan and IRA RMD FAQs",
+   "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs"
+  },
+  {
+   "title": "IRS: Group-term life insurance",
+   "url": "https://www.irs.gov/node/1101"
+  },
+  {
+   "title": "26 U.S.C. 7702A, Modified endowment contract defined (Cornell LII)",
+   "url": "https://www.law.cornell.edu/uscode/text/26/7702A"
+  },
+  {
+   "title": "26 U.S.C. 72, Annuities; certain proceeds of endowment and life insurance contracts (Cornell LII)",
+   "url": "https://www.law.cornell.edu/uscode/text/26/72"
+  },
+  {
+   "title": "26 U.S.C. 7702A (govinfo, USCODE 2023)",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleF-chap79-sec7702A.htm"
+  },
+  {
+   "title": "SSA: 2026 Social Security changes fact sheet",
+   "url": "https://www.ssa.gov/cola/factsheets/2026.html"
+  },
+  {
+   "title": "SSA: Survivors Benefits (Publication EN-05-10084)",
+   "url": "https://www.ssa.gov/pubs/EN-05-10084.pdf"
+  },
+  {
+   "title": "SSA: Effect of early or delayed retirement on retirement benefits",
+   "url": "https://www.ssa.gov/oact/ProgData/ar_drc.html"
+  },
+  {
+   "title": "SSA Handbook 428: When is a lump-sum death payment paid?",
+   "url": "https://www.ssa.gov/OP_Home/handbook/handbook.04/handbook-0428.html"
+  },
+  {
+   "title": "IRS Publication 15-B: Employer's Tax Guide to Fringe Benefits",
+   "url": "https://www.irs.gov/publications/p15b"
+  }
+ ]
+}
