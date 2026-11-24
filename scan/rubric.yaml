@@ -3,6 +3,7 @@
 
 meta:
   version: 2
+  total_items: 7064          # 6,484 certifications + 580 license families scored in the full pass
   shortlist_certs: 60
   shortlist_license_families: 40
   deep_research_n: 30

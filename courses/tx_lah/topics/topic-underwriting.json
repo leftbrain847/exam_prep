@@ -1,680 +1,680 @@
 {
-  "id": "underwriting",
-  "title": "Application, underwriting & delivery",
-  "updated": "2026-11-23",
-  "refreshDays": 365,
-  "note": "Covers how a policy gets from application to delivery: completing and signing the application, representations and warranties, premium receipts and medical exams, replacement, point-of-sale privacy and HIV consent, GLBA, anti-money-laundering duties, MIB and the Fair Credit Reporting Act, insurable interest and STOLI, risk classification, delivery, and the contract law terms the exam uses. Texas-specific rules (free look, replacement forms, HIV testing, insurable interest statute) are in the Texas law tabs. Last checked for accuracy on Nov 23, 2026. Review yearly, and sooner if federal privacy, credit reporting or AML rules change.",
-  "groups": [
+ "id": "underwriting",
+ "title": "Application, underwriting & delivery",
+ "updated": "2026-11-23",
+ "refreshDays": 365,
+ "note": "Covers how a policy gets from application to delivery: completing and signing the application, representations and warranties, premium receipts and medical exams, replacement, point-of-sale privacy and HIV consent, GLBA, anti-money-laundering duties, MIB and the Fair Credit Reporting Act, insurable interest and STOLI, risk classification, delivery, and the contract law terms the exam uses. Texas-specific rules (free look, replacement forms, HIV testing, insurable interest statute) are in the Texas law tabs. Last checked for accuracy on Nov 23, 2026. Review yearly, and sooner if federal privacy, credit reporting or AML rules change.",
+ "groups": [
+  {
+   "key": "map",
+   "label": "Map"
+  },
+  {
+   "key": "application",
+   "label": "The application"
+  },
+  {
+   "key": "privacy",
+   "label": "Privacy and compliance at sale"
+  },
+  {
+   "key": "underwriting",
+   "label": "Underwriting"
+  },
+  {
+   "key": "delivery",
+   "label": "Delivery"
+  },
+  {
+   "key": "contract",
+   "label": "Contract law"
+  }
+ ],
+ "concepts": [
+  {
+   "n": "From application to in-force policy",
+   "g": "map",
+   "s": "A life or health policy moves through four stages (application, underwriting, issue, delivery), and contract law decides at each stage who has made an offer, who has accepted, and when coverage starts.",
+   "o": [
+    "G-IX.A.4"
+   ],
+   "x": [
     {
-      "key": "map",
-      "label": "Map"
+     "t": "Model",
+     "b": "<p><b>Schema:</b></p><ol style=\"padding-left:18px;margin:0 0 8px\"><li><b>Application</b> (agent as field underwriter): complete it, collect signatures, give point-of-sale notices (HIPAA authorization, FCRA notice, privacy notice, replacement forms), collect the first premium and issue a receipt.</li><li><b>Underwriting</b> (home office): gather insurability evidence (application, agent's report, MIB, medical records, exam, consumer reports), check insurable interest, classify the risk.</li><li><b>Issue</b>: as applied for, rated (counteroffer) or declined.</li><li><b>Delivery</b>: deliver, collect any unpaid premium and a statement of good health, explain the policy.</li></ol><p><b>Submitting to underwriting:</b> the agent sends the signed, complete application, the agent's report and any premium promptly. The agent's report holds the agent's own observations; the applicant does not see or sign it and it is not part of the contract.</p><p><b>How the exam tests this section:</b> short scenarios asking when coverage starts, who must sign, which receipt or notice applies, and which contract term (adhesion, aleatory, warranty) describes a fact.</p>"
     },
     {
-      "key": "application",
-      "label": "The application"
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The agent is a field underwriter who gathers and screens information, but only the insurer's underwriters accept, rate or decline the risk.</div><div class=\"trap\"><b>Trap:</b> The agent's report is not attached to the policy, so it is not part of the entire contract.</div>"
     },
     {
-      "key": "privacy",
-      "label": "Privacy and compliance at sale"
-    },
-    {
-      "key": "underwriting",
-      "label": "Underwriting"
-    },
-    {
-      "key": "delivery",
-      "label": "Delivery"
-    },
-    {
-      "key": "contract",
-      "label": "Contract law"
+     "t": "Example",
+     "b": "<p>An agent takes an application with the first premium on March 1, the paramedical exam happens March 4, underwriting approves at standard rates March 20, and the policy is delivered March 28. Under a conditional receipt, coverage dates back to March 4 because the applicant proved insurable as applied for.</p>"
     }
-  ],
-  "concepts": [
+   ],
+   "cards": [
     {
-      "n": "From application to in-force policy",
-      "g": "map",
-      "s": "A life or health policy moves through four stages (application, underwriting, issue, delivery), and contract law decides at each stage who has made an offer, who has accepted, and when coverage starts.",
-      "o": [
-        "G-IX.A.4"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<p><b>Schema:</b></p><ol style=\"padding-left:18px;margin:0 0 8px\"><li><b>Application</b> (agent as field underwriter): complete it, collect signatures, give point-of-sale notices (HIPAA authorization, FCRA notice, privacy notice, replacement forms), collect the first premium and issue a receipt.</li><li><b>Underwriting</b> (home office): gather insurability evidence (application, agent's report, MIB, medical records, exam, consumer reports), check insurable interest, classify the risk.</li><li><b>Issue</b>: as applied for, rated (counteroffer) or declined.</li><li><b>Delivery</b>: deliver, collect any unpaid premium and a statement of good health, explain the policy.</li></ol><p><b>Submitting to underwriting:</b> the agent sends the signed, complete application, the agent's report and any premium promptly. The agent's report holds the agent's own observations; the applicant does not see or sign it and it is not part of the contract.</p><p><b>How the exam tests this section:</b> short scenarios asking when coverage starts, who must sign, which receipt or notice applies, and which contract term (adhesion, aleatory, warranty) describes a fact.</p>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> The agent is a field underwriter who gathers and screens information, but only the insurer's underwriters accept, rate or decline the risk.</div><div class=\"trap\"><b>Trap:</b> The agent's report is not attached to the policy, so it is not part of the entire contract.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An agent takes an application with the first premium on March 1, the paramedical exam happens March 4, underwriting approves at standard rates March 20, and the policy is delivered March 28. Under a conditional receipt, coverage dates back to March 4 because the applicant proved insurable as applied for.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An underwriter wants the agent's firsthand view of the applicant's lifestyle and how long the agent has known the applicant. Which document supplies this?",
-          "a": "The agent's report (producer's statement). It goes to the insurer with the application but is not part of the contract."
-        },
-        {
-          "q": "Which party in the sale makes the final decision to issue, rate or decline the policy?",
-          "a": "The insurer's underwriting department; the agent acts only as a field underwriter."
-        },
-        {
-          "q": "An insurer issues a policy at a higher premium than applied for. At what stage does the applicant accept that new offer?",
-          "a": "At delivery, when the applicant accepts the rated policy and pays the premium, because the rated issue is a counteroffer."
-        }
-      ]
+     "q": "An underwriter wants the agent's firsthand view of the applicant's lifestyle and how long the agent has known the applicant. Which document supplies this?",
+     "a": "The agent's report (producer's statement). It goes to the insurer with the application but is not part of the contract."
     },
     {
-      "n": "Completing the application: signatures, changes, gaps",
-      "g": "application",
-      "s": "The proposed insured, the policyowner if different, and the agent must sign; any change needs the applicant's initials; and an incomplete application goes back for completion, because an insurer that issues with a blank question waives that answer.",
-      "o": [
-        "G-III.A.1",
-        "G-III.A.2",
-        "G-III.A.3",
-        "G-IX.A.1"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<p><b>Parts:</b> Part 1 general information (identity, owner, beneficiary, amount, other coverage, replacement question); Part 2 medical information; the agent's report.</p><ul><li><b>Signatures:</b> proposed insured and the owner if different from the insured, plus the agent as witness. A minor insured usually needs a parent or guardian to sign.</li><li><b>Changes:</b> the agent draws a line through the wrong answer, writes the correct one, and the applicant initials it. Never erase or use correction fluid. The agent never changes an answer without the applicant's approval. A change after submission goes on an amendment the applicant signs.</li><li><b>Incomplete:</b> the underwriter returns it to the agent. If the insurer issues anyway, it is treated as having waived the missing answer and cannot later contest the policy over it.</li><li><b>Agent duty:</b> ask every question exactly as written and record the applicant's answers.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> A beneficiary does not sign the application. Only the insured, the owner if different, and the agent sign.</div><div class=\"trap\"><b>Trap:</b> An agent who fills in an answer the applicant did not give, even a correct one, commits misconduct; the fix is the applicant's initials on the change.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A father buys a policy on his adult daughter. The daughter signs as proposed insured, the father signs as owner, the agent signs as witness. The daughter misstated her height; the agent strikes the number, writes the right one, and she initials it.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A mother applies as owner on a policy covering her 30-year-old son. Whose signatures does the application need?",
-          "a": "The son as proposed insured, the mother as owner, and the agent."
-        },
-        {
-          "q": "An applicant realizes an answer on the application is wrong before it is submitted. How should the agent correct it?",
-          "a": "Strike through the wrong answer, write the correct one, and have the applicant initial the change; never erase or white it out."
-        },
-        {
-          "q": "An insurer issues a policy although the applicant left a health question blank, then later tries to rescind over that question. What legal principle defeats the rescission?",
-          "a": "Waiver: by issuing with the question unanswered, the insurer gave up its right to that answer."
-        }
-      ]
+     "q": "Which party in the sale makes the final decision to issue, rate or decline the policy?",
+     "a": "The insurer's underwriting department; the agent acts only as a field underwriter."
     },
     {
-      "n": "Representations, warranties, concealment",
-      "g": "application",
-      "s": "Applicant statements in life and health insurance are representations, true to the best of the applicant's knowledge, and only a material misrepresentation or concealment lets the insurer void the contract, while a warranty is guaranteed literally true.",
-      "o": [
-        "G-III.A.4",
-        "G-IX.A.8"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Representation:</b> a statement believed true. A false one voids the policy only if it is material, meaning the insurer would have declined or charged more had it known the truth.</li><li><b>Warranty:</b> a statement guaranteed true and part of the contract; any breach can void the policy whether material or not. Life and health statutes treat applicant statements as representations absent fraud.</li><li><b>Concealment:</b> intentionally withholding a material fact.</li><li><b>Fraud:</b> intentional deception to obtain a benefit.</li><li><b>Remedy limit:</b> after the incontestable period, the insurer generally cannot contest for misstatements. Texas specifics: see Texas law tab.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> An honest mistake about an immaterial fact (wrong month of a minor sprain) does not void the policy; materiality decides.</div><div class=\"trap\"><b>Trap:</b> Misstatement of age is not a void-the-policy issue; benefits are adjusted to what the premium would have bought at the correct age.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An applicant says she has never used tobacco, but she smokes daily. Smoker rates are much higher, so the lie is material. If found within the contestable period, the insurer can rescind and refund premiums.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A life applicant swears his answers are true to the best of his knowledge and belief. What type of statement does the law treat them as?",
-          "a": "Representations, which void the policy only if false and material."
-        },
-        {
-          "q": "An applicant fails to mention a prior heart attack, hoping the insurer will not find out. What is this called?",
-          "a": "Concealment: intentionally withholding a material fact."
-        },
-        {
-          "q": "Which kind of statement can void a contract if untrue, even when the fact would not have changed the insurer's decision?",
-          "a": "A warranty, because it is guaranteed literally true and its breach need not be material."
-        }
-      ]
-    },
-    {
-      "n": "Initial premium, receipts and the medical exam",
-      "g": "application",
-      "s": "When the first premium comes with the application, the receipt type sets the start of coverage: a conditional receipt starts it at the later of application or exam date if the applicant is insurable as applied for, and with no premium coverage starts only at delivery with payment.",
-      "o": [
-        "G-III.A.5",
-        "G-IX.A.3"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Conditional receipt (insurability type):</b> coverage effective on the later of the application date or the medical exam date, provided the applicant qualifies as applied for. Most common in life sales.</li><li><b>Approval receipt:</b> coverage only once the insurer approves.</li><li><b>Binding receipt:</b> temporary coverage at once, for a stated period, until the insurer accepts or declines.</li><li><b>No premium with application:</b> nothing is in force until delivery, premium payment, and usually a signed statement of continued good health.</li><li><b>Medical exam:</b> required by amount and age; a paramedical or physician exam at the insurer's expense, plus lab work and records as needed.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Under a conditional receipt, if the insured dies before approval and would have qualified, the insurer pays; if the applicant would have been rated or declined, it does not pay.</div><div class=\"trap\"><b>Trap:</b> Collecting the premium with the application is best practice because it improves the odds of the policy being placed and gives earlier coverage.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>Application and premium May 2, exam May 6, death in a car crash May 15 before underwriting finishes. Under a conditional receipt, the insurer completes underwriting; finding him insurable as applied for, it pays the face amount, coverage having started May 6.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An applicant signs on June 1 and pays the first premium, takes the exam June 5, and is approved at standard rates. Under a conditional receipt, when did coverage begin?",
-          "a": "June 5, the later of the application and exam dates."
-        },
-        {
-          "q": "An applicant pays with the application under a conditional receipt and dies before approval, but underwriting finds a condition that would have caused a decline. What does the insurer owe?",
-          "a": "It refunds the premium but pays no death benefit, because the condition of insurability was not met."
-        },
-        {
-          "q": "An applicant submits an application without the premium. What must normally happen at delivery before coverage begins?",
-          "a": "The agent collects the first premium and usually a signed statement of continued good health."
-        }
-      ]
-    },
-    {
-      "n": "Replacement",
-      "g": "application",
-      "s": "Replacement is buying a new policy that lapses, surrenders, converts or reduces an existing one, so the agent must ask about it on the application, give the applicant a signed replacement notice, and send it in with the application.",
-      "o": [
-        "G-III.A.6",
-        "G-IX.A.7"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Why regulated:</b> the owner may lose value, restart incontestable and suicide periods, pay new acquisition costs, and face new underwriting at an older age.</li><li><b>Agent duties (general model):</b> ask whether the new policy replaces existing coverage; if yes, give a notice regarding replacement signed by the applicant and agent, list the policies being replaced, and send copies with the application.</li><li><b>Replacing insurer:</b> notifies the existing insurer and keeps records.</li><li><b>Existing insurer:</b> may contact the owner to try to conserve the policy.</li><li><b>Twisting:</b> inducing replacement by misrepresentation. <b>Churning:</b> replacement within the same company to earn new commissions.</li><li>Texas specifics (forms, deadlines, free look on replacements): see Texas law tab.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> A replacement can be internal (same insurer) or external; both trigger the rules.</div><div class=\"trap\"><b>Trap:</b> Replacement is not illegal; misrepresenting it to induce the switch (twisting) is.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A client owns a 15-year-old whole life policy and wants cheaper term coverage. The agent records the replacement on the application, compares costs and features, has the client sign the replacement notice, and submits both. The new policy starts a fresh contestable period.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An agent persuades a client to drop a policy by falsely claiming the old insurer is going bankrupt. What prohibited practice is this?",
-          "a": "Twisting: misrepresentation to induce replacement."
-        },
-        {
-          "q": "An agent repeatedly moves a client into new policies with the same insurer mainly to earn first-year commissions. What is this practice called?",
-          "a": "Churning."
-        },
-        {
-          "q": "A client will borrow the cash value of an existing policy to pay premiums on a new one. What must the agent do at application?",
-          "a": "Treat it as a replacement: record it on the application, have the client sign the replacement notice, and submit it with the application."
-        }
-      ]
-    },
-    {
-      "n": "HIPAA authorization and HIV testing consent",
-      "g": "privacy",
-      "s": "At the point of sale the applicant signs a written authorization letting the insurer get medical records, and any HIV test requires the applicant's informed written consent with confidential results.",
-      "o": [
-        "G-III.A.7",
-        "G-IX.A.2"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>HIPAA Privacy Rule:</b> covers health plans (including health, dental, LTC insurers and HMOs), clearinghouses and providers. HHS's Privacy Rule summary says a disclosure to a life insurer for a coverage decision needs the individual's written authorization.</li><li><b>Authorization elements (per HHS):</b> plain language, what information, who discloses and who receives it, an expiration, and the right to revoke in writing.</li><li><b>Conditioning:</b> a health plan may condition enrollment on an authorization obtained before enrollment for underwriting or risk rating, except for psychotherapy notes.</li><li><b>Notice of Privacy Practices:</b> health plans give it to new enrollees at enrollment.</li><li><b>HIV testing:</b> insurers may test if they do so for all applicants in the class, with informed written consent, confidential results, and no questions designed to infer sexual orientation. Texas specifics: see Texas law tab.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Life insurers are not HIPAA covered entities; HIPAA reaches them through the authorization the applicant signs letting doctors release records.</div><div class=\"trap\"><b>Trap:</b> An insurer may not use sexual orientation as a proxy for HIV risk; testing must be applied uniformly.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A life applicant signs the authorization form at application. Underwriting later orders an attending physician's statement, and the doctor's office releases records because of that signed form.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A life underwriter wants an applicant's records from her physician. What must the applicant have signed for the physician to release them?",
-          "a": "A written HIPAA authorization naming the information, the recipient, an expiration and the right to revoke."
-        },
-        {
-          "q": "An insurer wants to test only applicants it suspects are gay for HIV. Why is this improper?",
-          "a": "HIV testing must be applied to all applicants in a risk class and cannot be based on sexual orientation."
-        },
-        {
-          "q": "Which document must a health insurer give new enrollees explaining how it uses their protected health information?",
-          "a": "The Notice of Privacy Practices."
-        }
-      ]
-    },
-    {
-      "n": "GLBA financial privacy",
-      "g": "privacy",
-      "s": "The Gramm-Leach-Bliley Act requires an insurer to give customers a privacy notice when the relationship starts and annually, and to let consumers opt out before it shares nonpublic personal information with nonaffiliated third parties outside the exceptions.",
-      "o": [
-        "G-III.A.9"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<p>The FTC's compliance guide describes the federal rule; state insurance regulators enforce it for insurers.</p><ul><li><b>Consumer:</b> anyone who obtains a financial product for personal, family or household use, including applicants. <b>Customer:</b> a consumer with a continuing relationship, such as a policyowner.</li><li><b>Initial notice:</b> to a customer no later than when the relationship begins; to a non-customer consumer only before sharing with nonaffiliated parties outside the exceptions.</li><li><b>Annual notice:</b> to customers during the relationship.</li><li><b>Opt out:</b> required before sharing with nonaffiliated third parties outside the exceptions, with a reasonable means and time to opt out.</li><li><b>Exceptions (no opt-out right):</b> processing the transaction, service providers under contract, fraud prevention, legal process, consumer reporting agencies.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Sharing with affiliates does not trigger the GLBA opt-out (the FCRA may impose its own).</div><div class=\"trap\"><b>Trap:</b> GLBA protects nonpublic personal financial information; HIPAA protects health information. Do not swap them.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A policyowner receives an annual privacy notice from her insurer. The notice says the insurer plans to share her contact data with an unaffiliated marketing firm, and she calls the toll-free number to opt out before any sharing.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An insurer wants to sell policyholder contact lists to an unrelated marketing company. What must it give policyholders first?",
-          "a": "A privacy notice with an opt-out notice and a reasonable chance to opt out."
-        },
-        {
-          "q": "Which federal law governs the privacy notice an insurer sends a policyowner about sharing her financial information?",
-          "a": "The Gramm-Leach-Bliley Act."
-        },
-        {
-          "q": "An insured tries to opt out of her insurer sharing claim data with the contracted processor that pays her claim. Why does GLBA not let her?",
-          "a": "Sharing needed to process the requested transaction is an exception that carries no opt-out right."
-        }
-      ]
-    },
-    {
-      "n": "USA PATRIOT Act and anti-money laundering",
-      "g": "privacy",
-      "s": "Insurers selling covered products (permanent life, annuities and other cash-value products, but not group policies) must run a written AML program that integrates their agents, and must report suspicious transactions of $5,000 or more without telling the customer.",
-      "o": [
-        "G-III.A.8"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Program (31 CFR 1025.210):</b> written, approved by senior management, with risk-based controls, a compliance officer, ongoing training for employees, agents and brokers, and independent testing.</li><li><b>Covered products (per FinCEN):</b> permanent life other than group, annuities other than group or charitable gift annuities, and other products with cash value or investment features.</li><li><b>SAR:</b> per FinCEN guidance, a suspicious transaction involving at least $5,000 must be reported within 30 days of detection (up to 60 if no suspect is identified). Agents may not tell the customer it was reported.</li><li><b>Cash over $10,000:</b> reported on IRS/FinCEN Form 8300.</li><li><b>Red flags:</b> large cash or many money orders, early surrender despite penalties, little interest in benefits, payments from unrelated third parties, reluctance to give ID.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Term life and group products are not covered products, because they lack cash value or are group business.</div><div class=\"trap\"><b>Trap:</b> The agent must not tip off the customer that a suspicious activity report was filed.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A client buys a single-premium annuity with $40,000 in money orders, shows no interest in the return, and asks about surrendering within a month. The agent reports these red flags to the insurer's AML compliance officer and says nothing to the client.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A customer pays $12,000 in cash for an annuity. Which federal report applies to the cash receipt?",
-          "a": "Form 8300, for cash of more than $10,000."
-        },
-        {
-          "q": "Which product falls outside the insurer AML program rule: a variable universal life policy, a deferred annuity, or a 20-year term policy?",
-          "a": "The 20-year term policy, because it has no cash value or investment feature."
-        },
-        {
-          "q": "An agent's client asks whether the insurer reported his unusual payment pattern to the government. What may the agent tell him?",
-          "a": "Nothing about it; disclosing a suspicious activity report to the person involved is prohibited."
-        }
-      ]
-    },
-    {
-      "n": "Sources of insurability and MIB",
-      "g": "underwriting",
-      "s": "Underwriters build the risk picture from the application, the agent's report, medical exams and attending physician statements, MIB, inspection and consumer reports, and other databases, and MIB data alerts but never decides.",
-      "o": [
-        "G-III.B.2",
-        "G-IX.A.2"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Application and agent's report:</b> the first sources.</li><li><b>Medical exam:</b> paramedical or physician, plus blood and urine tests.</li><li><b>Attending physician statement (APS):</b> records from the applicant's own doctor.</li><li><b>MIB:</b> per MIB, a member consortium of North American life insurers and a consumer reporting agency under the FCRA. With the applicant's authorization, members report coded medical conditions and hazardous avocations found during underwriting. You have a file only if you applied to a member in the last 7 years and something significant was found. Members cannot decide based on MIB alone; they must investigate further.</li><li><b>Consumer and inspection reports:</b> credit, character, habits, finances (FCRA rules apply).</li><li><b>Others:</b> prescription histories, motor vehicle records.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> MIB codes do not show another insurer's decision and are not a full medical record or a score.</div><div class=\"trap\"><b>Trap:</b> An insurer cannot decline solely because of an MIB code; it must verify independently.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An applicant answers no to cardiac questions. The MIB check shows a heart code reported by another member two years earlier. The underwriter orders an APS and finds a prior stent, then underwrites on the records, not the code.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An underwriter finds an MIB code suggesting a condition the applicant did not disclose. What must happen before the insurer acts on it?",
-          "a": "Independent investigation, such as an attending physician statement, because members cannot decide on MIB data alone."
-        },
-        {
-          "q": "Which underwriting source comes from the applicant's own treating doctor?",
-          "a": "The attending physician statement (APS)."
-        },
-        {
-          "q": "Under which federal law does an applicant have the right to see and dispute his MIB file?",
-          "a": "The Fair Credit Reporting Act, because MIB is a consumer reporting agency."
-        }
-      ]
-    },
-    {
-      "n": "Fair Credit Reporting Act",
-      "g": "underwriting",
-      "s": "Insurers may use consumer reports for underwriting, but they must tell the applicant in writing within 3 days of ordering an investigative consumer report and, after any adverse decision based on a report, give the reporting agency's contact details and the right to a free copy.",
-      "o": [
-        "G-III.B.3",
-        "G-IX.A.2"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Permissible purpose:</b> FCRA Sec. 604 lets agencies furnish reports for underwriting insurance involving the consumer.</li><li><b>Consumer report:</b> credit standing, character, general reputation, personal characteristics.</li><li><b>Investigative consumer report:</b> the same information gathered through interviews with neighbors, friends or associates. FCRA Sec. 606 requires written notice within 3 days after the report is requested; on written request, the nature and scope must be disclosed within 5 days.</li><li><b>Adverse action (Sec. 615):</b> notice of the action, the agency's name, address and phone number, a statement that the agency did not decide, and the right to a free copy within 60 days and to dispute errors.</li><li><b>Time limits (Sec. 605):</b> most adverse items drop off after 7 years; bankruptcies after 10.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> The applicant need not consent to a consumer report for underwriting; what the law requires is notice, and disclosure after adverse action.</div><div class=\"trap\"><b>Trap:</b> The reporting agency does not make the underwriting decision and cannot explain it; the insurer does.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An insurer orders an investigative report on Monday and mails the required notice Wednesday. The applicant asks in writing what it covers, and the insurer describes its nature and scope within 5 days. The report shows a DUI; the insurer rates the policy and sends an adverse action notice.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An insurer orders a report built from interviews with the applicant's neighbors. What must it send the applicant, and by when?",
-          "a": "Written notice that the investigative report may be made, within 3 days after requesting it."
-        },
-        {
-          "q": "An insurer charges a higher rate because of a consumer report. What must the applicant be told?",
-          "a": "The adverse action, the reporting agency's contact details, that the agency did not make the decision, and the right to a free report within 60 days and to dispute it."
-        },
-        {
-          "q": "Generally, how long can adverse information other than a bankruptcy stay on a consumer report?",
-          "a": "Seven years; bankruptcies can be reported for 10."
-        }
-      ]
-    },
-    {
-      "n": "Insurable interest",
-      "g": "underwriting",
-      "s": "In life insurance the policyowner must have an insurable interest in the insured when the policy is issued, meaning a real stake in the insured's continued life through love and affection or a financial loss on death, but it need not exist at death.",
-      "o": [
-        "G-III.B.1",
-        "G-IX.A.8"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Self:</b> unlimited insurable interest in one's own life.</li><li><b>Family:</b> spouse, parents, children, close relatives by blood or marriage (love and affection).</li><li><b>Financial:</b> employer in a key employee, business partners in each other (buy-sell), creditor in a debtor up to the debt.</li><li><b>Timing:</b> life and health require it at application; property insurance requires it at the time of loss.</li><li><b>Beneficiary:</b> when you insure your own life you may name anyone; the beneficiary need not have an insurable interest.</li><li><b>Purpose:</b> it keeps insurance from being a wager and prevents an incentive to cause death, which makes it part of the legal purpose requirement. Texas specifics: see Texas law tab.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Divorce or a partner leaving after issue does not void the policy, since the interest only had to exist at issue.</div><div class=\"trap\"><b>Trap:</b> Under the general rule, a friend or stranger with no family tie or financial stake cannot buy a policy on you. Texas lets an adult consent in writing to a third party buying a policy on his life (Insurance Code Sec. 1103.056); see Texas law tab.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>Partners A and B each buy a policy on the other to fund a buy-sell agreement. Years later A sells his stake to B. The policy A owns on B stays valid, because insurable interest existed when it was issued.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A woman owns a policy on her husband; they divorce, she keeps paying, and he dies. Why must the insurer still pay her?",
-          "a": "Insurable interest is required only when the policy is issued, not at death."
-        },
-        {
-          "q": "Which relationship lacks insurable interest: a creditor insuring a debtor up to the loan, an employer insuring a key executive, or a neighbor insuring a healthy coworker?",
-          "a": "The neighbor insuring the coworker, because there is no family tie or financial loss on death."
-        },
-        {
-          "q": "An applicant insures her own life and names her college roommate as beneficiary. What insurable interest requirement applies to the roommate?",
-          "a": "None. When you insure your own life you may name any beneficiary."
-        }
-      ]
-    },
-    {
-      "n": "STOLI and IOLI",
-      "g": "underwriting",
-      "s": "Stranger-originated (investor-originated) life insurance is a policy bought from the start for the benefit of investors with no insurable interest, usually through premium financing and a planned transfer once the contestable period ends, and it evades the insurable interest rule.",
-      "o": [
-        "G-III.B.5"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Typical setup:</b> an investor recruits an older person, often with free or financed premiums and an upfront payment; the policy is placed in a trust; after the contestable period it is sold to the investors, who collect at death.</li><li><b>Why it is a problem:</b> the investor gains from the insured's early death, so it is a wager on a life; insurers priced the product assuming normal lapse rates.</li><li><b>Contrast with a life settlement:</b> a legitimate settlement is the sale of a policy the owner bought for real protection and later no longer needs.</li><li><b>Red flags at application:</b> nonrecourse premium financing, a large face amount relative to income or net worth, a trust owner with outside investors, promises of free insurance, plans to sell after two years.</li><li>Many states ban STOLI or restrict settlements soon after issue. Texas specifics: see Texas law tab.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> A legitimate life settlement and STOLI both end with investors owning the policy; the difference is intent at issue.</div><div class=\"trap\"><b>Trap:</b> Free insurance offers to seniors are a classic STOLI marker, not a bargain.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A 78-year-old is offered $50,000 cash to let a company finance a $5 million policy on his life, owned by a trust. The plan is to sell the trust's interest to investors after the contestable period. This is STOLI.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "Years after buying a policy for family protection, an elderly owner sells it to a third party because she no longer needs it. Is this STOLI or a life settlement?",
-          "a": "A life settlement, because the policy was bought with genuine insurable interest and sold later."
-        },
-        {
-          "q": "Why does STOLI violate a basic insurance principle?",
-          "a": "Investors without insurable interest effectively buy the policy from the start, turning it into a wager on the insured's death."
-        },
-        {
-          "q": "An application shows a 4 million dollar face amount for an applicant earning 40,000 dollars, a trust owner and nonrecourse premium financing. What should the agent suspect?",
-          "a": "Stranger-originated life insurance (STOLI)."
-        }
-      ]
-    },
-    {
-      "n": "Risk classification",
-      "g": "underwriting",
-      "s": "Underwriters sort applicants into preferred, standard, substandard (rated) or declined classes based on mortality or morbidity risk, so that each class pays a premium that matches its expected losses and the insurer avoids adverse selection.",
-      "o": [
-        "G-III.B.4"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Preferred:</b> better than average health and habits (often nonsmokers); lowest rates.</li><li><b>Standard:</b> average risk; most applicants.</li><li><b>Substandard (rated):</b> higher risk. Ways to charge more: table ratings (an extra percentage of the standard premium per table), a flat extra charge per $1,000 of coverage, or a rated-up age. Health insurers may instead add an exclusion rider for a condition.</li><li><b>Declined:</b> risk too high to insure at any price.</li><li><b>Factors:</b> age, sex, health and family history, build, tobacco, occupation, avocations (hazardous hobbies), driving record, finances and moral hazard.</li><li><b>Adverse selection:</b> people with higher risk seek more insurance; underwriting counters it.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> A rated policy is a counteroffer; the applicant must accept it at delivery.</div><div class=\"trap\"><b>Trap:</b> A flat extra often fits a temporary or occupational hazard (a pilot), while table ratings fit health impairments.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>A 45-year-old with controlled diabetes is rated Table 2. If the insurer's tables add 25% each, his premium is 150% of standard: a $1,000 standard premium becomes $1,500. A skydiver might instead pay a flat extra of a few dollars per $1,000 of coverage.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A healthy applicant who takes up skydiving each weekend is otherwise standard. What rating method commonly fits this hazard?",
-          "a": "A flat extra charge per $1,000 of coverage for the avocation."
-        },
-        {
-          "q": "People who expect to need benefits are more likely to buy coverage. What is this tendency called?",
-          "a": "Adverse selection."
-        },
-        {
-          "q": "An applicant with a controlled health impairment is issued a policy at a higher premium than standard. Into which risk class does she fall?",
-          "a": "Substandard (rated)."
-        }
-      ]
-    },
-    {
-      "n": "Delivery and explaining the policy",
-      "g": "delivery",
-      "s": "Coverage begins when the policy is delivered, the first premium is paid and the insured's health is unchanged, unless a conditional receipt already started it, and at delivery the agent explains the policy, riders, exclusions and any rating and starts the free-look period.",
-      "o": [
-        "G-III.C.1",
-        "G-III.C.2",
-        "G-IX.A.5",
-        "G-IX.A.6"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Personal delivery is best:</b> the agent can collect premium, get a statement of good health if needed, and explain the contract. Many insurers ask for a signed delivery receipt.</li><li><b>Constructive delivery:</b> the insurer gives up control with intent to be bound, for example by mailing the policy to the owner or to the agent with no conditions left, even if the owner never physically received it.</li><li><b>At delivery the agent explains:</b> the insuring clause and benefits, riders, exclusions and limitations, the rating or any changes from the application and why, the premium mode, and the free look. Texas specifics: see Texas law tab.</li><li><b>Coverage start without receipt:</b> delivery plus first premium plus statement of continued good health.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Mailing a policy to the agent for unconditional delivery is constructive delivery, even if the agent has not handed it over yet.</div><div class=\"trap\"><b>Trap:</b> If the applicant's health changed between application and delivery and no premium was paid, the agent must not deliver; the insurer must reassess.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An applicant applied without premium. At delivery the agent explains the waiver of premium rider and the aviation exclusion, tells him the policy was rated Table 2 because of blood pressure, collects the first premium and gets his signed statement of good health. Coverage starts that day.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "An applicant paid no premium with the application. When does coverage begin?",
-          "a": "At delivery, when the first premium is paid and the applicant signs a statement of continued good health."
-        },
-        {
-          "q": "An insurer mails an approved policy to the agent with no conditions, and the insured dies before the agent visits. What doctrine makes the policy delivered?",
-          "a": "Constructive delivery: the insurer released control of the policy unconditionally."
-        },
-        {
-          "q": "At delivery, the policy is rated higher than applied for. What must the agent do?",
-          "a": "Explain the rating and the reason, and get the applicant's acceptance of the counteroffer along with the premium."
-        }
-      ]
-    },
-    {
-      "n": "Elements of a contract",
-      "g": "contract",
-      "s": "An insurance policy is a valid contract only if it has agreement (offer and acceptance), consideration, competent parties and a legal purpose.",
-      "o": [
-        "G-III.D.1",
-        "G-IX.A.8"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Offer and acceptance:</b> the applicant usually offers by submitting an application with premium; the insurer accepts by issuing as applied for. Without premium, the insurer's issued policy is the offer and the applicant accepts at delivery by paying. A rated or modified issue is a counteroffer.</li><li><b>Consideration:</b> the applicant gives the premium and the statements in the application; the insurer gives its promise to pay. The consideration clause states this.</li><li><b>Competent parties:</b> the applicant is of legal age, mentally competent and not impaired; the insurer is authorized in the state.</li><li><b>Legal purpose:</b> insurable interest and nothing against public policy.</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Consideration from the applicant includes the application statements, not only the premium.</div><div class=\"trap\"><b>Trap:</b> An application without premium is not an offer; it is an invitation for the insurer to make one.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An applicant mails an application with no check. The insurer issues the policy as applied for, making the offer. The applicant accepts at delivery by paying the first premium; only then does the contract exist.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "Which contract element is missing when a person under the influence of drugs signs an application?",
-          "a": "Competent parties, because the applicant lacks legal capacity at signing."
-        },
-        {
-          "q": "What two things make up the applicant's consideration in a life insurance contract?",
-          "a": "The first premium and the statements in the application."
-        },
-        {
-          "q": "An application is submitted without premium and the insurer issues the policy as applied for. Who made the offer?",
-          "a": "The insurer, by issuing the policy; the applicant accepts by paying at delivery."
-        }
-      ]
-    },
-    {
-      "n": "Unique features of insurance contracts",
-      "g": "contract",
-      "s": "Insurance policies are contracts of adhesion (ambiguity is read against the insurer), aleatory (unequal exchange tied to chance), unilateral (only the insurer makes an enforceable promise) and conditional (the insurer pays only if the insured meets conditions), and they require utmost good faith.",
-      "o": [
-        "G-III.D.2",
-        "G-IX.A.8"
-      ],
-      "x": [
-        {
-          "t": "Model",
-          "b": "<ul><li><b>Adhesion:</b> the insurer writes it and the applicant takes it or leaves it, so courts resolve ambiguous wording in the insured's favor.</li><li><b>Aleatory:</b> the amounts exchanged are unequal and depend on an uncertain event; a small premium can buy a large benefit.</li><li><b>Unilateral:</b> only the insurer promises; the owner can stop paying without breach, and the policy lapses.</li><li><b>Conditional:</b> the insurer pays only if conditions are met (premium paid, timely notice and proof of loss).</li><li><b>Utmost good faith:</b> both sides must disclose honestly, which is why concealment can void coverage.</li><li><b>Related doctrines:</b> waiver (giving up a known right) and estoppel (being barred from asserting a right after acting as if it was waived).</li></ul>"
-        },
-        {
-          "t": "Traps",
-          "b": "<div class=\"trap\"><b>Trap:</b> Unilateral is about who is bound; adhesion is about who wrote it. Students swap them.</div><div class=\"trap\"><b>Trap:</b> Aleatory does not mean unfair; it describes the uneven, chance-based exchange.</div>"
-        },
-        {
-          "t": "Example",
-          "b": "<p>An insured pays one $300 monthly premium and dies in an accident; the beneficiary collects $500,000. That uneven exchange shows the aleatory feature. If the exclusion wording is ambiguous, the court reads it for the beneficiary under adhesion.</p>"
-        }
-      ],
-      "cards": [
-        {
-          "q": "A policy's exclusion wording can be read two ways, and the court adopts the reading favoring the insured. Which feature explains this?",
-          "a": "Adhesion, because the insurer drafted the contract."
-        },
-        {
-          "q": "A policyowner stops paying premiums and the insurer cannot sue to collect them. Which feature does this show?",
-          "a": "Unilateral: only the insurer makes a legally enforceable promise."
-        },
-        {
-          "q": "The insurer refuses to pay because the claimant never submitted proof of loss. Which contract feature applies?",
-          "a": "Conditional, because payment depends on the insured meeting policy conditions."
-        }
-      ]
+     "q": "An insurer issues a policy at a higher premium than applied for. At what stage does the applicant accept that new offer?",
+     "a": "At delivery, when the applicant accepts the rated policy and pays the premium, because the rated issue is a counteroffer."
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "n": "Completing the application: signatures, changes, gaps",
+   "g": "application",
+   "s": "The proposed insured, the policyowner if different, and the agent must sign; any change needs the applicant's initials; and an incomplete application goes back for completion, because an insurer that issues with a blank question waives that answer.",
+   "o": [
+    "G-III.A.1",
+    "G-III.A.2",
+    "G-III.A.3",
+    "G-IX.A.1"
+   ],
+   "x": [
     {
-      "title": "31 CFR 1025.210 Anti-money laundering program requirements for insurance companies (eCFR)",
-      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1025/subpart-B/section-1025.210"
+     "t": "Model",
+     "b": "<p><b>Parts:</b> Part 1 general information (identity, owner, beneficiary, amount, other coverage, replacement question); Part 2 medical information; the agent's report.</p><ul><li><b>Signatures:</b> proposed insured and the owner if different from the insured, plus the agent as witness. A minor insured usually needs a parent or guardian to sign.</li><li><b>Changes:</b> the agent draws a line through the wrong answer, writes the correct one, and the applicant initials it. Never erase or use correction fluid. The agent never changes an answer without the applicant's approval. A change after submission goes on an amendment the applicant signs.</li><li><b>Incomplete:</b> the underwriter returns it to the agent. If the insurer issues anyway, it is treated as having waived the missing answer and cannot later contest the policy over it.</li><li><b>Agent duty:</b> ask every question exactly as written and record the applicant's answers.</li></ul>"
     },
     {
-      "title": "FinCEN: Frequently asked questions, anti-money laundering program for insurance companies",
-      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/frequently-asked-questions-anti-money-laundering-program-0"
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A beneficiary does not sign the application. Only the insured, the owner if different, and the agent sign.</div><div class=\"trap\"><b>Trap:</b> An agent who fills in an answer the applicant did not give, even a correct one, commits misconduct; the fix is the applicant's initials on the change.</div>"
     },
     {
-      "title": "FinCEN: Suspicious activity reporting requirements for insurance companies",
-      "url": "https://www.fincen.gov/sites/default/files/shared/sarforinsurancecompany.pdf"
-    },
-    {
-      "title": "FinCEN: Anti-money laundering program and suspicious activity reporting (insurance)",
-      "url": "https://www.fincen.gov/index.php/resources/statutes-regulations/guidance/anti-money-laundering-program-and-suspicious-activity"
-    },
-    {
-      "title": "15 U.S.C. 1681d Disclosure of investigative consumer reports (govinfo)",
-      "url": "https://www.govinfo.gov/link/uscode/15/1681d"
-    },
-    {
-      "title": "FTC: Fair Credit Reporting Act text (March 2026)",
-      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/fcra-march-2026.pdf"
-    },
-    {
-      "title": "MIB: Facts about MIB",
-      "url": "https://mib.com/facts_about_mib.html"
-    },
-    {
-      "title": "MIB: Request your record",
-      "url": "https://www.mib.com/request_your_record.html"
-    },
-    {
-      "title": "CFPB: MIB, Inc. consumer reporting company listing",
-      "url": "https://consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/mib-inc"
-    },
-    {
-      "title": "FTC: How to comply with the Privacy of Consumer Financial Information Rule of the Gramm-Leach-Bliley Act",
-      "url": "https://www.ftc.gov/system/files/documents/plain-language/bus67-how-comply-privacy-consumer-financial-information-rule-gramm-leach-bliley-act.pdf"
-    },
-    {
-      "title": "HHS: Summary of the HIPAA Privacy Rule",
-      "url": "https://www.hhs.gov/sites/default/files/privacysummary.pdf"
-    },
-    {
-      "title": "HHS: HIPAA covered entities FAQ",
-      "url": "https://www.hhs.gov/hipaa/for-professionals/faq/covered-entities"
-    },
-    {
-      "title": "Texas Insurance Code Ch. 1103 (life insurance beneficiaries, insurable interest)",
-      "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1103.htm"
+     "t": "Example",
+     "b": "<p>A father buys a policy on his adult daughter. The daughter signs as proposed insured, the father signs as owner, the agent signs as witness. The daughter misstated her height; the agent strikes the number, writes the right one, and she initials it.</p>"
     }
-  ]
+   ],
+   "cards": [
+    {
+     "q": "A mother applies as owner on a policy covering her 30-year-old son. Whose signatures does the application need?",
+     "a": "The son as proposed insured, the mother as owner, and the agent."
+    },
+    {
+     "q": "An applicant realizes an answer on the application is wrong before it is submitted. How should the agent correct it?",
+     "a": "Strike through the wrong answer, write the correct one, and have the applicant initial the change; never erase or white it out."
+    },
+    {
+     "q": "An insurer issues a policy although the applicant left a health question blank, then later tries to rescind over that question. What legal principle defeats the rescission?",
+     "a": "Waiver: by issuing with the question unanswered, the insurer gave up its right to that answer."
+    }
+   ]
+  },
+  {
+   "n": "Representations, warranties, concealment",
+   "g": "application",
+   "s": "Applicant statements in life and health insurance are representations, true to the best of the applicant's knowledge, and only a material misrepresentation or concealment lets the insurer void the contract, while a warranty is guaranteed literally true.",
+   "o": [
+    "G-III.A.4",
+    "G-IX.A.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Representation:</b> a statement believed true. A false one voids the policy only if it is material, meaning the insurer would have declined or charged more had it known the truth.</li><li><b>Warranty:</b> a statement guaranteed true and part of the contract; any breach can void the policy whether material or not. Life and health statutes treat applicant statements as representations absent fraud.</li><li><b>Concealment:</b> intentionally withholding a material fact.</li><li><b>Fraud:</b> intentional deception to obtain a benefit.</li><li><b>Remedy limit:</b> after the incontestable period, the insurer generally cannot contest for misstatements. Texas specifics: see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> An honest mistake about an immaterial fact (wrong month of a minor sprain) does not void the policy; materiality decides.</div><div class=\"trap\"><b>Trap:</b> Misstatement of age is not a void-the-policy issue; benefits are adjusted to what the premium would have bought at the correct age.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant says she has never used tobacco, but she smokes daily. Smoker rates are much higher, so the lie is material. If found within the contestable period, the insurer can rescind and refund premiums.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A life applicant swears his answers are true to the best of his knowledge and belief. What type of statement does the law treat them as?",
+     "a": "Representations, which void the policy only if false and material."
+    },
+    {
+     "q": "An applicant fails to mention a prior heart attack, hoping the insurer will not find out. What is this called?",
+     "a": "Concealment: intentionally withholding a material fact."
+    },
+    {
+     "q": "Which kind of statement can void a contract if untrue, even when the fact would not have changed the insurer's decision?",
+     "a": "A warranty, because it is guaranteed literally true and its breach need not be material."
+    }
+   ]
+  },
+  {
+   "n": "Initial premium, receipts and the medical exam",
+   "g": "application",
+   "s": "When the first premium comes with the application, the receipt type sets the start of coverage: a conditional receipt starts it at the later of application or exam date if the applicant is insurable as applied for, and with no premium coverage starts only at delivery with payment.",
+   "o": [
+    "G-III.A.5",
+    "G-IX.A.3"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Conditional receipt (insurability type):</b> coverage effective on the later of the application date or the medical exam date, provided the applicant qualifies as applied for. Most common in life sales.</li><li><b>Approval receipt:</b> coverage only once the insurer approves.</li><li><b>Binding receipt:</b> temporary coverage at once, for a stated period, until the insurer accepts or declines.</li><li><b>No premium with application:</b> nothing is in force until delivery, premium payment, and usually a signed statement of continued good health.</li><li><b>Medical exam:</b> required by amount and age; a paramedical or physician exam at the insurer's expense, plus lab work and records as needed.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Under a conditional receipt, if the insured dies before approval and would have qualified, the insurer pays; if the applicant would have been rated or declined, it does not pay.</div><div class=\"trap\"><b>Trap:</b> Collecting the premium with the application is best practice because it improves the odds of the policy being placed and gives earlier coverage.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Application and premium May 2, exam May 6, death in a car crash May 15 before underwriting finishes. Under a conditional receipt, the insurer completes underwriting; finding him insurable as applied for, it pays the face amount, coverage having started May 6.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An applicant signs on June 1 and pays the first premium, takes the exam June 5, and is approved at standard rates. Under a conditional receipt, when did coverage begin?",
+     "a": "June 5, the later of the application and exam dates."
+    },
+    {
+     "q": "An applicant pays with the application under a conditional receipt and dies before approval, but underwriting finds a condition that would have caused a decline. What does the insurer owe?",
+     "a": "It refunds the premium but pays no death benefit, because the condition of insurability was not met."
+    },
+    {
+     "q": "An applicant submits an application without the premium. What must normally happen at delivery before coverage begins?",
+     "a": "The agent collects the first premium and usually a signed statement of continued good health."
+    }
+   ]
+  },
+  {
+   "n": "Replacement",
+   "g": "application",
+   "s": "Replacement is buying a new policy that lapses, surrenders, converts or reduces an existing one, so the agent must ask about it on the application, give the applicant a signed replacement notice, and send it in with the application.",
+   "o": [
+    "G-III.A.6",
+    "G-IX.A.7"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Why regulated:</b> the owner may lose value, restart incontestable and suicide periods, pay new acquisition costs, and face new underwriting at an older age.</li><li><b>Agent duties (general model):</b> ask whether the new policy replaces existing coverage; if yes, give a notice regarding replacement signed by the applicant and agent, list the policies being replaced, and send copies with the application.</li><li><b>Replacing insurer:</b> notifies the existing insurer and keeps records.</li><li><b>Existing insurer:</b> may contact the owner to try to conserve the policy.</li><li><b>Twisting:</b> inducing replacement by misrepresentation. <b>Churning:</b> replacement within the same company to earn new commissions.</li><li>Texas specifics (forms, deadlines, free look on replacements): see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A replacement can be internal (same insurer) or external; both trigger the rules.</div><div class=\"trap\"><b>Trap:</b> Replacement is not illegal; misrepresenting it to induce the switch (twisting) is.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A client owns a 15-year-old whole life policy and wants cheaper term coverage. The agent records the replacement on the application, compares costs and features, has the client sign the replacement notice, and submits both. The new policy starts a fresh contestable period.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An agent persuades a client to drop a policy by falsely claiming the old insurer is going bankrupt. What prohibited practice is this?",
+     "a": "Twisting: misrepresentation to induce replacement."
+    },
+    {
+     "q": "An agent repeatedly moves a client into new policies with the same insurer mainly to earn first-year commissions. What is this practice called?",
+     "a": "Churning."
+    },
+    {
+     "q": "A client will borrow the cash value of an existing policy to pay premiums on a new one. What must the agent do at application?",
+     "a": "Treat it as a replacement: record it on the application, have the client sign the replacement notice, and submit it with the application."
+    }
+   ]
+  },
+  {
+   "n": "HIPAA authorization and HIV testing consent",
+   "g": "privacy",
+   "s": "At the point of sale the applicant signs a written authorization letting the insurer get medical records, and any HIV test requires the applicant's informed written consent with confidential results.",
+   "o": [
+    "G-III.A.7",
+    "G-IX.A.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>HIPAA Privacy Rule:</b> covers health plans (including health, dental, LTC insurers and HMOs), clearinghouses and providers. HHS's Privacy Rule summary says a disclosure to a life insurer for a coverage decision needs the individual's written authorization.</li><li><b>Authorization elements (per HHS):</b> plain language, what information, who discloses and who receives it, an expiration, and the right to revoke in writing.</li><li><b>Conditioning:</b> a health plan may condition enrollment on an authorization obtained before enrollment for underwriting or risk rating, except for psychotherapy notes.</li><li><b>Notice of Privacy Practices:</b> health plans give it to new enrollees at enrollment.</li><li><b>HIV testing:</b> insurers may test if they do so for all applicants in the class, with informed written consent, confidential results, and no questions designed to infer sexual orientation. Texas specifics: see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Life insurers are not HIPAA covered entities; HIPAA reaches them through the authorization the applicant signs letting doctors release records.</div><div class=\"trap\"><b>Trap:</b> An insurer may not use sexual orientation as a proxy for HIV risk; testing must be applied uniformly.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A life applicant signs the authorization form at application. Underwriting later orders an attending physician's statement, and the doctor's office releases records because of that signed form.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A life underwriter wants an applicant's records from her physician. What must the applicant have signed for the physician to release them?",
+     "a": "A written HIPAA authorization naming the information, the recipient, an expiration and the right to revoke."
+    },
+    {
+     "q": "An insurer wants to test only applicants it suspects are gay for HIV. Why is this improper?",
+     "a": "HIV testing must be applied to all applicants in a risk class and cannot be based on sexual orientation."
+    },
+    {
+     "q": "Which document must a health insurer give new enrollees explaining how it uses their protected health information?",
+     "a": "The Notice of Privacy Practices."
+    }
+   ]
+  },
+  {
+   "n": "GLBA financial privacy",
+   "g": "privacy",
+   "s": "The Gramm-Leach-Bliley Act requires an insurer to give customers a privacy notice when the relationship starts and annually, and to let consumers opt out before it shares nonpublic personal information with nonaffiliated third parties outside the exceptions.",
+   "o": [
+    "G-III.A.9"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<p>The FTC's compliance guide describes the federal rule; state insurance regulators enforce it for insurers.</p><ul><li><b>Consumer:</b> anyone who obtains a financial product for personal, family or household use, including applicants. <b>Customer:</b> a consumer with a continuing relationship, such as a policyowner.</li><li><b>Initial notice:</b> to a customer no later than when the relationship begins; to a non-customer consumer only before sharing with nonaffiliated parties outside the exceptions.</li><li><b>Annual notice:</b> to customers during the relationship, unless the company shares only under the exceptions and has not changed its policies since the last notice (FAST Act, 2015).</li><li><b>Opt out:</b> required before sharing with nonaffiliated third parties outside the exceptions, with a reasonable means and time to opt out.</li><li><b>Exceptions (no opt-out right):</b> processing the transaction, service providers under contract, fraud prevention, legal process, consumer reporting agencies.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Sharing with affiliates does not trigger the GLBA opt-out (the FCRA may impose its own).</div><div class=\"trap\"><b>Trap:</b> GLBA protects nonpublic personal financial information; HIPAA protects health information. Do not swap them.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A policyowner receives an annual privacy notice from her insurer. The notice says the insurer plans to share her contact data with an unaffiliated marketing firm, and she calls the toll-free number to opt out before any sharing.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insurer wants to sell policyholder contact lists to an unrelated marketing company. What must it give policyholders first?",
+     "a": "A privacy notice with an opt-out notice and a reasonable chance to opt out."
+    },
+    {
+     "q": "Which federal law governs the privacy notice an insurer sends a policyowner about sharing her financial information?",
+     "a": "The Gramm-Leach-Bliley Act."
+    },
+    {
+     "q": "An insured tries to opt out of her insurer sharing claim data with the contracted processor that pays her claim. Why does GLBA not let her?",
+     "a": "Sharing needed to process the requested transaction is an exception that carries no opt-out right."
+    }
+   ]
+  },
+  {
+   "n": "USA PATRIOT Act and anti-money laundering",
+   "g": "privacy",
+   "s": "Insurers selling covered products (permanent life, annuities and other cash-value products, but not group policies) must run a written AML program that integrates their agents, and must report suspicious transactions of $5,000 or more without telling the customer.",
+   "o": [
+    "G-III.A.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Program (31 CFR 1025.210):</b> written, approved by senior management, with risk-based controls, a compliance officer, ongoing training for employees, agents and brokers, and independent testing.</li><li><b>Covered products (per FinCEN):</b> permanent life other than group, annuities other than group or charitable gift annuities, and other products with cash value or investment features.</li><li><b>SAR:</b> per FinCEN guidance, a suspicious transaction involving at least $5,000 must be reported within 30 days of detection (up to 60 if no suspect is identified). Agents may not tell the customer it was reported.</li><li><b>Cash over $10,000:</b> reported on IRS/FinCEN Form 8300.</li><li><b>Red flags:</b> large cash or many money orders, early surrender despite penalties, little interest in benefits, payments from unrelated third parties, reluctance to give ID.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Term life and group products are not covered products, because they lack cash value or are group business.</div><div class=\"trap\"><b>Trap:</b> The agent must not tip off the customer that a suspicious activity report was filed.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A client buys a single-premium annuity with $40,000 in money orders, shows no interest in the return, and asks about surrendering within a month. The agent reports these red flags to the insurer's AML compliance officer and says nothing to the client.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A customer pays $12,000 in cash for an annuity. Which federal report applies to the cash receipt?",
+     "a": "Form 8300, for cash of more than $10,000."
+    },
+    {
+     "q": "Which product falls outside the insurer AML program rule: a variable universal life policy, a deferred annuity, or a 20-year term policy?",
+     "a": "The 20-year term policy, because it has no cash value or investment feature."
+    },
+    {
+     "q": "An agent's client asks whether the insurer reported his unusual payment pattern to the government. What may the agent tell him?",
+     "a": "Nothing about it; disclosing a suspicious activity report to the person involved is prohibited."
+    }
+   ]
+  },
+  {
+   "n": "Sources of insurability and MIB",
+   "g": "underwriting",
+   "s": "Underwriters build the risk picture from the application, the agent's report, medical exams and attending physician statements, MIB, inspection and consumer reports, and other databases, and MIB data alerts but never decides.",
+   "o": [
+    "G-III.B.2",
+    "G-IX.A.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Application and agent's report:</b> the first sources.</li><li><b>Medical exam:</b> paramedical or physician, plus blood and urine tests.</li><li><b>Attending physician statement (APS):</b> records from the applicant's own doctor.</li><li><b>MIB:</b> per MIB, a member consortium of North American life insurers and a consumer reporting agency under the FCRA. With the applicant's authorization, members report coded medical conditions and hazardous avocations found during underwriting. You have a file only if you applied to a member in the last 7 years and something significant was found. Members cannot decide based on MIB alone; they must investigate further.</li><li><b>Consumer and inspection reports:</b> credit, character, habits, finances (FCRA rules apply).</li><li><b>Others:</b> prescription histories, motor vehicle records.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> MIB codes do not show another insurer's decision and are not a full medical record or a score.</div><div class=\"trap\"><b>Trap:</b> An insurer cannot decline solely because of an MIB code; it must verify independently.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant answers no to cardiac questions. The MIB check shows a heart code reported by another member two years earlier. The underwriter orders an APS and finds a prior stent, then underwrites on the records, not the code.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An underwriter finds an MIB code suggesting a condition the applicant did not disclose. What must happen before the insurer acts on it?",
+     "a": "Independent investigation, such as an attending physician statement, because members cannot decide on MIB data alone."
+    },
+    {
+     "q": "Which underwriting source comes from the applicant's own treating doctor?",
+     "a": "The attending physician statement (APS)."
+    },
+    {
+     "q": "Under which federal law does an applicant have the right to see and dispute his MIB file?",
+     "a": "The Fair Credit Reporting Act, because MIB is a consumer reporting agency."
+    }
+   ]
+  },
+  {
+   "n": "Fair Credit Reporting Act",
+   "g": "underwriting",
+   "s": "Insurers may use consumer reports for underwriting, but they must tell the applicant in writing within 3 days of ordering an investigative consumer report and, after any adverse decision based on a report, give the reporting agency's contact details and the right to a free copy.",
+   "o": [
+    "G-III.B.3",
+    "G-IX.A.2"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Permissible purpose:</b> FCRA Sec. 604 lets agencies furnish reports for underwriting insurance involving the consumer.</li><li><b>Consumer report:</b> credit standing, character, general reputation, personal characteristics.</li><li><b>Investigative consumer report:</b> the same information gathered through interviews with neighbors, friends or associates. FCRA Sec. 606 requires written notice within 3 days after the report is requested; on written request, the nature and scope must be disclosed within 5 days.</li><li><b>Adverse action (Sec. 615):</b> notice of the action, the agency's name, address and phone number, a statement that the agency did not decide, and the right to a free copy within 60 days and to dispute errors.</li><li><b>Time limits (Sec. 605):</b> most adverse items drop off after 7 years; bankruptcies after 10.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> The applicant need not consent to a consumer report for underwriting; what the law requires is notice, and disclosure after adverse action.</div><div class=\"trap\"><b>Trap:</b> The reporting agency does not make the underwriting decision and cannot explain it; the insurer does.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An insurer orders an investigative report on Monday and mails the required notice Wednesday. The applicant asks in writing what it covers, and the insurer describes its nature and scope within 5 days. The report shows a DUI; the insurer rates the policy and sends an adverse action notice.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An insurer orders a report built from interviews with the applicant's neighbors. What must it send the applicant, and by when?",
+     "a": "Written notice that the investigative report may be made, within 3 days after requesting it."
+    },
+    {
+     "q": "An insurer charges a higher rate because of a consumer report. What must the applicant be told?",
+     "a": "The adverse action, the reporting agency's contact details, that the agency did not make the decision, and the right to a free report within 60 days and to dispute it."
+    },
+    {
+     "q": "Generally, how long can adverse information other than a bankruptcy stay on a consumer report?",
+     "a": "Seven years; bankruptcies can be reported for 10."
+    }
+   ]
+  },
+  {
+   "n": "Insurable interest",
+   "g": "underwriting",
+   "s": "In life insurance the policyowner must have an insurable interest in the insured when the policy is issued, meaning a real stake in the insured's continued life through love and affection or a financial loss on death, but it need not exist at death.",
+   "o": [
+    "G-III.B.1",
+    "G-IX.A.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Self:</b> unlimited insurable interest in one's own life.</li><li><b>Family:</b> spouse, parents, children, close relatives by blood or marriage (love and affection).</li><li><b>Financial:</b> employer in a key employee, business partners in each other (buy-sell), creditor in a debtor up to the debt.</li><li><b>Timing:</b> life and health require it at application; property insurance requires it at the time of loss.</li><li><b>Beneficiary:</b> when you insure your own life you may name anyone; the beneficiary need not have an insurable interest.</li><li><b>Purpose:</b> it keeps insurance from being a wager and prevents an incentive to cause death, which makes it part of the legal purpose requirement. Texas specifics: see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Divorce or a partner leaving after issue does not void the policy, since the interest only had to exist at issue.</div><div class=\"trap\"><b>Trap:</b> Under the general rule, a friend or stranger with no family tie or financial stake cannot buy a policy on you. Texas lets an adult consent in writing to a third party buying a policy on his life (Insurance Code Sec. 1103.056); see Texas law tab.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>Partners A and B each buy a policy on the other to fund a buy-sell agreement. Years later A sells his stake to B. The policy A owns on B stays valid, because insurable interest existed when it was issued.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A woman owns a policy on her husband; they divorce, she keeps paying, and he dies. Why must the insurer still pay her?",
+     "a": "Insurable interest is required only when the policy is issued, not at death."
+    },
+    {
+     "q": "Which relationship lacks insurable interest: a creditor insuring a debtor up to the loan, an employer insuring a key executive, or a neighbor insuring a healthy coworker?",
+     "a": "The neighbor insuring the coworker, because there is no family tie or financial loss on death."
+    },
+    {
+     "q": "An applicant insures her own life and names her college roommate as beneficiary. What insurable interest requirement applies to the roommate?",
+     "a": "None. When you insure your own life you may name any beneficiary."
+    }
+   ]
+  },
+  {
+   "n": "STOLI and IOLI",
+   "g": "underwriting",
+   "s": "Stranger-originated (investor-originated) life insurance is a policy bought from the start for the benefit of investors with no insurable interest, usually through premium financing and a planned transfer once the contestable period ends, and it evades the insurable interest rule.",
+   "o": [
+    "G-III.B.5"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Typical setup:</b> an investor recruits an older person, often with free or financed premiums and an upfront payment; the policy is placed in a trust; after the contestable period it is sold to the investors, who collect at death.</li><li><b>Why it is a problem:</b> the investor gains from the insured's early death, so it is a wager on a life; insurers priced the product assuming normal lapse rates.</li><li><b>Contrast with a life settlement:</b> a legitimate settlement is the sale of a policy the owner bought for real protection and later no longer needs.</li><li><b>Red flags at application:</b> nonrecourse premium financing, a large face amount relative to income or net worth, a trust owner with outside investors, promises of free insurance, plans to sell after two years.</li><li>Many states ban STOLI or restrict settlements soon after issue. Texas specifics: see Texas law tab.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A legitimate life settlement and STOLI both end with investors owning the policy; the difference is intent at issue.</div><div class=\"trap\"><b>Trap:</b> Free insurance offers to seniors are a classic STOLI marker, not a bargain.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 78-year-old is offered $50,000 cash to let a company finance a $5 million policy on his life, owned by a trust. The plan is to sell the trust's interest to investors after the contestable period. This is STOLI.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Years after buying a policy for family protection, an elderly owner sells it to a third party because she no longer needs it. Is this STOLI or a life settlement?",
+     "a": "A life settlement, because the policy was bought with genuine insurable interest and sold later."
+    },
+    {
+     "q": "Why does STOLI violate a basic insurance principle?",
+     "a": "Investors without insurable interest effectively buy the policy from the start, turning it into a wager on the insured's death."
+    },
+    {
+     "q": "An application shows a 4 million dollar face amount for an applicant earning 40,000 dollars, a trust owner and nonrecourse premium financing. What should the agent suspect?",
+     "a": "Stranger-originated life insurance (STOLI)."
+    }
+   ]
+  },
+  {
+   "n": "Risk classification",
+   "g": "underwriting",
+   "s": "Underwriters sort applicants into preferred, standard, substandard (rated) or declined classes based on mortality or morbidity risk, so that each class pays a premium that matches its expected losses and the insurer avoids adverse selection.",
+   "o": [
+    "G-III.B.4"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Preferred:</b> better than average health and habits (often nonsmokers); lowest rates.</li><li><b>Standard:</b> average risk; most applicants.</li><li><b>Substandard (rated):</b> higher risk. Ways to charge more: table ratings (an extra percentage of the standard premium per table), a flat extra charge per $1,000 of coverage, or a rated-up age. Health insurers may instead add an exclusion rider for a condition.</li><li><b>Declined:</b> risk too high to insure at any price.</li><li><b>Factors:</b> age, sex, health and family history, build, tobacco, occupation, avocations (hazardous hobbies), driving record, finances and moral hazard.</li><li><b>Adverse selection:</b> people with higher risk seek more insurance; underwriting counters it.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> A rated policy is a counteroffer; the applicant must accept it at delivery.</div><div class=\"trap\"><b>Trap:</b> A flat extra often fits a temporary or occupational hazard (a pilot), while table ratings fit health impairments.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>A 45-year-old with controlled diabetes is rated Table 2. If the insurer's tables add 25% each, his premium is 150% of standard: a $1,000 standard premium becomes $1,500. A skydiver might instead pay a flat extra of a few dollars per $1,000 of coverage.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A healthy applicant who takes up skydiving each weekend is otherwise standard. What rating method commonly fits this hazard?",
+     "a": "A flat extra charge per $1,000 of coverage for the avocation."
+    },
+    {
+     "q": "People who expect to need benefits are more likely to buy coverage. What is this tendency called?",
+     "a": "Adverse selection."
+    },
+    {
+     "q": "An applicant with a controlled health impairment is issued a policy at a higher premium than standard. Into which risk class does she fall?",
+     "a": "Substandard (rated)."
+    }
+   ]
+  },
+  {
+   "n": "Delivery and explaining the policy",
+   "g": "delivery",
+   "s": "Coverage begins when the policy is delivered, the first premium is paid and the insured's health is unchanged, unless a conditional receipt already started it, and at delivery the agent explains the policy, riders, exclusions and any rating and starts the free-look period.",
+   "o": [
+    "G-III.C.1",
+    "G-III.C.2",
+    "G-IX.A.5",
+    "G-IX.A.6"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Personal delivery is best:</b> the agent can collect premium, get a statement of good health if needed, and explain the contract. Many insurers ask for a signed delivery receipt.</li><li><b>Constructive delivery:</b> the insurer gives up control with intent to be bound, for example by mailing the policy to the owner or to the agent with no conditions left, even if the owner never physically received it.</li><li><b>At delivery the agent explains:</b> the insuring clause and benefits, riders, exclusions and limitations, the rating or any changes from the application and why, the premium mode, and the free look. Texas specifics: see Texas law tab.</li><li><b>Coverage start without receipt:</b> delivery plus first premium plus statement of continued good health.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Mailing a policy to the agent for unconditional delivery is constructive delivery, even if the agent has not handed it over yet.</div><div class=\"trap\"><b>Trap:</b> If the applicant's health changed between application and delivery and no premium was paid, the agent must not deliver; the insurer must reassess.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant applied without premium. At delivery the agent explains the waiver of premium rider and the aviation exclusion, tells him the policy was rated Table 2 because of blood pressure, collects the first premium and gets his signed statement of good health. Coverage starts that day.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "An applicant paid no premium with the application. When does coverage begin?",
+     "a": "At delivery, when the first premium is paid and the applicant signs a statement of continued good health."
+    },
+    {
+     "q": "An insurer mails an approved policy to the agent with no conditions, and the insured dies before the agent visits. What doctrine makes the policy delivered?",
+     "a": "Constructive delivery: the insurer released control of the policy unconditionally."
+    },
+    {
+     "q": "At delivery, the policy is rated higher than applied for. What must the agent do?",
+     "a": "Explain the rating and the reason, and get the applicant's acceptance of the counteroffer along with the premium."
+    }
+   ]
+  },
+  {
+   "n": "Elements of a contract",
+   "g": "contract",
+   "s": "An insurance policy is a valid contract only if it has agreement (offer and acceptance), consideration, competent parties and a legal purpose.",
+   "o": [
+    "G-III.D.1",
+    "G-IX.A.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Offer and acceptance:</b> the applicant usually offers by submitting an application with premium; the insurer accepts by issuing as applied for. Without premium, the insurer's issued policy is the offer and the applicant accepts at delivery by paying. A rated or modified issue is a counteroffer.</li><li><b>Consideration:</b> the applicant gives the premium and the statements in the application; the insurer gives its promise to pay. The consideration clause states this.</li><li><b>Competent parties:</b> the applicant is of legal age, mentally competent and not impaired; the insurer is authorized in the state.</li><li><b>Legal purpose:</b> insurable interest and nothing against public policy.</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Consideration from the applicant includes the application statements, not only the premium.</div><div class=\"trap\"><b>Trap:</b> An application without premium is not an offer; it is an invitation for the insurer to make one.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An applicant mails an application with no check. The insurer issues the policy as applied for, making the offer. The applicant accepts at delivery by paying the first premium; only then does the contract exist.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "Which contract element is missing when a person under the influence of drugs signs an application?",
+     "a": "Competent parties, because the applicant lacks legal capacity at signing."
+    },
+    {
+     "q": "What two things make up the applicant's consideration in a life insurance contract?",
+     "a": "The first premium and the statements in the application."
+    },
+    {
+     "q": "An application is submitted without premium and the insurer issues the policy as applied for. Who made the offer?",
+     "a": "The insurer, by issuing the policy; the applicant accepts by paying at delivery."
+    }
+   ]
+  },
+  {
+   "n": "Unique features of insurance contracts",
+   "g": "contract",
+   "s": "Insurance policies are contracts of adhesion (ambiguity is read against the insurer), aleatory (unequal exchange tied to chance), unilateral (only the insurer makes an enforceable promise) and conditional (the insurer pays only if the insured meets conditions), and they require utmost good faith.",
+   "o": [
+    "G-III.D.2",
+    "G-IX.A.8"
+   ],
+   "x": [
+    {
+     "t": "Model",
+     "b": "<ul><li><b>Adhesion:</b> the insurer writes it and the applicant takes it or leaves it, so courts resolve ambiguous wording in the insured's favor.</li><li><b>Aleatory:</b> the amounts exchanged are unequal and depend on an uncertain event; a small premium can buy a large benefit.</li><li><b>Unilateral:</b> only the insurer promises; the owner can stop paying without breach, and the policy lapses.</li><li><b>Conditional:</b> the insurer pays only if conditions are met (premium paid, timely notice and proof of loss).</li><li><b>Utmost good faith:</b> both sides must disclose honestly, which is why concealment can void coverage.</li><li><b>Related doctrines:</b> waiver (giving up a known right) and estoppel (being barred from asserting a right after acting as if it was waived).</li></ul>"
+    },
+    {
+     "t": "Traps",
+     "b": "<div class=\"trap\"><b>Trap:</b> Unilateral is about who is bound; adhesion is about who wrote it. Students swap them.</div><div class=\"trap\"><b>Trap:</b> Aleatory does not mean unfair; it describes the uneven, chance-based exchange.</div>"
+    },
+    {
+     "t": "Example",
+     "b": "<p>An insured pays one $300 monthly premium and dies in an accident; the beneficiary collects $500,000. That uneven exchange shows the aleatory feature. If the exclusion wording is ambiguous, the court reads it for the beneficiary under adhesion.</p>"
+    }
+   ],
+   "cards": [
+    {
+     "q": "A policy's exclusion wording can be read two ways, and the court adopts the reading favoring the insured. Which feature explains this?",
+     "a": "Adhesion, because the insurer drafted the contract."
+    },
+    {
+     "q": "A policyowner stops paying premiums and the insurer cannot sue to collect them. Which feature does this show?",
+     "a": "Unilateral: only the insurer makes a legally enforceable promise."
+    },
+    {
+     "q": "The insurer refuses to pay because the claimant never submitted proof of loss. Which contract feature applies?",
+     "a": "Conditional, because payment depends on the insured meeting policy conditions."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "31 CFR 1025.210 Anti-money laundering program requirements for insurance companies (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1025/subpart-B/section-1025.210"
+  },
+  {
+   "title": "FinCEN: Frequently asked questions, anti-money laundering program for insurance companies",
+   "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/frequently-asked-questions-anti-money-laundering-program-0"
+  },
+  {
+   "title": "FinCEN: Suspicious activity reporting requirements for insurance companies",
+   "url": "https://www.fincen.gov/sites/default/files/shared/sarforinsurancecompany.pdf"
+  },
+  {
+   "title": "FinCEN: Anti-money laundering program and suspicious activity reporting (insurance)",
+   "url": "https://www.fincen.gov/index.php/resources/statutes-regulations/guidance/anti-money-laundering-program-and-suspicious-activity"
+  },
+  {
+   "title": "15 U.S.C. 1681d Disclosure of investigative consumer reports (govinfo)",
+   "url": "https://www.govinfo.gov/link/uscode/15/1681d"
+  },
+  {
+   "title": "FTC: Fair Credit Reporting Act text (March 2026)",
+   "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/fcra-march-2026.pdf"
+  },
+  {
+   "title": "MIB: Facts about MIB",
+   "url": "https://mib.com/facts_about_mib.html"
+  },
+  {
+   "title": "MIB: Request your record",
+   "url": "https://www.mib.com/request_your_record.html"
+  },
+  {
+   "title": "CFPB: MIB, Inc. consumer reporting company listing",
+   "url": "https://consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/mib-inc"
+  },
+  {
+   "title": "FTC: How to comply with the Privacy of Consumer Financial Information Rule of the Gramm-Leach-Bliley Act",
+   "url": "https://www.ftc.gov/system/files/documents/plain-language/bus67-how-comply-privacy-consumer-financial-information-rule-gramm-leach-bliley-act.pdf"
+  },
+  {
+   "title": "HHS: Summary of the HIPAA Privacy Rule",
+   "url": "https://www.hhs.gov/sites/default/files/privacysummary.pdf"
+  },
+  {
+   "title": "HHS: HIPAA covered entities FAQ",
+   "url": "https://www.hhs.gov/hipaa/for-professionals/faq/covered-entities"
+  },
+  {
+   "title": "Texas Insurance Code Ch. 1103 (life insurance beneficiaries, insurable interest)",
+   "url": "https://tcss.legis.texas.gov/resources/IN/htm/IN.1103.htm"
+  }
+ ]
 }
