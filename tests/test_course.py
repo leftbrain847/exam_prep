@@ -73,3 +73,18 @@ def test_page_is_current(cid):
     page = os.path.join(ROOT, build.course(cdir)["page"])
     assert os.path.exists(page), "run python3 build/build.py " + cdir
     assert open(page).read() == build.render(cdir), "page is stale: rerun build/build.py"
+
+
+@pytest.mark.parametrize("cid", COURSES)
+def test_every_topic_has_current_recording(cid):
+    """Listen's approved voice: every built topic has a recording whose text matches (else it falls back to the
+    device voice). Re-record with python3 build/audio.py courses/<id> --models DIR."""
+    cdir = os.path.join(ROOT, "courses", cid)
+    c = build.course(cdir)
+    if not c.get("audio"):
+        pytest.skip("course has no audio settings")
+    marks = build.audio_marks(c, cdir)
+    stale = [tid for tid, _ in topics(cid) if tid not in marks]
+    assert not stale, f"no current recording for: {stale}"
+    for tid, m in marks.items():
+        assert os.path.exists(os.path.join(ROOT, m["file"])), m["file"]

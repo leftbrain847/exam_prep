@@ -33,3 +33,6 @@ shot-*.png
 
 # Raw CareerOneStop downloads stay local (re-download from careeronestop.org)
 scan/data/
+
+# Voice model files (download per README)
+models/

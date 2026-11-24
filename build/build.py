@@ -3,8 +3,8 @@
     python3 build/build.py courses/tx_lah        # writes the page named in courses/tx_lah/course.json
 
 Adapted from the Mastery Field Guide's build (leftbrain847/field_guide). Course settings (title, intro, tab
-categories, storage prefix, output page) live in the course's course.json, not here. Recorded audio and the
-Spanish Listen text are not wired in yet: Listen uses the device voice.
+categories, storage prefix, output page, Listen voice) live in the course's course.json, not here. Recorded summaries
+come from build/audio.py; the Spanish Listen text is not wired in yet.
 """
 import json, os, sys
 
@@ -29,6 +29,28 @@ def check(t: dict) -> tuple[int, int]:
         for k in c.get("cards", []):
             assert k["q"] and k["a"], (t["id"], c["n"])
     return len(t["concepts"]), sum(len(c.get("cards", [])) for c in t["concepts"])
+
+
+def audio_marks(c: dict, cdir: str) -> dict:
+    """Recorded summaries (build/audio.py) whose text still matches the topic: {topic: {file, marks}}. A topic whose
+    text changed since recording is left out, so Listen reads it with the device voice until it is re-recorded."""
+    a = c.get("audio")
+    if not a:
+        return {}
+    import importlib.util   # by path, so a repo folder named audio/ can't shadow it
+    spec = importlib.util.spec_from_file_location("course_audio", os.path.join(HERE, "audio.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    out = {}
+    for tid in c["order"]:
+        meta = os.path.join(ROOT, a["dir"], tid + ".json")
+        tp = os.path.join(cdir, "topics", f"topic-{tid}.json")
+        if not (os.path.exists(meta) and os.path.exists(tp)):
+            continue
+        m = json.load(open(meta))
+        if m.get("hash") == mod.topic_hash(json.load(open(tp)), a):
+            out[tid] = {"file": m["file"], "marks": [[k["start"], k["end"]] for k in m["marks"]]}
+    return out
 
 
 def inline(name: str) -> str:
@@ -61,7 +83,8 @@ def render(cdir: str, quiet: bool = True) -> str:
     html = html.replace("<!--TOPICS-->", "\n".join(blocks))
     html = html.replace("<!--LISTEN-->", inline("listen.js")).replace("<!--RECENT-->", inline("recent.js"))
     html = html.replace("<!--ES-->", '<script type="application/json" id="es-text">{}</script>')
-    html = html.replace("<!--AUDIO-->", '<script type="application/json" id="audio-marks">{}</script>')
+    html = html.replace("<!--AUDIO-->", '<script type="application/json" id="audio-marks">'
+                        + json.dumps(audio_marks(c, cdir)) + "</script>")
     return SKELETON_HEAD + "\n" + html.rstrip("\n") + "\n\n" + SKELETON_TAIL
 
 
